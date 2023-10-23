@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_site_parent_site_id" label="SITE_PARENT_SITE_ID" language="en" table="x_snc_exfo_cmdb_staging_location">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_site_parent_site_id</element>
+            <help/>
+            <hint/>
+            <label>SITE_PARENT_SITE_ID</label>
+            <language>en</language>
+            <name>x_snc_exfo_cmdb_staging_location</name>
+            <plural>SITE_PARENT_SITE_IDs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aveenstra</sys_created_by>
+            <sys_created_on>2021-11-23 20:10:28</sys_created_on>
+            <sys_id>3e03eb3087888110c4a3c99d0ebb35ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SITE_PARENT_SITE_ID</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_exfo_cmdb_staging_location_u_site_parent_site_id_en</sys_update_name>
+            <sys_updated_by>aveenstra</sys_updated_by>
+            <sys_updated_on>2021-11-23 20:10:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

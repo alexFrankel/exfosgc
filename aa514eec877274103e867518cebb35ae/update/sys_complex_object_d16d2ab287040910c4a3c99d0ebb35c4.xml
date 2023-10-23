@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD116d2ab2d104091050eb8fdaf0bdaec4</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
+        <serialized_content>{"FlowDesigner:FD116d2ab2d104091050eb8fdaf0bdaec4":{"$COCollectionField":[{"map":{"file_path":"String","file_path.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"file_path\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"9ed3a0fd-137f-4401-b57e-2a78f8c77f0a\"}"},"data_source":"String","data_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"data_source\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0dfe6929-9d05-492a-917c-6312c402e7c2\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"data_maps\",\"mandatory\":\"false\",\"child_name\":\"map\",\"uiUniqueId\":\"97f98654-8349-4064-b243-2bc5f5deaa3b\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD116d2ab2d104091050eb8fdaf0bdaec4\",\"child_label\":\"map\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b12bdbaf-f461-40a6-86c2-aa18ba4387c0\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD116d2ab2d104091050eb8fdaf0bdaec4.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"data_maps\",\"mandatory\":\"false\",\"child_name\":\"map\",\"uiUniqueId\":\"97f98654-8349-4064-b243-2bc5f5deaa3b\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD116d2ab2d104091050eb8fdaf0bdaec4\",\"child_label\":\"map\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b12bdbaf-f461-40a6-86c2-aa18ba4387c0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-29 21:23:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d16d2ab287040910c4a3c99d0ebb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD116d2ab2d104091050eb8fdaf0bdaec4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_complex_object_d16d2ab287040910c4a3c99d0ebb35c4</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-29 21:23:55</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Staging: EXFO Interface" max_length="40" name="x_snc_exfo_cmdb_staging_interface" sizeclass="3515" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_ALIAS1_ID" label="INTERFACE_ALIAS1_ID" max_length="40" name="u_interface_alias1_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_ALIAS1_SYSTEM" label="INTERFACE_ALIAS1_SYSTEM" max_length="40" name="u_interface_alias1_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_BANDWIDTH" label="INTERFACE_BANDWIDTH" max_length="40" name="u_interface_bandwidth" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_CLASS" label="INTERFACE_CLASS" max_length="40" name="u_interface_class" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_DESC" label="INTERFACE_DESC" max_length="40" name="u_interface_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_HAS_CARD_KEY" label="INTERFACE_HAS_CARD_KEY" max_length="40" name="u_interface_has_card_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_HAS_NE_KEY" label="INTERFACE_HAS_NE_KEY" max_length="40" name="u_interface_has_ne_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_HAS_SHELF_KEY" label="INTERFACE_HAS_SHELF_KEY" max_length="40" name="u_interface_has_shelf_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_HAS_PARENT_INTERFACE_KEY" label="INTERFACE_HAS_PARENT_INTERFACE_KEY" max_length="40" name="u_interface_ha__interface_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_IP" label="INTERFACE_IP" max_length="40" name="u_interface_ip" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_KEY" label="INTERFACE_KEY" max_length="40" name="u_interface_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_MANUFACTURER" label="INTERFACE_MANUFACTURER" max_length="40" name="u_interface_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_MODEL" label="INTERFACE_MODEL" max_length="40" name="u_interface_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_NAME" label="INTERFACE_NAME" max_length="40" name="u_interface_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_OWNER" label="INTERFACE_OWNER" max_length="40" name="u_interface_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_PARENT_INTERFACE_ID" label="INTERFACE_PARENT_INTERFACE_ID" max_length="40" name="u_interface_pa_t_interface_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_STATUS" label="INTERFACE_STATUS" max_length="40" name="u_interface_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_SUB_TYPE" label="INTERFACE_SUB_TYPE" max_length="40" name="u_interface_sub_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_SYSTEM" label="INTERFACE_SYSTEM" max_length="40" name="u_interface_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INTERFACE_TYPE" label="INTERFACE_TYPE" max_length="40" name="u_interface_type" type="string"/>
+    </element>
+</database>

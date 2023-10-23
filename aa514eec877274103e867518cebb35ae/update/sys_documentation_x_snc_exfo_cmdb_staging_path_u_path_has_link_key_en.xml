@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_path_has_link_key" label="PATH_HAS_LINK_KEY" language="en" table="x_snc_exfo_cmdb_staging_path">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_path_has_link_key</element>
+            <help/>
+            <hint/>
+            <label>PATH_HAS_LINK_KEY</label>
+            <language>en</language>
+            <name>x_snc_exfo_cmdb_staging_path</name>
+            <plural>PATH_HAS_LINK_KEYs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aveenstra</sys_created_by>
+            <sys_created_on>2021-12-17 18:10:08</sys_created_on>
+            <sys_id>02ad6eec87604950c4a3c99d0ebb353a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>PATH_HAS_LINK_KEY</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_exfo_cmdb_staging_path_u_path_has_link_key_en</sys_update_name>
+            <sys_updated_by>aveenstra</sys_updated_by>
+            <sys_updated_on>2021-12-17 18:10:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

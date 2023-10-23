@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Staging: EXFO Shelf" max_length="40" name="x_snc_exfo_cmdb_staging_shelf" sizeclass="1285" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_ALIAS1_ID" label="SHELF_ALIAS1_ID" max_length="40" name="u_shelf_alias1_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_ALIAS1_SYSTEM" label="SHELF_ALIAS1_SYSTEM" max_length="40" name="u_shelf_alias1_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_HAS_NE_KEY" label="SHELF_HAS_NE_KEY" max_length="40" name="u_shelf_has_ne_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_HAS_SITE_KEY" label="SHELF_HAS_SITE_KEY" max_length="40" name="u_shelf_has_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_ID" label="SHELF_ID" max_length="40" name="u_shelf_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_KEY" label="SHELF_KEY" max_length="40" name="u_shelf_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_MANUFACTURER" label="SHELF_MANUFACTURER" max_length="40" name="u_shelf_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_MODEL" label="SHELF_MODEL" max_length="40" name="u_shelf_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_NAME" label="SHELF_NAME" max_length="40" name="u_shelf_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_NE_ID" label="SHELF_NE_ID" max_length="40" name="u_shelf_ne_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_RACK" label="SHELF_RACK" max_length="40" name="u_shelf_rack" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_SITE_ID" label="SHELF_SITE_ID" max_length="40" name="u_shelf_site_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_STATUS" label="SHELF_STATUS" max_length="40" name="u_shelf_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_SYSTEM" label="SHELF_SYSTEM" max_length="40" name="u_shelf_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_TYPE" label="SHELF_TYPE" max_length="40" name="u_shelf_type" type="string"/>
+    </element>
+</database>

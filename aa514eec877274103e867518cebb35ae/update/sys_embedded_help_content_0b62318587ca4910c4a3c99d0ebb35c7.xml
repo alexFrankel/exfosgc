@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[<p>Once your connection has been verified, test an EXFO data source import.</p>
+<ol class="steps-ordered"><li class="li step">Verify there is a ZIP attachment on the record. The attachment should have been created in the last step, &#34;Validate Connection - Test Run Flow&#34;. If no attachment was created, verify your connection details.</li><li class="li step">In the Related Links section on the bottom of the page, click <span class="ph uicontrol">Test Load 20 Records</span>. </li><li class="li step">If there are errors, please make sure that you correctly entered your connection details in the previous steps.</li><li class="li step">Once validated, click &#34;Back to Guided Setup&#34;</li><li class="li step">&#34;Mark as Complete&#34; and proceed to the next step of the Guided Setup.</li></ol>]]></content>
+        <last_sync/>
+        <modifier>normal</modifier>
+        <name>exfo_sgc_test_card-setup</name>
+        <page>sys_data_source</page>
+        <product>1</product>
+        <qualifier>exfo_sgc_test_card-setup</qualifier>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>false</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-03-03 16:47:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b62318587ca4910c4a3c99d0ebb35c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>exfo_sgc_test_card-setup</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_embedded_help_content_0b62318587ca4910c4a3c99d0ebb35c7</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-03-03 16:47:19</sys_updated_on>
+        <version>s</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=0b62318587ca4910c4a3c99d0ebb35c7"/>
+</record_update>

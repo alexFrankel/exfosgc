@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>10000</order>
+        <referenced_sys_rte_eb_entity display_value="Telco equipment 1">1be8d0b487fbb8103e867518cebb35f1</referenced_sys_rte_eb_entity>
+        <source_sys_rte_eb_field/>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-10 19:37:10</sys_created_on>
+        <sys_id>c4ced8f887fbb8103e867518cebb3575</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1636573030251_0">c0ced4f887fbb8103e867518cebb35db</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_c4ced8f887fbb8103e867518cebb3575</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-10 19:37:10</sys_updated_on>
+        <target_sys_rte_eb_field display_value="cmdb_rel_ci_1636573030251_0.parent">88ced4f887fbb8103e867518cebb35d7</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_card_has_site_key" label="CARD_HAS_SITE_KEY" language="en" table="x_snc_exfo_cmdb_staging_card">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_card_has_site_key</element>
+            <help/>
+            <hint/>
+            <label>CARD_HAS_SITE_KEY</label>
+            <language>en</language>
+            <name>x_snc_exfo_cmdb_staging_card</name>
+            <plural>CARD_HAS_SITE_KEYs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aveenstra</sys_created_by>
+            <sys_created_on>2022-01-10 19:00:40</sys_created_on>
+            <sys_id>946fd21087094510c4a3c99d0ebb3543</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>CARD_HAS_SITE_KEY</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_exfo_cmdb_staging_card_u_card_has_site_key_en</sys_update_name>
+            <sys_updated_by>aveenstra</sys_updated_by>
+            <sys_updated_on>2022-01-10 19:00:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

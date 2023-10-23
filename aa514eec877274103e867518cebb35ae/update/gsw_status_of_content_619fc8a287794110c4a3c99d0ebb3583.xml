@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="INSERT_OR_UPDATE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum/>
+        <content display_value="Import Locations">2ba8364487dcc910c4a3c99d0ebb35c9</content>
+        <effective_weight>1</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>1</previous_status>
+        <progress>100</progress>
+        <related_log_entry display_value="2022-03-04 11:30:46">d559fadd878a8910c4a3c99d0ebb354d</related_log_entry>
+        <status>2</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-02-23 15:05:51</sys_created_on>
+        <sys_id>619fc8a287794110c4a3c99d0ebb3583</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>gsw_status_of_content_619fc8a287794110c4a3c99d0ebb3583</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-03-04 16:30:46</sys_updated_on>
+    </gsw_status_of_content>
+</record_update>

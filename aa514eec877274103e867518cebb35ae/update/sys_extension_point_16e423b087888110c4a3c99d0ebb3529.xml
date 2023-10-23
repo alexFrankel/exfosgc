@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_extension_point">
+    <sys_extension_point action="INSERT_OR_UPDATE">
+        <api_name>x_snc_exfo_cmdb.SGEXFOStatusMapOverride</api_name>
+        <description/>
+        <example><![CDATA[var SGEXFOStatusMapOverride = Class.create();
+SGEXFOStatusMapOverride.prototype = {
+    initialize: function() {
+    },
+
+	/* Example: 
+	   if(exfoStatus == 'IN SERVICE'){
+			exfoStatusObj.stage = 'ServiceNow LifeStageCycle Stage',
+			exfoStatusObj.status = 'ServiceNow LifeStageCycle Status'
+		}
+	*/
+	
+	//You can override any of the set variables yourself in a new "Extension Instance" - Click "Create implementation" to get started
+    calculateStatus: function(exfoStatus) {
+		var exfoStatusObj = {
+			'stage':'',
+			'status':''
+		};
+		
+		//enter your code here using the example above
+        
+        return exfoStatusObj;
+    },
+
+    type: 'SGEXFOStatusMapOverride'
+};]]></example>
+        <name>SGEXFOStatusMapOverride</name>
+        <restrict_scope>false</restrict_scope>
+        <sys_class_name>sys_extension_point</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-23 20:19:56</sys_created_on>
+        <sys_id>16e423b087888110c4a3c99d0ebb3529</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>SGEXFOStatusMapOverride</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_extension_point_16e423b087888110c4a3c99d0ebb3529</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-30 18:29:22</sys_updated_on>
+    </sys_extension_point>
+</record_update>

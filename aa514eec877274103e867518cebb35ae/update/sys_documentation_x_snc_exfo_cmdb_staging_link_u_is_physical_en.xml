@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_is_physical" label="IS_PHYSICAL" language="en" table="x_snc_exfo_cmdb_staging_link">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_is_physical</element>
+            <help/>
+            <hint/>
+            <label>IS_PHYSICAL</label>
+            <language>en</language>
+            <name>x_snc_exfo_cmdb_staging_link</name>
+            <plural>IS_PHYSICALs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aveenstra</sys_created_by>
+            <sys_created_on>2022-01-17 21:18:06</sys_created_on>
+            <sys_id>29f183ae87418110c4a3c99d0ebb3574</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IS_PHYSICAL</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_exfo_cmdb_staging_link_u_is_physical_en</sys_update_name>
+            <sys_updated_by>aveenstra</sys_updated_by>
+            <sys_updated_on>2022-01-17 21:18:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

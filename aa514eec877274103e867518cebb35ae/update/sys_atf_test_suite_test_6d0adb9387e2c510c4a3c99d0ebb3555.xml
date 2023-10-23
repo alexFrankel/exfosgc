@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-04-04 20:32:52</sys_created_on>
+        <sys_id>6d0adb9387e2c510c4a3c99d0ebb3555</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0436a7357310101032f927b751ab9e9d</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_6d0adb9387e2c510c4a3c99d0ebb3555</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-04-04 20:32:52</sys_updated_on>
+        <test display_value="CMDB INT: Validate Operations">0436a7357310101032f927b751ab9e9d</test>
+        <test_suite display_value="CMDB INT: Integration Validation Tests">8a602afd7310101032f927b751ab9ed6</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

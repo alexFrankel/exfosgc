@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article><![CDATA[<p>The Service Graph Connector for EXFO has the ability to create new locations in your ServiceNow environment. If you would like these locations to be automatically created, set this property to &#39;true&#39;. The integration will first try to find existing locations to update based on the street address. You may also use the <a title="&#34;SGEXFOLocationMapOverride&#34; extension point" href="https://exfosgdev.service-now.com/nav_to.do?uri&#61;sys_extension_point.do?sys_id&#61;6b2f4b0b87404910c4a3c99d0ebb3598" target="_blank" rel="noopener noreferrer nofollow">&#34;SGEXFOLocationMapOverride&#34; extension point</a> to override this default query with your own.</p>
+<p>If instead you would prefer the integration to only rely on existing locations in the ServiceNow environment, set this property to &#39;false&#39;.</p>]]></article>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description/>
+        <embedded_help_qualifier>exfo_sgc_import_locations-setup</embedded_help_qualifier>
+        <end_point>/sys_properties.do?sys_id=84839e4b878c0910c4a3c99d0ebb358e&amp;sysparm_view=exfo_view</end_point>
+        <end_point_open_mode>3</end_point_open_mode>
+        <end_point_type>1</end_point_type>
+        <field/>
+        <filter/>
+        <filter_result/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_dynamic>false</is_dynamic>
+        <more_info_available>false</more_info_available>
+        <more_info_html/>
+        <order>400</order>
+        <parent display_value="Connect">f377f622871734503e867518cebb355c</parent>
+        <parents>f377f622871734503e867518cebb355c,2b27f222871734503e867518cebb355b</parents>
+        <plugin_id/>
+        <property_name/>
+        <property_value/>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="Service Graph Connector for EXFO">2b27f222871734503e867518cebb355b</root_parent>
+        <skippable>true</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-12-03 19:26:57</sys_created_on>
+        <sys_id>2ba8364487dcc910c4a3c99d0ebb35c9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Import Locations</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>gsw_content_information_2ba8364487dcc910c4a3c99d0ebb35c9</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-03-04 21:06:55</sys_updated_on>
+        <table/>
+        <title>Import Locations</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=2ba8364487dcc910c4a3c99d0ebb35c9"/>
+</record_update>

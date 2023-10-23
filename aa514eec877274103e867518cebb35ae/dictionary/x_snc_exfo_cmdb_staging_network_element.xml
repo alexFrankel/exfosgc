@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Staging: EXFO Network Element" max_length="40" name="x_snc_exfo_cmdb_staging_network_element" sizeclass="623" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_ALIAS1_ID" label="NE_ALIAS1_ID" max_length="40" name="u_ne_alias1_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_ALIAS1_SYSTEM" label="NE_ALIAS1_SYSTEM" max_length="40" name="u_ne_alias1_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_COUNTRY" label="NE_COUNTRY" max_length="40" name="u_ne_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_DESC" label="NE_DESC" max_length="40" name="u_ne_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_DOMAIN" label="NE_DOMAIN" max_length="40" name="u_ne_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_HAS_SITE_KEY" label="NE_HAS_SITE_KEY" max_length="40" name="u_ne_has_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_ID" label="NE_ID" max_length="40" name="u_ne_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_IP" label="NE_IP" max_length="40" name="u_ne_ip" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_KEY" label="NE_KEY" max_length="40" name="u_ne_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_MANUFACTURER" label="NE_MANUFACTURER" max_length="40" name="u_ne_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_MODEL" label="NE_MODEL" max_length="40" name="u_ne_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_NAME" label="NE_NAME" max_length="40" name="u_ne_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_OWNER" label="NE_OWNER" max_length="40" name="u_ne_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_SITE_ID" label="NE_SITE_ID" max_length="40" name="u_ne_site_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_STATUS" label="NE_STATUS" max_length="40" name="u_ne_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_SUB_TYPE" label="NE_SUB_TYPE" max_length="40" name="u_ne_sub_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_SYSTEM" label="NE_SYSTEM" max_length="40" name="u_ne_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_TYPE" label="NE_TYPE" max_length="40" name="u_ne_type" type="string"/>
+    </element>
+</database>

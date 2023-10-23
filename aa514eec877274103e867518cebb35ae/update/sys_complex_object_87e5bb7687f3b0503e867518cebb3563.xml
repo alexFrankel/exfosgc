@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc3e5bb762af3b05016133f5035795863</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
+        <serialized_content>{"FlowDesigner:FDc3e5bb762af3b05016133f5035795863":{"file_path":"String","file_path.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"file_path\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"2d0c13a4-ec6c-4d73-9215-3b794ec697f2\"}"},"data_source":"String","data_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"data_source\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"c97d7d4e-981a-4f96-8fe8-6ad56a920179\"}"}},"FlowDesigner:FDc3e5bb762af3b05016133f5035795863.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc3e5bb762af3b05016133f5035795863\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"data_object\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-17 16:25:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>87e5bb7687f3b0503e867518cebb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDc3e5bb762af3b05016133f5035795863</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_complex_object_87e5bb7687f3b0503e867518cebb3563</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-17 16:25:07</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

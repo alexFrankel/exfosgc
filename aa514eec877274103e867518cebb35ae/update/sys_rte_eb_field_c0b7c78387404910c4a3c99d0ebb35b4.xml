@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="INSERT_OR_UPDATE">
+        <field>life_cycle_stage</field>
+        <name>life_cycle_stage</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-30 17:57:17</sys_created_on>
+        <sys_id>c0b7c78387404910c4a3c99d0ebb35b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>life_cycle_stage</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Interface Card 1">597cce9487f778103e867518cebb3532</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_field_c0b7c78387404910c4a3c99d0ebb35b4</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-30 17:57:17</sys_updated_on>
+    </sys_rte_eb_field>
+</record_update>

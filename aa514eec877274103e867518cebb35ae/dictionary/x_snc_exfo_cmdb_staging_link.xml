@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Staging: EXFO Link" max_length="40" name="x_snc_exfo_cmdb_staging_link" sizeclass="4435" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IS_PHYSICAL" label="IS_PHYSICAL" max_length="40" name="u_is_physical" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_ALIAS1_ID" label="LINK_ALIAS1_ID" max_length="40" name="u_link_alias1_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_ALIAS1_SYSTEM" label="LINK_ALIAS1_SYSTEM" max_length="40" name="u_link_alias1_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_ALIASI1_ID" label="LINK_ALIASI1_ID" max_length="40" name="u_link_aliasi1_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_A_INTERFACE_KEY" label="LINK_A_INTERFACE_KEY" max_length="40" name="u_link_a_interface_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_BANDWIDTH" label="LINK_BANDWIDTH" max_length="40" name="u_link_bandwidth" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_CLASS" label="LINK_CLASS" max_length="40" name="u_link_class" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_COUNTRY" label="LINK_COUNTRY" max_length="40" name="u_link_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_CUSTOMER_NAME" label="LINK_CUSTOMER_NAME" max_length="40" name="u_link_customer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_DOMAIN" label="LINK_DOMAIN" max_length="40" name="u_link_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_INTERFACE_KEY" label="LINK_HAS_A_INTERFACE_KEY" max_length="40" name="u_link_has_a_interface_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_NE_KEY" label="LINK_HAS_A_NE_KEY" max_length="40" name="u_link_has_a_ne_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_SHELF_KEY" label="LINK_HAS_A_SHELF_KEY" max_length="40" name="u_link_has_a_shelf_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_SITE_KEY" label="LINK_HAS_A_SITE_KEY" max_length="40" name="u_link_has_a_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_PARENT_LINK_KEY" label="LINK_HAS_PARENT_LINK_KEY" max_length="40" name="u_link_has_parent_link_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_INTERFACE_KEY" label="LINK_HAS_Z_INTERFACE_KEY" max_length="40" name="u_link_has_z_interface_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_NE_KEY" label="LINK_HAS_Z_NE_KEY" max_length="40" name="u_link_has_z_ne_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_SHELF_KEY" label="LINK_HAS_Z_SHELF_KEY" max_length="40" name="u_link_has_z_shelf_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_SITE_KEY" label="LINK_HAS_Z_SITE_KEY" max_length="40" name="u_link_has_z_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_KEY" label="LINK_KEY" max_length="40" name="u_link_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_LEADING_COUNTRY" label="LINK_LEADING_COUNTRY" max_length="40" name="u_link_leading_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_LENGTH" label="LINK_LENGTH" max_length="40" name="u_link_length" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_NAME" label="LINK_NAME" max_length="40" name="u_link_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_OWNER" label="LINK_OWNER" max_length="40" name="u_link_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_REGION" label="LINK_REGION" max_length="40" name="u_link_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_STATUS" label="LINK_STATUS" max_length="40" name="u_link_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_SUB_TYPE" label="LINK_SUB_TYPE" max_length="40" name="u_link_sub_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_SYSTEM" label="LINK_SYSTEM" max_length="40" name="u_link_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_TYPE" label="LINK_TYPE" max_length="40" name="u_link_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_VERSION" label="LINK_VERSION" max_length="40" name="u_link_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_Z_INTERFACE_KEY" label="LINK_Z_INTERFACE_KEY" max_length="40" name="u_link_z_interface_key" type="string"/>
+    </element>
+</database>

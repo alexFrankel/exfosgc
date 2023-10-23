@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmdb_int_util_cleanse_company_operation">
+    <sn_cmdb_int_util_cleanse_company_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        var b = a + " (Now)";
+
+        // setp3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Cleanse Company - u_interface_manufacturer</name>
+        <operation_group/>
+        <order>200</order>
+        <source_sys_rte_eb_field display_value="u_interface_manufacturer">e4acc2d487f778103e867518cebb356d</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sn_cmdb_int_util_cleanse_company_operation</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-09 14:49:35</sys_created_on>
+        <sys_id>7d53525c87f778103e867518cebb35d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cleanse Company - u_interface_manufacturer</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Interfaces">229cce9487f778103e867518cebb3558</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">a8acc2d487f778103e867518cebb3518</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sn_cmdb_int_util_cleanse_company_operation_7d53525c87f778103e867518cebb35d9</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-09 14:49:35</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_interface_manufacturer_cleansed">3d53525c87f778103e867518cebb35d7</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Cleanse Company">12e36bf4735500102b6265a751ab9e3f</type>
+    </sn_cmdb_int_util_cleanse_company_operation>
+</record_update>
