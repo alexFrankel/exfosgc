@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Staging: EXFO Shelf" max_length="40" name="x_snc_exfo_cmdb_staging_shelf" sizeclass="1285" type="collection">
+    <element db_object_id="376157821b46b5106e86e0cb234bcb7a" extends="sys_import_set_row" label="Staging: EXFO Shelf" max_length="40" name="x_snc_exfo_cmdb_staging_shelf" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_ALIAS1_ID" label="SHELF_ALIAS1_ID" max_length="40" name="u_shelf_alias1_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_ALIAS1_SYSTEM" label="SHELF_ALIAS1_SYSTEM" max_length="40" name="u_shelf_alias1_system" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SHELF_HAS_NE_KEY" label="SHELF_HAS_NE_KEY" max_length="40" name="u_shelf_has_ne_key" type="string"/>

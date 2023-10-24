@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Staging: EXFO Link" max_length="40" name="x_snc_exfo_cmdb_staging_link" sizeclass="4435" type="collection">
+    <element db_object_id="e36157821b46b5106e86e0cb234bcb0b" extends="sys_import_set_row" label="Staging: EXFO Link" max_length="40" name="x_snc_exfo_cmdb_staging_link" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=IS_PHYSICAL" label="IS_PHYSICAL" max_length="40" name="u_is_physical" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_ALIAS1_ID" label="LINK_ALIAS1_ID" max_length="40" name="u_link_alias1_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_ALIAS1_SYSTEM" label="LINK_ALIAS1_SYSTEM" max_length="40" name="u_link_alias1_system" type="string"/>

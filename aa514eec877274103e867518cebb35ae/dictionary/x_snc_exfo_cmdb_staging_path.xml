@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Staging: EXFO Path" max_length="40" name="x_snc_exfo_cmdb_staging_path" sizeclass="5442" type="collection">
+    <element db_object_id="3b6157821b46b5106e86e0cb234bcb50" extends="sys_import_set_row" label="Staging: EXFO Path" max_length="40" name="x_snc_exfo_cmdb_staging_path" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PATH_HAS_A_INTERFACE_KEY" label="PATH_HAS_A_INTERFACE_KEY" max_length="40" name="u_path_has_a_interface_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PATH_HAS_A_SITE_KEY" label="PATH_HAS_A_SITE_KEY" max_length="40" name="u_path_has_a_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PATH_HAS_LINK_KEY" label="PATH_HAS_LINK_KEY" max_length="40" name="u_path_has_link_key" type="string"/>

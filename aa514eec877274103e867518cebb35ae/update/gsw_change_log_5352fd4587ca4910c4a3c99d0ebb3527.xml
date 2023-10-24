@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2022-03-03 16:42:14</change_date>
-        <changed_by display_value="Andrea Veenstra">c0df12b487f50510c4a3c99d0ebb35c3</changed_by>
+        <changed_by display_value="">c0df12b487f50510c4a3c99d0ebb35c3</changed_by>
         <content display_value="Validate Connection - Test Load 20 Records">cde9258d878a4910c4a3c99d0ebb3564</content>
         <related_change_log_entry/>
         <related_task_entry/>

@@ -8,7 +8,6 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -20,6 +19,7 @@
         <natlang/>
         <outputs/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>aveenstra</sys_created_by>
@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c5f2f3f887888110c4a3c99d0ebb357a</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>EXFO: Create CSV Attachment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_c5f2f3f887888110c4a3c99d0ebb357a</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-03-28 18:35:16</sys_updated_on>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2023-10-24 14:47:05</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -127,12 +127,11 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>SFTP step</label>
         <order>3</order>
         <outputs/>
         <section/>
-        <step_type display_value="SFTP">051d55f3b7132300100a9b56ee11a9cb</step_type>
+        <step_type display_value="">051d55f3b7132300100a9b56ee11a9cb</step_type>
         <sys_created_by>murali.dingari</sys_created_by>
         <sys_created_on>2021-12-14 21:48:11</sys_created_on>
         <sys_id>3ac24c77879809503e867518cebb3585</sys_id>
@@ -154,7 +153,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">554929f7b7132300100a9b56ee11a91d</variable>
+        <variable display_value="">554929f7b7132300100a9b56ee11a91d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -168,7 +167,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
         <value>sys_data_source</value>
-        <variable display_value="Table">6237a7f00f121010d457d6892f767e8f</variable>
+        <variable display_value="">6237a7f00f121010d457d6892f767e8f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -182,7 +181,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
         <value>save_as_attachments</value>
-        <variable display_value="SFTP Command">0a102537b7132300100a9b56ee11a9a8</variable>
+        <variable display_value="">0a102537b7132300100a9b56ee11a9a8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -196,7 +195,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
         <value>bb306a28874c4110c4a3c99d0ebb35b1</value>
-        <variable display_value="Source Connection Alias">1475e1b7b7132300100a9b56ee11a9c5</variable>
+        <variable display_value="">1475e1b7b7132300100a9b56ee11a9c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -210,7 +209,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
         <value/>
-        <variable display_value="Maximum File Size (Bytes)">285802f3b7532300100a9b56ee11a9b2</variable>
+        <variable display_value="">285802f3b7532300100a9b56ee11a9b2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -224,7 +223,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
         <value>e385484773100010e3a71afe2ff6a709</value>
-        <variable display_value="Retry Policy">b7a1c530b7c33300100a9b56ee11a923</variable>
+        <variable display_value="">b7a1c530b7c33300100a9b56ee11a923</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -238,7 +237,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
         <value/>
-        <variable display_value="Minimum File Size (Bytes)">64970eb3b7532300100a9b56ee11a9d9</variable>
+        <variable display_value="">64970eb3b7532300100a9b56ee11a9d9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -252,7 +251,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2022-01-04 20:09:55</sys_updated_on>
         <value>1000</value>
-        <variable display_value="Maximum File Size (KB)">d05015ae73031010b61b033ee2f6a779</variable>
+        <variable display_value="">d05015ae73031010b61b033ee2f6a779</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -266,7 +265,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
         <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
-        <variable display_value="Capabilities">6b8be57bb7132300100a9b56ee11a92e</variable>
+        <variable display_value="">6b8be57bb7132300100a9b56ee11a92e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -280,166 +279,9 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
         <value/>
-        <variable display_value="Permissions (chmod)">886c0e37b7532300100a9b56ee11a99d</variable>
+        <variable display_value="">886c0e37b7532300100a9b56ee11a99d</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_3ac24c77879809503e867518cebb3585^id=3ac24c77879809503e867518cebb3585"/>
-    <sys_element_mapping action="delete_multiple" query="id=3ac24c77879809503e867518cebb3585"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:48:13</sys_created_on>
-        <sys_id>d3c24c77879809503e867518cebb35fa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>capabilities</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:48:13</sys_created_on>
-        <sys_id>d7c24c77879809503e867518cebb35f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>command</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:48:13</sys_created_on>
-        <sys_id>5fc24c77879809503e867518cebb35f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_alias</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:48:13</sys_created_on>
-        <sys_id>1fc24c77879809503e867518cebb35f7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>include_files</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:48:13</sys_created_on>
-        <sys_id>53c24c77879809503e867518cebb35f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value>{{step[2715b414-b7ca-40ea-8050-8b0098b95312].file_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>maximum_file_size_kb</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2022-01-04 20:09:55</sys_created_on>
-        <sys_id>ccb5b31e87788d903e867518cebb35cd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2022-01-04 20:09:55</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>max_file_size_in_bytes</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:48:13</sys_created_on>
-        <sys_id>9fc24c77879809503e867518cebb35f8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>min_file_size_in_bytes</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:48:13</sys_created_on>
-        <sys_id>9bc24c77879809503e867518cebb35f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>permissions</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:48:13</sys_created_on>
-        <sys_id>57c24c77879809503e867518cebb35f8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>retry_policy</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:48:13</sys_created_on>
-        <sys_id>dbc24c77879809503e867518cebb35f8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_path</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:48:13</sys_created_on>
-        <sys_id>1bc24c77879809503e867518cebb35f8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value>{{step[2715b414-b7ca-40ea-8050-8b0098b95312].directory}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:48:13</sys_created_on>
-        <sys_id>17c24c77879809503e867518cebb35f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_record</field>
-        <id>3ac24c77879809503e867518cebb3585</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:48:13</sys_created_on>
-        <sys_id>13c24c77879809503e867518cebb35fa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value>{{step[3caea08f-a410-4a13-9eab-62751102eb48].record}}</value>
-    </sys_element_mapping>
     <sys_hub_step_ext_input action="delete_multiple" query="model=3ac24c77879809503e867518cebb3585"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=3ac24c77879809503e867518cebb3585^sys_idNOT IN03c24c77879809503e867518cebb35dc"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -473,6 +315,7 @@
         <element>sn_auth_token</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -519,6 +362,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -538,11 +382,11 @@
         <sys_created_on>2021-12-14 21:48:13</sys_created_on>
         <sys_id>5fc24c77879809503e867518cebb35e1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3ac24c77879809503e867518cebb3585_sn_auth_token_en</sys_update_name>
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:48:13</sys_updated_on>
         <url/>
@@ -652,6 +496,7 @@
         <element>file_path</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -698,6 +543,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -734,6 +580,7 @@
         <element>file_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -780,6 +627,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -815,6 +663,7 @@
         <element>directory</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -861,6 +710,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -880,11 +730,11 @@
         <sys_created_on>2021-11-23 21:23:23</sys_created_on>
         <sys_id>7ab33ff887888110c4a3c99d0ebb3556</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>directory</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_62b33ff887888110c4a3c99d0ebb3545_directory_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-11-23 21:23:23</sys_updated_on>
         <url/>
@@ -903,11 +753,11 @@
         <sys_created_on>2021-11-23 21:23:23</sys_created_on>
         <sys_id>7eb33ff887888110c4a3c99d0ebb355c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>file_name</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_62b33ff887888110c4a3c99d0ebb3545_file_name_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-11-23 21:23:23</sys_updated_on>
         <url/>
@@ -1011,6 +861,7 @@
         <element>data_source</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1057,6 +908,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1093,6 +945,7 @@
         <element>file_path</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1139,6 +992,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1177,6 +1031,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1224,6 +1079,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1259,9 +1115,10 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <element>attachment_id</element>
-        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_051d55f3b7132300100a9b56ee11a9cb">f90becf2b7232300100a9b56ee11a916</element_prototype>
+        <element_prototype display_value="">f90becf2b7232300100a9b56ee11a916</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1309,6 +1166,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1347,6 +1205,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1394,6 +1253,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1426,11 +1286,11 @@
         <sys_created_on>2021-11-23 21:23:22</sys_created_on>
         <sys_id>66b33ff887888110c4a3c99d0ebb353c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>data_source</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c5f2f3f887888110c4a3c99d0ebb357a_data_source_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-11-23 21:23:22</sys_updated_on>
         <url/>
@@ -1449,11 +1309,11 @@
         <sys_created_on>2021-11-23 21:23:22</sys_created_on>
         <sys_id>6ab33ff887888110c4a3c99d0ebb3542</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>file_path</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c5f2f3f887888110c4a3c99d0ebb357a_file_path_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-11-23 21:23:22</sys_updated_on>
         <url/>
@@ -1474,11 +1334,11 @@
         <sys_created_on>2022-01-25 19:07:17</sys_created_on>
         <sys_id>9fb07b4987114110c4a3c99d0ebb3562</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>attachment_id</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c5f2f3f887888110c4a3c99d0ebb357a_attachment_id_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-01-25 19:07:17</sys_updated_on>
         <url/>
@@ -1497,11 +1357,11 @@
         <sys_created_on>2021-12-01 17:55:43</sys_created_on>
         <sys_id>bae05c2787008910c4a3c99d0ebb3561</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c5f2f3f887888110c4a3c99d0ebb357a___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-12-01 17:55:43</sys_updated_on>
         <url/>
@@ -1520,11 +1380,11 @@
         <sys_created_on>2021-12-01 17:55:42</sys_created_on>
         <sys_id>e6e05c2787008910c4a3c99d0ebb3557</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c5f2f3f887888110c4a3c99d0ebb357a___action_status___en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-12-01 17:55:42</sys_updated_on>
         <url/>
@@ -1738,12 +1598,11 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>SFTP step</label>
         <order>3</order>
         <outputs/>
         <section/>
-        <step_type display_value="SFTP">051d55f3b7132300100a9b56ee11a9cb</step_type>
+        <step_type display_value="">051d55f3b7132300100a9b56ee11a9cb</step_type>
         <sys_created_by>murali.dingari</sys_created_by>
         <sys_created_on>2021-12-14 21:58:38</sys_created_on>
         <sys_id>3b25003b879809503e867518cebb359e</sys_id>
@@ -1765,7 +1624,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
         <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
-        <variable display_value="Capabilities">6b8be57bb7132300100a9b56ee11a92e</variable>
+        <variable display_value="">6b8be57bb7132300100a9b56ee11a92e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1779,7 +1638,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
         <value/>
-        <variable display_value="Permissions (chmod)">886c0e37b7532300100a9b56ee11a99d</variable>
+        <variable display_value="">886c0e37b7532300100a9b56ee11a99d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1793,7 +1652,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">554929f7b7132300100a9b56ee11a91d</variable>
+        <variable display_value="">554929f7b7132300100a9b56ee11a91d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1807,7 +1666,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
         <value>sys_data_source</value>
-        <variable display_value="Table">6237a7f00f121010d457d6892f767e8f</variable>
+        <variable display_value="">6237a7f00f121010d457d6892f767e8f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1821,7 +1680,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
         <value>bb306a28874c4110c4a3c99d0ebb35b1</value>
-        <variable display_value="Source Connection Alias">1475e1b7b7132300100a9b56ee11a9c5</variable>
+        <variable display_value="">1475e1b7b7132300100a9b56ee11a9c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1835,7 +1694,7 @@
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-01-17 17:04:55</sys_updated_on>
         <value>1000</value>
-        <variable display_value="Maximum File Size (KB)">d05015ae73031010b61b033ee2f6a779</variable>
+        <variable display_value="">d05015ae73031010b61b033ee2f6a779</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1849,7 +1708,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
         <value/>
-        <variable display_value="Maximum File Size (Bytes)">285802f3b7532300100a9b56ee11a9b2</variable>
+        <variable display_value="">285802f3b7532300100a9b56ee11a9b2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1863,7 +1722,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
         <value>save_as_attachments</value>
-        <variable display_value="SFTP Command">0a102537b7132300100a9b56ee11a9a8</variable>
+        <variable display_value="">0a102537b7132300100a9b56ee11a9a8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1877,7 +1736,7 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
         <value/>
-        <variable display_value="Minimum File Size (Bytes)">64970eb3b7532300100a9b56ee11a9d9</variable>
+        <variable display_value="">64970eb3b7532300100a9b56ee11a9d9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1891,166 +1750,9 @@
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
         <value>e385484773100010e3a71afe2ff6a709</value>
-        <variable display_value="Retry Policy">b7a1c530b7c33300100a9b56ee11a923</variable>
+        <variable display_value="">b7a1c530b7c33300100a9b56ee11a923</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_3b25003b879809503e867518cebb359e^id=3b25003b879809503e867518cebb359e"/>
-    <sys_element_mapping action="delete_multiple" query="id=3b25003b879809503e867518cebb359e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:58:38</sys_created_on>
-        <sys_id>c435003b879809503e867518cebb35b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>capabilities</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:58:38</sys_created_on>
-        <sys_id>c835003b879809503e867518cebb35b6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>command</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:58:38</sys_created_on>
-        <sys_id>4035003b879809503e867518cebb35b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_alias</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:58:38</sys_created_on>
-        <sys_id>8435003b879809503e867518cebb35b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>include_files</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:58:38</sys_created_on>
-        <sys_id>4435003b879809503e867518cebb35b6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value>{{step[2715b414-b7ca-40ea-8050-8b0098b95312].file_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>maximum_file_size_kb</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>aveenstra</sys_created_by>
-        <sys_created_on>2022-01-17 17:04:55</sys_created_on>
-        <sys_id>f0080a2e878d4110c4a3c99d0ebb3575</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-01-17 17:04:55</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>max_file_size_in_bytes</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:58:38</sys_created_on>
-        <sys_id>8035003b879809503e867518cebb35b6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>min_file_size_in_bytes</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:58:38</sys_created_on>
-        <sys_id>8c35003b879809503e867518cebb35b6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>permissions</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:58:38</sys_created_on>
-        <sys_id>4835003b879809503e867518cebb35b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>retry_policy</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:58:38</sys_created_on>
-        <sys_id>cc35003b879809503e867518cebb35b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_path</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:58:38</sys_created_on>
-        <sys_id>0c35003b879809503e867518cebb35b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value>{{step[2715b414-b7ca-40ea-8050-8b0098b95312].directory}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:58:38</sys_created_on>
-        <sys_id>0835003b879809503e867518cebb35b6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_record</field>
-        <id>3b25003b879809503e867518cebb359e</id>
-        <sys_created_by>murali.dingari</sys_created_by>
-        <sys_created_on>2021-12-14 21:58:38</sys_created_on>
-        <sys_id>0435003b879809503e867518cebb35b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>murali.dingari</sys_updated_by>
-        <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
-        <value>{{step[3caea08f-a410-4a13-9eab-62751102eb48].record}}</value>
-    </sys_element_mapping>
     <sys_hub_step_ext_input action="delete_multiple" query="model=3b25003b879809503e867518cebb359e"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=3b25003b879809503e867518cebb359e^sys_idNOT IN4835003b879809503e867518cebb35a7"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2084,6 +1786,7 @@
         <element>sn_auth_token</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2130,6 +1833,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2149,11 +1853,11 @@
         <sys_created_on>2021-12-14 21:58:38</sys_created_on>
         <sys_id>0c35003b879809503e867518cebb35ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3b25003b879809503e867518cebb359e_sn_auth_token_en</sys_update_name>
         <sys_updated_by>murali.dingari</sys_updated_by>
         <sys_updated_on>2021-12-14 21:58:38</sys_updated_on>
         <url/>
@@ -2263,6 +1967,7 @@
         <element>file_path</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2309,6 +2014,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2345,6 +2051,7 @@
         <element>directory</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2391,6 +2098,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2426,6 +2134,7 @@
         <element>file_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2472,6 +2181,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2491,11 +2201,11 @@
         <sys_created_on>2021-12-02 15:00:07</sys_created_on>
         <sys_id>545278f7874c8910c4a3c99d0ebb35a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>directory</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d85278f7874c8910c4a3c99d0ebb3597_directory_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:07</sys_updated_on>
         <url/>
@@ -2514,11 +2224,11 @@
         <sys_created_on>2021-12-02 15:00:07</sys_created_on>
         <sys_id>d85278f7874c8910c4a3c99d0ebb35ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>file_name</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d85278f7874c8910c4a3c99d0ebb3597_file_name_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:07</sys_updated_on>
         <url/>
@@ -2556,6 +2266,7 @@
         <element>file_path</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2602,6 +2313,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2638,6 +2350,7 @@
         <element>data_source</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2684,6 +2397,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2719,9 +2433,10 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <element>attachment_id</element>
-        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_051d55f3b7132300100a9b56ee11a9cb">f90becf2b7232300100a9b56ee11a916</element_prototype>
+        <element_prototype display_value="">f90becf2b7232300100a9b56ee11a916</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2769,6 +2484,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2807,6 +2523,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2854,6 +2571,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2892,6 +2610,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2939,6 +2658,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2971,11 +2691,11 @@
         <sys_created_on>2021-12-02 15:00:07</sys_created_on>
         <sys_id>5c5278f7874c8910c4a3c99d0ebb358e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>data_source</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_185278f7874c8910c4a3c99d0ebb3585_data_source_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:07</sys_updated_on>
         <url/>
@@ -2994,11 +2714,11 @@
         <sys_created_on>2021-12-02 15:00:07</sys_created_on>
         <sys_id>d05278f7874c8910c4a3c99d0ebb3595</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>file_path</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_185278f7874c8910c4a3c99d0ebb3585_file_path_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:07</sys_updated_on>
         <url/>
@@ -3019,11 +2739,11 @@
         <sys_created_on>2022-01-25 19:07:28</sys_created_on>
         <sys_id>06c0bf4987114110c4a3c99d0ebb35d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>attachment_id</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_185278f7874c8910c4a3c99d0ebb3585_attachment_id_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-01-25 19:07:28</sys_updated_on>
         <url/>
@@ -3042,11 +2762,11 @@
         <sys_created_on>2021-12-02 15:00:09</sys_created_on>
         <sys_id>3c52b8f7874c8910c4a3c99d0ebb350e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_185278f7874c8910c4a3c99d0ebb3585___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:09</sys_updated_on>
         <url/>
@@ -3065,19 +2785,20 @@
         <sys_created_on>2021-12-02 15:00:09</sys_created_on>
         <sys_id>7852b8f7874c8910c4a3c99d0ebb3504</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_185278f7874c8910c4a3c99d0ebb3585___action_status___en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:09</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_185278f7874c8910c4a3c99d0ebb3585"/>
-    <sys_hub_action_type_definition action="update">
+    <sys_hub_action_type_definition action="UPDATE">
         <sys_id>c5f2f3f887888110c4a3c99d0ebb357a</sys_id>
         <latest_snapshot>185278f7874c8910c4a3c99d0ebb3585</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

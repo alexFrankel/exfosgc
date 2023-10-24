@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2022-02-23 15:07:37</change_date>
-        <changed_by display_value="Andrea Veenstra">c0df12b487f50510c4a3c99d0ebb35c3</changed_by>
+        <changed_by display_value="">c0df12b487f50510c4a3c99d0ebb35c3</changed_by>
         <content display_value="Connect">f377f622871734503e867518cebb355c</content>
-        <related_change_log_entry display_value="2022-02-23 10:07:37">5bff80e287794110c4a3c99d0ebb35b7</related_change_log_entry>
+        <related_change_log_entry display_value="2022-02-23 07:07:37">5bff80e287794110c4a3c99d0ebb35b7</related_change_log_entry>
         <related_task_entry/>
         <sys_class_name>gsw_change_log</sys_class_name>
         <sys_created_by>aveenstra</sys_created_by>

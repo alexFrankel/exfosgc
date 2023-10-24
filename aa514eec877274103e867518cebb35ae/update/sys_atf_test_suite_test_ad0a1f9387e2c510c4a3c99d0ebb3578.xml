@@ -14,7 +14,7 @@
         <sys_update_name>sys_atf_test_suite_test_ad0a1f9387e2c510c4a3c99d0ebb3578</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-04-04 20:32:52</sys_updated_on>
-        <test display_value="CMDB INT: Validate Discovery Source">80ea127d7310101032f927b751ab9ec2</test>
-        <test_suite display_value="CMDB INT: Integration Validation Tests">8a602afd7310101032f927b751ab9ed6</test_suite>
+        <test display_value="">80ea127d7310101032f927b751ab9ec2</test>
+        <test_suite display_value="">8a602afd7310101032f927b751ab9ed6</test_suite>
     </sys_atf_test_suite_test>
 </record_update>

@@ -19,7 +19,7 @@
         <sys_id>26894d7b878c8910c4a3c99d0ebb35bc</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>tempToTelco equipment 2</sys_name>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Shelves">ed2dcad487f778103e867518cebb3549</sys_rte_eb_definition>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>

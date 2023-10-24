@@ -12,9 +12,11 @@ else{
 	answer = false;
 }]]></condition>
         <conditional>true</conditional>
+        <connection_override/>
         <data_source display_value="SG-EXFO Location">a8d22b3087888110c4a3c99d0ebb3573</data_source>
         <entered_time/>
         <map/>
+        <max_drift/>
         <name>SG-EXFO Locations Import</name>
         <offset/>
         <offset_type>0</offset_type>
@@ -46,6 +48,7 @@ else{
         <run_start>2021-11-29 20:42:47</run_start>
         <run_time>1970-01-01 05:00:00</run_time>
         <run_type>parent</run_type>
+        <show_connection_override>false</show_connection_override>
         <synchronize_inserts>true</synchronize_inserts>
         <sys_class_name>scheduled_import_set</sys_class_name>
         <sys_created_by>aveenstra</sys_created_by>
@@ -61,5 +64,6 @@ else{
         <sys_updated_on>2022-03-30 20:45:51</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
+        <use_child_connection>false</use_child_connection>
     </scheduled_import_set>
 </record_update>

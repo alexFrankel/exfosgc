@@ -2,6 +2,7 @@
     <sys_data_source action="INSERT_OR_UPDATE">
         <batch_size>1000</batch_size>
         <category/>
+        <connection_override_last_success_time/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:9f44f10f874ff8103e867518cebb3579//E:/SN/SNzips/card_20210917000000.zip</connection_url>
         <connection_url_parameters/>
@@ -56,6 +57,7 @@
         <scp_port/>
         <scp_server>199.204.218.32</scp_server>
         <scp_user_name>servicenowtest</scp_user_name>
+        <sheet_name/>
         <sheet_number>0</sheet_number>
         <sql_statement/>
         <ssh_keyfile_path/>

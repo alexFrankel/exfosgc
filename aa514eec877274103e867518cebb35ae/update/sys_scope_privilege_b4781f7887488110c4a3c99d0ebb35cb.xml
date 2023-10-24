@@ -16,7 +16,7 @@
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-11-23 19:24:12</sys_updated_on>
         <target_name>ITOMLicensingUtils</target_name>
-        <target_scope display_value="ITOM Licensing">5f32c8e7c3f22300daa79624a1d3ae03</target_scope>
+        <target_scope display_value="">5f32c8e7c3f22300daa79624a1d3ae03</target_scope>
         <target_type>sys_script_include</target_type>
     </sys_scope_privilege>
 </record_update>
