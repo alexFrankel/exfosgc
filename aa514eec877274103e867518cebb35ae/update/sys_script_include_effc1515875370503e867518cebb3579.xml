@@ -10,71 +10,70 @@
         <script><![CDATA[var EXFOImportUtil = Class.create();
 EXFOImportUtil.prototype = {
     initialize: function() {},
-	
-	runFlow: function(runType){
-		try {
-			var inputs = {}; 
-			inputs['run_type'] = runType;
-			var result = sn_fd.FlowAPI.getRunner()
-				.subflow('x_snc_exfo_cmdb.exfo_import_data')
-				.inForeground()
-				.withInputs(inputs)
-				.timeout(120000)
-				.run();
-			var outputs = result.getOutputs();
-			var attachment_id = outputs['attachment_id'];
-			var import_folder = outputs['import_folder'];
-			if(attachment_id && attachment_id.length > 0){
-				this._updateLastFolderProcessed(runType, import_folder);
-				return true;
-			}
-			else if(!attachment_id){
-				var importProp = new GlideRecord('sys_properties');
-				if(importProp.get('name', 'x_snc_exfo_cmdb.import_active')){
-					importProp.value = false;
-					importProp.update();
-				}
-				gs.info('EXFO Import cancelled; no new folders to process for runtype ' + runType + '. If you believe this is incorrect, please check the system properties "lastFullFolderProcessed" and "lastIncrementalFolderProcessed"');
-				return false;
-			}
-			
-		} catch (ex) {
-			var message = ex.getMessage();
-			gs.error(ex);
-		}
-	},
-	
+
+    runFlow: function(runType) {
+        try {
+            var inputs = {};
+            inputs['run_type'] = runType;
+            var result = sn_fd.FlowAPI.getRunner()
+                .subflow('x_snc_exfo_cmdb.exfo_import_data')
+                .inForeground()
+                .withInputs(inputs)
+                .timeout(120000)
+                .run();
+            var outputs = result.getOutputs();
+            var attachment_id = outputs['attachment_id'];
+            var import_folder = outputs['import_folder'];
+            if (attachment_id && attachment_id.length > 0) {
+                this._updateLastFolderProcessed(runType, import_folder);
+                return true;
+            } else if (!attachment_id) {
+                var importProp = new GlideRecord('sys_properties');
+                if (importProp.get('name', 'x_snc_exfo_cmdb.import_active')) {
+                    importProp.value = false;
+                    importProp.update();
+                }
+                gs.info('EXFO Import cancelled; no new folders to process for runtype ' + runType + '. If you believe this is incorrect, please check the system properties "lastFullFolderProcessed" and "lastIncrementalFolderProcessed"');
+                return false;
+            }
+
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.error(ex);
+        }
+    },
+
     buildFileArray: function(folder, fileList) {
         var dataArray = [];
         for (var i = 0; i < fileList.length; i++) {
             var fileName = fileList[i].name;
             var lowerName = fileName.toLowerCase();
-			
-			if(lowerName.indexOf('link') > -1){
-				dataArray.push(this.createFileObj(folder, fileName, 'Physical Link'));
-				dataArray.push(this.createFileObj(folder, fileName, 'Logical Link'));
-            } 
-			else if(lowerName.indexOf('path') > -1){
-				dataArray.push(this.createFileObj(folder, fileName, 'path'));
-				dataArray.push(this.createFileObj(folder, fileName, 'Path Connection Element'));
-			}
-			else if(lowerName.indexOf('segment') > -1){
-				dataArray.push(this.createFileObj(folder, fileName, 'segment'));
-				dataArray.push(this.createFileObj(folder, fileName, 'Segment Connection Element'));
-			}
-			else {
-                dataArray.push(this.createFileObj(folder, fileName));
-            }
 
-            if (lowerName.indexOf('site') > -1) {
-                dataArray.push(this.createFileObj(folder, fileName, 'Location'));
+            if (lowerName.indexOf(".zip") != -1) {
+
+                if (lowerName.indexOf('link') > -1) {
+                    dataArray.push(this.createFileObj(folder, fileName, 'Physical Link'));
+                    dataArray.push(this.createFileObj(folder, fileName, 'Logical Link'));
+                } else if (lowerName.indexOf('path') > -1) {
+                    dataArray.push(this.createFileObj(folder, fileName, 'path'));
+                    dataArray.push(this.createFileObj(folder, fileName, 'Path Connection Element'));
+                } else if (lowerName.indexOf('segment') > -1) {
+                    dataArray.push(this.createFileObj(folder, fileName, 'segment'));
+                    dataArray.push(this.createFileObj(folder, fileName, 'Segment Connection Element'));
+                } else {
+                    dataArray.push(this.createFileObj(folder, fileName));
+                }
+
+                if (lowerName.indexOf('site') > -1) {
+                    dataArray.push(this.createFileObj(folder, fileName, 'Location'));
+                }
             }
         }
-		
-		return dataArray;
+
+        return dataArray;
     },
-	
-	checkIntegrationStatus: function() {
+
+    checkIntegrationStatus: function() {
         //check if import is already running
         var importActive = (gs.getProperty('x_snc_exfo_cmdb.import_active') == 'true');
         if (importActive) {
@@ -85,13 +84,13 @@ EXFOImportUtil.prototype = {
             return false;
         }
     },
-	
-	createFileObj: function(folder, fileName, targetOverride){
-		var arrayObj = {};
-		arrayObj.file_path = folder + fileName;
-		arrayObj.data_source = this.matchFileToDataSource(fileName, targetOverride);
-		return arrayObj;
-	},
+
+    createFileObj: function(folder, fileName, targetOverride) {
+        var arrayObj = {};
+        arrayObj.file_path = folder + fileName;
+        arrayObj.data_source = this.matchFileToDataSource(fileName, targetOverride);
+        return arrayObj;
+    },
 
     matchFileToDataSource: function(fileName, targetOverride) {
         var fileImportType = fileName.split('_')[0];
@@ -105,7 +104,7 @@ EXFOImportUtil.prototype = {
         }
 
         dataSourceGR.addEncodedQuery('nameSTARTSWITHSG-EXFO^nameLIKE' + fileImportType);
-		dataSourceGR.orderBy('name');
+        dataSourceGR.orderBy('name');
         dataSourceGR.query();
         if (dataSourceGR.next()) {
             return dataSourceGR.getUniqueValue() + '';
@@ -114,42 +113,41 @@ EXFOImportUtil.prototype = {
     },
 
     removeExistingAttachments: function() {
-		var dataSourceGR = new GlideRecord('sys_data_source');
-		dataSourceGR.addEncodedQuery('sys_scope=aa514eec877274103e867518cebb35ae');
-		dataSourceGR.query();
-		while (dataSourceGR.next()) {
-			var attachment = new GlideRecordSecure('sys_attachment');
-			attachment.addQuery('table_sys_id', dataSourceGR.getUniqueValue());
-			attachment.query();
-			var sysAttachment = new GlideSysAttachment();
-			while (attachment.next()) {
-				sysAttachment.deleteAttachment(attachment.getUniqueValue());
-			}
-		}
-	},
-	
-	updateParentJob: function(importType){
-		var parentJobID;
-		var parentJobGR = new GlideRecord('scheduled_import_set');
-		if(importType == 'test' || importType == 'full'){
-			if(parentJobGR.get('name', 'SG-EXFO Full Import')){
-				parentJobID = parentJobGR.getUniqueValue();
-			}
-		}
-		else{
-			if(parentJobGR.get('name', 'SG-EXFO Incremental Import')){
-				parentJobID = parentJobGR.getUniqueValue();
-			}
-		}
-		
-		var childJobGR = new GlideRecord('scheduled_import_set');
-		childJobGR.addEncodedQuery('sys_scope=aa514eec877274103e867518cebb35ae^run_type=parent');
-		childJobGR.query();
-		while(childJobGR.next()){
-			childJobGR.parent = parentJobID;
-			childJobGR.update();
-		}
-	},
+        var dataSourceGR = new GlideRecord('sys_data_source');
+        dataSourceGR.addEncodedQuery('sys_scope=aa514eec877274103e867518cebb35ae');
+        dataSourceGR.query();
+        while (dataSourceGR.next()) {
+            var attachment = new GlideRecordSecure('sys_attachment');
+            attachment.addQuery('table_sys_id', dataSourceGR.getUniqueValue());
+            attachment.query();
+            var sysAttachment = new GlideSysAttachment();
+            while (attachment.next()) {
+                sysAttachment.deleteAttachment(attachment.getUniqueValue());
+            }
+        }
+    },
+
+    updateParentJob: function(importType) {
+        var parentJobID;
+        var parentJobGR = new GlideRecord('scheduled_import_set');
+        if (importType == 'test' || importType == 'full') {
+            if (parentJobGR.get('name', 'SG-EXFO Full Import')) {
+                parentJobID = parentJobGR.getUniqueValue();
+            }
+        } else {
+            if (parentJobGR.get('name', 'SG-EXFO Incremental Import')) {
+                parentJobID = parentJobGR.getUniqueValue();
+            }
+        }
+
+        var childJobGR = new GlideRecord('scheduled_import_set');
+        childJobGR.addEncodedQuery('sys_scope=aa514eec877274103e867518cebb35ae^run_type=parent');
+        childJobGR.query();
+        while (childJobGR.next()) {
+            childJobGR.parent = parentJobID;
+            childJobGR.update();
+        }
+    },
 
     classDict: {
         "site": "cmdb_ci_ni_site",
@@ -158,13 +156,13 @@ EXFOImportUtil.prototype = {
         "interface": "cmdb_ci_ni_interface",
         "card": "cmdb_ci_interface_card"
     },
-	
-	objectSourceLookup: function(lookupKey){
-		var objSourceGR = new GlideRecord('sys_object_source');
-		if(objSourceGR.get('id', lookupKey)){
-			return objSourceGR.target_sys_id;
-		}
-	},
+
+    objectSourceLookup: function(lookupKey) {
+        var objSourceGR = new GlideRecord('sys_object_source');
+        if (objSourceGR.get('id', lookupKey)) {
+            return objSourceGR.target_sys_id;
+        }
+    },
 
     relationshipLookup: function(relatedKey, relatedClass) {
         var returnKey = ''; //sys_obj_source key of related record we want to find
@@ -204,22 +202,21 @@ EXFOImportUtil.prototype = {
             headerProp.update();
         }
     },
-	
-	_updateLastFolderProcessed: function(runType, folder){
-		var propGR = new GlideRecord('sys_properties');
-		if(runType == 'full'){
-			if(propGR.get('name','x_snc_exfo_cmdb.lastFullFolderProcessed')){
-				propGR.value = folder;
-				propGR.update();
-			}
-		}
-		else if(runType == 'incremental'){
-			if(propGR.get('name', 'x_snc_exfo_cmdb.lastIncrementalFolderProcessed')){
-				propGR.value = folder;
-				propGR.update();
-			}
-		}
-	},
+
+    _updateLastFolderProcessed: function(runType, folder) {
+        var propGR = new GlideRecord('sys_properties');
+        if (runType == 'full') {
+            if (propGR.get('name', 'x_snc_exfo_cmdb.lastFullFolderProcessed')) {
+                propGR.value = folder;
+                propGR.update();
+            }
+        } else if (runType == 'incremental') {
+            if (propGR.get('name', 'x_snc_exfo_cmdb.lastIncrementalFolderProcessed')) {
+                propGR.value = folder;
+                propGR.update();
+            }
+        }
+    },
 
     type: 'EXFOImportUtil'
 };]]></script>
@@ -227,13 +224,13 @@ EXFOImportUtil.prototype = {
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-10-18 16:56:28</sys_created_on>
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>EXFOImportUtil</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-03-30 20:25:10</sys_updated_on>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2023-11-17 15:17:42</sys_updated_on>
     </sys_script_include>
 </record_update>
