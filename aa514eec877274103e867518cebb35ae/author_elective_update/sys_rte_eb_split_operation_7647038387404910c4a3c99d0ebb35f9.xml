@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_split_operation">
+    <sys_rte_eb_split_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        var b = a + " (Now)";
+
+        // setp3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Split - u_interface_status_lookup</name>
+        <operation_group/>
+        <order>500</order>
+        <source_sys_rte_eb_field display_value="u_interface_status_lookup">9237cf4387404910c4a3c99d0ebb3547</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <splitting_string>|||</splitting_string>
+        <sys_class_name>sys_rte_eb_split_operation</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-30 17:55:34</sys_created_on>
+        <sys_id>7647038387404910c4a3c99d0ebb35f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Split - u_interface_status_lookup</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Interfaces">229cce9487f778103e867518cebb3558</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">a8acc2d487f778103e867518cebb3518</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_split_operation_7647038387404910c4a3c99d0ebb35f9</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-30 17:55:34</sys_updated_on>
+        <target_sys_rte_eb_field/>
+        <target_sys_rte_eb_fields>3a47038387404910c4a3c99d0ebb35f5,3a47038387404910c4a3c99d0ebb35f7</target_sys_rte_eb_fields>
+        <type display_value="Split">9985ae0973200010011e3e2dfef6a7de</type>
+    </sys_rte_eb_split_operation>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_split_operation_7647038387404910c4a3c99d0ebb35f9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_split_operation"&gt;
+    &lt;sys_rte_eb_split_operation action="INSERT_OR_UPDATE"&gt;
+        &lt;conditional_fields/&gt;
+        &lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        var b = a + " (Now)";
+
+        // setp3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;
+        &lt;is_conditional&gt;false&lt;/is_conditional&gt;
+        &lt;name&gt;Split - u_interface_status_lookup&lt;/name&gt;
+        &lt;operation_group/&gt;
+        &lt;order&gt;500&lt;/order&gt;
+        &lt;source_sys_rte_eb_field display_value="u_interface_status_lookup"&gt;9237cf4387404910c4a3c99d0ebb3547&lt;/source_sys_rte_eb_field&gt;
+        &lt;source_sys_rte_eb_fields/&gt;
+        &lt;splitting_string&gt;|||&lt;/splitting_string&gt;
+        &lt;sys_class_name&gt;sys_rte_eb_split_operation&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-11-30 17:55:34&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;7647038387404910c4a3c99d0ebb35f9&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Split - u_interface_status_lookup&lt;/sys_name&gt;
+        &lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_rte_eb_definition display_value="SG-EXFO Interfaces"&gt;229cce9487f778103e867518cebb3558&lt;/sys_rte_eb_definition&gt;
+        &lt;sys_rte_eb_entity display_value="temp"&gt;a8acc2d487f778103e867518cebb3518&lt;/sys_rte_eb_entity&gt;
+        &lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_rte_eb_split_operation_7647038387404910c4a3c99d0ebb35f9&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;aveenstra&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2021-11-30 17:55:34&lt;/sys_updated_on&gt;
+        &lt;target_sys_rte_eb_field/&gt;
+        &lt;target_sys_rte_eb_fields&gt;3a47038387404910c4a3c99d0ebb35f5,3a47038387404910c4a3c99d0ebb35f7&lt;/target_sys_rte_eb_fields&gt;
+        &lt;type display_value="Split"&gt;9985ae0973200010011e3e2dfef6a7de&lt;/type&gt;
+    &lt;/sys_rte_eb_split_operation&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>385482478</payload_hash>
+        <record_name>Split - u_interface_status_lookup</record_name>
+        <reverted_from/>
+        <source>a29672751b6ab190da698666624bcb07</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2023-11-17 14:43:22</sys_created_on>
+        <sys_id>1e3772b91b6ab190da698666624bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bddbc8a7a0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2023-11-17 14:43:22</sys_updated_on>
+        <type>RTE Entity Split Operation</type>
+        <update_guid>d63772b9ce6ab190babc0764d138e651</update_guid>
+        <update_guid_history>d63772b9ce6ab190babc0764d138e651:0,a495fa31ec6ab190147e30991acb5f31:2001195908,118c9c911362f590d2d591a00114233b:0,518a2741b02efd50fede9663547646f4:-1243066558,95e31aefdc9e7950809392a6c9705254:0,42525a67c59e79505d4ccb3d54372218:-415558993,02ef27548156bd1039f7c02247fb7182:0,86cca7d83216bd109f7f823149ec295f:-189933931,711213c63646b5107ec322ed81f1ae01:385482478</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-23 15:58:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_split_operation">sys_rte_eb_split_operation</sys_db_object>
+        <sys_id>0518990f48c249c28e772423e5497ea9</sys_id>
+        <sys_metadata>7647038387404910c4a3c99d0ebb35f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Split - u_interface_status_lookup</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_split_operation_7647038387404910c4a3c99d0ebb35f9</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_split_operation_7647038387404910c4a3c99d0ebb35f9">1e3772b91b6ab190da698666624bcb51</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-23 15:58:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -3,6 +3,7 @@
         <configuration_template/>
         <connection_type>sys_connection</connection_type>
         <id>x_snc_exfo_cmdb.EXFO_SFTP</id>
+        <is_internal>false</is_internal>
         <multiple_connections>false</multiple_connections>
         <name>EXFO-SFTP</name>
         <parent/>

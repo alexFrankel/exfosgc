@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2022-03-04 18:30:51</change_date>
-        <changed_by display_value="Jay Wigard">f7d09b91870e8910c4a3c99d0ebb359f</changed_by>
+        <changed_by display_value="">f7d09b91870e8910c4a3c99d0ebb359f</changed_by>
         <content display_value="Configure your Connection Details">37d77a0487dcc910c4a3c99d0ebb35ac</content>
         <related_change_log_entry/>
         <related_task_entry/>

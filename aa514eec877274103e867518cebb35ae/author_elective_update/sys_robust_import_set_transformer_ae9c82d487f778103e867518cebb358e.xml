@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="DELETE">
+        <active>true</active>
+        <batch_size>100</batch_size>
+        <description/>
+        <name>SG-EXFO Interfaces</name>
+        <properties/>
+        <robust_transform_engine display_value="SG-EXFO Interfaces">229cce9487f778103e867518cebb3558</robust_transform_engine>
+        <source_table>x_snc_exfo_cmdb_staging_interface</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-09 14:20:09</sys_created_on>
+        <sys_id>ae9c82d487f778103e867518cebb358e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-EXFO Interfaces</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_ae9c82d487f778103e867518cebb358e</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-09 14:20:09</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_robust_import_set_transformer_ae9c82d487f778103e867518cebb358e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_size>100</batch_size>
+        <description/>
+        <name>SG-EXFO Interfaces</name>
+        <properties/>
+        <robust_transform_engine display_value="SG-EXFO Interfaces">229cce9487f778103e867518cebb3558</robust_transform_engine>
+        <source_table>x_snc_exfo_cmdb_staging_interface</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-09 14:20:09</sys_created_on>
+        <sys_id>ae9c82d487f778103e867518cebb358e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-EXFO Interfaces</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_ae9c82d487f778103e867518cebb358e</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-09 14:20:09</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+</record_update>]]></payload>
+        <payload_hash>1365152529</payload_hash>
+        <record_name>SG-EXFO Interfaces</record_name>
+        <reverted_from/>
+        <source>a29672751b6ab190da698666624bcb07</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2023-11-17 14:42:49</sys_created_on>
+        <sys_id>0a1772791b6ab190da698666624bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bddbc06460000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2023-11-17 14:42:49</sys_updated_on>
+        <type>Robust Import Set Transformer</type>
+        <update_guid>c2177279316ab190b675462184dcbdfe</update_guid>
+        <update_guid_history>c2177279316ab190b675462184dcbdfe:0,61e53af15c6ab190e371fc2de0ecf0d2:-517255044,4a95be31746ab190aaa116e225f37c37:0,6d6c9c51e862f590bd3506d02f98ca49:0,85ea6705a62efd50e9dfff2b2b1f8f81:85495523,f28a2b41eb2efd50b4f209ce92b40511:0,38c31aaf4f9e79507dd884a22e92b0a8:0,4eb2566b0e9e7950d5066901bbca976b:-325164674,e7521e67ad9e79503235497a6d68aebb:0,06cfe314af56bd1020d9fe325c036284:0,821da75c9316bd1003bfc4b4fa3104bc:-196866908,ebcc2bd87816bd10966cc0bdda369f8c:0,28f1db467846b510026cb34ef04b7dc9:1365152529</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-23 15:58:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_robust_import_set_transformer">sys_robust_import_set_transformer</sys_db_object>
+        <sys_id>1de3097ad0874b3ba2be1296efd6afa1</sys_id>
+        <sys_metadata>ae9c82d487f778103e867518cebb358e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-EXFO Interfaces</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_robust_import_set_transformer_ae9c82d487f778103e867518cebb358e</sys_update_name>
+        <sys_update_version display_value="sys_robust_import_set_transformer_ae9c82d487f778103e867518cebb358e">0a1772791b6ab190da698666624bcbfe</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-23 15:58:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

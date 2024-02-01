@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scheduled_import_set">
+    <scheduled_import_set action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <concurrent_import>false</concurrent_import>
+        <condition><![CDATA[var dataSource = current.data_source;
+var attachmentGR = new GlideRecord('sys_attachment');
+if(attachmentGR.get('table_sys_id', dataSource)){
+	answer = true;
+}
+else{
+	answer = false;
+}]]></condition>
+        <conditional>true</conditional>
+        <connection_override/>
+        <data_source display_value="SG-EXFO Interface">5bc3fdcb874ff8103e867518cebb3531</data_source>
+        <entered_time/>
+        <map/>
+        <max_drift/>
+        <name>SG-EXFO Interfaces Import</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <order>500</order>
+        <parent display_value="SG-EXFO Full Import">73391191875370503e867518cebb35bf</parent>
+        <partition_method>roundRobin</partition_method>
+        <partition_script><![CDATA[(function partitionHash(import_set_row) {
+
+	// Add your code here
+	
+	// eg:
+	// return import_set_row.u_important_category;
+	// This would ensure all rows with the same 'u_important_category' value will be in the same Import Set.
+
+	 return import_set_row.sys_import_row;
+
+})(import_set_row);]]></partition_script>
+        <partition_size/>
+        <post_script/>
+        <post_script_bool>false</post_script_bool>
+        <pre_script/>
+        <pre_script_bool>false</pre_script_bool>
+        <record_source/>
+        <run_as/>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-12-02 15:28:09</run_start>
+        <run_time>1970-01-01 05:00:00</run_time>
+        <run_type>parent</run_type>
+        <show_connection_override>false</show_connection_override>
+        <synchronize_inserts>true</synchronize_inserts>
+        <sys_class_name>scheduled_import_set</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-12-02 15:28:40</sys_created_on>
+        <sys_id>0bb8747f874c8910c4a3c99d0ebb35ff</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>SG-EXFO Interfaces Import</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>scheduled_import_set_0bb8747f874c8910c4a3c99d0ebb35ff</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-29 12:02:19</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <use_child_connection>false</use_child_connection>
+    </scheduled_import_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>scheduled_import_set_0bb8747f874c8910c4a3c99d0ebb35ff</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="scheduled_import_set"&gt;&lt;scheduled_import_set action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;concurrent_import&gt;false&lt;/concurrent_import&gt;&lt;condition&gt;&lt;![CDATA[var dataSource = current.data_source;
+var attachmentGR = new GlideRecord('sys_attachment');
+if(attachmentGR.get('table_sys_id', dataSource)){
+	answer = true;
+}
+else{
+	answer = false;
+}]]&gt;&lt;/condition&gt;&lt;conditional&gt;true&lt;/conditional&gt;&lt;connection_override/&gt;&lt;data_source display_value="SG-EXFO Interface"&gt;5bc3fdcb874ff8103e867518cebb3531&lt;/data_source&gt;&lt;entered_time/&gt;&lt;map/&gt;&lt;max_drift/&gt;&lt;name&gt;SG-EXFO Interfaces Import&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;order&gt;500&lt;/order&gt;&lt;parent display_value="SG-EXFO Full Import"&gt;73391191875370503e867518cebb35bf&lt;/parent&gt;&lt;partition_method&gt;roundRobin&lt;/partition_method&gt;&lt;partition_script&gt;&lt;![CDATA[(function partitionHash(import_set_row) {
+
+	// Add your code here
+	
+	// eg:
+	// return import_set_row.u_important_category;
+	// This would ensure all rows with the same 'u_important_category' value will be in the same Import Set.
+
+	 return import_set_row.sys_import_row;
+
+})(import_set_row);]]&gt;&lt;/partition_script&gt;&lt;partition_size/&gt;&lt;post_script/&gt;&lt;post_script_bool&gt;false&lt;/post_script_bool&gt;&lt;pre_script/&gt;&lt;pre_script_bool&gt;false&lt;/pre_script_bool&gt;&lt;record_source/&gt;&lt;run_as/&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2021-12-02 15:28:09&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 05:00:00&lt;/run_time&gt;&lt;run_type&gt;parent&lt;/run_type&gt;&lt;show_connection_override&gt;false&lt;/show_connection_override&gt;&lt;synchronize_inserts&gt;true&lt;/synchronize_inserts&gt;&lt;sys_class_name&gt;scheduled_import_set&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-02 15:28:40&lt;/sys_created_on&gt;&lt;sys_id&gt;0bb8747f874c8910c4a3c99d0ebb35ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;SG-EXFO Interfaces Import&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;scheduled_import_set_0bb8747f874c8910c4a3c99d0ebb35ff&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 12:02:19&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;use_child_connection&gt;false&lt;/use_child_connection&gt;&lt;/scheduled_import_set&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>983690034</payload_hash>
+        <record_name>SG-EXFO Interfaces Import</record_name>
+        <reverted_from/>
+        <source>4ea784861b9321106e86e0cb234bcb98</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-29 12:02:19</sys_created_on>
+        <sys_id>c475c4bd1b7eb150da698666624bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1af568170000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-29 12:02:19</sys_updated_on>
+        <type>Scheduled Data Import</type>
+        <update_guid>cc75c4bdef7eb150eb06d016c795d057</update_guid>
+        <update_guid_history>cc75c4bdef7eb150eb06d016c795d057:983690034,7a7cdb4bbceaf1101f903604a4d12d50:-2043277009,a05ebeb958aab1905bfcd9f7181cd56f:0,9f8a3e3508ee79903819238fce0ac3e0:983690034,4af63239fc6ab190348c620adc3bb7fc:0,2e75fafde12ab1904700d020081c5ae4:2145424207,f44ed2b1d16e7990851cbd2bb4328ea5:983690034,6e4c10510662f590593c8d741a94ac93:0,d26a67011e2efd501a687fae268b5ce1:-2039883728,1da3da6f889e79509ced677be8db9cd0:0,d3325a27799e7950b41eaa6db3796610:-2024932803,6aafe3d0f156bd10628927e51822b424:0,dcbc2f983316bd104061b38c62fefb71:987821220,76c11f06cb46b510a6175f67de797109:-1731146323</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SG-EXFO Interfaces Import">b20a802b1b7ff950da698666624bcb35</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-23 15:54:36</sys_created_on>
+        <sys_db_object display_value="" name="scheduled_import_set">scheduled_import_set</sys_db_object>
+        <sys_id>1cfbe9fc7aae4de085d4d64bb4287444</sys_id>
+        <sys_metadata>0bb8747f874c8910c4a3c99d0ebb35ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-EXFO Interfaces Import</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>scheduled_import_set_0bb8747f874c8910c4a3c99d0ebb35ff</sys_update_name>
+        <sys_update_version display_value="scheduled_import_set_0bb8747f874c8910c4a3c99d0ebb35ff">c475c4bd1b7eb150da698666624bcb58</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-23 15:54:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

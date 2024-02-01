@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Staging: EXFO Fiber" max_length="40" name="x_snc_exfo_cmdb_staging_fiber" sizeclass="0" type="collection"/>
+    <element db_object_id="7a0e7e391baab190da698666624bcb99" extends="sys_import_set_row" label="Staging: EXFO Fiber" max_length="40" name="x_snc_exfo_cmdb_staging_fiber" type="collection"/>
 </database>

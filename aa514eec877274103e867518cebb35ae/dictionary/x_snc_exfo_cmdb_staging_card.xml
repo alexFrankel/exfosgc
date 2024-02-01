@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Staging: EXFO Card" max_length="40" name="x_snc_exfo_cmdb_staging_card" sizeclass="4334" type="collection">
+    <element db_object_id="ee0e3e391baab190da698666624bcbf9" extends="sys_import_set_row" label="Staging: EXFO Card" max_length="40" name="x_snc_exfo_cmdb_staging_card" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_ALIAS1" label="CARD_ALIAS1" max_length="40" name="u_card_alias1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_ALIAS1_ID" label="CARD_ALIAS1_ID" max_length="40" name="u_card_alias1_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_ALIAS1_SYSTEM" label="CARD_ALIAS1_SYSTEM" max_length="40" name="u_card_alias1_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_ALIAS2" label="CARD_ALIAS2" max_length="40" name="u_card_alias2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_CUSTOM_ATTRIBUTES" label="CARD_CUSTOM_ATTRIBUTES" max_length="40" name="u_card_custom_attributes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_DESCRIPTION" label="CARD_DESCRIPTION" max_length="40" name="u_card_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_DOMAIN" label="CARD_DOMAIN" max_length="40" name="u_card_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_HAS_E_H_KEY" label="CARD_HAS_E_H_KEY" max_length="40" name="u_card_has_e_h_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_HAS_NE_KEY" label="CARD_HAS_NE_KEY" max_length="40" name="u_card_has_ne_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_HAS_PARENT_CARD_KEY" label="CARD_HAS_PARENT_CARD_KEY" max_length="40" name="u_card_has_parent_card_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_HAS_SHELF_KEY" label="CARD_HAS_SHELF_KEY" max_length="40" name="u_card_has_shelf_key" type="string"/>
@@ -13,6 +19,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_NAME" label="CARD_NAME" max_length="40" name="u_card_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_NE_ID" label="CARD_NE_ID" max_length="40" name="u_card_ne_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_PARENT_CARD_ID" label="CARD_PARENT_CARD_ID" max_length="40" name="u_card_parent_card_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_SERIAL_NUMBER" label="CARD_SERIAL_NUMBER" max_length="40" name="u_card_serial_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_SHELF_ID" label="CARD_SHELF_ID" max_length="40" name="u_card_shelf_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_SITE_ID" label="CARD_SITE_ID" max_length="40" name="u_card_site_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_SLOT" label="CARD_SLOT" max_length="40" name="u_card_slot" type="string"/>

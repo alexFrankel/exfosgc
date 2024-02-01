@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[(function() {
+    if (((input.temp.u_shelf_has_ne_key))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>u_shelf_has_ne_keyISNOTEMPTY</encoded_query>
+        <entity_mapping_group>aa89897b878c8910c4a3c99d0ebb35f4</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>true</is_conditional>
+        <name>tempToTelco equipment 2</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">af2d4ed487f778103e867518cebb35fe</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-12-02 16:41:35</sys_created_on>
+        <sys_id>26894d7b878c8910c4a3c99d0ebb35bc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>tempToTelco equipment 2</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Shelves">ed2dcad487f778103e867518cebb3549</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_26894d7b878c8910c4a3c99d0ebb35bc</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-02-08 16:03:17</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Telco equipment 2">2e89897b878c8910c4a3c99d0ebb35f4</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_entity_mapping_26894d7b878c8910c4a3c99d0ebb35bc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;
+    &lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;condition_script&gt;&lt;![CDATA[(function() {
+    if (((input.temp.u_shelf_has_ne_key))) {
+        return true;
+    }
+    return false;
+})();]]&gt;&lt;/condition_script&gt;
+        &lt;encoded_query&gt;u_shelf_has_ne_keyISNOTEMPTY&lt;/encoded_query&gt;
+        &lt;entity_mapping_group&gt;aa89897b878c8910c4a3c99d0ebb35f4&lt;/entity_mapping_group&gt;
+        &lt;ignore&gt;false&lt;/ignore&gt;
+        &lt;is_conditional&gt;true&lt;/is_conditional&gt;
+        &lt;name&gt;tempToTelco equipment 2&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;source_sys_rte_eb_entity display_value="temp"&gt;af2d4ed487f778103e867518cebb35fe&lt;/source_sys_rte_eb_entity&gt;
+        &lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-12-02 16:41:35&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;26894d7b878c8910c4a3c99d0ebb35bc&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;tempToTelco equipment 2&lt;/sys_name&gt;
+        &lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_rte_eb_definition display_value="SG-EXFO Shelves"&gt;ed2dcad487f778103e867518cebb3549&lt;/sys_rte_eb_definition&gt;
+        &lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_rte_eb_entity_mapping_26894d7b878c8910c4a3c99d0ebb35bc&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;aveenstra&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-02-08 16:03:17&lt;/sys_updated_on&gt;
+        &lt;target_sys_rte_eb_entity display_value="Telco equipment 2"&gt;2e89897b878c8910c4a3c99d0ebb35f4&lt;/target_sys_rte_eb_entity&gt;
+    &lt;/sys_rte_eb_entity_mapping&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>497187754</payload_hash>
+        <record_name>tempToTelco equipment 2</record_name>
+        <reverted_from/>
+        <source>a29672751b6ab190da698666624bcb07</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2023-11-17 14:42:49</sys_created_on>
+        <sys_id>4a17b2791b6ab190da698666624bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bddbc08550000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2023-11-17 14:42:49</sys_updated_on>
+        <type>RTE Entity Mapping</type>
+        <update_guid>0617b2790c6ab1908724b19f0c7ec236</update_guid>
+        <update_guid_history>0617b2790c6ab1908724b19f0c7ec236:0,f395b271866ab190d7dbaa9777d8e48b:-1581121827,716c9c511162f590fdf757b3a9829976:0,fc9a2f418c2efd50d4f2fbc36b2f1279:1687635481,41c31aafca9e79506e9899b8ca67bbeb:0,d16292a7719e7950898731be61ea61e2:-1497827509,52cfe314df56bd10f71e6865298455bb:0,addcebd89216bd10efd8545c1980a942:1077400390,b0f11f460d46b510d439a55bf9181d07:497187754</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-23 15:58:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>1468b659d2f246488445bc7124bea690</sys_id>
+        <sys_metadata>26894d7b878c8910c4a3c99d0ebb35bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToTelco equipment 2</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_26894d7b878c8910c4a3c99d0ebb35bc</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_26894d7b878c8910c4a3c99d0ebb35bc">4a17b2791b6ab190da698666624bcb36</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-23 15:58:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

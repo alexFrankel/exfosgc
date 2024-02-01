@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="attachment_id" label="attachment_id" language="en" table="var__m_sys_hub_flow_output_35d1bfcd87114110c4a3c99d0ebb3521">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>attachment_id</element>
+            <help/>
+            <hint/>
+            <label>attachment_id</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_35d1bfcd87114110c4a3c99d0ebb3521</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aveenstra</sys_created_by>
+            <sys_created_on>2022-01-25 19:12:06</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>attachment_id</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_35d1bfcd87114110c4a3c99d0ebb3521_attachment_id_en</sys_update_name>
+            <sys_updated_by>aveenstra</sys_updated_by>
+            <sys_updated_on>2022-01-25 19:12:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

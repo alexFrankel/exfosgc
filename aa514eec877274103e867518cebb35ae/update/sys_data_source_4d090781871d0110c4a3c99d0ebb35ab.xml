@@ -2,6 +2,7 @@
     <sys_data_source action="INSERT_OR_UPDATE">
         <batch_size>1000</batch_size>
         <category/>
+        <connection_override_last_success_time/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:4d090781871d0110c4a3c99d0ebb35ab/</connection_url>
         <connection_url_parameters/>
@@ -56,6 +57,7 @@
         <scp_port/>
         <scp_server/>
         <scp_user_name/>
+        <sheet_name/>
         <sheet_number>0</sheet_number>
         <sql_statement/>
         <ssh_keyfile_path/>
@@ -64,14 +66,14 @@
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2022-01-25 16:14:29</sys_created_on>
         <sys_id>4d090781871d0110c4a3c99d0ebb35ab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>SG-EXFO Path Connection Element</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_data_source_4d090781871d0110c4a3c99d0ebb35ab</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-01-25 16:14:29</sys_updated_on>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-29 16:56:42</sys_updated_on>
         <table_name/>
         <type>File</type>
         <use_batch_import>false</use_batch_import>

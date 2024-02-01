@@ -20,7 +20,7 @@ else{
         <name>SG-EXFO Equipment Holder Import</name>
         <offset/>
         <offset_type>0</offset_type>
-        <order/>
+        <order>30</order>
         <parent display_value="SG-EXFO Full Import">73391191875370503e867518cebb35bf</parent>
         <partition_method>roundRobin</partition_method>
         <partition_script><![CDATA[(function partitionHash(import_set_row) {
@@ -54,14 +54,14 @@ else{
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-19 15:40:27</sys_created_on>
         <sys_id>3350efc61bf3f5506e86e0cb234bcb2c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>SG-EXFO Equipment Holder Import</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>scheduled_import_set_3350efc61bf3f5506e86e0cb234bcb2c</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-01-19 15:48:51</sys_updated_on>
+        <sys_updated_on>2024-01-31 14:07:14</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
         <use_child_connection>false</use_child_connection>

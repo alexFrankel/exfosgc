@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>aveenstra</sys_created_by>
             <sys_created_on>2021-11-09 14:12:43</sys_created_on>
-            <sys_id>69eaced087f778103e867518cebb3527</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>CARD_TYPE</sys_name>
             <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>

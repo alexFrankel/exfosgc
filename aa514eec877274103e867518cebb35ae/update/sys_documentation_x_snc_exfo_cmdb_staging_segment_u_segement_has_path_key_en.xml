@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>aveenstra</sys_created_by>
             <sys_created_on>2021-12-17 18:10:28</sys_created_on>
-            <sys_id>47bdeeec87604950c4a3c99d0ebb3582</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>SEGEMENT_HAS_PATH_KEY</sys_name>
             <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>

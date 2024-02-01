@@ -12,13 +12,15 @@ else{
 	answer = false;
 }]]></condition>
         <conditional>true</conditional>
+        <connection_override/>
         <data_source display_value="SG-EXFO Segment">02cc22ec87604950c4a3c99d0ebb356e</data_source>
         <entered_time/>
         <map/>
+        <max_drift/>
         <name>SG-EXFO Segments Import</name>
         <offset/>
         <offset_type>0</offset_type>
-        <order>950</order>
+        <order>90</order>
         <parent display_value="SG-EXFO Full Import">73391191875370503e867518cebb35bf</parent>
         <partition_method>roundRobin</partition_method>
         <partition_script><![CDATA[(function partitionHash(import_set_row) {
@@ -46,20 +48,22 @@ else{
         <run_start>2021-12-17 18:07:39</run_start>
         <run_time>1970-01-01 05:00:00</run_time>
         <run_type>parent</run_type>
+        <show_connection_override>false</show_connection_override>
         <synchronize_inserts>true</synchronize_inserts>
         <sys_class_name>scheduled_import_set</sys_class_name>
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-12-17 18:08:01</sys_created_on>
         <sys_id>e51de2ec87604950c4a3c99d0ebb3539</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>SG-EXFO Segments Import</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>scheduled_import_set_e51de2ec87604950c4a3c99d0ebb3539</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-03-30 20:45:51</sys_updated_on>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-31 14:11:42</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
+        <use_child_connection>false</use_child_connection>
     </scheduled_import_set>
 </record_update>

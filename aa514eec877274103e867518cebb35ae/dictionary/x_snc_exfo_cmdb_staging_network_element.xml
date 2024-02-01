@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Staging: EXFO Network Element" max_length="40" name="x_snc_exfo_cmdb_staging_network_element" sizeclass="623" type="collection">
+    <element db_object_id="be0e7e391baab190da698666624bcb5a" extends="sys_import_set_row" label="Staging: EXFO Network Element" max_length="40" name="x_snc_exfo_cmdb_staging_network_element" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ç¸e" label="Ç¸e" max_length="40" name="u_ç_e" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ç¸eux&#11;&#0;&#1;&#4;&#19;&#3;&#0;&#0;&#4;&#19;&#3;&#0;&#0;Ý}Mo$É‘å}�ý&#15;&lt;î&#0;¬’&#127;&#127;ì�ÅÊRqšL²™É®ª¹&#20;fG}&#16; a&#6;ZÍb&#15;úñã‘á&#17;á‘iæd«Ÿ…F&#18;&#4;©èÆÌÇ&#23;îánfn&#31;ûÝ÷&#31;vß®÷»ï7÷w7&#7;=ÿË&#12;ÿº}9&#28;&#31;&#31;¾ß&#28;�Ïw&#31;^Ž»Ã0øqw¸}¾{:Þ=î‡&#31;&#31;nö/Ÿnn�/Ï»çÓÏ�&#31;w÷Ã?ö7&#15;»áÿ&#31;¿ìGÉa÷|wsÿ}ÿòð¡&#14;&#28;oŽ/§ï&lt;¼|ø~üötúýãþîûíýÍá$˜&#6;?ß&#28;¾&#31;îŽ§¿ö&#127;þ�ýÏß÷;­”ó6]ß?îMJïo&gt;þtóþÓáéÊ*¥žã{¥;’ßÿNÿïÿ÷¯&#127;øÏŸõ_þò—ßÿÎŒ?˜Ó&#15;vüÁ^&#15;Ÿ»Z&gt;wúùb�Çø¿ÿþÇŸ&#31;ÿãç?ýëŸÿýO××wû«Âÿ§»ÛÝõ—�&#15;×ÿöÇßýŸïÿöûï&#127;üÏ?üù÷ÿñ‡ŸÿÿÏ&#127;º~x¹?Þ=Ýï¾–§søýŸ&#127;&gt;&#17;¶Vi›&#22;Ê&gt;j3€êH€ö$PÊ&#12;&#6;†²ñ1ê8S¶^'{zÎÚ¿ß?þpwóþñ&#16;’W»w/Æ}}¯^&#17;¾‰xû¡ëÓ÷¬‡º&#8;&#24;Ú:%3“öNgsýáù&#7;¥&#2;õ¤y&#9;nžy&#12;&#16;áòöæ†qÈãúÍê&#18;3t$Ø•Mc V¶Z¦8(_&#9;&#7;óþnÿé®l“7Ë?Æý‹•½‰ôô�«�ÇýüÃz´‡�ÚÁLÙ¨&#27;ÚÑØq&#15;&#9;&lt;mN†¤Ía€VwHVûeçŽÞ+uÚGT~ÿùåæËîîýc9E¿N'&#21;1ü&amp;¶ã‡®&#30;÷‡«�" label="Ç¸eux&#11;&#0;&#1;&#4;&#19;&#3;&#0;&#0;&#4;&#19;&#3;&#0;&#0;Ý}Mo$É‘å}�ý&#15;&lt;î&#0;¬’&#127;&#127;ì�ÅÊRqšL²™É®ª¹&#20;fG}&#16; a&#6;ZÍb&#15;úñã‘á&#17;á‘iæd«Ÿ…F&#18;&#4;" max_length="40" name="u_ç_eux__________1ü__ã_______" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_ALIAS1" label="NE_ALIAS1" max_length="40" name="u_ne_alias1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_ALIAS1_ID" label="NE_ALIAS1_ID" max_length="40" name="u_ne_alias1_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_ALIAS1_SYSTEM" label="NE_ALIAS1_SYSTEM" max_length="40" name="u_ne_alias1_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_ALIAS2" label="NE_ALIAS2" max_length="40" name="u_ne_alias2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_COUNTRY" label="NE_COUNTRY" max_length="40" name="u_ne_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_CUSTOM_ATTRIBUTES" label="NE_CUSTOM_ATTRIBUTES" max_length="40" name="u_ne_custom_attributes" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_DESC" label="NE_DESC" max_length="40" name="u_ne_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_DESCRIPTION" label="NE_DESCRIPTION" max_length="40" name="u_ne_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_DOMAIN" label="NE_DOMAIN" max_length="40" name="u_ne_domain" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_HAS_SITE_KEY" label="NE_HAS_SITE_KEY" max_length="40" name="u_ne_has_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_ID" label="NE_ID" max_length="40" name="u_ne_id" type="string"/>
@@ -13,10 +19,14 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_MODEL" label="NE_MODEL" max_length="40" name="u_ne_model" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_NAME" label="NE_NAME" max_length="40" name="u_ne_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_OWNER" label="NE_OWNER" max_length="40" name="u_ne_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_SERIAL_NUMBER" label="NE_SERIAL_NUMBER" max_length="40" name="u_ne_serial_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_SITE_ID" label="NE_SITE_ID" max_length="40" name="u_ne_site_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_STATUS" label="NE_STATUS" max_length="40" name="u_ne_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_SUB_TYPE" label="NE_SUB_TYPE" max_length="40" name="u_ne_sub_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_SYSTEM" label="NE_SYSTEM" max_length="40" name="u_ne_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_TNI_CLASS" label="NE_TNI_CLASS" max_length="40" name="u_ne_tni_class" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_TYPE" label="NE_TYPE" max_length="40" name="u_ne_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PK&#3;&#4;&#20;&#0;&#0;&#0;&#8;&#0;¸N&gt;X]·" label="PK&#3;&#4;&#20;&#0;&#0;&#0;&#8;&#0;¸N&gt;X]·" max_length="40" name="u_pk_________n_x__" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ß/&#0;&#0;øB&#2;&#0;&#30;&#0;&#28;&#0;Ne_20240130T095044283_full.csvUT" label="ß/&#0;&#0;øB&#2;&#0;&#30;&#0;&#28;&#0;Ne_20240130T095044283_full.csvUT" max_length="40" name="u_ß___øb_______283_full_csvut" type="string"/>
     </element>
 </database>

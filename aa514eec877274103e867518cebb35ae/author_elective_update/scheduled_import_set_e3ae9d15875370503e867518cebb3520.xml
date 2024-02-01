@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scheduled_import_set">
+    <scheduled_import_set action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <concurrent_import>false</concurrent_import>
+        <condition><![CDATA[var dataSource = current.data_source;
+var attachmentGR = new GlideRecord('sys_attachment');
+if(attachmentGR.get('table_sys_id', dataSource)){
+	answer = true;
+}
+else{
+	answer = false;
+}]]></condition>
+        <conditional>true</conditional>
+        <connection_override/>
+        <data_source display_value="SG-EXFO Shelf">d1b0b94b874ff8103e867518cebb35c1</data_source>
+        <entered_time/>
+        <map/>
+        <max_drift/>
+        <name>SG-EXFO Shelves Import</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <order>300</order>
+        <parent display_value="SG-EXFO Full Import">73391191875370503e867518cebb35bf</parent>
+        <partition_method>roundRobin</partition_method>
+        <partition_script><![CDATA[(function partitionHash(import_set_row) {
+
+	// Add your code here
+	
+	// eg:
+	// return import_set_row.u_important_category;
+	// This would ensure all rows with the same 'u_important_category' value will be in the same Import Set.
+
+	 return import_set_row.sys_import_row;
+
+})(import_set_row);]]></partition_script>
+        <partition_size/>
+        <post_script/>
+        <post_script_bool>false</post_script_bool>
+        <pre_script/>
+        <pre_script_bool>false</pre_script_bool>
+        <record_source/>
+        <run_as/>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-10-18 16:57:07</run_start>
+        <run_time>1970-01-01 05:00:00</run_time>
+        <run_type>parent</run_type>
+        <show_connection_override>false</show_connection_override>
+        <synchronize_inserts>true</synchronize_inserts>
+        <sys_class_name>scheduled_import_set</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-10-18 17:02:02</sys_created_on>
+        <sys_id>e3ae9d15875370503e867518cebb3520</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>SG-EXFO Shelves Import</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>scheduled_import_set_e3ae9d15875370503e867518cebb3520</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-29 12:02:20</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <use_child_connection>false</use_child_connection>
+    </scheduled_import_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>scheduled_import_set_e3ae9d15875370503e867518cebb3520</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="scheduled_import_set"&gt;&lt;scheduled_import_set action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;concurrent_import&gt;false&lt;/concurrent_import&gt;&lt;condition&gt;&lt;![CDATA[var dataSource = current.data_source;
+var attachmentGR = new GlideRecord('sys_attachment');
+if(attachmentGR.get('table_sys_id', dataSource)){
+	answer = true;
+}
+else{
+	answer = false;
+}]]&gt;&lt;/condition&gt;&lt;conditional&gt;true&lt;/conditional&gt;&lt;connection_override/&gt;&lt;data_source display_value="SG-EXFO Shelf"&gt;d1b0b94b874ff8103e867518cebb35c1&lt;/data_source&gt;&lt;entered_time/&gt;&lt;map/&gt;&lt;max_drift/&gt;&lt;name&gt;SG-EXFO Shelves Import&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;order&gt;300&lt;/order&gt;&lt;parent display_value="SG-EXFO Full Import"&gt;73391191875370503e867518cebb35bf&lt;/parent&gt;&lt;partition_method&gt;roundRobin&lt;/partition_method&gt;&lt;partition_script&gt;&lt;![CDATA[(function partitionHash(import_set_row) {
+
+	// Add your code here
+	
+	// eg:
+	// return import_set_row.u_important_category;
+	// This would ensure all rows with the same 'u_important_category' value will be in the same Import Set.
+
+	 return import_set_row.sys_import_row;
+
+})(import_set_row);]]&gt;&lt;/partition_script&gt;&lt;partition_size/&gt;&lt;post_script/&gt;&lt;post_script_bool&gt;false&lt;/post_script_bool&gt;&lt;pre_script/&gt;&lt;pre_script_bool&gt;false&lt;/pre_script_bool&gt;&lt;record_source/&gt;&lt;run_as/&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2021-10-18 16:57:07&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 05:00:00&lt;/run_time&gt;&lt;run_type&gt;parent&lt;/run_type&gt;&lt;show_connection_override&gt;false&lt;/show_connection_override&gt;&lt;synchronize_inserts&gt;true&lt;/synchronize_inserts&gt;&lt;sys_class_name&gt;scheduled_import_set&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-18 17:02:02&lt;/sys_created_on&gt;&lt;sys_id&gt;e3ae9d15875370503e867518cebb3520&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;SG-EXFO Shelves Import&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;scheduled_import_set_e3ae9d15875370503e867518cebb3520&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 12:02:20&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;use_child_connection&gt;false&lt;/use_child_connection&gt;&lt;/scheduled_import_set&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-392328695</payload_hash>
+        <record_name>SG-EXFO Shelves Import</record_name>
+        <reverted_from/>
+        <source>4ea784861b9321106e86e0cb234bcb98</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-29 12:02:20</sys_created_on>
+        <sys_id>9475c4bd1b7eb150da698666624bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1af569640000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-29 12:02:20</sys_updated_on>
+        <type>Scheduled Data Import</type>
+        <update_guid>9c75c4bdbb7eb150ee15c52168d4b075</update_guid>
+        <update_guid_history>9c75c4bdbb7eb150ee15c52168d4b075:-392328695,0b7cdb4b2beaf1108895f5774a185b62:-599364498,ec5ebeb9d7aab190ed77d2b7123c4bad:0,978a3e3544ee7990a69e80be9b21e1f2:-392328695,92f67239976ab1907256597084ed052b:0,8af57235b66ab190f23630f47f64688d:1717055529,45f5fef1836ab1902a27e7a1b8bd1738:0,3fc57eb12c6ab190b4c98f83b045101f:0,7c4ed2b1706e79902fffc4012437c7c3:-392328695,7e4c10517062f590fbe7350108a0e9ce:0,06faaf057c2efd50b12d3d9dcc43ebad:751036591,68faeb05412efd503db900c10b8594e2:0,0bca6bc1932efd50b678c49fba10acc9:0,91a3da6f309e7950dfb50d5722146cff:0,13c292abb59e79503375974314ab198f:416897682,4ec2de6bce9e7950f5302812791c2a35:0,8f92d22b9a9e7950e6c7486744094eb9:0,feafe3d0e156bd10f4980525e2f98e52:0,422d2f5cf816bd101fdd5b23a7f6e754:1632003470,952dab5cd216bd109694ae7adbc112fe:0,740d2f1c6c16bd10a7e0b0520171e8cd:0,3ac11f06d946b510b4e84cefd43c623c:1568827168</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SG-EXFO Shelves Import">e13a486b1b7ff950da698666624bcb54</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-23 15:55:20</sys_created_on>
+        <sys_db_object display_value="" name="scheduled_import_set">scheduled_import_set</sys_db_object>
+        <sys_id>0a0b351343034f8d80df8cdd70735cc9</sys_id>
+        <sys_metadata>e3ae9d15875370503e867518cebb3520</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-EXFO Shelves Import</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>scheduled_import_set_e3ae9d15875370503e867518cebb3520</sys_update_name>
+        <sys_update_version display_value="scheduled_import_set_e3ae9d15875370503e867518cebb3520">9475c4bd1b7eb150da698666624bcb76</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-23 15:55:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

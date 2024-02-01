@@ -11,9 +11,11 @@ if(!importInProgress){
 }
 ]]></condition>
         <conditional>true</conditional>
+        <connection_override/>
         <data_source/>
         <entered_time/>
         <map/>
+        <max_drift/>
         <name>SG-EXFO Test Import</name>
         <offset/>
         <offset_type>0</offset_type>
@@ -45,6 +47,7 @@ if(!importInProgress){
         <run_start>2022-03-03 15:54:06</run_start>
         <run_time>1970-01-01 05:00:00</run_time>
         <run_type>once</run_type>
+        <show_connection_override>false</show_connection_override>
         <synchronize_inserts>true</synchronize_inserts>
         <sys_class_name>scheduled_import_set</sys_class_name>
         <sys_created_by>aveenstra</sys_created_by>
@@ -60,5 +63,6 @@ if(!importInProgress){
         <sys_updated_on>2022-04-04 20:13:23</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
+        <use_child_connection>false</use_child_connection>
     </scheduled_import_set>
 </record_update>

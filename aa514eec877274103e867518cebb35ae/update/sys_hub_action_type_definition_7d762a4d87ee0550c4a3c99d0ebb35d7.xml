@@ -8,7 +8,6 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -20,6 +19,7 @@
         <natlang/>
         <outputs/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>aveenstra</sys_created_by>
@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7d762a4d87ee0550c4a3c99d0ebb35d7</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>EXFO: Get File Folder</sys_name>
         <sys_overrides/>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_7d762a4d87ee0550c4a3c99d0ebb35d7</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-03-28 21:28:09</sys_updated_on>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2023-11-17 15:14:31</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -435,6 +435,7 @@
         <element>sn_auth_token</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -481,6 +482,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -513,11 +515,11 @@
         <sys_created_on>2022-03-28 17:25:07</sys_created_on>
         <sys_id>93eb6acd87ae85503e867518cebb355c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_4feb6acd87ae85503e867518cebb350e_sn_auth_token_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 17:25:07</sys_updated_on>
         <url/>
@@ -585,18 +587,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7aeb2acd87ae85503e867518cebb35f0"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>7aeb2acd87ae85503e867518cebb35f0</id>
-        <sys_created_by>aveenstra</sys_created_by>
-        <sys_created_on>2022-03-28 17:25:06</sys_created_on>
-        <sys_id>83eb6acd87ae85503e867518cebb350a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-03-28 17:25:06</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>run_type</field>
         <id>7aeb2acd87ae85503e867518cebb35f0</id>
         <sys_created_by>aveenstra</sys_created_by>
@@ -607,18 +597,6 @@
         <sys_updated_on>2022-03-28 17:25:06</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_7aeb2acd87ae85503e867518cebb35f0</table>
         <value>{{action.run_type}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>7aeb2acd87ae85503e867518cebb35f0</id>
-        <sys_created_by>aveenstra</sys_created_by>
-        <sys_created_on>2022-03-28 17:25:06</sys_created_on>
-        <sys_id>cbeb6acd87ae85503e867518cebb350a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-03-28 17:25:06</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7aeb2acd87ae85503e867518cebb35f0^id=7aeb2acd87ae85503e867518cebb35f0"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=7aeb2acd87ae85503e867518cebb35f0"/>
@@ -654,6 +632,7 @@
         <element>run_type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -700,6 +679,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -736,6 +716,7 @@
         <element>last_file</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -782,6 +763,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -817,6 +799,7 @@
         <element>file_folder</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -863,6 +846,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -882,11 +866,11 @@
         <sys_created_on>2022-03-28 17:25:06</sys_created_on>
         <sys_id>83eb6acd87ae85503e867518cebb3502</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>file_folder</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_7aeb2acd87ae85503e867518cebb35f0_file_folder_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 17:25:06</sys_updated_on>
         <url/>
@@ -905,11 +889,11 @@
         <sys_created_on>2022-03-28 17:25:06</sys_created_on>
         <sys_id>83eb6acd87ae85503e867518cebb3506</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>last_file</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_7aeb2acd87ae85503e867518cebb35f0_last_file_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 17:25:06</sys_updated_on>
         <url/>
@@ -987,18 +971,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ff6eaa0587620110c4a3c99d0ebb3530"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>ff6eaa0587620110c4a3c99d0ebb3530</id>
-        <sys_created_by>aveenstra</sys_created_by>
-        <sys_created_on>2022-03-28 17:36:06</sys_created_on>
-        <sys_id>007eaa0587620110c4a3c99d0ebb3558</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-03-28 17:36:06</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>file_list</field>
         <id>ff6eaa0587620110c4a3c99d0ebb3530</id>
         <sys_created_by>aveenstra</sys_created_by>
@@ -1034,18 +1006,6 @@
         <table>var__m_sys_hub_step_ext_input_ff6eaa0587620110c4a3c99d0ebb3530</table>
         <value>{{action.run_type}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>ff6eaa0587620110c4a3c99d0ebb3530</id>
-        <sys_created_by>aveenstra</sys_created_by>
-        <sys_created_on>2022-03-28 17:36:06</sys_created_on>
-        <sys_id>487eaa0587620110c4a3c99d0ebb3558</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-03-28 17:36:06</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ff6eaa0587620110c4a3c99d0ebb3530^id=ff6eaa0587620110c4a3c99d0ebb3530"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ff6eaa0587620110c4a3c99d0ebb3530"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=ff6eaa0587620110c4a3c99d0ebb3530^sys_idNOT IN7b6eaa0587620110c4a3c99d0ebb3538,bb6eaa0587620110c4a3c99d0ebb3534,c3437e8d87a20110c4a3c99d0ebb35db"/>
@@ -1080,6 +1040,7 @@
         <element>last_file</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1126,6 +1087,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1161,6 +1123,7 @@
         <element>file_list</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1207,6 +1170,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1242,6 +1206,7 @@
         <element>run_type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1288,6 +1253,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1324,6 +1290,7 @@
         <element>import_folder</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1370,6 +1337,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1389,11 +1357,11 @@
         <sys_created_on>2022-03-28 19:19:47</sys_created_on>
         <sys_id>7e264bc987260110c4a3c99d0ebb35b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>import_folder</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_ff6eaa0587620110c4a3c99d0ebb3530_import_folder_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 19:19:47</sys_updated_on>
         <url/>
@@ -1431,6 +1399,7 @@
         <element>run_type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1477,6 +1446,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1515,6 +1485,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1562,6 +1533,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1600,6 +1572,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1647,6 +1620,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1685,6 +1659,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1732,6 +1707,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1764,11 +1740,11 @@
         <sys_created_on>2022-03-28 17:25:05</sys_created_on>
         <sys_id>32eb2acd87ae85503e867518cebb35ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>run_type</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_7d762a4d87ee0550c4a3c99d0ebb35d7_run_type_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 17:25:05</sys_updated_on>
         <url/>
@@ -1789,11 +1765,11 @@
         <sys_created_on>2022-03-28 19:19:48</sys_created_on>
         <sys_id>03264bc987260110c4a3c99d0ebb35d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>import_folder</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7d762a4d87ee0550c4a3c99d0ebb35d7_import_folder_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 19:19:48</sys_updated_on>
         <url/>
@@ -1812,11 +1788,11 @@
         <sys_created_on>2022-03-28 17:36:06</sys_created_on>
         <sys_id>407eaa0587620110c4a3c99d0ebb35a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7d762a4d87ee0550c4a3c99d0ebb35d7___action_status___en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 17:36:06</sys_updated_on>
         <url/>
@@ -1835,11 +1811,11 @@
         <sys_created_on>2022-03-28 17:36:06</sys_created_on>
         <sys_id>887eaa0587620110c4a3c99d0ebb35b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7d762a4d87ee0550c4a3c99d0ebb35d7___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 17:36:06</sys_updated_on>
         <url/>
@@ -2041,18 +2017,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1b7672c587e20110c4a3c99d0ebb3548"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>1b7672c587e20110c4a3c99d0ebb3548</id>
-        <sys_created_by>aveenstra</sys_created_by>
-        <sys_created_on>2022-03-28 18:11:17</sys_created_on>
-        <sys_id>a77672c587e20110c4a3c99d0ebb3574</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-03-28 18:11:17</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>run_type</field>
         <id>1b7672c587e20110c4a3c99d0ebb3548</id>
         <sys_created_by>aveenstra</sys_created_by>
@@ -2063,18 +2027,6 @@
         <sys_updated_on>2022-03-28 18:11:17</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_1b7672c587e20110c4a3c99d0ebb3548</table>
         <value>{{action.run_type}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>1b7672c587e20110c4a3c99d0ebb3548</id>
-        <sys_created_by>aveenstra</sys_created_by>
-        <sys_created_on>2022-03-28 18:11:17</sys_created_on>
-        <sys_id>6b7672c587e20110c4a3c99d0ebb3574</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-03-28 18:11:17</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_1b7672c587e20110c4a3c99d0ebb3548^id=1b7672c587e20110c4a3c99d0ebb3548"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=1b7672c587e20110c4a3c99d0ebb3548"/>
@@ -2110,6 +2062,7 @@
         <element>run_type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2156,6 +2109,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2192,6 +2146,7 @@
         <element>last_file</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2238,6 +2193,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2273,6 +2229,7 @@
         <element>file_folder</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2319,6 +2276,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2338,11 +2296,11 @@
         <sys_created_on>2022-03-28 18:11:17</sys_created_on>
         <sys_id>637672c587e20110c4a3c99d0ebb356d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>file_folder</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_1b7672c587e20110c4a3c99d0ebb3548_file_folder_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 18:11:17</sys_updated_on>
         <url/>
@@ -2361,11 +2319,11 @@
         <sys_created_on>2022-03-28 18:11:17</sys_created_on>
         <sys_id>637672c587e20110c4a3c99d0ebb3571</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>last_file</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_1b7672c587e20110c4a3c99d0ebb3548_last_file_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 18:11:17</sys_updated_on>
         <url/>
@@ -2675,6 +2633,7 @@
         <element>sn_auth_token</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2721,6 +2680,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2753,11 +2713,11 @@
         <sys_created_on>2022-03-28 18:11:17</sys_created_on>
         <sys_id>6f7672c587e20110c4a3c99d0ebb3584</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_637672c587e20110c4a3c99d0ebb3578_sn_auth_token_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 18:11:17</sys_updated_on>
         <url/>
@@ -2835,18 +2795,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ef7672c587e20110c4a3c99d0ebb3595"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>ef7672c587e20110c4a3c99d0ebb3595</id>
-        <sys_created_by>aveenstra</sys_created_by>
-        <sys_created_on>2022-03-28 18:11:18</sys_created_on>
-        <sys_id>737672c587e20110c4a3c99d0ebb35bc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-03-28 18:11:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>file_list</field>
         <id>ef7672c587e20110c4a3c99d0ebb3595</id>
         <sys_created_by>aveenstra</sys_created_by>
@@ -2882,18 +2830,6 @@
         <table>var__m_sys_hub_step_ext_input_ef7672c587e20110c4a3c99d0ebb3595</table>
         <value>{{action.run_type}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>ef7672c587e20110c4a3c99d0ebb3595</id>
-        <sys_created_by>aveenstra</sys_created_by>
-        <sys_created_on>2022-03-28 18:11:18</sys_created_on>
-        <sys_id>377672c587e20110c4a3c99d0ebb35bc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-03-28 18:11:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ef7672c587e20110c4a3c99d0ebb3595^id=ef7672c587e20110c4a3c99d0ebb3595"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ef7672c587e20110c4a3c99d0ebb3595"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=ef7672c587e20110c4a3c99d0ebb3595^sys_idNOT IN277672c587e20110c4a3c99d0ebb3599,ab7672c587e20110c4a3c99d0ebb35a1,eb7672c587e20110c4a3c99d0ebb359d"/>
@@ -2928,6 +2864,7 @@
         <element>file_list</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2974,6 +2911,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3009,6 +2947,7 @@
         <element>run_type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3055,6 +2994,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3090,6 +3030,7 @@
         <element>last_file</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3136,6 +3077,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3172,6 +3114,7 @@
         <element>import_folder</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3218,6 +3161,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3237,11 +3181,11 @@
         <sys_created_on>2022-03-28 19:31:39</sys_created_on>
         <sys_id>a8e8438d87260110c4a3c99d0ebb3516</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>import_folder</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_ef7672c587e20110c4a3c99d0ebb3595_import_folder_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 19:31:39</sys_updated_on>
         <url/>
@@ -3279,6 +3223,7 @@
         <element>run_type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3325,6 +3270,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3363,6 +3309,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3410,6 +3357,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3448,6 +3396,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3495,6 +3444,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3533,6 +3483,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3580,6 +3531,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3612,11 +3564,11 @@
         <sys_created_on>2022-03-28 18:11:17</sys_created_on>
         <sys_id>db7672c587e20110c4a3c99d0ebb3546</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>run_type</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_977672c587e20110c4a3c99d0ebb353f_run_type_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 18:11:17</sys_updated_on>
         <url/>
@@ -3637,11 +3589,11 @@
         <sys_created_on>2022-03-28 18:11:18</sys_created_on>
         <sys_id>337672c587e20110c4a3c99d0ebb35c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_977672c587e20110c4a3c99d0ebb353f___action_status___en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 18:11:18</sys_updated_on>
         <url/>
@@ -3660,11 +3612,11 @@
         <sys_created_on>2022-03-28 18:11:18</sys_created_on>
         <sys_id>3f7672c587e20110c4a3c99d0ebb35cf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_977672c587e20110c4a3c99d0ebb353f___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 18:11:18</sys_updated_on>
         <url/>
@@ -3683,19 +3635,20 @@
         <sys_created_on>2022-03-28 19:31:39</sys_created_on>
         <sys_id>b8e8438d87260110c4a3c99d0ebb355e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>import_folder</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_977672c587e20110c4a3c99d0ebb353f_import_folder_en</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-28 19:31:39</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_977672c587e20110c4a3c99d0ebb353f"/>
-    <sys_hub_action_type_definition action="update">
+    <sys_hub_action_type_definition action="UPDATE">
         <sys_id>7d762a4d87ee0550c4a3c99d0ebb35d7</sys_id>
         <latest_snapshot>977672c587e20110c4a3c99d0ebb353f</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

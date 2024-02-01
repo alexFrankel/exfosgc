@@ -14,6 +14,5 @@
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-04 21:45:15</sys_updated_on>
         <sys_user_role display_value="x_snc_exfo_cmdb.admin" name="x_snc_exfo_cmdb.admin">85a1822087b274103e867518cebb3576</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="DELETE">
+        <batch_size>1000</batch_size>
+        <category/>
+        <connection_override_last_success_time/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url>attachment://sys_data_source:5bc3fdcb874ff8103e867518cebb3531//ServiceNowTest/testSet1/SNzips/interface_20210917000000.zip</connection_url>
+        <connection_url_parameters/>
+        <csv_delimiter>,</csv_delimiter>
+        <data_in_single_column>false</data_in_single_column>
+        <data_loader><![CDATA[(function loadData(import_set_table) {
+
+	// Add your code here to insert data to import_set_table
+
+})(import_set_table);]]></data_loader>
+        <data_stream_action/>
+        <data_stream_action_inputs/>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>true</discard_arrays>
+        <expand_node_children>false</expand_node_children>
+        <file_path>/ServiceNowTest/testSet1/SNzips/interface_20210917000000.zip</file_path>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>CSV</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label/>
+        <import_set_table_name>x_snc_exfo_cmdb_staging_interface</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jpath_root_node/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <last_success_import_time/>
+        <ldap_target/>
+        <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
+        <limit/>
+        <maximum_rows/>
+        <mid_server/>
+        <name>SG-EXFO Interface</name>
+        <offset>0</offset>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <parsing_script><![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"
+// The function uses result variable to return parse result back. 
+(function(line,lineNumber,result) {
+	
+})(line,lineNumber,result);]]></parsing_script>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <request_action/>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password>﷞﷟﷒ce4a748d871289103e867518cebb35f2﷬﷔1﷬﷭Wj6YO7PPXktRjZAAo4RFaw==a8z5WiJ2yIbq8_8Qn_wA4K1-qE7b5vVEy1ux2hPj﷮﷯</scp_password>
+        <scp_port/>
+        <scp_server>ftpfr.exfo.com</scp_server>
+        <scp_user_name>servicenowtest</scp_user_name>
+        <sheet_name/>
+        <sheet_number>0</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <support_pagination>false</support_pagination>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-10-11 18:48:00</sys_created_on>
+        <sys_id>5bc3fdcb874ff8103e867518cebb3531</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>SG-EXFO Interface</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_data_source_5bc3fdcb874ff8103e867518cebb3531</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-01-17 15:38:53</sys_updated_on>
+        <table_name/>
+        <type>File</type>
+        <use_batch_import>false</use_batch_import>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>true</zipped>
+    </sys_data_source>
+    <sys_variable_value action="DELETE" query="document_key=5bc3fdcb874ff8103e867518cebb3531"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_data_source_5bc3fdcb874ff8103e867518cebb3531</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_override_last_success_time/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:5bc3fdcb874ff8103e867518cebb3531//ServiceNowTest/testSet1/SNzips/interface_20210917000000.zip&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter&gt;,&lt;/csv_delimiter&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table) {
+
+	// Add your code here to insert data to import_set_table
+
+})(import_set_table);]]&gt;&lt;/data_loader&gt;&lt;data_stream_action/&gt;&lt;data_stream_action_inputs/&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path&gt;/ServiceNowTest/testSet1/SNzips/interface_20210917000000.zip&lt;/file_path&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;CSV&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;0&lt;/header_row&gt;&lt;import_set_table_label/&gt;&lt;import_set_table_name&gt;x_snc_exfo_cmdb_staging_interface&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time/&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;SG-EXFO Interface&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"
+// The function uses result variable to return parse result back. 
+(function(line,lineNumber,result) {
+	
+})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password&gt;﷞﷟﷒ce4a748d871289103e867518cebb35f2﷬﷔1﷬﷭Wj6YO7PPXktRjZAAo4RFaw==a8z5WiJ2yIbq8_8Qn_wA4K1-qE7b5vVEy1ux2hPj﷮﷯&lt;/scp_password&gt;&lt;scp_port/&gt;&lt;scp_server&gt;ftpfr.exfo.com&lt;/scp_server&gt;&lt;scp_user_name&gt;servicenowtest&lt;/scp_user_name&gt;&lt;sheet_name/&gt;&lt;sheet_number&gt;0&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-11 18:48:00&lt;/sys_created_on&gt;&lt;sys_id&gt;5bc3fdcb874ff8103e867518cebb3531&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;SG-EXFO Interface&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_5bc3fdcb874ff8103e867518cebb3531&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aveenstra&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-17 15:38:53&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;File&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;true&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=5bc3fdcb874ff8103e867518cebb3531"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1166239049</payload_hash>
+        <record_name>SG-EXFO Interface</record_name>
+        <reverted_from/>
+        <source>4ea784861b9321106e86e0cb234bcb98</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-17 15:22:16</sys_created_on>
+        <sys_id>3f10cb3d1bee79906e86e0cb234bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bdde024570000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-17 15:22:16</sys_updated_on>
+        <type>Data Source</type>
+        <update_guid>f310cb3d29ee799078f40321956dc9f6</update_guid>
+        <update_guid_history>f310cb3d29ee799078f40321956dc9f6:1166239049,815efeb974aab1906b17299904b7f6e1:0,978a3e3571ee7990c27b9197f9a495b8:1166239049,9d07b6395f6ab1902484a4834abc6275:0,f4c5b6b16d6ab1902c1eb13d037e7440:1205358848,09448e7522ea7990fa49962cf05a59c1:1166239049,d55c9451b562f59028617f3e9f34fc65:0,27baa3c17e2efd50c0d27934deadc9de:-1536808601,58b352afb29e79507796ea60c52c9984:0,5b821ee75b9e79504c71220073fb982e:-1074811983,6dbfabd07556bd10d14c1c56fd9cb1cd:0,cafc2b1c8d16bd10bbee16231f8bdd47:581048833,1ed193461546b51042b25ec24167b359:872670424</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-29 10:01:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_source">sys_data_source</sys_db_object>
+        <sys_id>a4bd453d65b9424e835691c34dee41a4</sys_id>
+        <sys_metadata>5bc3fdcb874ff8103e867518cebb3531</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-EXFO Interface</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_data_source_5bc3fdcb874ff8103e867518cebb3531</sys_update_name>
+        <sys_update_version display_value="sys_data_source_5bc3fdcb874ff8103e867518cebb3531">3f10cb3d1bee79906e86e0cb234bcbf6</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-29 10:01:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

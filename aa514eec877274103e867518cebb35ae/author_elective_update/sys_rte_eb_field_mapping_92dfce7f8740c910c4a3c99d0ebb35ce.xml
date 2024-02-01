@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="DELETE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="u_ne_key">31cf02bf8740c910c4a3c99d0ebb351d</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-12-02 21:48:45</sys_created_on>
+        <sys_id>92dfce7f8740c910c4a3c99d0ebb35ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Network Element">e3dc46d487f778103e867518cebb3567</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="tempToTelco equipment 1">cc6d821887f778103e867518cebb3522</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_92dfce7f8740c910c4a3c99d0ebb35ce</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-12-02 21:48:45</sys_updated_on>
+        <target_sys_rte_eb_field/>
+    </sys_rte_eb_field_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_field_mapping_92dfce7f8740c910c4a3c99d0ebb35ce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping"><sys_rte_eb_field_mapping action="INSERT_OR_UPDATE"><order>100</order><referenced_sys_rte_eb_entity/><source_sys_rte_eb_field display_value="u_ne_key">31cf02bf8740c910c4a3c99d0ebb351d</source_sys_rte_eb_field><sys_class_name>sys_rte_eb_field_mapping</sys_class_name><sys_created_by>aveenstra</sys_created_by><sys_created_on>2021-12-02 21:48:45</sys_created_on><sys_id>92dfce7f8740c910c4a3c99d0ebb35ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_rte_eb_definition display_value="SG-EXFO Network Element">e3dc46d487f778103e867518cebb3567</sys_rte_eb_definition><sys_rte_eb_entity_mapping display_value="tempToTelco equipment 1">cc6d821887f778103e867518cebb3522</sys_rte_eb_entity_mapping><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>sys_rte_eb_field_mapping_92dfce7f8740c910c4a3c99d0ebb35ce</sys_update_name><sys_updated_by>aveenstra</sys_updated_by><sys_updated_on>2021-12-02 21:48:45</sys_updated_on><target_sys_rte_eb_field/></sys_rte_eb_field_mapping></record_update>]]></payload>
+        <payload_hash>-1510012429</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e467fab91b6ab190da698666624bcbcb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-23 14:49:57</sys_created_on>
+        <sys_id>fb3b33df1b37f950da698666624bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d36cca47a0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-23 14:49:57</sys_updated_on>
+        <type>RTE Field Mapping</type>
+        <update_guid>b73b33dfb637f950760c3815d2e00ce2</update_guid>
+        <update_guid_history>b73b33dfb637f950760c3815d2e00ce2:0,3037be79036ab1908620342d622bdfa6:0,13d5f2f1896ab190193a06e94bbee8c6:1126787299,a4b53e71516ab1909af5da94a45a55d3:0,4da57671706ab190b954bb745200e63f:0,848cd8916d62f590c782f1ba798efe70:0,f6da2305452efd50b5243edd8cd38035:-1965621127,31aaa7814d2efd508af252986bae72ea:0,9a9aef41062efd506a02c396e977336e:0,08e356efa09e7950cf7ac04420e5b23e:0,fea21e2b4e9e79509c4928ce2b42d321:2076104044,9e729ea7b49e7950099b1943cf8bfac2:0,b66296a7469e795079270c1f7d09247a:0,2cefa354c956bd1047adb00fbbd28f26:0,6b0d235cee16bd10ebac1607bfdbebaf:-408288882,bdeca31ce616bd107fa34a271fd1be27:0,fadc2fd8ad16bd103a437932191078ec:0,54121f861046b510b238bcf1c6fd86d8:-1951493378</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-23 14:49:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_field_mapping">sys_rte_eb_field_mapping</sys_db_object>
+        <sys_id>4296e2df645a4e489e996662900c6d90</sys_id>
+        <sys_metadata>92dfce7f8740c910c4a3c99d0ebb35ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_field_mapping_92dfce7f8740c910c4a3c99d0ebb35ce</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_field_mapping_92dfce7f8740c910c4a3c99d0ebb35ce">fb3b33df1b37f950da698666624bcbe2</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-23 14:49:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
