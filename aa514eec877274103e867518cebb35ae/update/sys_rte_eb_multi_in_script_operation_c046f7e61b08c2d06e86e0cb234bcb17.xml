@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_multi_in_script_operation">
+    <sys_rte_eb_multi_in_script_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Multiple Input Script - u_site_address,u_site_city</name>
+        <operation_group/>
+        <order>400</order>
+        <script><![CDATA[(function(batch, output) {
+	for (var i = 0; i < batch.length; i++) {
+		var input = batch[i].input; 
+    var address = batch[i].u_site_address;
+
+		var helper = new EXFOLocationHelper();
+    var locationGR = helper.findLocation(address);
+     if(locationGR){
+        output[i] = locationGR.getUniqueValue();
+     }
+	}
+})(batch, output);]]></script>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields>a895b7a61b08c2d06e86e0cb234bcb20,bc95b7a61b08c2d06e86e0cb234bcb4d</source_sys_rte_eb_fields>
+        <sys_class_name>sys_rte_eb_multi_in_script_operation</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-02 16:48:22</sys_created_on>
+        <sys_id>c046f7e61b08c2d06e86e0cb234bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Multiple Input Script - u_site_address,u_site_city</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Sites">5b85f3a61b08c2d06e86e0cb234bcb21</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">6c9577a61b08c2d06e86e0cb234bcb83</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_multi_in_script_operation_c046f7e61b08c2d06e86e0cb234bcb17</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-02 16:48:22</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_site_location">7f36f7e61b08c2d06e86e0cb234bcb14</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Multiple Input Script">a5584ee4739000102b6265a751ab9eae</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_multi_in_script_operation>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_application_feed">
+    <cmdb_inst_application_feed action="DELETE">
+        <active>true</active>
+        <after_script/>
+        <before_script/>
+        <cmdb_inst_application display_value="SG-EXFO">021cd9cb870ff8103e867518cebb354c</cmdb_inst_application>
+        <description/>
+        <execute_after_script>false</execute_after_script>
+        <execute_before_script>false</execute_before_script>
+        <name>SG-EXFO Network Element</name>
+        <sys_class_name>cmdb_inst_application_feed</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-09 14:21:19</sys_created_on>
+        <sys_data_source display_value="SG-EXFO Network Element">25b72dc3874ff8103e867518cebb3538</sys_data_source>
+        <sys_id>e3dc46d487f778103e867518cebb3567</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SG-EXFO Network Element</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_application_feed_e3dc46d487f778103e867518cebb3567</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-02 17:17:55</sys_updated_on>
+    </cmdb_inst_application_feed>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>cmdb_inst_application_feed_e3dc46d487f778103e867518cebb3567</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_application_feed"><cmdb_inst_application_feed action="INSERT_OR_UPDATE"><active>true</active><after_script/><before_script/><cmdb_inst_application display_value="SG-EXFO">021cd9cb870ff8103e867518cebb354c</cmdb_inst_application><description/><execute_after_script>false</execute_after_script><execute_before_script>false</execute_before_script><name>SG-EXFO Network Element</name><sys_class_name>cmdb_inst_application_feed</sys_class_name><sys_created_by>aveenstra</sys_created_by><sys_created_on>2021-11-09 14:21:19</sys_created_on><sys_data_source display_value="SG-EXFO Network Element">25b72dc3874ff8103e867518cebb3538</sys_data_source><sys_id>e3dc46d487f778103e867518cebb3567</sys_id><sys_mod_count>3</sys_mod_count><sys_name>SG-EXFO Network Element</sys_name><sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>cmdb_inst_application_feed_e3dc46d487f778103e867518cebb3567</sys_update_name><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-02-02 17:17:55</sys_updated_on></cmdb_inst_application_feed></record_update>]]></payload>
+        <payload_hash>282408982</payload_hash>
+        <record_name>SG-EXFO Network Element</record_name>
+        <reverted_from/>
+        <source>5013d6661b8c82d06e86e0cb234bcb91</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-02 17:17:55</sys_created_on>
+        <sys_id>380d37261b48c2d06e86e0cb234bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d6ad3b4260000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-02 17:17:55</sys_updated_on>
+        <type>CMDB Integration Studio Application Data</type>
+        <update_guid>bc0d37268d48c2d02210eed9df138a41</update_guid>
+        <update_guid_history>bc0d37268d48c2d02210eed9df138a41:282408982,cafcb326c448c2d0993dd8bda3787acd:901540943,70e6b6f5f96ab1904d3c427f95e652db:0,c6f57235456ab1901d5fba4b6d29ae9c:29904173,bf95b271226ab190887c2b75f8072e4e:0,b075f6fd0d2ab19030d8173266cd79e5:0,e93c94110d62f59023c5317e318e63ab:0,46faaf05db2efd50aad7ff5f3eed6acb:1882381194,6c9a2f41b82efd50615fca3b34fce940:0,686aa301802efd500e2e6b2d610adb0d:0,0093926fd39e795047fab123f2624f51:0,d7c292ab739e79507384fc909f598fc3:1988337897,c16292a7939e79503160b5c44834b49d:0,65325627699e79501c365eb256fbd323:0,dd9f6b901a56bd10433af81e76ec0abb:0,0a2d2f5c0816bd1079d49c0a02c14862:1735987472,a5dcebd86e16bd10892c255845733b23:0,f6acab988416bd100b803e5d42119f5a:0,ffa1dfc21846b510a62d758d1ad5a3e5:-2016964024</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SG-EXFO Network Element">ff3d73661b48c2d06e86e0cb234bcb90</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-02 17:18:57</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_application_feed">cmdb_inst_application_feed</sys_db_object>
+        <sys_id>0cdbd03b8ca948f283b6995b3f5fa0a9</sys_id>
+        <sys_metadata>e3dc46d487f778103e867518cebb3567</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-EXFO Network Element</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>cmdb_inst_application_feed_e3dc46d487f778103e867518cebb3567</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_application_feed_e3dc46d487f778103e867518cebb3567">380d37261b48c2d06e86e0cb234bcb42</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-02 17:18:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
