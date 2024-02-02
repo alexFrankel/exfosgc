@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_set_operation">
+    <sys_rte_eb_set_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>tni</name>
+        <operation_group/>
+        <order>1</order>
+        <overwrite_existing_value>true</overwrite_existing_value>
+        <set_value>tni</set_value>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_set_operation</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-02 11:46:35</sys_created_on>
+        <sys_id>5321fe261b40c2d06e86e0cb234bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tni</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Ports">e8d3d44e1bcc4e906e86e0cb234bcb00</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">7b5554021b008e906e86e0cb234bcb4d</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_set_operation_5321fe261b40c2d06e86e0cb234bcb2f</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-02 11:46:35</sys_updated_on>
+        <target_sys_rte_eb_field display_value="tni">d721fe261b40c2d06e86e0cb234bcb2b</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Set">c588011e730000102b6265a751ab9e4a</type>
+    </sys_rte_eb_set_operation>
+</record_update>

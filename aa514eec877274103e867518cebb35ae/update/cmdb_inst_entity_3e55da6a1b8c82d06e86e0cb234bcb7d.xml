@@ -2,25 +2,25 @@
     <cmdb_inst_entity action="INSERT_OR_UPDATE">
         <child_id_field/>
         <lookup_for_entity/>
-        <name>Network Gear 1</name>
+        <name>Equipment holder 1</name>
         <parent_entity/>
         <parent_id_field/>
-        <path>cmdb_ci_netgear_1</path>
+        <path>cmdb_ci_equipment_holder_1</path>
         <related_for_entity/>
         <relationship_type/>
         <sys_class_name>cmdb_inst_entity</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
-        <sys_created_on>2021-11-10 19:11:43</sys_created_on>
-        <sys_id>1be8d0b487fbb8103e867518cebb35f1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Network Gear 1</sys_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-02 09:45:02</sys_created_on>
+        <sys_id>3e55da6a1b8c82d06e86e0cb234bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment holder 1</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name>cmdb_inst_entity_1be8d0b487fbb8103e867518cebb35f1</sys_update_name>
+        <sys_update_name>cmdb_inst_entity_3e55da6a1b8c82d06e86e0cb234bcb7d</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-02 09:45:38</sys_updated_on>
-        <table>cmdb_ci_netgear</table>
+        <sys_updated_on>2024-02-02 09:45:02</sys_updated_on>
+        <table>cmdb_ci_equipment_holder</table>
     </cmdb_inst_entity>
 </record_update>
