@@ -31,7 +31,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_LEADING_COUNTRY" label="LINK_LEADING_COUNTRY" max_length="40" name="u_link_leading_country" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_LENGTH" label="LINK_LENGTH" max_length="40" name="u_link_length" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_LENGTH_UNIT" label="LINK_LENGTH_UNIT" max_length="40" name="u_link_length_unit" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_NAME" label="LINK_NAME" max_length="40" name="u_link_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_NAME" label="LINK_NAME" max_length="255" name="u_link_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_OWNER" label="LINK_OWNER" max_length="40" name="u_link_owner" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_REGION" label="LINK_REGION" max_length="40" name="u_link_region" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_STATUS" label="LINK_STATUS" max_length="40" name="u_link_status" type="string"/>

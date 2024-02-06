@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="DELETE">
+        <order>10000</order>
+        <referenced_sys_rte_eb_entity display_value="Logical connection 1">db79415c87600950c4a3c99d0ebb3575</referenced_sys_rte_eb_entity>
+        <source_sys_rte_eb_field/>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-01-28 16:09:48</sys_created_on>
+        <sys_id>2ce4e2ce879dc150c4a3c99d0ebb3559</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1643386187920_0">6ce4e2ce879dc150c4a3c99d0ebb3557</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_2ce4e2ce879dc150c4a3c99d0ebb3559</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-01-28 16:09:48</sys_updated_on>
+        <target_sys_rte_eb_field/>
+    </sys_rte_eb_field_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_field_mapping_2ce4e2ce879dc150c4a3c99d0ebb3559</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping"><sys_rte_eb_field_mapping action="INSERT_OR_UPDATE"><order>10000</order><referenced_sys_rte_eb_entity display_value="Logical connection 1">db79415c87600950c4a3c99d0ebb3575</referenced_sys_rte_eb_entity><source_sys_rte_eb_field/><sys_class_name>sys_rte_eb_field_mapping</sys_class_name><sys_created_by>aveenstra</sys_created_by><sys_created_on>2022-01-28 16:09:48</sys_created_on><sys_id>2ce4e2ce879dc150c4a3c99d0ebb3559</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition><sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1643386187920_0">6ce4e2ce879dc150c4a3c99d0ebb3557</sys_rte_eb_entity_mapping><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>sys_rte_eb_field_mapping_2ce4e2ce879dc150c4a3c99d0ebb3559</sys_update_name><sys_updated_by>aveenstra</sys_updated_by><sys_updated_on>2022-01-28 16:09:48</sys_updated_on><target_sys_rte_eb_field/></sys_rte_eb_field_mapping></record_update>]]></payload>
+        <payload_hash>393146561</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5013d6661b8c82d06e86e0cb234bcb91</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-06 12:10:34</sys_created_on>
+        <sys_id>ed0d97f71b4cc210da698666624bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d7e53beb80000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-06 12:10:34</sys_updated_on>
+        <type>RTE Field Mapping</type>
+        <update_guid>a90d97f7cd4cc2107de6616abe75e4e8</update_guid>
+        <update_guid_history>a90d97f7cd4cc2107de6616abe75e4e8:0,d7273e79356ab190f532b3615b88c92d:0,4e85f231626ab190afb359f55bfb5abd:-582254111,727c18913762f590be613e66c8049def:0,227aaf01252efd507b6460c6881b59f7:-1537106150,a6d392efbe9e7950c6440e15b62571e3:0,1f429267d39e795022f99f0160789b46:-1067516988,1fdfef149c56bd104f633f5fa7bdbfb2:0,f7bca3d88816bd102c3470e975e4de69:-1733219754,3e029b865746b510e7d1529182916b23:754369972</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-06 12:10:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_field_mapping">sys_rte_eb_field_mapping</sys_db_object>
+        <sys_id>0bd1abb5edcb468c86fcb738e5e29484</sys_id>
+        <sys_metadata>2ce4e2ce879dc150c4a3c99d0ebb3559</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_field_mapping_2ce4e2ce879dc150c4a3c99d0ebb3559</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_field_mapping_2ce4e2ce879dc150c4a3c99d0ebb3559">ed0d97f71b4cc210da698666624bcbe8</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-06 12:10:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

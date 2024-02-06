@@ -12,7 +12,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_HAS_PARENT_PORT_KEY" label="PORT_HAS_PARENT_PORT_KEY" max_length="40" name="u_port_has_parent_port_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_IP" label="PORT_IP" max_length="40" name="u_port_ip" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_MANUFACTURER" label="PORT_MANUFACTURER" max_length="40" name="u_port_manufacturer" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_NAME" label="PORT_NAME" max_length="40" name="u_port_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_NAME" label="PORT_NAME" max_length="255" name="u_port_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_STATUS" label="PORT_STATUS" max_length="40" name="u_port_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_SUB_TYPE" label="PORT_SUB_TYPE" max_length="40" name="u_port_sub_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_TYPE" label="PORT_TYPE" max_length="40" name="u_port_type" type="string"/>

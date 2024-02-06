@@ -17,7 +17,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_KEY" label="SITE_KEY" max_length="40" name="u_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_LATITUDE" label="SITE_LATITUDE" max_length="40" name="u_site_latitude" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_LONGITUDE" label="SITE_LONGITUDE" max_length="40" name="u_site_longitude" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_NAME" label="SITE_NAME" max_length="40" name="u_site_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_NAME" label="SITE_NAME" max_length="255" name="u_site_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_OWNER" label="SITE_OWNER" max_length="40" name="u_site_owner" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_PARENT_SITE_ID" label="SITE_PARENT_SITE_ID" max_length="40" name="u_site_parent_site_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_POSTAL_CODE" label="SITE_POSTAL_CODE" max_length="40" name="u_site_postal_code" type="string"/>

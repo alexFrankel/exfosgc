@@ -17,7 +17,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_KEY" label="NE_KEY" max_length="40" name="u_ne_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_MANUFACTURER" label="NE_MANUFACTURER" max_length="40" name="u_ne_manufacturer" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_MODEL" label="NE_MODEL" max_length="40" name="u_ne_model" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_NAME" label="NE_NAME" max_length="40" name="u_ne_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_NAME" label="NE_NAME" max_length="255" name="u_ne_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_OWNER" label="NE_OWNER" max_length="40" name="u_ne_owner" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_SERIAL_NUMBER" label="NE_SERIAL_NUMBER" max_length="40" name="u_ne_serial_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_SITE_ID" label="NE_SITE_ID" max_length="40" name="u_ne_site_id" type="string"/>

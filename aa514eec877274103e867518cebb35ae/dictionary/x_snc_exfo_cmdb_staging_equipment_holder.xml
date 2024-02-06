@@ -11,7 +11,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_HAS_SITE_KEY" label="E_H_HAS_SITE_KEY" max_length="40" name="u_e_h_has_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_MANUFACTURER" label="E_H_MANUFACTURER" max_length="40" name="u_e_h_manufacturer" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_MODEL" label="E_H_MODEL" max_length="40" name="u_e_h_model" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_NAME" label="E_H_NAME" max_length="40" name="u_e_h_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_NAME" label="E_H_NAME" max_length="255" name="u_e_h_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_RACK" label="E_H_RACK" max_length="40" name="u_e_h_rack" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_STATUS" label="E_H_STATUS" max_length="40" name="u_e_h_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_TNI_CLASS" label="E_H_TNI_CLASS" max_length="40" name="u_e_h_tni_class" type="string"/>

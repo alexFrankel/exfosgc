@@ -13,7 +13,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_HAS_Z_SITE_KEY" label="SEGMENT_HAS_Z_SITE_KEY" max_length="40" name="u_segment_has_z_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_KEY" label="SEGMENT_KEY" max_length="40" name="u_segment_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_LINK_CLASS" label="SEGMENT_LINK_CLASS" max_length="40" name="u_segment_link_class" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_NAME" label="SEGMENT_NAME" max_length="40" name="u_segment_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_NAME" label="SEGMENT_NAME" max_length="255" name="u_segment_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_NUMBER" label="SEGMENT_NUMBER" max_length="40" name="u_segment_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_STATUS" label="SEGMENT_STATUS" max_length="40" name="u_segment_status" type="string"/>
     </element>
