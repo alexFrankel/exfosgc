@@ -22,5 +22,6 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_OWNER" label="LINK_OWNER" max_length="40" name="u_link_owner" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_STATUS" label="LINK_STATUS" max_length="40" name="u_link_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_TYPE" label="LINK_TYPE" max_length="40" name="u_link_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PhysicalLink_KEY" label="PhysicalLink_KEY" max_length="40" name="u_physicallink_key" type="string"/>
     </element>
 </database>

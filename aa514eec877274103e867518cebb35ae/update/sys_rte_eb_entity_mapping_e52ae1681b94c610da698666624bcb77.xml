@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
     <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
         <condition_script><![CDATA[(function() {
-    if (((input.temp.u_segment_has_path_key))) {
+    if (((input.temp.u_segment_has_child_link_key) && (input.temp.u_segment_has_link_key))) {
         return true;
     }
     return false;
 })();]]></condition_script>
-        <encoded_query>u_segment_has_path_keyISNOTEMPTY</encoded_query>
-        <entity_mapping_group>78168139879d0d10c4a3c99d0ebb3561</entity_mapping_group>
+        <encoded_query>u_segment_has_child_link_keyISNOTEMPTY^u_segment_has_link_keyISNOTEMPTY</encoded_query>
+        <entity_mapping_group>552a21681b94c610da698666624bcb2d</entity_mapping_group>
         <ignore>false</ignore>
         <is_conditional>true</is_conditional>
-        <name>TempToLogical connection 2</name>
+        <name>TempTocmdb_rel_ci_1707392647424_0</name>
         <order>100</order>
         <source_sys_rte_eb_entity display_value="temp">89c69425879d8510c4a3c99d0ebb357d</source_sys_rte_eb_entity>
         <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
-        <sys_created_on>2022-01-27 14:37:05</sys_created_on>
-        <sys_id>34168139879d0d10c4a3c99d0ebb3565</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>TempToLogical connection 2</sys_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-08 11:44:07</sys_created_on>
+        <sys_id>e52ae1681b94c610da698666624bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TempTocmdb_rel_ci_1707392647424_0</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Segments">4cc69425879d8510c4a3c99d0ebb3574</sys_rte_eb_definition>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name>sys_rte_eb_entity_mapping_34168139879d0d10c4a3c99d0ebb3565</sys_update_name>
+        <sys_update_name>sys_rte_eb_entity_mapping_e52ae1681b94c610da698666624bcb77</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-08 11:39:15</sys_updated_on>
-        <target_sys_rte_eb_entity display_value="Logical connection 2">f0168139879d0d10c4a3c99d0ebb3562</target_sys_rte_eb_entity>
+        <sys_updated_on>2024-02-08 11:44:07</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="cmdb_rel_ci_1707392647424_0">ed2ae1681b94c610da698666624bcb6f</target_sys_rte_eb_entity>
     </sys_rte_eb_entity_mapping>
 </record_update>

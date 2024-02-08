@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[(function() {
+    if (((input.temp.u_segment_has_link_key) && (input.temp.u_segment_link_class.indexOf('PHYSICAL') > -1))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>u_segment_has_link_keyISNOTEMPTY^u_segment_link_classLIKEPHYSICAL</encoded_query>
+        <entity_mapping_group>a520fca58795c510c4a3c99d0ebb3503</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>true</is_conditional>
+        <name>tempToPhysical connection 1</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">89c69425879d8510c4a3c99d0ebb357d</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-01-26 18:22:48</sys_created_on>
+        <sys_id>2920fca58795c510c4a3c99d0ebb3505</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToPhysical connection 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Segments">4cc69425879d8510c4a3c99d0ebb3574</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_2920fca58795c510c4a3c99d0ebb3505</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-01-26 18:22:48</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Physical connection 1">2920fca58795c510c4a3c99d0ebb3503</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_entity_mapping_2920fca58795c510c4a3c99d0ebb3505</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;
+    &lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;condition_script&gt;&lt;![CDATA[(function() {
+    if (((input.temp.u_segment_has_link_key) &amp;&amp; (input.temp.u_segment_link_class.indexOf('PHYSICAL') &gt; -1))) {
+        return true;
+    }
+    return false;
+})();]]&gt;&lt;/condition_script&gt;
+        &lt;encoded_query&gt;u_segment_has_link_keyISNOTEMPTY^u_segment_link_classLIKEPHYSICAL&lt;/encoded_query&gt;
+        &lt;entity_mapping_group&gt;a520fca58795c510c4a3c99d0ebb3503&lt;/entity_mapping_group&gt;
+        &lt;ignore&gt;false&lt;/ignore&gt;
+        &lt;is_conditional&gt;true&lt;/is_conditional&gt;
+        &lt;name&gt;tempToPhysical connection 1&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;source_sys_rte_eb_entity display_value="temp"&gt;89c69425879d8510c4a3c99d0ebb357d&lt;/source_sys_rte_eb_entity&gt;
+        &lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-01-26 18:22:48&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2920fca58795c510c4a3c99d0ebb3505&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;tempToPhysical connection 1&lt;/sys_name&gt;
+        &lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_rte_eb_definition display_value="SG-EXFO Segments"&gt;4cc69425879d8510c4a3c99d0ebb3574&lt;/sys_rte_eb_definition&gt;
+        &lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_rte_eb_entity_mapping_2920fca58795c510c4a3c99d0ebb3505&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;aveenstra&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-01-26 18:22:48&lt;/sys_updated_on&gt;
+        &lt;target_sys_rte_eb_entity display_value="Physical connection 1"&gt;2920fca58795c510c4a3c99d0ebb3503&lt;/target_sys_rte_eb_entity&gt;
+    &lt;/sys_rte_eb_entity_mapping&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>608077170</payload_hash>
+        <record_name>tempToPhysical connection 1</record_name>
+        <reverted_from/>
+        <source>c5f595a01b14c610da698666624bcb08</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-08 10:18:55</sys_created_on>
+        <sys_id>6da69de41b14c610da698666624bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d883a406e0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-08 10:18:55</sys_updated_on>
+        <type>RTE Entity Mapping</type>
+        <update_guid>29a69de4e814c6103790da8098d0d1ca</update_guid>
+        <update_guid_history>29a69de4e814c6103790da8098d0d1ca:0,30e4912c49d0c610b53a2cea3b3dd998:-721886114,0617b279c96ab190b35d34aef24df440:0,58a5f271ec6ab190473da48bd092a669:1861587523,f16c9c513662f590f37ddb874b2f2980:0,819a2f41ec2efd50a433d1598cd518f1:-1258116380,c9c31aafb99e7950240ea917273584f4:0,bd62d2a7e19e79507c81ba0c4a7d2cb9:623357760,dacfe3147056bd102a6065c8c9f763c4:0,31dcebd83416bd107ccb75b7db8ac1b5:-1397784401,f0f11f46b346b510a70930b9657ec412:608077170</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-08 11:38:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>1a50381feb0e415984721301d44d95f9</sys_id>
+        <sys_metadata>2920fca58795c510c4a3c99d0ebb3505</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToPhysical connection 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_2920fca58795c510c4a3c99d0ebb3505</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_2920fca58795c510c4a3c99d0ebb3505">6da69de41b14c610da698666624bcbca</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-08 11:38:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
