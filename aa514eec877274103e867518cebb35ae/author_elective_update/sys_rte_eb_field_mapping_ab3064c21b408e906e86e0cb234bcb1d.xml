@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="DELETE">
+        <order>10000</order>
+        <referenced_sys_rte_eb_entity display_value="Network Interface 1">6bb9500a1b008e906e86e0cb234bcbc5</referenced_sys_rte_eb_entity>
+        <source_sys_rte_eb_field/>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-31 11:56:24</sys_created_on>
+        <sys_id>ab3064c21b408e906e86e0cb234bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Ports">e8d3d44e1bcc4e906e86e0cb234bcb00</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1706702184609_0">ef3064c21b408e906e86e0cb234bcb18</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_ab3064c21b408e906e86e0cb234bcb1d</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-31 11:56:24</sys_updated_on>
+        <target_sys_rte_eb_field display_value="cmdb_rel_ci_1706702184609_0.child">2f3064c21b408e906e86e0cb234bcb16</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>1310c48adb53a990ba7f684e1396199f</instance_id>
+        <instance_name>ven06185</instance_name>
+        <name>sys_rte_eb_field_mapping_ab3064c21b408e906e86e0cb234bcb1d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>10000</order>
+        <referenced_sys_rte_eb_entity display_value="Network Interface 1">6bb9500a1b008e906e86e0cb234bcbc5</referenced_sys_rte_eb_entity>
+        <source_sys_rte_eb_field/>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-31 11:56:24</sys_created_on>
+        <sys_id>ab3064c21b408e906e86e0cb234bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Ports">e8d3d44e1bcc4e906e86e0cb234bcb00</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1706702184609_0">ef3064c21b408e906e86e0cb234bcb18</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_ab3064c21b408e906e86e0cb234bcb1d</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-31 11:56:24</sys_updated_on>
+        <target_sys_rte_eb_field display_value="cmdb_rel_ci_1706702184609_0.child">2f3064c21b408e906e86e0cb234bcb16</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>]]></payload>
+        <payload_hash>-87762070</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5a7f16a01b504e107ba065b3b24bcb60</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-08 15:41:35</sys_created_on>
+        <sys_id>8c80ee681b504e107ba065b3b24bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8961a82c0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-08 15:41:35</sys_updated_on>
+        <type>RTE Field Mapping</type>
+        <update_guid>4880ee685c504e10029d4007592d3438</update_guid>
+        <update_guid_history>4880ee685c504e10029d4007592d3438:0,2d7e16acf8104e10462bd2df4cd13047:434453937,cc3e9ee89e104e10fc970ade03cc7eca:0,ab8b31945a504610b68957674306a6dc:-87762070</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 12:03:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_field_mapping">sys_rte_eb_field_mapping</sys_db_object>
+        <sys_id>3202510f41c6431cbcd85fbcee8d0890</sys_id>
+        <sys_metadata>ab3064c21b408e906e86e0cb234bcb1d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_field_mapping_ab3064c21b408e906e86e0cb234bcb1d</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_field_mapping_ab3064c21b408e906e86e0cb234bcb1d">8c80ee681b504e107ba065b3b24bcb38</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 12:03:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

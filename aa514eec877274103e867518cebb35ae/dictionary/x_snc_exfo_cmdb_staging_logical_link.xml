@@ -6,11 +6,13 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_CLASS" label="LINK_CLASS" max_length="40" name="u_link_class" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_CUSTOM_ATTRIBUTES" label="LINK_CUSTOM_ATTRIBUTES" max_length="48" name="u_link_custom_attributes" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_DESCRIPTION" label="LINK_DESCRIPTION" max_length="40" name="u_link_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_CARD_KEY" label="LINK_HAS_A_CARD_KEY" max_length="40" name="u_link_has_a_card_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_E_H_KEY" label="LINK_HAS_A_E_H_KEY" max_length="40" name="u_link_has_a_e_h_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_NE_KEY" label="LINK_HAS_A_NE_KEY" max_length="40" name="u_link_has_a_ne_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_PORT_KEY" label="LINK_HAS_A_PORT_KEY" max_length="40" name="u_link_has_a_port_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_SITE_KEY" label="LINK_HAS_A_SITE_KEY" max_length="40" name="u_link_has_a_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_PARENT_LINK_KEY" label="LINK_HAS_PARENT_LINK_KEY" max_length="40" name="u_link_has_parent_link_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_CARD_KEY" label="LINK_HAS_Z_CARD_KEY" max_length="40" name="u_link_has_z_card_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_E_H_KEY" label="LINK_HAS_Z_E_H_KEY" max_length="40" name="u_link_has_z_e_h_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_NE_KEY" label="LINK_HAS_Z_NE_KEY" max_length="40" name="u_link_has_z_ne_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_PORT_KEY" label="LINK_HAS_Z_PORT_KEY" max_length="40" name="u_link_has_z_port_key" type="string"/>
