@@ -2,11 +2,11 @@
     <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
         <order>100</order>
         <referenced_sys_rte_eb_entity/>
-        <source_sys_rte_eb_field display_value="u_logical_port_key">5f16b0861bc08e906e86e0cb234bcbd1</source_sys_rte_eb_field>
+        <source_sys_rte_eb_field display_value="u_logical_port_key_tni_entity">12458c761b88c2d06e86e0cb234bcbc1</source_sys_rte_eb_field>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-        <sys_created_on>2024-02-10 15:17:59</sys_created_on>
-        <sys_id>bd4e24111b5082507ba065b3b24bcbe1</sys_id>
+        <sys_created_on>2024-02-10 15:48:52</sys_created_on>
+        <sys_id>525538511b9082507ba065b3b24bcb5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
@@ -14,9 +14,9 @@
         <sys_rte_eb_definition display_value="SG-EXFO Logical Ports">3f067c461bc08e906e86e0cb234bcbf0</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="tempToTNI CI Attributes 1">3f183c4a1bc08e906e86e0cb234bcb53</sys_rte_eb_entity_mapping>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name>sys_rte_eb_field_mapping_bd4e24111b5082507ba065b3b24bcbe1</sys_update_name>
+        <sys_update_name>sys_rte_eb_field_mapping_525538511b9082507ba065b3b24bcb5a</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-10 15:17:59</sys_updated_on>
+        <sys_updated_on>2024-02-10 15:48:52</sys_updated_on>
         <target_sys_rte_eb_field display_value="source_native_key">5e287c4a1bc08e906e86e0cb234bcbe9</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>
 </record_update>

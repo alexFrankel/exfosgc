@@ -8,7 +8,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_CITY" label="SITE_CITY" max_length="40" name="u_site_city" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_CLLI" label="SITE_CLLI" max_length="40" name="u_site_clli" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_COUNTRY" label="SITE_COUNTRY" max_length="40" name="u_site_country" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_CUSTOM_ATTRIBUTES" label="SITE_CUSTOM_ATTRIBUTES" max_length="40" name="u_site_custom_attributes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_CUSTOM_ATTRIBUTES" label="SITE_CUSTOM_ATTRIBUTES" max_length="1000" name="u_site_custom_attributes" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_DESC" label="SITE_DESC" max_length="40" name="u_site_desc" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_DESCRIPTION" label="SITE_DESCRIPTION" max_length="40" name="u_site_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_DOMAIN" label="SITE_DOMAIN" max_length="40" name="u_site_domain" type="string"/>
