@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="INSERT_OR_UPDATE">
+        <field>category</field>
+        <name>category</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-13 16:02:37</sys_created_on>
+        <sys_id>454510121b1c42506e86e0cb234bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Fibers">9b7f7f461b9842506e86e0cb234bcbca</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Strand 1">97214cd61b9842506e86e0cb234bcbe8</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_field_454510121b1c42506e86e0cb234bcb97</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-13 16:02:37</sys_updated_on>
+    </sys_rte_eb_field>
+</record_update>
