@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
     <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
-        <order>100</order>
+        <order>1000</order>
         <referenced_sys_rte_eb_entity/>
-        <source_sys_rte_eb_field display_value="u_link_key">d89040841b500610da698666624bcb1e</source_sys_rte_eb_field>
+        <source_sys_rte_eb_field display_value="u_logical_link_key">3d759cdf1b100650da698666624bcbd4</source_sys_rte_eb_field>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-        <sys_created_on>2024-02-06 14:54:56</sys_created_on>
-        <sys_id>95a244081b500610da698666624bcb9d</sys_id>
+        <sys_created_on>2024-02-16 18:37:25</sys_created_on>
+        <sys_id>3d759cdf1b100650da698666624bcbd9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Logical Links">8280cc441b500610da698666624bcb3f</sys_rte_eb_definition>
-        <sys_rte_eb_entity_mapping display_value="tempToLogical connection 1">5f8280081b500610da698666624bcb34</sys_rte_eb_entity_mapping>
+        <sys_rte_eb_entity_mapping display_value="impTotemp">fb8000841b500610da698666624bcb0b</sys_rte_eb_entity_mapping>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name>sys_rte_eb_field_mapping_95a244081b500610da698666624bcb9d</sys_update_name>
+        <sys_update_name>sys_rte_eb_field_mapping_3d759cdf1b100650da698666624bcbd9</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-06 14:54:56</sys_updated_on>
-        <target_sys_rte_eb_field display_value="serial_number">91a244081b500610da698666624bcb9b</target_sys_rte_eb_field>
+        <sys_updated_on>2024-02-16 18:37:25</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_logical_link_key">39759cdf1b100650da698666624bcbd7</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>
 </record_update>
