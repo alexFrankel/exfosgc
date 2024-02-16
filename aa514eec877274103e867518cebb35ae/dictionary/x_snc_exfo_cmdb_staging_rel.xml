@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0faf8fcf1b98c250da698666624bcb5d" extends="sys_import_set_row" label="Staging: EXFO Relationships" max_length="40" name="x_snc_exfo_cmdb_staging_rel" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=REL" label="REL" max_length="40" name="u_rel" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=REL_HAS_ORIGIN" label="REL_HAS_ORIGIN" max_length="40" name="u_rel_has_origin" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=REL_HAS_TARGET" label="REL_HAS_TARGET" max_length="40" name="u_rel_has_target" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=REL_KEY" label="REL_KEY" max_length="40" name="u_rel_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=REL_STATUS" label="REL_STATUS" max_length="40" name="u_rel_status" type="string"/>
+    </element>
+</database>
