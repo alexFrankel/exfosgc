@@ -118,6 +118,9 @@ EXFOImportUtil.prototype = {
         if (fileImportType == 'IpAddress') {
             fileImportType = 'Ip Address';
         }
+        if (fileImportType == 'Rel') {
+            fileImportType = 'Relationships';
+        }
         if (targetOverride) {
             fileImportType = targetOverride;
         }
@@ -243,13 +246,13 @@ EXFOImportUtil.prototype = {
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-10-18 16:56:28</sys_created_on>
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>65</sys_mod_count>
         <sys_name>EXFOImportUtil</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-12 10:38:05</sys_updated_on>
+        <sys_updated_on>2024-02-19 13:31:51</sys_updated_on>
     </sys_script_include>
 </record_update>

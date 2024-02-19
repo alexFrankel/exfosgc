@@ -6,6 +6,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_HAS_PORT_KEY" label="IP_HAS_PORT_KEY" max_length="40" name="u_ip_has_port_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_NETMASK" label="IP_NETMASK" max_length="40" name="u_ip_netmask" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_STATUS" label="IP_STATUS" max_length="40" name="u_ip_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_TOP_EXP_STATUS" label="IP_TOP_EXP_STATUS" max_length="40" name="u_ip_top_exp_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_VERSION" label="IP_VERSION" max_length="40" name="u_ip_version" type="string"/>
     </element>
 </database>

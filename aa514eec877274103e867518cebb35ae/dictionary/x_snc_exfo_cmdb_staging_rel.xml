@@ -5,5 +5,6 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=REL_HAS_TARGET" label="REL_HAS_TARGET" max_length="40" name="u_rel_has_target" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=REL_KEY" label="REL_KEY" max_length="40" name="u_rel_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=REL_STATUS" label="REL_STATUS" max_length="40" name="u_rel_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=REL_TOP_EXP_STATUS" label="REL_TOP_EXP_STATUS" max_length="40" name="u_rel_top_exp_status" type="string"/>
     </element>
 </database>

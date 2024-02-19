@@ -15,5 +15,6 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_NAME" label="SEGMENT_NAME" max_length="40" name="u_segment_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_NUMBER" label="SEGMENT_NUMBER" max_length="40" name="u_segment_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_STATUS" label="SEGMENT_STATUS" max_length="40" name="u_segment_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_TOP_EXP_STATUS" label="SEGMENT_TOP_EXP_STATUS" max_length="40" name="u_segment_top_exp_status" type="string"/>
     </element>
 </database>

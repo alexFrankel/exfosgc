@@ -18,6 +18,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_MODEL" label="CABLE_MODEL" max_length="40" name="u_cable_model" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_NAME" label="CABLE_NAME" max_length="40" name="u_cable_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_STATUS" label="CABLE_STATUS" max_length="40" name="u_cable_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_TOP_EXP_STATUS" label="CABLE_TOP_EXP_STATUS" max_length="40" name="u_cable_top_exp_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_TYPE" label="CABLE_TYPE" max_length="40" name="u_cable_type" type="string"/>
     </element>
 </database>
