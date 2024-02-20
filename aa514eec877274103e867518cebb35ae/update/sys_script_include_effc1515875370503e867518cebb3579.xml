@@ -55,7 +55,7 @@ EXFOImportUtil.prototype = {
                 //     dataArray.push(this.createFileObj(folder, fileName, 'Physical Link'));
                 //     dataArray.push(this.createFileObj(folder, fileName, 'Logical Link'));
                 // } else
-				if (lowerName.indexOf('path') > -1) {
+                if (lowerName.indexOf('path') > -1) {
                     dataArray.push(this.createFileObj(folder, fileName, 'path'));
                     dataArray.push(this.createFileObj(folder, fileName, 'Path Connection Element'));
                 } else if (lowerName.indexOf('segment') > -1) {
@@ -240,19 +240,101 @@ EXFOImportUtil.prototype = {
         }
     },
 
+    parseCustomAttributes: function(ireOutput) {
+		// Splits operation_notes field from ETL on ||| delimiter and inserts into cmdb_key_value
+		// Called from RTE definitions
+
+        for (var i = 0; i < ireOutput.length; i++) {
+            var output = ireOutput[i];
+            var items = output.items;
+
+            // Anything useful in ireInput?
+            // for (var ii = 0; ii < ireInput.length; ii++) {
+            // 	var payload = ireInput[ii];
+            // 	gs.info("ALEX2: " + payload.items)
+            // }
+
+            //Loop through each CI
+            //(tni_entity record)
+            for (var j = 0; j < items.length; j++) {
+                var myGR = new GlideRecord('tni_entity');
+                var sysId = items[j].sysId;
+                myGR.addQuery('ci', sysId);
+                myGR.query();
+                myGR.next();
+                var opNotes = myGR.getValue('operation_notes');
+
+                //Check if there are custom attributes in operation notes field and parse them
+                if (opNotes) {
+                    var atts = opNotes.split('|||');
+                    //gs.info("ALEX1: split " + atts)
+
+					//Process deletes
+					var kvGR = new GlideRecord('cmdb_key_value');
+					var newKeys = [];
+					for (var k = 0; k < atts.length; k++) {
+                        var pair = atts[k].split(':');
+						newKeys.push(pair[0]);
+					}	
+					kvGR.addQuery('configuration_item', sysId);
+                    kvGR.query();
+					while (kvGR.next()) {
+						if (newKeys.indexOf(kvGR.getValue('key')) < 0 ){
+							//gs.info("ALEX4: processing " + sysId + " " + opNotes + " New Keys: " + newKeys + " " + kvGR.getValue('key') + " TO BE DELETED");
+							kvGR.deleteRecord();
+						}
+					}	
+
+					//Process inserts and updates
+                    for (var k = 0; k < atts.length; k++) {
+                        var pair = atts[k].split(':');
+                        //Insert or update each custom attribute pair in cmdb_key_value
+                        //gs.info("ALEX2: id " + pair[0] + " value " + pair[1]);
+                        var kvGR = new GlideRecord('cmdb_key_value');
+                        kvGR.addQuery('configuration_item', sysId);
+                        kvGR.addQuery('key', pair[0]);
+                        kvGR.query();
+                        if (kvGR.next()) {
+                            //If key exists with different value, update it
+                            if (kvGR.getValue('value') != pair[1]) {
+                                //gs.info("ALEX3: " + kvGR.getValue('key') + " different to " + pair[1])
+                                kvGR.setValue('value', pair[1]);
+                                kvGR.update();
+                            }
+                        } else {
+                            //gs.info("ALEX4: adding " + pair[0] + " " + pair[1])
+                            //If key doesn't already exist, insert the new pair
+                            kvGR.setValue('key', pair[0]);
+                            kvGR.setValue('value', pair[1]);
+                            kvGR.setValue('configuration_item', sysId);
+                            kvGR.insert();
+                        }
+                        //blank out operation_notes on CI.
+                        //But what if customer wants to use it and CI already exists?
+                        //Also this would force an update every time the CI is loaded, even for no changes
+                        // myGR.setValue('operation_notes', '');
+                        // myGR.update();
+                    }
+                }
+
+            }
+
+        }
+    },
+
     type: 'EXFOImportUtil'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-10-18 16:56:28</sys_created_on>
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_name>EXFOImportUtil</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-19 13:31:51</sys_updated_on>
+        <sys_updated_on>2024-02-20 16:00:07</sys_updated_on>
     </sys_script_include>
 </record_update>

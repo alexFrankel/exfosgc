@@ -4,7 +4,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_ALIAS1" label="PORT_ALIAS1" max_length="40" name="u_port_alias1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_ALIAS2" label="PORT_ALIAS2" max_length="40" name="u_port_alias2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_BANDWIDTH" label="PORT_BANDWIDTH" max_length="40" name="u_port_bandwidth" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_CUSTOM_ATTRIBUTES" label="PORT_CUSTOM_ATTRIBUTES" max_length="40" name="u_port_custom_attributes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_CUSTOM_ATTRIBUTES" label="PORT_CUSTOM_ATTRIBUTES" max_length="1000" name="u_port_custom_attributes" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_DESCRIPTION" label="PORT_DESCRIPTION" max_length="40" name="u_port_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_HAS_CARD_KEY" label="PORT_HAS_CARD_KEY" max_length="40" name="u_port_has_card_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_HAS_E_H_KEY" label="PORT_HAS_E_H_KEY" max_length="40" name="u_port_has_e_h_key" type="string"/>

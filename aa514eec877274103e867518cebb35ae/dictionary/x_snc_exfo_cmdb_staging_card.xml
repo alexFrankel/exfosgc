@@ -4,7 +4,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_ALIAS1_ID" label="CARD_ALIAS1_ID" max_length="40" name="u_card_alias1_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_ALIAS1_SYSTEM" label="CARD_ALIAS1_SYSTEM" max_length="40" name="u_card_alias1_system" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_ALIAS2" label="CARD_ALIAS2" max_length="40" name="u_card_alias2" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_CUSTOM_ATTRIBUTES" label="CARD_CUSTOM_ATTRIBUTES" max_length="40" name="u_card_custom_attributes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_CUSTOM_ATTRIBUTES" label="CARD_CUSTOM_ATTRIBUTES" max_length="1000" name="u_card_custom_attributes" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_DESCRIPTION" label="CARD_DESCRIPTION" max_length="40" name="u_card_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_DOMAIN" label="CARD_DOMAIN" max_length="40" name="u_card_domain" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_HAS_E_H_KEY" label="CARD_HAS_E_H_KEY" max_length="40" name="u_card_has_e_h_key" type="string"/>
@@ -26,6 +26,5 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_STATUS" label="CARD_STATUS" max_length="40" name="u_card_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_SYSTEM" label="CARD_SYSTEM" max_length="40" name="u_card_system" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_TYPE" label="CARD_TYPE" max_length="40" name="u_card_type" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=PKWYSOÇ=%Œcard_20210917000000.csv­’Ñjƒ0†ï{‡=À£ëv4e‚¦’ÄB¯d°Ž" label="PKWYSOÇ=%Œcard_20210917000000.csv­’Ñjƒ0†ï{‡=À£ëv4e‚¦’ÄB" max_length="40" name="u_pk_________w_ëv_4e___äb_d_ž" type="string"/>
     </element>
 </database>

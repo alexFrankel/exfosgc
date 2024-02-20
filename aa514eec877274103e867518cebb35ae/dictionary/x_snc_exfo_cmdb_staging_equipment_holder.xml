@@ -3,7 +3,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=EQUIPMENT_HOLDER_KEY" label="EQUIPMENT_HOLDER_KEY" max_length="40" name="u_equipment_holder_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_ALIAS1" label="E_H_ALIAS1" max_length="40" name="u_e_h_alias1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_ALIAS2" label="E_H_ALIAS2" max_length="40" name="u_e_h_alias2" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_CUSTOM_ATTRIBUTES" label="E_H_CUSTOM_ATTRIBUTES" max_length="40" name="u_e_h_custom_attributes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_CUSTOM_ATTRIBUTES" label="E_H_CUSTOM_ATTRIBUTES" max_length="1000" name="u_e_h_custom_attributes" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_DESCRIPTION" label="E_H_DESCRIPTION" max_length="40" name="u_e_h_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_DOMAIN" label="E_H_DOMAIN" max_length="40" name="u_e_h_domain" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_HAS_NE_KEY" label="E_H_HAS_NE_KEY" max_length="40" name="u_e_h_has_ne_key" type="string"/>

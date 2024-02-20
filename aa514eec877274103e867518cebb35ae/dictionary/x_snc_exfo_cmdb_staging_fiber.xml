@@ -6,7 +6,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_CABLE_NAME" label="FIBER_CABLE_NAME" max_length="40" name="u_fiber_cable_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_CONNECTOR_TYPE_A" label="FIBER_CONNECTOR_TYPE_A" max_length="40" name="u_fiber_connector_type_a" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_CONNECTOR_TYPE_Z" label="FIBER_CONNECTOR_TYPE_Z" max_length="40" name="u_fiber_connector_type_z" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_CUSTOM_ATTRIBUTES" label="FIBER_CUSTOM_ATTRIBUTES" max_length="40" name="u_fiber_custom_attributes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_CUSTOM_ATTRIBUTES" label="FIBER_CUSTOM_ATTRIBUTES" max_length="1000" name="u_fiber_custom_attributes" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_DESCRIPTION" label="FIBER_DESCRIPTION" max_length="40" name="u_fiber_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_HAS_A_SITE_KEY" label="FIBER_HAS_A_SITE_KEY" max_length="40" name="u_fiber_has_a_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_HAS_CABLE_KEY" label="FIBER_HAS_CABLE_KEY" max_length="40" name="u_fiber_has_cable_key" type="string"/>
