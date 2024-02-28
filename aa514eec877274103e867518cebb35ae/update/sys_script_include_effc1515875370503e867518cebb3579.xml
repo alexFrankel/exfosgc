@@ -86,6 +86,35 @@ EXFOImportUtil.prototype = {
         }
     },
 
+    checkActiveExfoImportSet: function() {
+        //Find out if there is an Export import set currently loading
+        var myGR = new GlideRecord('sys_import_set');
+        myGR.addQuery('state', "Loading");
+        myGR.addEncodedQuery('table_nameLIKEx_snc_exfo');
+        myGR.query();
+        if (myGR.getRowCount() > 0) {
+            gs.info('EXFO import set already loading. Wait for it to finish or cancel before running a new import.');
+            return true;
+        } else {
+            return false;
+        }
+    },
+
+    checkActiveExfoFlow: function() {
+        //Find out if there is an EXFO flow currently running
+        var myGR = new GlideRecord('sys_flow_context');
+        myGR.addEncodedQuery('stateLIKEIN_PROGRESS^ORstateLIKEWAITING^ORstateLIKEQUEUED^ORstateLIKECONTINUE_SYNC^ORstateLIKEPRESUMED_INTERRUPTED^ORstateLIKEPAUSED');
+        myGR.addEncodedQuery('nameSTARTSWITHEXFO');
+        myGR.query();
+        if (myGR.getRowCount() > 0) {
+            gs.info('EXFO Import Data sub-flow already running. Wait for it to finish or cancel before running a new flow.');
+            return true;
+        } else {
+            return false;
+        }
+    },
+
+
     createFileObj: function(folder, fileName, targetOverride) {
         var arrayObj = {};
         arrayObj.file_path = folder + fileName;
@@ -241,14 +270,14 @@ EXFOImportUtil.prototype = {
     },
 
     parseCustomAttributes: function(ireOutput) {
-		// Splits operation_notes field from ETL on ||| delimiter and inserts into cmdb_key_value
-		// Called from RTE definitions
+        // Splits operation_notes field from ETL on ||| delimiter and inserts into cmdb_key_value
+        // Called from RTE definitions
 
         for (var i = 0; i < ireOutput.length; i++) {
             var output = ireOutput[i];
             var items = output.items;
 
-            // Anything useful in ireInput?
+            // //Anything useful in ireInput?
             // for (var ii = 0; ii < ireInput.length; ii++) {
             // 	var payload = ireInput[ii];
             // 	gs.info("ALEX2: " + payload.items)
@@ -269,30 +298,30 @@ EXFOImportUtil.prototype = {
                     var atts = opNotes.split('|||');
                     //gs.info("ALEX1: split " + atts)
 
-					//Process deletes
-					var kvGR = new GlideRecord('cmdb_key_value');
-					var newKeys = [];
-					for (var k = 0; k < atts.length; k++) {
+                    //Process deletes
+                    var kvGR = new GlideRecord('cmdb_key_value');
+                    var newKeys = [];
+                    for (var k = 0; k < atts.length; k++) {
                         var pair = atts[k].split(':');
-						newKeys.push(pair[0]);
-					}	
-					kvGR.addQuery('tag', 'exfo');
-					kvGR.addQuery('configuration_item', sysId);
+                        newKeys.push(pair[0]);
+                    }
+                    kvGR.addQuery('tag', 'exfo');
+                    kvGR.addQuery('configuration_item', sysId);
                     kvGR.query();
-					while (kvGR.next()) {
-						if (newKeys.indexOf(kvGR.getValue('key')) < 0 ){
-							//gs.info("ALEX4: processing " + sysId + " " + opNotes + " New Keys: " + newKeys + " " + kvGR.getValue('key') + " TO BE DELETED");
-							kvGR.deleteRecord();
-						}
-					}	
+                    while (kvGR.next()) {
+                        if (newKeys.indexOf(kvGR.getValue('key')) < 0) {
+                            //gs.info("ALEX4: processing " + sysId + " " + opNotes + " New Keys: " + newKeys + " " + kvGR.getValue('key') + " TO BE DELETED");
+                            kvGR.deleteRecord();
+                        }
+                    }
 
-					//Process inserts and updates
+                    //Process inserts and updates
                     for (var k = 0; k < atts.length; k++) {
                         var pair = atts[k].split(':');
                         //Insert or update each custom attribute pair in cmdb_key_value
                         //gs.info("ALEX2: id " + pair[0] + " value " + pair[1]);
                         var kvGR = new GlideRecord('cmdb_key_value');
-						kvGR.addQuery('tag', 'exfo');
+                        kvGR.addQuery('tag', 'exfo');
                         kvGR.addQuery('configuration_item', sysId);
                         kvGR.addQuery('key', pair[0]);
                         kvGR.query();
@@ -331,13 +360,13 @@ EXFOImportUtil.prototype = {
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-10-18 16:56:28</sys_created_on>
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name>EXFOImportUtil</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-26 14:25:18</sys_updated_on>
+        <sys_updated_on>2024-02-28 11:43:44</sys_updated_on>
     </sys_script_include>
 </record_update>
