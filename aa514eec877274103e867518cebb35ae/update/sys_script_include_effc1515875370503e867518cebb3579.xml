@@ -299,13 +299,13 @@ EXFOImportUtil.prototype = {
                     //gs.info("ALEX1: split " + atts)
 
                     //Process deletes
+					//Possible issue is that this will also delete manually created key-value entries
                     var kvGR = new GlideRecord('cmdb_key_value');
                     var newKeys = [];
                     for (var k = 0; k < atts.length; k++) {
                         var pair = atts[k].split(':');
                         newKeys.push(pair[0]);
                     }
-                    kvGR.addQuery('tag', 'exfo');
                     kvGR.addQuery('configuration_item', sysId);
                     kvGR.query();
                     while (kvGR.next()) {
@@ -321,7 +321,6 @@ EXFOImportUtil.prototype = {
                         //Insert or update each custom attribute pair in cmdb_key_value
                         //gs.info("ALEX2: id " + pair[0] + " value " + pair[1]);
                         var kvGR = new GlideRecord('cmdb_key_value');
-                        kvGR.addQuery('tag', 'exfo');
                         kvGR.addQuery('configuration_item', sysId);
                         kvGR.addQuery('key', pair[0]);
                         kvGR.query();
@@ -337,13 +336,11 @@ EXFOImportUtil.prototype = {
                             //If key doesn't already exist, insert the new pair
                             kvGR.setValue('key', pair[0]);
                             kvGR.setValue('value', pair[1]);
-                            kvGR.setValue('tag', 'exfo');
                             kvGR.setValue('configuration_item', sysId);
                             kvGR.insert();
                         }
                         //blank out operation_notes on CI.
-                        //But what if customer wants to use it and CI already exists?
-                        //Also this would force an update every time the CI is loaded, even for no changes
+                        //No - this would force an update every time the CI is loaded, even for no changes
                         // myGR.setValue('operation_notes', '');
                         // myGR.update();
                     }
@@ -360,13 +357,13 @@ EXFOImportUtil.prototype = {
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-10-18 16:56:28</sys_created_on>
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
-        <sys_mod_count>80</sys_mod_count>
+        <sys_mod_count>81</sys_mod_count>
         <sys_name>EXFOImportUtil</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-28 11:43:44</sys_updated_on>
+        <sys_updated_on>2024-02-28 14:25:19</sys_updated_on>
     </sys_script_include>
 </record_update>
