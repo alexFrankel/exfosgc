@@ -24,6 +24,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_STATE" label="SITE_STATE" max_length="40" name="u_site_state" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_STATUS" label="SITE_STATUS" max_length="40" name="u_site_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_SYSTEM" label="SITE_SYSTEM" max_length="40" name="u_site_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_TOP_EXP_STATUS" label="SITE_TOP_EXP_STATUS" max_length="40" name="u_site_top_exp_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_TYPE" label="SITE_TYPE" max_length="40" name="u_site_type" type="string"/>
     </element>
 </database>

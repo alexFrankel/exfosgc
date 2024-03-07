@@ -15,6 +15,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_RACK" label="E_H_RACK" max_length="40" name="u_e_h_rack" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_STATUS" label="E_H_STATUS" max_length="40" name="u_e_h_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_TNI_CLASS" label="E_H_TNI_CLASS" max_length="40" name="u_e_h_tni_class" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_TOP_EXP_STATUS" label="E_H_TOP_EXP_STATUS" max_length="40" name="u_e_h_top_exp_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_TYPE" label="E_H_TYPE" max_length="40" name="u_e_h_type" type="string"/>
     </element>
 </database>

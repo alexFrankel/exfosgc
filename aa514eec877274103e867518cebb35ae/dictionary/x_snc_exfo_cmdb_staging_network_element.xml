@@ -14,6 +14,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_STATUS" label="NE_STATUS" max_length="40" name="u_ne_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_SUB_TYPE" label="NE_SUB_TYPE" max_length="40" name="u_ne_sub_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_TNI_CLASS" label="NE_TNI_CLASS" max_length="40" name="u_ne_tni_class" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_TOP_EXP_STATUS" label="NE_TOP_EXP_STATUS" max_length="40" name="u_ne_top_exp_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_TYPE" label="NE_TYPE" max_length="40" name="u_ne_type" type="string"/>
     </element>
 </database>
