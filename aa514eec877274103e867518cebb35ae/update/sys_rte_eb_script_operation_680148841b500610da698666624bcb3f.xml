@@ -37,7 +37,7 @@
     if(bandwidthGR.get('name', input)){
        output[i] = bandwidthGR.getUniqueValue();
     }
-    else{
+    else if (input.length>0) {
        bandwidthGR.initialize();
        bandwidthGR.name = input;
        output[i] = bandwidthGR.insert();
@@ -51,7 +51,7 @@
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-06 14:47:47</sys_created_on>
         <sys_id>680148841b500610da698666624bcb3f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Script Operation - u_link_bandwidth</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
@@ -60,7 +60,7 @@
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_script_operation_680148841b500610da698666624bcb3f</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-06 14:47:47</sys_updated_on>
+        <sys_updated_on>2024-03-08 19:54:16</sys_updated_on>
         <target_sys_rte_eb_field display_value="u_link_bandwidth_lookup">2c0104841b500610da698666624bcb86</target_sys_rte_eb_field>
         <target_sys_rte_eb_fields/>
         <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
