@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>cmdb_rel_ci_1707228050369_0</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_rel_ci_1707228050369_0</path>
+        <related_for_entity/>
+        <relationship_type display_value="Connected by::Connects">3deab95338a02000c18673032c71b876</relationship_type>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-06 14:00:50</sys_created_on>
+        <sys_id>b4467bf71b000610da698666624bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_rel_ci_1707228050369_0</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_b4467bf71b000610da698666624bcb5c</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-06 14:00:50</sys_updated_on>
+        <table>cmdb_rel_ci</table>
+    </cmdb_inst_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>cmdb_inst_entity_b4467bf71b000610da698666624bcb5c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="INSERT_OR_UPDATE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>cmdb_rel_ci_1707228050369_0</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_rel_ci_1707228050369_0</path>
+        <related_for_entity/>
+        <relationship_type display_value="Connected by::Connects">3deab95338a02000c18673032c71b876</relationship_type>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-06 14:00:50</sys_created_on>
+        <sys_id>b4467bf71b000610da698666624bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_rel_ci_1707228050369_0</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_b4467bf71b000610da698666624bcb5c</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-06 14:00:50</sys_updated_on>
+        <table>cmdb_rel_ci</table>
+    </cmdb_inst_entity>
+</record_update>]]></payload>
+        <payload_hash>-2137466877</payload_hash>
+        <record_name>cmdb_rel_ci_1707228050369_0</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:15:15</sys_created_on>
+        <sys_id>5814a7781bd48a106e86e0cb234bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e6feb140000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:15:15</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>1414a7786fd48a1028e0d1a1de6f0e2c</update_guid>
+        <update_guid_history>1414a7786fd48a1028e0d1a1de6f0e2c:0,8ca197ec37d40a1044e3559e4b3be48d:-587957360,d076dd64f114c610963709c1f126f205:0,2bd4dde853d0c610ec1750fcee3a4dd9:-1258866145,3c467bf7e4000610cb7d27c5963d3f5d:962792437</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="cmdb_rel_ci_1707228050369_0">f925808e1b70c6106e86e0cb234bcb31</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-03-08 16:45:09</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>5813b07858fd42cfbb3659fd75916789</sys_id>
+        <sys_metadata>b4467bf71b000610da698666624bcb5c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_rel_ci_1707228050369_0</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_b4467bf71b000610da698666624bcb5c</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_b4467bf71b000610da698666624bcb5c">5814a7781bd48a106e86e0cb234bcb2c</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-03-08 16:45:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

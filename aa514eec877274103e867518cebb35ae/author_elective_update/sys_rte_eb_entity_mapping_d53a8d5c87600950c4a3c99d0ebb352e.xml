@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[(function() {
+    if (((input.temp.u_link_has_a_ne_key))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>u_link_has_a_ne_keyISNOTEMPTY</encoded_query>
+        <entity_mapping_group>953a8d5c87600950c4a3c99d0ebb352c</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>true</is_conditional>
+        <name>TempToNetwork Gear 1</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">15a881d887600950c4a3c99d0ebb353c</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-12-16 16:17:09</sys_created_on>
+        <sys_id>d53a8d5c87600950c4a3c99d0ebb352e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TempToNetwork Gear 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_d53a8d5c87600950c4a3c99d0ebb352e</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-06 12:12:41</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Network Gear 1">193a8d5c87600950c4a3c99d0ebb352c</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_entity_mapping_d53a8d5c87600950c4a3c99d0ebb352e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;
+    &lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;condition_script&gt;&lt;![CDATA[(function() {
+    if (((input.temp.u_link_has_a_ne_key))) {
+        return true;
+    }
+    return false;
+})();]]&gt;&lt;/condition_script&gt;
+        &lt;encoded_query&gt;u_link_has_a_ne_keyISNOTEMPTY&lt;/encoded_query&gt;
+        &lt;entity_mapping_group&gt;953a8d5c87600950c4a3c99d0ebb352c&lt;/entity_mapping_group&gt;
+        &lt;ignore&gt;false&lt;/ignore&gt;
+        &lt;is_conditional&gt;true&lt;/is_conditional&gt;
+        &lt;name&gt;TempToNetwork Gear 1&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;source_sys_rte_eb_entity display_value="temp"&gt;15a881d887600950c4a3c99d0ebb353c&lt;/source_sys_rte_eb_entity&gt;
+        &lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-12-16 16:17:09&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;d53a8d5c87600950c4a3c99d0ebb352e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;TempToNetwork Gear 1&lt;/sys_name&gt;
+        &lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_rte_eb_definition display_value="SG-EXFO Physical Links"&gt;24b681d887600950c4a3c99d0ebb3502&lt;/sys_rte_eb_definition&gt;
+        &lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_rte_eb_entity_mapping_d53a8d5c87600950c4a3c99d0ebb352e&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-02-06 12:12:41&lt;/sys_updated_on&gt;
+        &lt;target_sys_rte_eb_entity display_value="Network Gear 1"&gt;193a8d5c87600950c4a3c99d0ebb352c&lt;/target_sys_rte_eb_entity&gt;
+    &lt;/sys_rte_eb_entity_mapping&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1107676630</payload_hash>
+        <record_name>TempToNetwork Gear 1</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:16:11</sys_created_on>
+        <sys_id>f14463f81bd48a106e86e0cb234bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e70c34f0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:16:11</sys_updated_on>
+        <type>RTE Entity Mapping</type>
+        <update_guid>bd4463f8acd48a10c0057f025005ab92</update_guid>
+        <update_guid_history>bd4463f8acd48a10c0057f025005ab92:0,ad8193acc4d40a10471dce3c199dba74:-783973283,92a611283e14c610bb4a11ab30570071:0,63b499a8f6d0c610bcccc757e1247c0a:-285236126,288d173b994cc210e7a796a24f73ac01:-1519371790,aa17b279836ab1907b282d84ce327ef7:0,5a853631e56ab190b77c5ea2b06d5002:727533779,0e6cdc51d362f5905d88d844a33e8d51:0,a27aef01de2efd50362b0a52e7c2a26f:-479000403,21c35aaf929e7950a6bad4a63dabb4b3:0,1f429267449e7950fce9cdfd786d33a2:-1081859613,6acf27145856bd1047f7bd6d5c618276:0,bfbca3d88a16bd10137d64bf79806b9c:75933823,99f11f461e46b510df6af05a255983e5:-1333830251</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-03-08 16:45:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>277edb0bf8c04e1086448ffc19dffb10</sys_id>
+        <sys_metadata>d53a8d5c87600950c4a3c99d0ebb352e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TempToNetwork Gear 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_d53a8d5c87600950c4a3c99d0ebb352e</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_d53a8d5c87600950c4a3c99d0ebb352e">f14463f81bd48a106e86e0cb234bcb93</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-03-08 16:45:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

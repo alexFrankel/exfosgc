@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Equipment holder 1</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_ci_equipment_holder_1</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-06 13:04:17</sys_created_on>
+        <sys_id>6c59ebbb1b8cc210da698666624bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment holder 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_6c59ebbb1b8cc210da698666624bcb24</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-06 13:04:17</sys_updated_on>
+        <table>cmdb_ci_equipment_holder</table>
+    </cmdb_inst_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>cmdb_inst_entity_6c59ebbb1b8cc210da698666624bcb24</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="INSERT_OR_UPDATE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Equipment holder 1</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_ci_equipment_holder_1</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-06 13:04:17</sys_created_on>
+        <sys_id>6c59ebbb1b8cc210da698666624bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment holder 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_6c59ebbb1b8cc210da698666624bcb24</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-06 13:04:17</sys_updated_on>
+        <table>cmdb_ci_equipment_holder</table>
+    </cmdb_inst_entity>
+</record_update>]]></payload>
+        <payload_hash>-631134367</payload_hash>
+        <record_name>Equipment holder 1</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:15:14</sys_created_on>
+        <sys_id>441467781bd48a106e86e0cb234bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e6fe6910000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:15:14</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>00146778ffd48a101bcac30bf3719081</update_guid>
+        <update_guid_history>00146778ffd48a101bcac30bf3719081:0,c4a197ec93d40a109c78487aac57f64b:-2055738351,3f669d64d714c6108060b03310939917:0,1bd4dde81ed0c61045b34b9350fbb0a3:734850320,2459ebbb638cc210b13fe81c305c2526:962431723</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Equipment holder 1">7d25408e1b70c6106e86e0cb234bcbf6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-03-08 16:45:08</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>51250e295816495ab42eb538f17a5d04</sys_id>
+        <sys_metadata>6c59ebbb1b8cc210da698666624bcb24</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment holder 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_6c59ebbb1b8cc210da698666624bcb24</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_6c59ebbb1b8cc210da698666624bcb24">441467781bd48a106e86e0cb234bcb81</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-03-08 16:45:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

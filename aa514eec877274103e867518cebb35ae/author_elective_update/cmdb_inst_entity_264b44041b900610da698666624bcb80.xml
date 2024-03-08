@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Physical connection 2</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_ci_ni_physical_link_2</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-06 15:32:42</sys_created_on>
+        <sys_id>264b44041b900610da698666624bcb80</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Physical connection 2</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_264b44041b900610da698666624bcb80</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-06 15:36:37</sys_updated_on>
+        <table>cmdb_ci_ni_physical_link</table>
+    </cmdb_inst_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>cmdb_inst_entity_264b44041b900610da698666624bcb80</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="INSERT_OR_UPDATE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Physical connection 2</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_ci_ni_physical_link_2</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-06 15:32:42</sys_created_on>
+        <sys_id>264b44041b900610da698666624bcb80</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Physical connection 2</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_264b44041b900610da698666624bcb80</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-06 15:36:37</sys_updated_on>
+        <table>cmdb_ci_ni_physical_link</table>
+    </cmdb_inst_entity>
+</record_update>]]></payload>
+        <payload_hash>1332472840</payload_hash>
+        <record_name>Physical connection 2</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:15:13</sys_created_on>
+        <sys_id>230427781bd48a106e86e0cb234bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e6fe0a40000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:15:13</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>eb042778b9d48a10570237ee5f84adbb</update_guid>
+        <update_guid_history>eb042778b9d48a10570237ee5f84adbb:0,80a197ec9cd40a1062e23e5f83d2ce20:-234272344,ef665d646814c610cf9cd842c5de3069:0,57d4dde8a8d0c610be06e299efcb7d5f:-98452845,c43c0c44ec9006108d0e9b646a15db14:-455209290,e60c8444e1900610d0d950b4e768eea8:553099685,aecbc04481900610e62820e9d9f2a807:-416352091,2a4b4404e490061029c12157872d2e81:553099685</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Physical connection 2">b525408e1b70c6106e86e0cb234bcb9b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-03-08 16:45:08</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>0275388067fb485380281a747289e9c1</sys_id>
+        <sys_metadata>264b44041b900610da698666624bcb80</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Physical connection 2</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_264b44041b900610da698666624bcb80</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_264b44041b900610da698666624bcb80">230427781bd48a106e86e0cb234bcbbc</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-03-08 16:45:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

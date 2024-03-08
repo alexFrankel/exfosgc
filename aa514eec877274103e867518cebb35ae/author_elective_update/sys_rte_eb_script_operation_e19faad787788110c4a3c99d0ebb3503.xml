@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_script_operation">
+    <sys_rte_eb_script_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        var b = a + " (Now)";
+
+        // setp3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Script Operation - u_link_key</name>
+        <operation_group/>
+        <order>300</order>
+        <script><![CDATA[(function(batch, output) {
+	for (var i = 0; i < batch.length; i++) {
+		var input = batch[i].input;
+     output[i] = 'NETKEY_' + input;
+	}
+})(batch, output);
+]]></script>
+        <source_sys_rte_eb_field display_value="u_link_key">61a8491c87600950c4a3c99d0ebb355d</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-01-07 17:37:34</sys_created_on>
+        <sys_id>e19faad787788110c4a3c99d0ebb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Operation - u_link_key</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">15a881d887600950c4a3c99d0ebb353c</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_script_operation_e19faad787788110c4a3c99d0ebb3503</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-01-07 17:37:34</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_network_link_key">6d9faad787788110c4a3c99d0ebb3500</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_script_operation>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_script_operation_e19faad787788110c4a3c99d0ebb3503</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_script_operation"&gt;
+    &lt;sys_rte_eb_script_operation action="INSERT_OR_UPDATE"&gt;
+        &lt;conditional_fields/&gt;
+        &lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        var b = a + " (Now)";
+
+        // setp3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;
+        &lt;is_conditional&gt;false&lt;/is_conditional&gt;
+        &lt;name&gt;Script Operation - u_link_key&lt;/name&gt;
+        &lt;operation_group/&gt;
+        &lt;order&gt;300&lt;/order&gt;
+        &lt;script&gt;&lt;![CDATA[(function(batch, output) {
+	for (var i = 0; i &lt; batch.length; i++) {
+		var input = batch[i].input;
+     output[i] = 'NETKEY_' + input;
+	}
+})(batch, output);
+]]&gt;&lt;/script&gt;
+        &lt;source_sys_rte_eb_field display_value="u_link_key"&gt;61a8491c87600950c4a3c99d0ebb355d&lt;/source_sys_rte_eb_field&gt;
+        &lt;source_sys_rte_eb_fields/&gt;
+        &lt;sys_class_name&gt;sys_rte_eb_script_operation&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-01-07 17:37:34&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e19faad787788110c4a3c99d0ebb3503&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Script Operation - u_link_key&lt;/sys_name&gt;
+        &lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_rte_eb_definition display_value="SG-EXFO Physical Links"&gt;24b681d887600950c4a3c99d0ebb3502&lt;/sys_rte_eb_definition&gt;
+        &lt;sys_rte_eb_entity display_value="temp"&gt;15a881d887600950c4a3c99d0ebb353c&lt;/sys_rte_eb_entity&gt;
+        &lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_rte_eb_script_operation_e19faad787788110c4a3c99d0ebb3503&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;aveenstra&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-01-07 17:37:34&lt;/sys_updated_on&gt;
+        &lt;target_sys_rte_eb_field display_value="u_network_link_key"&gt;6d9faad787788110c4a3c99d0ebb3500&lt;/target_sys_rte_eb_field&gt;
+        &lt;target_sys_rte_eb_fields/&gt;
+        &lt;type display_value="Script Operation"&gt;941f88e273b333002b6265a751ab9e84&lt;/type&gt;
+        &lt;use_unique_input_sets&gt;true&lt;/use_unique_input_sets&gt;
+    &lt;/sys_rte_eb_script_operation&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>970191879</payload_hash>
+        <record_name>Script Operation - u_link_key</record_name>
+        <reverted_from/>
+        <source>a052c4c61b70c6106e86e0cb234bcb82</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-03-08 16:33:18</sys_created_on>
+        <sys_id>9c72c00a1b70c6106e86e0cb234bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e1ee96dfe0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-03-08 16:33:18</sys_updated_on>
+        <type>RTE Entity Script Operation</type>
+        <update_guid>5872c00acf70c610486cc3796f51f3bb</update_guid>
+        <update_guid_history>5872c00acf70c610486cc3796f51f3bb:0,d50a73f9f730c610396d71a1bfa71fbe:172420912,e069b7f9f930c610d41e793da43c8f7e:0,4d38fb792930c610c1bbe8b55d224d5a:0,1d846b7cfdd48a10a9d01857fa6bb845:0,708113ac69d40a10c8b8f31668db20e0:-459052333,c2e615a85b14c610a212f19d42fae447:0,72b4d5a80fd0c610889837a8db86adc7:-1865552748,c63772b9b16ab19080fe482a4fce483d:0,b585f2318c6ab190ee2f6b47a581d45b:-1383252343,1d8c9c91d262f59051d92b660e9b180d:0,5e7aaf017c2efd50d0c8f1be66e594ab:392729729,1de31aef359e795035acca9a3e40fd1b:0,4f4252677c9e795052bfd52fe1a939cd:2131847237,0eef2754f856bd1049496491537f756e:0,2fbca3d87a16bd10b8f267ef84d2b524:912378196,3512df860946b510d05179a4da6837de:553939706</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-03-08 16:44:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_script_operation">sys_rte_eb_script_operation</sys_db_object>
+        <sys_id>4b46230160bd4e939c90de8b643b8221</sys_id>
+        <sys_metadata>e19faad787788110c4a3c99d0ebb3503</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Operation - u_link_key</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_script_operation_e19faad787788110c4a3c99d0ebb3503</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_script_operation_e19faad787788110c4a3c99d0ebb3503">9c72c00a1b70c6106e86e0cb234bcbbb</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-03-08 16:44:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
