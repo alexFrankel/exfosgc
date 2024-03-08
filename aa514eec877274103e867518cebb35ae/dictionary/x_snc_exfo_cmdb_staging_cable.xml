@@ -6,12 +6,10 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_CONNECTOR_TYPE_Z" label="CABLE_CONNECTOR_TYPE_Z" max_length="40" name="u_cable_connector_type_z" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_CUSTOM_ATTRIBUTES" label="CABLE_CUSTOM_ATTRIBUTES" max_length="1000" name="u_cable_custom_attributes" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_DESCRIPTION" label="CABLE_DESCRIPTION" max_length="40" name="u_cable_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_FIBER_COUNT" label="CABLE_FIBER_COUNT" max_length="40" name="u_cable_fiber_count" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_HAS_A_SITE_KEY" label="CABLE_HAS_A_SITE_KEY" max_length="40" name="u_cable_has_a_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_HAS_LINK_KEY" label="CABLE_HAS_LINK_KEY" max_length="40" name="u_cable_has_link_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_HAS_Z_SITE_KEY" label="CABLE_HAS_Z_SITE_KEY" max_length="40" name="u_cable_has_z_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_KEY" label="CABLE_KEY" max_length="40" name="u_cable_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_KML" label="CABLE_KML" max_length="40" name="u_cable_kml" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_LENGTH" label="CABLE_LENGTH" max_length="40" name="u_cable_length" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_LENGTH_UNIT" label="CABLE_LENGTH_UNIT" max_length="40" name="u_cable_length_unit" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_MANUFACTURER" label="CABLE_MANUFACTURER" max_length="40" name="u_cable_manufacturer" type="string"/>

@@ -35,7 +35,7 @@
      if(trfGR.next()){
         output[i] = trfGR.getUniqueValue();
      }
-     else{
+     else if (input.length>0) {
         trfGR.initialize();
         trfGR.type = 'Type';
         trfGR.name = input;
@@ -50,7 +50,7 @@
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-19 14:04:35</sys_created_on>
         <sys_id>448a47c21b73f5506e86e0cb234bcb16</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Script Operation - u_e_h_type</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
@@ -59,7 +59,7 @@
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_script_operation_448a47c21b73f5506e86e0cb234bcb16</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-27 17:08:39</sys_updated_on>
+        <sys_updated_on>2024-03-08 12:20:45</sys_updated_on>
         <target_sys_rte_eb_field display_value="u_e_h_type_lookup">848acb821b73f5506e86e0cb234bcbb3</target_sys_rte_eb_field>
         <target_sys_rte_eb_fields/>
         <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
