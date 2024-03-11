@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_segment_link_class" table="x_snc_exfo_cmdb_staging_segment">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=SEGMENT_LINK_CLASS</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>SEGMENT_LINK_CLASS</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_segment_link_class</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_snc_exfo_cmdb_staging_segment</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-01-25 15:24:00</sys_created_on>
+        <sys_name>SEGMENT_LINK_CLASS</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_dictionary_x_snc_exfo_cmdb_staging_segment_u_segment_link_class</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-02-23 15:20:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_dictionary_x_snc_exfo_cmdb_staging_segment_u_segment_link_class</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_segment_link_class" table="x_snc_exfo_cmdb_staging_segment">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=SEGMENT_LINK_CLASS</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>SEGMENT_LINK_CLASS</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_segment_link_class</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_snc_exfo_cmdb_staging_segment</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-01-25 15:24:00</sys_created_on>
+        <sys_name>SEGMENT_LINK_CLASS</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_dictionary_x_snc_exfo_cmdb_staging_segment_u_segment_link_class</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-02-23 15:20:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>-2137367357</payload_hash>
+        <record_name>Staging: EXFO Segment.SEGMENT_LINK_CLASS</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:15:08</sys_created_on>
+        <sys_id>1204a3781bd48a106e86e0cb234bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e6fccd10000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:15:08</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>da04a3787ed48a10820c16d0f190952c</update_guid>
+        <update_guid_history>da04a3787ed48a10820c16d0f190952c:0,1861db2c69d40a102192cb7f71713194:65713819,166699640514c6102959f0c4a4f82bd1:0,f094516848d0c6105651df87fabe50f1:65713819,073ef2b961aab1902bd6a224fd5c6030:0,d59c3635e8aab190732122c17c8d44bc:65713819,cce676f5866ab190994be11ddfdfe5d1:0,0a547af9bb2ab190181c7a9eaf16e27c:65713819,413c54114d62f590245f6806c4910c70:0,d04a63cdd5eafd502d02fc04a0b85c3a:65713819,9f83526ff19e79508f086d732353f32f:0,8912d2e32c9e7950e368426b92a9b38f:65713819,689f2b906656bd10ed5e9c44900b8ecc:0,349caf58c016bd1073baaa15ff8107c2:65713819,7ea19fc29346b510f8cfbf6c7b52b885:0,72a19fc23546b510b2d8952afa895781:1395429583</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-03-11 10:42:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>55e1a775e8884153b9f4044c2ff3b0b1</sys_id>
+        <sys_metadata>13b3efb41bd48a106e86e0cb234bcb17</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SEGMENT_LINK_CLASS</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent display_value="Staging: EXFO Segment">fa0e7e391baab190da698666624bcb3a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_snc_exfo_cmdb_staging_segment_u_segment_link_class</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_snc_exfo_cmdb_staging_segment_u_segment_link_class">1204a3781bd48a106e86e0cb234bcb2d</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-03-11 10:42:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

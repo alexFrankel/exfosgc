@@ -4,7 +4,6 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_ALIAS2" label="SERVICE_ALIAS2" max_length="40" name="u_service_alias2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_CUSTOM_ATTRIBUTES" label="SERVICE_CUSTOM_ATTRIBUTES" max_length="1000" name="u_service_custom_attributes" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_DESCRIPTION" label="SERVICE_DESCRIPTION" max_length="40" name="u_service_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_DOMAIN" label="SERVICE_DOMAIN" max_length="40" name="u_service_domain" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_A_NE_KEY" label="SERVICE_HAS_A_NE_KEY" max_length="40" name="u_service_has_a_ne_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_A_PORT_KEY" label="SERVICE_HAS_A_PORT_KEY" max_length="40" name="u_service_has_a_port_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_A_SITE_KEY" label="SERVICE_HAS_A_SITE_KEY" max_length="40" name="u_service_has_a_site_key" type="string"/>
