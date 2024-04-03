@@ -4,18 +4,21 @@
         <after_script><![CDATA[(function(ireOutput, ireInput, runId) {
 
 
-	// for (var ii = 0; ii < ireInput.length; ii++) {
-	// 	var payload = ireInput[ii];
-	// 	gs.info("ALEX0 INPUT: " + payload.items )
-	// }
-	// for (var ii = 0; ii < ireOutput.length; ii++) {
-	// 	var payload = ireOutput[ii];
-	// 	gs.info("ALEX0 OUTPUT: " + payload.items)
-	// }
-	// gs.info('ALEX0 RUNID: ' + runId);
+    // for (var ii = 0; ii < ireInput.length; ii++) {
+    //     var payload = ireInput[ii];
+    //     //gs.info("ALEX3 INPUT: " + payload.items  + " ref items " + payload.referenceItems[0])
+    //     //gs.info("ALEX03119 INPUT: " + typeof ii)
+    //     //gs.info("ALEX03119 INPUT: " + payload.items[0])
+    // }
+    // for (var ii = 0; ii < ireOutput.length; ii++) {
+    // 	var payload = ireOutput[ii];
+    // 	gs.info("ALEX0 OUTPUT: " + payload.items)
+    // }
+    // gs.info('ALEX0 RUNID: ' + runId);
 
     var util = new EXFOImportUtil();
     util.parseCustomAttributes(ireOutput);
+    util.populateTniEntityIdOnCI('Network Site');
 
 })(ireOutput, ireInput, runId);]]></after_script>
         <before_script><![CDATA[/**
@@ -98,7 +101,10 @@
  
  (function(input, runId) {
  
-     // Add your code here
+	// for (var ii = 0; ii < input.length; ii++) {
+	// 	var payload = input[ii].payload;
+	// 	gs.info("ALEX2 INPUT: " + payload.items )
+	// }
  
  })(input, runId);]]></before_script>
         <cmdb_inst_application display_value="SG-EXFO">021cd9cb870ff8103e867518cebb354c</cmdb_inst_application>
@@ -111,13 +117,13 @@
         <sys_created_on>2024-02-02 16:45:19</sys_created_on>
         <sys_data_source display_value="SG-EXFO Site">f5fc990f870ff8103e867518cebb3506</sys_data_source>
         <sys_id>5b85f3a61b08c2d06e86e0cb234bcb21</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_name>SG-EXFO Sites</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>cmdb_inst_application_feed_5b85f3a61b08c2d06e86e0cb234bcb21</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-28 12:46:56</sys_updated_on>
+        <sys_updated_on>2024-04-03 15:33:36</sys_updated_on>
     </cmdb_inst_application_feed>
 </record_update>
