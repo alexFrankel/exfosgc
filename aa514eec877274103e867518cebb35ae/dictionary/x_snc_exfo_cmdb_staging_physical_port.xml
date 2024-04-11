@@ -15,6 +15,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_NAME" label="PORT_NAME" max_length="255" name="u_port_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_STATUS" label="PORT_STATUS" max_length="40" name="u_port_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_SUB_TYPE" label="PORT_SUB_TYPE" max_length="40" name="u_port_sub_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_TNI_DOMAIN" label="PORT_TNI_DOMAIN" max_length="40" name="u_port_tni_domain" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_TOP_EXP_STATUS" label="PORT_TOP_EXP_STATUS" max_length="40" name="u_port_top_exp_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PORT_TYPE" label="PORT_TYPE" max_length="40" name="u_port_type" type="string"/>
     </element>

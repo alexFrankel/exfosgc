@@ -12,6 +12,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_NAME" label="FIBER_NAME" max_length="40" name="u_fiber_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_NUMBER" label="FIBER_NUMBER" max_length="40" name="u_fiber_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_STATUS" label="FIBER_STATUS" max_length="40" name="u_fiber_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_TNI_DOMAIN" label="FIBER_TNI_DOMAIN" max_length="40" name="u_fiber_tni_domain" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_TOP_EXP_STATUS" label="FIBER_TOP_EXP_STATUS" max_length="40" name="u_fiber_top_exp_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_TYPE" label="FIBER_TYPE" max_length="40" name="u_fiber_type" type="string"/>
     </element>

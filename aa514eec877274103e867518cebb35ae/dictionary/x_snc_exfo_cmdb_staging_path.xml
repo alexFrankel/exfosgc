@@ -9,6 +9,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PATH_KEY" label="PATH_KEY" max_length="40" name="u_path_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PATH_NAME" label="PATH_NAME" max_length="255" name="u_path_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PATH_STATUS" label="PATH_STATUS" max_length="40" name="u_path_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PATH_TNI_DOMAIN" label="PATH_TNI_DOMAIN" max_length="40" name="u_path_tni_domain" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PATH_TOP_EXP_STATUS" label="PATH_TOP_EXP_STATUS" max_length="40" name="u_path_top_exp_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PATH_TYPE" label="PATH_TYPE" max_length="40" name="u_path_type" type="string"/>
     </element>

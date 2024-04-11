@@ -18,6 +18,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_POSTAL_CODE" label="SITE_POSTAL_CODE" max_length="40" name="u_site_postal_code" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_STATE" label="SITE_STATE" max_length="40" name="u_site_state" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_STATUS" label="SITE_STATUS" max_length="40" name="u_site_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_TNI_DOMAIN" label="SITE_TNI_DOMAIN" max_length="40" name="u_site_tni_domain" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_TOP_EXP_STATUS" label="SITE_TOP_EXP_STATUS" max_length="40" name="u_site_top_exp_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_TYPE" label="SITE_TYPE" max_length="40" name="u_site_type" type="string"/>
     </element>
