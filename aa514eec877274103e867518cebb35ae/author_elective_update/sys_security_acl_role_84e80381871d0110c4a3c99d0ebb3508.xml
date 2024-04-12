@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-01-25 16:13:08</sys_created_on>
+        <sys_id>84e80381871d0110c4a3c99d0ebb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_exfo_cmdb_staging_path_connection_element.x_snc_exfo_cmdb.user</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_security_acl display_value="x_snc_exfo_cmdb_staging_path_connection_element">c4e8cf41871d0110c4a3c99d0ebb3594</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_84e80381871d0110c4a3c99d0ebb3508</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-01-25 16:13:08</sys_updated_on>
+        <sys_user_role display_value="x_snc_exfo_cmdb.user" name="x_snc_exfo_cmdb.user">5491422087b274103e867518cebb3549</sys_user_role>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_security_acl_role_84e80381871d0110c4a3c99d0ebb3508</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-01-25 16:13:08</sys_created_on>
+        <sys_id>84e80381871d0110c4a3c99d0ebb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_exfo_cmdb_staging_path_connection_element.x_snc_exfo_cmdb.user</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_security_acl display_value="x_snc_exfo_cmdb_staging_path_connection_element">c4e8cf41871d0110c4a3c99d0ebb3594</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_84e80381871d0110c4a3c99d0ebb3508</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-01-25 16:13:08</sys_updated_on>
+        <sys_user_role display_value="x_snc_exfo_cmdb.user" name="x_snc_exfo_cmdb.user">5491422087b274103e867518cebb3549</sys_user_role>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>1150724910</payload_hash>
+        <record_name>x_snc_exfo_cmdb_staging_path_connection_element.x_snc_exfo_cmdb.user</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:17:20</sys_created_on>
+        <sys_id>f2846f7c1bd48a106e86e0cb234bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e71d3b10000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:17:20</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>be846f7c4fd48a10de1075daa891d500</update_guid>
+        <update_guid_history>be846f7c4fd48a10de1075daa891d500:0,3c51132c64d40a109d9fe22b59c7922f:-2106682121,3fe6d5a89914c6108a3fe56395864ac5:0,4084552897d0c6106f4cb36811e9f18d:-349565082,ca6e7af919aab190e762195495f9b6bd:0,e38cfef18daab1902b3366bdabe80fc7:2038391298,f337f2b9496ab190b2e198b8daf4fee0:0,3764f63d012ab190318584ba441d1fef:-947728992,6e8cd0d11562f5907c1d75812e5bc151:0,793a2f8df1eafd50808cd5ed4511a730:-412260152,72e39aef659e79505a85307f27e0a4ee:0,be029ea3df9e79507177e9e865c4aaa9:1468680901,e3efe7547956bd101e2438839c03fe2e:0,e59cef587816bd1062a83a526c2fc9eb:-1554588420,b31293c6c146b510864b1327d9452dfa:289798827</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_exfo_cmdb_staging_path_connection_element.x_snc_exfo_cmdb.user">c6cec3891b250610269e97d2b24bcb6d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-12 11:39:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>5c1ad1fed6cb4260a54150671c583100</sys_id>
+        <sys_metadata>84e80381871d0110c4a3c99d0ebb3508</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_exfo_cmdb_staging_path_connection_element.x_snc_exfo_cmdb.user</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent display_value="">c4e8cf41871d0110c4a3c99d0ebb3594</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_84e80381871d0110c4a3c99d0ebb3508</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_84e80381871d0110c4a3c99d0ebb3508">f2846f7c1bd48a106e86e0cb234bcb01</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-12 11:39:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

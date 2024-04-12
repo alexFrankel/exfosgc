@@ -10,7 +10,7 @@
         <run_script>false</run_script>
         <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
 
-	// Add your code here
+	gs.info('AF2')
 
 })(source, target, map, log, action==="update");]]></script>
         <source_table>x_snc_exfo_cmdb_staging_segment_connection_element</source_table>
@@ -18,14 +18,14 @@
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2022-01-25 15:25:45</sys_created_on>
         <sys_id>99ed7e0987d90110c4a3c99d0ebb3561</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>SG-EXFO Segment Connection Elements</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_transform_map_99ed7e0987d90110c4a3c99d0ebb3561</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-01-26 21:25:31</sys_updated_on>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-11 16:14:49</sys_updated_on>
         <target_table>connection_element</target_table>
     </sys_transform_map>
 </record_update>
