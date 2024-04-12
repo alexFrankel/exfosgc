@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="scheduled_import_set">
     <scheduled_import_set action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <business_calendar/>
         <concurrent_import>false</concurrent_import>
         <condition><![CDATA[var dataSource = current.data_source;
@@ -17,7 +17,7 @@ else{
         <entered_time/>
         <map/>
         <max_drift/>
-        <name>SG-EXFO Sement Connection Elements Import</name>
+        <name>SG-EXFO Segment Connection Elements Import</name>
         <offset/>
         <offset_type>0</offset_type>
         <order>91</order>
@@ -54,14 +54,14 @@ else{
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2022-01-26 21:26:34</sys_created_on>
         <sys_id>071a99ad87d10910c4a3c99d0ebb3598</sys_id>
-        <sys_mod_count>37</sys_mod_count>
-        <sys_name>SG-EXFO Sement Connection Elements Import</sys_name>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>SG-EXFO Segment Connection Elements Import</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>scheduled_import_set_071a99ad87d10910c4a3c99d0ebb3598</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-02-29 10:19:01</sys_updated_on>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-12 15:44:28</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
         <use_child_connection>false</use_child_connection>
