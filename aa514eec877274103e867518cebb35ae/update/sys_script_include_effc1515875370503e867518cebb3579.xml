@@ -51,7 +51,7 @@ EXFOImportUtil.prototype = {
 
             if (lowerName.indexOf(".zip") != -1) {
 
-				if (lowerName.indexOf('segment') > -1) {
+                if (lowerName.indexOf('segment') > -1) {
                     dataArray.push(this.createFileObj(folder, fileName, 'Segment'));
                     dataArray.push(this.createFileObj(folder, fileName, 'Segment Connection Element'));
                 } else {
@@ -262,8 +262,9 @@ EXFOImportUtil.prototype = {
         }
     },
 
-    parseCustomAttributes: function(ireOutput) {
-        // Splits operation_notes field from ETL on ||| delimiter and inserts into cmdb_key_value
+    tniEntityPostProcessing: function(ireOutput) {
+		// 1. Updates TNI CI Attributes on CI with sys_id of the tni_entity record
+		// 2. Splits operation_notes field from ETL on ||| delimiter and inserts into cmdb_key_value
         // Called from RTE definitions
 
         for (var i = 0; i < ireOutput.length; i++) {
@@ -276,17 +277,31 @@ EXFOImportUtil.prototype = {
             // 	gs.info("ALEX2: " + payload.items)
             // }
 
-            //Loop through each CI
-            //(tni_entity record)
+            //Loop through each CI in the payload
+            //Look up corresponding tni_entity record - there should only be one
             for (var j = 0; j < items.length; j++) {
-                var myGR = new GlideRecord('tni_entity');
-                var sysId = items[j].sysId;
-                myGR.addQuery('ci', sysId);
-                myGR.query();
-                myGR.next();
-                var opNotes = myGR.getValue('operation_notes');
+                var tniGR = new GlideRecord('tni_entity');
+                var ciSysId = items[j].sysId;
+                tniGR.addQuery('ci', ciSysId);
+                tniGR.query();
+                tniGR.next();
 
-                //Check if there are custom attributes in operation notes field and parse them
+                //1. Update TNI CI Attributes field on CI - this is used in Network Inventory Workspace
+                var tniEntityId = tniGR.getValue('sys_id');
+                //gs.info('ALEX1 CI sys id = ' + ciSysId + ' and TNI sysId is ' + tniEntityId)
+                var ciGR = new GlideRecord('cmdb_ci');
+                ciGR.addQuery('sys_id', ciSysId);
+                ciGR.query();
+                if (ciGR.next()) {
+                    var ciTniEntityId = ciGR.getValue('tni_entity');
+                    if (!ciTniEntityId) {
+                        ciGR.setValue('tni_entity', tniEntityId);
+                        ciGR.update();
+                    }
+                }
+
+                //2. Check if there are custom attributes in operation notes field, parse and create an entry in cmdb_key_value
+                var opNotes = tniGR.getValue('operation_notes');
                 if (opNotes) {
                     var atts = opNotes.split('|||');
                     //gs.info("ALEX1: split " + atts)
@@ -299,11 +314,11 @@ EXFOImportUtil.prototype = {
                         var pair = atts[k].split(':');
                         newKeys.push(pair[0]);
                     }
-                    kvGR.addQuery('configuration_item', sysId);
+                    kvGR.addQuery('configuration_item', ciSysId);
                     kvGR.query();
                     while (kvGR.next()) {
                         if (newKeys.indexOf(kvGR.getValue('key')) < 0) {
-                            //gs.info("ALEX4: processing " + sysId + " " + opNotes + " New Keys: " + newKeys + " " + kvGR.getValue('key') + " TO BE DELETED");
+                            //gs.info("ALEX4: processing " + ciSysId + " " + opNotes + " New Keys: " + newKeys + " " + kvGR.getValue('key') + " TO BE DELETED");
                             kvGR.deleteRecord();
                         }
                     }
@@ -314,7 +329,7 @@ EXFOImportUtil.prototype = {
                         //Insert or update each custom attribute pair in cmdb_key_value
                         //gs.info("ALEX2: id " + pair[0] + " value " + pair[1]);
                         var kvGR = new GlideRecord('cmdb_key_value');
-                        kvGR.addQuery('configuration_item', sysId);
+                        kvGR.addQuery('configuration_item', ciSysId);
                         kvGR.addQuery('key', pair[0]);
                         kvGR.query();
                         if (kvGR.next()) {
@@ -329,46 +344,18 @@ EXFOImportUtil.prototype = {
                             //If key doesn't already exist, insert the new pair
                             kvGR.setValue('key', pair[0]);
                             kvGR.setValue('value', pair[1]);
-                            kvGR.setValue('configuration_item', sysId);
+                            kvGR.setValue('configuration_item', ciSysId);
                             kvGR.insert();
                         }
                         //blank out operation_notes on CI.
                         //No - this would force an update every time the CI is loaded, even for no changes
-                        // myGR.setValue('operation_notes', '');
-                        // myGR.update();
+                        // tniGR.setValue('operation_notes', '');
+                        // tniGR.update();
                     }
                 }
 
             }
 
-        }
-    },
-
-    populateTniEntityIdOnCI: function(invCat) {
-		//Called after each robust transform to populate the TNI CI Attributes field on the CI
-		//Required for Equipment to be picked up in Network Inventory Workspace
-		//Not sure if other categories of CI need this, but populating for all CIs just in case
-
-        //var invCat = 'Equipment';
-        var tniGR = new GlideRecord('tni_entity');
-        tniGR.addQuery('inventory_category', invCat);
-        tniGR.query();
-        while (tniGR.next()) {
-            //gs.info("TNI: " + tniGR.getValue('ci') + ' ' + tniGR.getValue('sys_id'));
-            var ciSysId = tniGR.getValue('ci');
-            var tniEntityId = tniGR.getValue('sys_id');
-
-            var ciGR = new GlideRecord('cmdb_ci');
-            ciGR.addQuery('sys_id', ciSysId);
-            ciGR.query();
-            while (ciGR.next()) {
-                //gs.info("CI: " + ciGR.getValue('name') + ' ' + ciGR.getValue('tni_entity'));
-                var ciTniEntityId = ciGR.getValue('tni_entity');
-                if (!ciTniEntityId) {
-                    ciGR.setValue('tni_entity', tniEntityId);
-                    ciGR.update();
-                }
-            }
         }
     },
     type: 'EXFOImportUtil'
@@ -377,13 +364,13 @@ EXFOImportUtil.prototype = {
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-10-18 16:56:28</sys_created_on>
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
-        <sys_mod_count>86</sys_mod_count>
+        <sys_mod_count>91</sys_mod_count>
         <sys_name>EXFOImportUtil</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-04-12 15:46:23</sys_updated_on>
+        <sys_updated_on>2024-04-18 08:38:25</sys_updated_on>
     </sys_script_include>
 </record_update>
