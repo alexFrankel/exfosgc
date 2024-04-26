@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_e_h_top_exp_status" table="x_snc_exfo_cmdb_staging_equipment_holder">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=E_H_TOP_EXP_STATUS</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>E_H_TOP_EXP_STATUS</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_e_h_top_exp_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_snc_exfo_cmdb_staging_equipment_holder</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>exfo.mid.user</sys_created_by>
+        <sys_created_on>2024-02-19 13:39:43</sys_created_on>
+        <sys_id>5a1eae841ba8c650da698666624bcbbd</sys_id>
+        <sys_name>E_H_TOP_EXP_STATUS</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_dictionary_x_snc_exfo_cmdb_staging_equipment_holder_u_e_h_top_exp_status</sys_update_name>
+        <sys_updated_by>exfo.mid.user</sys_updated_by>
+        <sys_updated_on>2024-02-19 13:39:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_dictionary_x_snc_exfo_cmdb_staging_equipment_holder_u_e_h_top_exp_status</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_e_h_top_exp_status" table="x_snc_exfo_cmdb_staging_equipment_holder"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=E_H_TOP_EXP_STATUS</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>E_H_TOP_EXP_STATUS</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_e_h_top_exp_status</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_exfo_cmdb_staging_equipment_holder</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>exfo.mid.user</sys_created_by><sys_created_on>2024-02-19 13:39:43</sys_created_on><sys_id>5a1eae841ba8c650da698666624bcbbd</sys_id><sys_name>E_H_TOP_EXP_STATUS</sys_name><sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>sys_dictionary_x_snc_exfo_cmdb_staging_equipment_holder_u_e_h_top_exp_status</sys_update_name><sys_updated_by>exfo.mid.user</sys_updated_by><sys_updated_on>2024-02-19 13:39:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type/><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-995618522</payload_hash>
+        <record_name>Staging: EXFO Equipment Holder.E_H_TOP_EXP_STATUS</record_name>
+        <reverted_from/>
+        <source>4ea784861b9321106e86e0cb234bcb98</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>exfo.mid.user</sys_created_by>
+        <sys_created_on>2024-02-19 13:39:43</sys_created_on>
+        <sys_id>921eae841ba8c650da698666624bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc1980cc30000001</sys_recorded_at>
+        <sys_updated_by>exfo.mid.user</sys_updated_by>
+        <sys_updated_on>2024-02-19 13:39:43</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>1a1eae8485a8c650117d03d6a84a14d5</update_guid>
+        <update_guid_history>1a1eae8485a8c650117d03d6a84a14d5:-995618522</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 15:42:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>2071b2a2bb7f49b090b597247d03df51</sys_id>
+        <sys_metadata>5a1eae841ba8c650da698666624bcbbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>E_H_TOP_EXP_STATUS</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent display_value="">a16d3a421b33f5506e86e0cb234bcbae</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_snc_exfo_cmdb_staging_equipment_holder_u_e_h_top_exp_status</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_snc_exfo_cmdb_staging_equipment_holder_u_e_h_top_exp_status">921eae841ba8c650da698666624bcbd6</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 15:42:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

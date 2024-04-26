@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_script_operation">
+    <sys_rte_eb_script_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        var b = a + " (Now)";
+
+        // setp3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Script Operation - u_card_status</name>
+        <operation_group/>
+        <order>500</order>
+        <script><![CDATA[(function(batch, output) {
+	for (var i = 0; i < batch.length; i++) {
+		var input = batch[i].input; 
+
+		var util = new x_snc_exfo_cmdb.EXFOStatusDictionary();
+     
+    var snValues = util.getSNValues(input);
+     
+     output[i] = snValues;
+	}
+})(batch, output);
+]]></script>
+        <source_sys_rte_eb_field display_value="u_card_status">045c4e9487f778103e867518cebb35b3</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-30 17:56:47</sys_created_on>
+        <sys_id>2097878387404910c4a3c99d0ebb351a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Operation - u_card_status</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">f74c4e9487f778103e867518cebb3542</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_script_operation_2097878387404910c4a3c99d0ebb351a</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-30 17:56:47</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_card_status_lookup">ec97c38387404910c4a3c99d0ebb35c2</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_script_operation>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_script_operation_2097878387404910c4a3c99d0ebb351a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_script_operation"&gt;
+    &lt;sys_rte_eb_script_operation action="INSERT_OR_UPDATE"&gt;
+        &lt;conditional_fields/&gt;
+        &lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        var b = a + " (Now)";
+
+        // setp3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;
+        &lt;is_conditional&gt;false&lt;/is_conditional&gt;
+        &lt;name&gt;Script Operation - u_card_status&lt;/name&gt;
+        &lt;operation_group/&gt;
+        &lt;order&gt;500&lt;/order&gt;
+        &lt;script&gt;&lt;![CDATA[(function(batch, output) {
+	for (var i = 0; i &lt; batch.length; i++) {
+		var input = batch[i].input; 
+
+		var util = new x_snc_exfo_cmdb.EXFOStatusDictionary();
+     
+    var snValues = util.getSNValues(input);
+     
+     output[i] = snValues;
+	}
+})(batch, output);
+]]&gt;&lt;/script&gt;
+        &lt;source_sys_rte_eb_field display_value="u_card_status"&gt;045c4e9487f778103e867518cebb35b3&lt;/source_sys_rte_eb_field&gt;
+        &lt;source_sys_rte_eb_fields/&gt;
+        &lt;sys_class_name&gt;sys_rte_eb_script_operation&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-11-30 17:56:47&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2097878387404910c4a3c99d0ebb351a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Script Operation - u_card_status&lt;/sys_name&gt;
+        &lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_rte_eb_definition display_value="SG-EXFO Cards"&gt;344c0a5487f778103e867518cebb35f2&lt;/sys_rte_eb_definition&gt;
+        &lt;sys_rte_eb_entity display_value="temp"&gt;f74c4e9487f778103e867518cebb3542&lt;/sys_rte_eb_entity&gt;
+        &lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_rte_eb_script_operation_2097878387404910c4a3c99d0ebb351a&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;aveenstra&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2021-11-30 17:56:47&lt;/sys_updated_on&gt;
+        &lt;target_sys_rte_eb_field display_value="u_card_status_lookup"&gt;ec97c38387404910c4a3c99d0ebb35c2&lt;/target_sys_rte_eb_field&gt;
+        &lt;target_sys_rte_eb_fields/&gt;
+        &lt;type display_value="Script Operation"&gt;941f88e273b333002b6265a751ab9e84&lt;/type&gt;
+        &lt;use_unique_input_sets&gt;true&lt;/use_unique_input_sets&gt;
+    &lt;/sys_rte_eb_script_operation&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1895735790</payload_hash>
+        <record_name>Script Operation - u_card_status</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:17:13</sys_created_on>
+        <sys_id>f0842b7c1bd48a106e86e0cb234bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e71b4be0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:17:13</sys_updated_on>
+        <type>RTE Entity Script Operation</type>
+        <update_guid>bc842b7c4cd48a108da709a37e12f99e</update_guid>
+        <update_guid_history>bc842b7c4cd48a108da709a37e12f99e:0,b9919face0d40a1095fa8b96d06189fd:621892231,c661df2c5dd40a10d6cb76e22f657ce3:0,f5e6d1a85714c610e9b78494a8383cbb:0,38d4d5e833d0c610da00dc3cd265128f:-844323063,6694556886d0c6107b464325ddb33fdd:0,0e3732b9126ab1900c808bb41ef294e3:0,40957a31576ab1907979d81ecad01cc2:1379902322,d5753afd172ab190e39235c78cde0bb9:0,418c5c913c62f59095ee8621586d12d9:0,b88ae341672efd504ff87588d5a44faa:-16355982,196ae301172efd506234690bc1a02d78:0,c5e3d6ef719e79509ebf9d65823ef8dc:0,a952d6673c9e795007ce016929615fad:-1204965615,42329627329e79508c46dec6e71fb642:0,75ef27544356bd101997ca26f85fc448:0,a9cc67d88616bd10e95527998d770774:2118760576,8bacab984f16bd1012e83903b46136ef:0,3512df86bb46b510200ea032634ee3b2:-1895735790</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 20:09:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_script_operation">sys_rte_eb_script_operation</sys_db_object>
+        <sys_id>a29443058eb8416eb30ccbcb21ae8a24</sys_id>
+        <sys_metadata>2097878387404910c4a3c99d0ebb351a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Operation - u_card_status</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_script_operation_2097878387404910c4a3c99d0ebb351a</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_script_operation_2097878387404910c4a3c99d0ebb351a">f0842b7c1bd48a106e86e0cb234bcb9f</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 20:09:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

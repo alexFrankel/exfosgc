@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Import</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path/>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-09 14:18:52</sys_created_on>
+        <sys_id>ff4c869487f778103e867518cebb358b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Import</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Card Parents">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_ff4c869487f778103e867518cebb358b</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 13:16:42</sys_updated_on>
+        <table>x_snc_exfo_cmdb_staging_card_parent</table>
+    </cmdb_inst_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>cmdb_inst_entity_ff4c869487f778103e867518cebb358b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity"><cmdb_inst_entity action="INSERT_OR_UPDATE"><child_id_field/><lookup_for_entity/><name>Import</name><parent_entity/><parent_id_field/><path/><related_for_entity/><relationship_type/><sys_class_name>cmdb_inst_entity</sys_class_name><sys_created_by>aveenstra</sys_created_by><sys_created_on>2021-11-09 14:18:52</sys_created_on><sys_id>ff4c869487f778103e867518cebb358b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Import</sys_name><sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_rte_eb_definition display_value="SG-EXFO Card Parents">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>cmdb_inst_entity_ff4c869487f778103e867518cebb358b</sys_update_name><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-04-26 13:16:42</sys_updated_on><table>x_snc_exfo_cmdb_staging_card_parent</table></cmdb_inst_entity></record_update>]]></payload>
+        <payload_hash>998007432</payload_hash>
+        <record_name>Import</record_name>
+        <reverted_from/>
+        <source>3c8da93d1b9c8e10da698666624bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 13:16:42</sys_created_on>
+        <sys_id>5a5be7211bf5ca50da698666624bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f1a8d0ce80000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 13:16:42</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>de5be72188f5ca50ee276550df9af12b</update_guid>
+        <update_guid_history>de5be72188f5ca50ee276550df9af12b:998007432,3414e77858d48a10bcd09a0970754510:0,aab19720bd180a10befad671fcc55631:613251040,647611a44214c610f4d195d3d4066116:0,36f4916c4ad0c61043d6d46f7b06665c:-774585134,11e63af53f6ab1908329af43c837560d:0,97a5ba71806ab19011b5e41a2651d46c:1597550232,de3c1811ab62f590768cb6645f910e43:0,b0aa2781762efd503fbd0afb70916ab8:384061103,2893d26fb69e7950d5743f8f1dbf0e9e:0,1572daa7179e7950c4c650d9b10097f4:1974293927,f99feb90c656bd10be7dd3d310141922:0,30ec231c4316bd101da9f61aeba6756f:-243670334,e0b15306d846b510d6ce71f509a77f58:-474082355</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Import">ecd9c9b91b390e50da698666624bcbf5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 20:09:27</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>5160cf73a61442409f173d2aa4b98400</sys_id>
+        <sys_metadata>ff4c869487f778103e867518cebb358b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_ff4c869487f778103e867518cebb358b</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_ff4c869487f778103e867518cebb358b">5a5be7211bf5ca50da698666624bcb2c</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 20:09:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Staging: EXFO Physical Port</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_exfo_cmdb_staging_physical_port</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-31 14:23:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85f1cd821b84ca90da698666624bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staging: EXFO Physical Port</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_app_module_85f1cd821b84ca90da698666624bcb33</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-31 14:23:41</sys_updated_on>
+        <timeline_page/>
+        <title>Staging: EXFO Physical Port</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_app_module_85f1cd821b84ca90da698666624bcb33</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Staging: EXFO Physical Port</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_exfo_cmdb_staging_physical_port</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-31 14:23:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85f1cd821b84ca90da698666624bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staging: EXFO Physical Port</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_app_module_85f1cd821b84ca90da698666624bcb33</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-31 14:23:41</sys_updated_on>
+        <timeline_page/>
+        <title>Staging: EXFO Physical Port</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>1180032584</payload_hash>
+        <record_name>Staging: EXFO Physical Port</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:15:37</sys_created_on>
+        <sys_id>792463b81bd48a106e86e0cb234bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e70413a0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:15:37</sys_updated_on>
+        <type>Module</type>
+        <update_guid>352463b8f3d48a107a9340a1fd5075d9</update_guid>
+        <update_guid_history>352463b8f3d48a107a9340a1fd5075d9:0,3931dba889d40a102fc1f8c98d4645af:-1284863032,52861da48514c61048c9aac68d5faa77:0,1754dda42bd0c610a292e87ee66dfd70:2033538202,85f1cd820e84ca90465a6aeb2d4d3e35:293068754</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Staging: EXFO Physical Port">808010791b79ca50da698666624bcb4a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 15:59:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1e9c9d6451d149d29e83961d49e9e064</sys_id>
+        <sys_metadata>85f1cd821b84ca90da698666624bcb33</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staging: EXFO Physical Port</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_app_module_85f1cd821b84ca90da698666624bcb33</sys_update_name>
+        <sys_update_version display_value="sys_app_module_85f1cd821b84ca90da698666624bcb33">792463b81bd48a106e86e0cb234bcbd9</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 15:59:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

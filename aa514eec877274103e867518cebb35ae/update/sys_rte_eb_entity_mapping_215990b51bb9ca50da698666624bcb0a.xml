@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[(function() {
+    if (((input.temp.u_service_has__nt_service_key))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>u_service_has__nt_service_keyISNOTEMPTY</encoded_query>
+        <entity_mapping_group>6b2961211b9c06507ba065b3b24bcb34</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>true</is_conditional>
+        <name>tempToApplication Service 2</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">195950b51bb9ca50da698666624bcb59</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 16:37:38</sys_created_on>
+        <sys_id>215990b51bb9ca50da698666624bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToApplication Service 2</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Service Children">3459dc751bb9ca50da698666624bcb64</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_215990b51bb9ca50da698666624bcb0a</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 16:37:38</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Application Service 2">2d5950b51bb9ca50da698666624bcbdd</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

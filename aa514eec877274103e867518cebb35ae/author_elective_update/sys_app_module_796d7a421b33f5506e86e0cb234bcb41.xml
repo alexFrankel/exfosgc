@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Exfo CMDB Staging Equipment Holder</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_exfo_cmdb_staging_equipment_holder</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>796d7a421b33f5506e86e0cb234bcb41</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Staging: EXFO Equipment Holder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_app_module_796d7a421b33f5506e86e0cb234bcb41</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-29 16:45:59</sys_updated_on>
+        <timeline_page/>
+        <title>Staging: EXFO Equipment Holder</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_app_module_796d7a421b33f5506e86e0cb234bcb41</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Exfo CMDB Staging Equipment Holder</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_exfo_cmdb_staging_equipment_holder</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>796d7a421b33f5506e86e0cb234bcb41</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Staging: EXFO Equipment Holder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_app_module_796d7a421b33f5506e86e0cb234bcb41</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-29 16:45:59</sys_updated_on>
+        <timeline_page/>
+        <title>Staging: EXFO Equipment Holder</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>-1505683244</payload_hash>
+        <record_name>Staging: EXFO Equipment Holder</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:15:37</sys_created_on>
+        <sys_id>252463b81bd48a106e86e0cb234bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e70406b0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:15:37</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ed2463b809d48a1034244bd3864521ad</update_guid>
+        <update_guid_history>ed2463b809d48a1034244bd3864521ad:0,7e419be856d40a100f8c2d708d3ce14e:1524688415,4a861da4b714c610abbc468f16110a66:0,6574dde42fd0c6103f53e2297ae71238:1475850880,465f0f59abccc69011652eab19d43ea8:2105676778,7d6d7a420a33f55042e1a2993e100743:-247503702</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Staging: EXFO Equipment Holder">16bc8cf11b79ca50da698666624bcb7a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 15:42:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0ddbe87624a14e80874e6b549007c100</sys_id>
+        <sys_metadata>796d7a421b33f5506e86e0cb234bcb41</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staging: EXFO Equipment Holder</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_app_module_796d7a421b33f5506e86e0cb234bcb41</sys_update_name>
+        <sys_update_version display_value="sys_app_module_796d7a421b33f5506e86e0cb234bcb41">252463b81bd48a106e86e0cb234bcbae</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 15:42:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

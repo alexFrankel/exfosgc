@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_set_operation">
+    <sys_rte_eb_set_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>inventory_category</name>
+        <operation_group/>
+        <order>1</order>
+        <overwrite_existing_value>true</overwrite_existing_value>
+        <set_value>card</set_value>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_set_operation</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-01 14:32:44</sys_created_on>
+        <sys_id>1b9d0ad21b0442d06e86e0cb234bcbaa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>inventory_category</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">f74c4e9487f778103e867518cebb3542</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_set_operation_1b9d0ad21b0442d06e86e0cb234bcbaa</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-27 17:12:40</sys_updated_on>
+        <target_sys_rte_eb_field display_value="inventory_category">539d0ad21b0442d06e86e0cb234bcba8</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Set">c588011e730000102b6265a751ab9e4a</type>
+    </sys_rte_eb_set_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_set_operation_1b9d0ad21b0442d06e86e0cb234bcbaa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_set_operation"&gt;&lt;sys_rte_eb_set_operation action="INSERT_OR_UPDATE"&gt;&lt;conditional_fields/&gt;&lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;inventory_category&lt;/name&gt;&lt;operation_group/&gt;&lt;order&gt;1&lt;/order&gt;&lt;overwrite_existing_value&gt;true&lt;/overwrite_existing_value&gt;&lt;set_value&gt;card&lt;/set_value&gt;&lt;source_sys_rte_eb_field/&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;sys_class_name&gt;sys_rte_eb_set_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex.frankel@exfo.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-01 14:32:44&lt;/sys_created_on&gt;&lt;sys_id&gt;1b9d0ad21b0442d06e86e0cb234bcbaa&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;inventory_category&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG-EXFO Cards"&gt;344c0a5487f778103e867518cebb35f2&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;f74c4e9487f778103e867518cebb3542&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_set_operation_1b9d0ad21b0442d06e86e0cb234bcbaa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-27 17:12:40&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="inventory_category"&gt;539d0ad21b0442d06e86e0cb234bcba8&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Set"&gt;c588011e730000102b6265a751ab9e4a&lt;/type&gt;&lt;/sys_rte_eb_set_operation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-507531250</payload_hash>
+        <record_name>inventory_category</record_name>
+        <reverted_from/>
+        <source>3c8da93d1b9c8e10da698666624bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-27 17:12:40</sys_created_on>
+        <sys_id>7b8be03a1b2886906e86e0cb234bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18deb8de1d20000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-27 17:12:40</sys_updated_on>
+        <type>RTE Entity Set Operation</type>
+        <update_guid>ff8be03af028869088ceef2a1a3fb75f</update_guid>
+        <update_guid_history>ff8be03af028869088ceef2a1a3fb75f:-507531250,11846b7cf0d48a10792eca8bf9a94155:0,6c91dbac05d40a10f02916fb6c54a72e:1277751242,dbc06aa8c7d8c610f7f1697387e5765f:597472302,dae615a8fb14c610e339493c14360c54:0,afc415e8b0d0c6109a1f125e283bc830:-858108808,df9d0ad2c20442d04eca23cc53f093ab:-507531250</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 20:09:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_set_operation">sys_rte_eb_set_operation</sys_db_object>
+        <sys_id>a103e65365e345a880a51db5c7e45640</sys_id>
+        <sys_metadata>1b9d0ad21b0442d06e86e0cb234bcbaa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>inventory_category</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_set_operation_1b9d0ad21b0442d06e86e0cb234bcbaa</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_set_operation_1b9d0ad21b0442d06e86e0cb234bcbaa">7b8be03a1b2886906e86e0cb234bcb60</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 20:09:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

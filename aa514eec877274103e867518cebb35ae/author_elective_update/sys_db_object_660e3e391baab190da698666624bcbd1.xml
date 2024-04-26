@@ -51,10 +51,10 @@
         <sys_created_by/>
         <sys_created_on>2024-01-06 19:39:44</sys_created_on>
         <sys_id>67f2bdd11bc4c690da698666624bcb70</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>18ce049d4000000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:17:30</sys_updated_on>
         <type>Table</type>
         <update_guid>27f2bdd158c4c6900284f4a12ce9ad70</update_guid>
         <update_guid_history>27f2bdd158c4c6900284f4a12ce9ad70:-1428461473</update_guid_history>

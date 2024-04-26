@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Network Gear 1</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_ci_netgear_1</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-10 19:11:43</sys_created_on>
+        <sys_id>1be8d0b487fbb8103e867518cebb35f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Network Gear 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_1be8d0b487fbb8103e867518cebb35f1</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-02 09:45:38</sys_updated_on>
+        <table>cmdb_ci_netgear</table>
+    </cmdb_inst_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>cmdb_inst_entity_1be8d0b487fbb8103e867518cebb35f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="INSERT_OR_UPDATE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Network Gear 1</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_ci_netgear_1</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-10 19:11:43</sys_created_on>
+        <sys_id>1be8d0b487fbb8103e867518cebb35f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Network Gear 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_1be8d0b487fbb8103e867518cebb35f1</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-02 09:45:38</sys_updated_on>
+        <table>cmdb_ci_netgear</table>
+    </cmdb_inst_entity>
+</record_update>]]></payload>
+        <payload_hash>-611968920</payload_hash>
+        <record_name>Network Gear 1</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:15:12</sys_created_on>
+        <sys_id>670427781bd48a106e86e0cb234bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e6fdfbc0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:15:12</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>23042778f3d48a1036eaf284a5e29ea9</update_guid>
+        <update_guid_history>23042778f3d48a1036eaf284a5e29ea9:0,b891dbacfdd40a103deeec0788ce8779:1295554317,ab665d648314c6105daa787ef69ba040:0,73c415e892d0c610b018373ad2e282ae:-1300963176,e775de6a848c82d02c89f4664f124dd2:-887709198,b0e6f6f5206ab19031075c183ab5df06:0,e7853a319d6ab19097fc219afd1c44b7:18260598,b53c9411d662f590def90465dfe6dcf0:0,848aa341c62efd505b3871a3c6f98b39:1060461468,0893926fc39e7950b9128c5707d7c386:0,bc525667bf9e7950850f537d6e6a1fef:1766050925,119fab901b56bd105e2f1cd1895f0730:0,c1cc27d8dd16bd1099fea7c3d87fdeaa:-570446751,3ba11306ca46b510a276d2b7c59f4022:1329587554</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Network Gear 1">23c989b91b390e50da698666624bcb6b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 20:09:23</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>11fb90ad1cf44325a157f5053338ce01</sys_id>
+        <sys_metadata>1be8d0b487fbb8103e867518cebb35f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network Gear 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_1be8d0b487fbb8103e867518cebb35f1</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_1be8d0b487fbb8103e867518cebb35f1">670427781bd48a106e86e0cb234bcba9</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 20:09:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

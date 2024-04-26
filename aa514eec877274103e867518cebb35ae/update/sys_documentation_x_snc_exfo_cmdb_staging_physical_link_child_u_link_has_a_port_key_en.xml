@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_link_has_a_port_key" label="LINK_HAS_A_PORT_KEY" language="en" table="x_snc_exfo_cmdb_staging_physical_link_child">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_link_has_a_port_key</element>
+            <help/>
+            <hint/>
+            <label>LINK_HAS_A_PORT_KEY</label>
+            <language>en</language>
+            <name>x_snc_exfo_cmdb_staging_physical_link_child</name>
+            <plural>LINK_HAS_A_PORT_KEYs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-04-26 16:17:30</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>LINK_HAS_A_PORT_KEY</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_exfo_cmdb_staging_physical_link_child_u_link_has_a_port_key_en</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-04-26 16:17:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

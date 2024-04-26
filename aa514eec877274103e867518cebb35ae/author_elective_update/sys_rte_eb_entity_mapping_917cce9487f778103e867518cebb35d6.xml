@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group>d57cce9487f778103e867518cebb3532</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>tempToInterface Card 1</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">f74c4e9487f778103e867518cebb3542</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-09 14:19:31</sys_created_on>
+        <sys_id>917cce9487f778103e867518cebb35d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToInterface Card 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_917cce9487f778103e867518cebb35d6</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-09 14:19:31</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Interface Card 1">597cce9487f778103e867518cebb3532</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_entity_mapping_917cce9487f778103e867518cebb35d6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;
+    &lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;condition_script&gt;&lt;![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input &amp;&amp; input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]&gt;&lt;/condition_script&gt;
+        &lt;encoded_query/&gt;
+        &lt;entity_mapping_group&gt;d57cce9487f778103e867518cebb3532&lt;/entity_mapping_group&gt;
+        &lt;ignore&gt;false&lt;/ignore&gt;
+        &lt;is_conditional&gt;false&lt;/is_conditional&gt;
+        &lt;name&gt;tempToInterface Card 1&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;source_sys_rte_eb_entity display_value="temp"&gt;f74c4e9487f778103e867518cebb3542&lt;/source_sys_rte_eb_entity&gt;
+        &lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-11-09 14:19:31&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;917cce9487f778103e867518cebb35d6&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;tempToInterface Card 1&lt;/sys_name&gt;
+        &lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_rte_eb_definition display_value="SG-EXFO Cards"&gt;344c0a5487f778103e867518cebb35f2&lt;/sys_rte_eb_definition&gt;
+        &lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_rte_eb_entity_mapping_917cce9487f778103e867518cebb35d6&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;aveenstra&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2021-11-09 14:19:31&lt;/sys_updated_on&gt;
+        &lt;target_sys_rte_eb_entity display_value="Interface Card 1"&gt;597cce9487f778103e867518cebb3532&lt;/target_sys_rte_eb_entity&gt;
+    &lt;/sys_rte_eb_entity_mapping&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-560668215</payload_hash>
+        <record_name>tempToInterface Card 1</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:16:10</sys_created_on>
+        <sys_id>a14423f81bd48a106e86e0cb234bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e70bed60000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:16:10</sys_updated_on>
+        <type>RTE Entity Mapping</type>
+        <update_guid>6d4423f84ad48a1064ce3c5895910ce3</update_guid>
+        <update_guid_history>6d4423f84ad48a1064ce3c5895910ce3:0,fdb1172049180a10f46aef0376c88790:310190869,0ea6dde4b814c610fad5ed53e27d15d2:0,daf4116cdbd0c6106260f21eb6a609a2:91202699,1e17b279756ab1906b5903070ffd7795:0,b6a57a71006ab190a929ec16cdb8912c:-1642506647,0e6c9c515c62f590aa7bf7ce1a86ebfb:0,dcaae3819d2efd5058fa8bdd7337497f:-626384047,55c35aafb99e7950251ae004019be460:0,bc729aa7f19e79506e3d76ba98dc11b8:1386704451,d6cf27141d56bd10e91bb40946c35617:0,24ecefd88b16bd102025745611178db9:1771733753,09f11f468646b510d1cacc880beb1688:-560668215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 20:09:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>6dd387e2087d4fd0895da2ea85da9440</sys_id>
+        <sys_metadata>917cce9487f778103e867518cebb35d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToInterface Card 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_917cce9487f778103e867518cebb35d6</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_917cce9487f778103e867518cebb35d6">a14423f81bd48a106e86e0cb234bcbe4</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 20:09:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

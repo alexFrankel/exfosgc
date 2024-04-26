@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_multi_in_script_operation">
+    <sys_rte_eb_multi_in_script_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Multiple Input Script - u_link_alias1,u_link_alias2</name>
+        <operation_group/>
+        <order>1000</order>
+        <script><![CDATA[(function(batch, output) {
+   for (var i = 0; i < batch.length; i++) {
+      var input = batch[i].input; // Value of the input columns concatenated with '|'.
+      if (batch[i].u_link_alias1 && batch[i].u_link_alias2) {
+         output[i]=batch[i].u_link_alias1 + ',' + batch[i].u_link_alias2;
+      } else if (batch[i].u_link_alias1 ) {
+         output[i]=batch[i].u_link_alias1 ;
+      } else if (batch[i].u_link_alias2) {
+         output[i]=batch[i].u_link_alias2 ;
+      }
+   }
+})(batch, output);]]></script>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields>b8e4dcbd1b79ca50da698666624bcb6d,05e4dcbd1b79ca50da698666624bcba9</source_sys_rte_eb_fields>
+        <sys_class_name>sys_rte_eb_multi_in_script_operation</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 16:18:19</sys_created_on>
+        <sys_id>7ee490fd1b79ca50da698666624bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Multiple Input Script - u_link_alias1,u_link_alias2</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Link Children">97d49cbd1b79ca50da698666624bcb14</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">3ce458bd1b79ca50da698666624bcb81</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_multi_in_script_operation_7ee490fd1b79ca50da698666624bcb4a</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 16:18:19</sys_updated_on>
+        <target_sys_rte_eb_field display_value="distinguished_name">74e4dcbd1b79ca50da698666624bcb85</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Multiple Input Script">a5584ee4739000102b6265a751ab9eae</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_multi_in_script_operation>
+</record_update>

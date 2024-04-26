@@ -12,19 +12,19 @@
         <description/>
         <execute_after_script>true</execute_after_script>
         <execute_before_script>false</execute_before_script>
-        <name>SG-EXFO Logical Ports</name>
+        <name>SG-EXFO Logical Port Parents</name>
         <sys_class_name>cmdb_inst_application_feed</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-31 13:31:43</sys_created_on>
-        <sys_data_source display_value="SG-EXFO Logical Port">ed43140e1bcc4e906e86e0cb234bcbe8</sys_data_source>
+        <sys_data_source display_value="SG-EXFO Logical Port Parent">ed43140e1bcc4e906e86e0cb234bcbe8</sys_data_source>
         <sys_id>3f067c461bc08e906e86e0cb234bcbf0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>SG-EXFO Logical Ports</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>SG-EXFO Logical Port Parents</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>cmdb_inst_application_feed_3f067c461bc08e906e86e0cb234bcbf0</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-04-18 08:43:06</sys_updated_on>
+        <sys_updated_on>2024-04-26 16:06:58</sys_updated_on>
     </cmdb_inst_application_feed>
 </record_update>

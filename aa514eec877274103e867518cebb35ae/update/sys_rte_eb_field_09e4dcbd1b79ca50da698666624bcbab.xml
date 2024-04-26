@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="INSERT_OR_UPDATE">
+        <field>u_link_vendor_cleansed_name</field>
+        <name>u_link_vendor_cleansed_name</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 16:18:12</sys_created_on>
+        <sys_id>09e4dcbd1b79ca50da698666624bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_link_vendor_cleansed_name</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Link Children">97d49cbd1b79ca50da698666624bcb14</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">3ce458bd1b79ca50da698666624bcb81</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_field_09e4dcbd1b79ca50da698666624bcbab</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 16:18:12</sys_updated_on>
+    </sys_rte_eb_field>
+</record_update>

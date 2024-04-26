@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="DELETE">
+        <active>true</active>
+        <batch_size>100</batch_size>
+        <description/>
+        <name>SG-EXFO Cards</name>
+        <properties/>
+        <robust_transform_engine display_value="SG-EXFO Card Parents">344c0a5487f778103e867518cebb35f2</robust_transform_engine>
+        <source_table>x_snc_exfo_cmdb_staging_card_parent</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-09 14:18:40</sys_created_on>
+        <sys_id>384c0e9487f778103e867518cebb35ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SG-EXFO Cards</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_384c0e9487f778103e867518cebb35ba</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 13:16:42</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_robust_import_set_transformer_384c0e9487f778103e867518cebb35ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer"><sys_robust_import_set_transformer action="INSERT_OR_UPDATE"><active>true</active><batch_size>100</batch_size><description/><name>SG-EXFO Cards</name><properties/><robust_transform_engine display_value="SG-EXFO Card Parents">344c0a5487f778103e867518cebb35f2</robust_transform_engine><source_table>x_snc_exfo_cmdb_staging_card_parent</source_table><sys_class_name>sys_robust_import_set_transformer</sys_class_name><sys_created_by>aveenstra</sys_created_by><sys_created_on>2021-11-09 14:18:40</sys_created_on><sys_id>384c0e9487f778103e867518cebb35ba</sys_id><sys_mod_count>1</sys_mod_count><sys_name>SG-EXFO Cards</sys_name><sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>sys_robust_import_set_transformer_384c0e9487f778103e867518cebb35ba</sys_update_name><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-04-26 13:16:42</sys_updated_on><verbose>false</verbose></sys_robust_import_set_transformer></record_update>]]></payload>
+        <payload_hash>1873747474</payload_hash>
+        <record_name>SG-EXFO Cards</record_name>
+        <reverted_from/>
+        <source>3c8da93d1b9c8e10da698666624bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 13:16:42</sys_created_on>
+        <sys_id>125be7211bf5ca50da698666624bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f1a8d0cb30000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 13:16:42</sys_updated_on>
+        <type>Robust Import Set Transformer</type>
+        <update_guid>965be72171f5ca50154ff0ba8e2efb28</update_guid>
+        <update_guid_history>965be72171f5ca50154ff0ba8e2efb28:1873747474,a044efb886d48a10501e14e2fc53481b:0,fdc19f20d1180a10462e48ed40f5044c:-1610950975,62b1972006180a10945da0164dfc4534:0,4da65de4c514c610b010aba108a0389d:0,ce05596cdcd0c6107b213c29b69375c8:-723164176,faf4916cecd0c610ff11fc227100f55e:0,7d177279ba6ab190ea80d9afa982def7:0,90b53e71116ab190b33d4930a72ec931:-922545721,5fa5ba71276ab1900a26e497c84ea16e:0,e56c9c51af62f5902341a03fcd5f1243:0,21aaa781762efd50aa3161ad9f279838:-202110690,78aa2781b92efd5008c303ae8f46daba:0,f8c31aaf559e79509e2ea03d496a8095:0,42725ea7619e79502c27c9ebb95da0d4:2099506765,d972daa7709e7950b5a80c108ad723f6:0,8ecfe314a556bd102525942372dcc07d:0,a9ec631c7816bd1011fffee42c3406c7:1319919857,f4ec231ce416bd1034806ce906c54671:0,24f1db464f46b510f4a4b0b1d72049c2:-667681857</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 20:09:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_robust_import_set_transformer">sys_robust_import_set_transformer</sys_db_object>
+        <sys_id>7f437fcede7e4f0c986b0e99fd099261</sys_id>
+        <sys_metadata>384c0e9487f778103e867518cebb35ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-EXFO Cards</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_robust_import_set_transformer_384c0e9487f778103e867518cebb35ba</sys_update_name>
+        <sys_update_version display_value="sys_robust_import_set_transformer_384c0e9487f778103e867518cebb35ba">125be7211bf5ca50da698666624bcb29</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 20:09:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

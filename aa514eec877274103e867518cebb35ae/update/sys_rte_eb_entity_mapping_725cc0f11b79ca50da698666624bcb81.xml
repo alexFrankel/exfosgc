@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[(function() {
+    if (((input.temp.u_e_h_has_parent_e_h_key))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>u_e_h_has_parent_e_h_keyISNOTEMPTY</encoded_query>
+        <entity_mapping_group>0e2bcede1bc042d06e86e0cb234bcbde</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>true</is_conditional>
+        <name>tempToEquipment holder 2</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">315c40f11b79ca50da698666624bcbb0</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 15:40:55</sys_created_on>
+        <sys_id>725cc0f11b79ca50da698666624bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToEquipment holder 2</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Equipment Holder Children">ab4c8cb11b79ca50da698666624bcbe6</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_725cc0f11b79ca50da698666624bcb81</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 15:40:55</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Equipment holder 2">e25c80f11b79ca50da698666624bcbd2</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

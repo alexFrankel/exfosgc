@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Interface Card 1</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_ci_interface_card_1</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-09 14:19:31</sys_created_on>
+        <sys_id>597cce9487f778103e867518cebb3532</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interface Card 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_597cce9487f778103e867518cebb3532</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-09 14:19:31</sys_updated_on>
+        <table>cmdb_ci_interface_card</table>
+    </cmdb_inst_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>cmdb_inst_entity_597cce9487f778103e867518cebb3532</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="INSERT_OR_UPDATE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Interface Card 1</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_ci_interface_card_1</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-09 14:19:31</sys_created_on>
+        <sys_id>597cce9487f778103e867518cebb3532</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interface Card 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_597cce9487f778103e867518cebb3532</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-09 14:19:31</sys_updated_on>
+        <table>cmdb_ci_interface_card</table>
+    </cmdb_inst_entity>
+</record_update>]]></payload>
+        <payload_hash>-1057104532</payload_hash>
+        <record_name>Interface Card 1</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:15:14</sys_created_on>
+        <sys_id>770467781bd48a106e86e0cb234bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e6fe3eb0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:15:14</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>3304677846d48a10a6647518c399762a</update_guid>
+        <update_guid_history>3304677846d48a10a6647518c399762a:0,39b117206b180a10c533e5e0144d79b5:1935439238,b7665d64f414c6105a93d7897264e8e0:0,12f4116cf2d0c610a2f1d345b0a851f9:-1557813478,cde6f6f5d36ab1902149dc6a95ec463c:0,8fa57a71b26ab19071610131fb9d5752:817181550,c63cd4118562f590ca116ad51ea8fc59:0,dcaae381fd2efd507647d0d1fe60028d:2108989509,5893926f8c9e7950626357fd13b2d7d4:0,b0729aa7119e795032e37accbb1989c6:1385058407,1d9fab90ba56bd10aa48722c7c80d058:0,2cecefd8fb16bd10eed5e5d94acb2cc5:-447306737,8cb113060646b51002e91cc3949fe45d:-1057104532</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Interface Card 1">b3c989b91b390e50da698666624bcbfa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 20:09:24</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>1c552367eb0f40a28c00398aa13d1929</sys_id>
+        <sys_metadata>597cce9487f778103e867518cebb3532</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interface Card 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_597cce9487f778103e867518cebb3532</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_597cce9487f778103e867518cebb3532">770467781bd48a106e86e0cb234bcb2a</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 20:09:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

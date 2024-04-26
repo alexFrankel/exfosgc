@@ -9,8 +9,8 @@
             <sys_id>439cd181878a4910c4a3c99d0ebb3570</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="sys_connection" name="sys_connection" sys_domain="global" view="413c5d41878a4910c4a3c99d0ebb35fe">0f9cd181878a4910c4a3c99d0ebb356e</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="sys_connection" sys_domain="global" view="413c5d41878a4910c4a3c99d0ebb35fe">853c9d41878a4910c4a3c99d0ebb3505</sys_ui_section>
+            <sys_ui_form display_value="sys_connection" name="sys_connection" sys_domain="global" view="987993381b584a10da698666624bcb6e">0f9cd181878a4910c4a3c99d0ebb356e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sys_connection" sys_domain="global" view="987993381b584a10da698666624bcb6e">853c9d41878a4910c4a3c99d0ebb3505</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-03-03 15:07:11</sys_updated_on>
         </sys_ui_form_section>
@@ -23,8 +23,8 @@
             <sys_id>4b9cd181878a4910c4a3c99d0ebb3571</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="sys_connection" name="sys_connection" sys_domain="global" view="413c5d41878a4910c4a3c99d0ebb35fe">0f9cd181878a4910c4a3c99d0ebb356e</sys_ui_form>
-            <sys_ui_section caption="Advanced MID Server Configuration" display_value="Advanced MID Server Configuration" name="sys_connection" sys_domain="global" view="413c5d41878a4910c4a3c99d0ebb35fe">4b9cd181878a4910c4a3c99d0ebb3570</sys_ui_section>
+            <sys_ui_form display_value="sys_connection" name="sys_connection" sys_domain="global" view="987993381b584a10da698666624bcb6e">0f9cd181878a4910c4a3c99d0ebb356e</sys_ui_form>
+            <sys_ui_section caption="Advanced MID Server Configuration" display_value="Advanced MID Server Configuration" name="sys_connection" sys_domain="global" view="987993381b584a10da698666624bcb6e">4b9cd181878a4910c4a3c99d0ebb3570</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-03-03 15:07:11</sys_updated_on>
         </sys_ui_form_section>
@@ -47,7 +47,7 @@
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-03-03 15:07:11</sys_updated_on>
             <sys_user/>
-            <view display_value="EXFO Setup" name="exfo_setup">413c5d41878a4910c4a3c99d0ebb35fe</view>
+            <view display_value="EXFO Setup" name="exfo_setup">987993381b584a10da698666624bcb6e</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

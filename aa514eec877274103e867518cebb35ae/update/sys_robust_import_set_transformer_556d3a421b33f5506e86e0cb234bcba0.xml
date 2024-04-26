@@ -5,20 +5,20 @@
         <description/>
         <name>SG-EXFO Equipment Holders</name>
         <properties/>
-        <robust_transform_engine display_value="SG-EXFO Equipment Holders">956d36421b33f5506e86e0cb234bcbba</robust_transform_engine>
-        <source_table>x_snc_exfo_cmdb_staging_equipment_holder</source_table>
+        <robust_transform_engine display_value="SG-EXFO Equipment Holder Parents">956d36421b33f5506e86e0cb234bcbba</robust_transform_engine>
+        <source_table>x_snc_exfo_cmdb_staging_equipment_holder_parent</source_table>
         <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-19 13:07:19</sys_created_on>
         <sys_id>556d3a421b33f5506e86e0cb234bcba0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>SG-EXFO Equipment Holders</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_robust_import_set_transformer_556d3a421b33f5506e86e0cb234bcba0</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-01-19 13:07:19</sys_updated_on>
+        <sys_updated_on>2024-04-26 15:37:38</sys_updated_on>
         <verbose>false</verbose>
     </sys_robust_import_set_transformer>
 </record_update>

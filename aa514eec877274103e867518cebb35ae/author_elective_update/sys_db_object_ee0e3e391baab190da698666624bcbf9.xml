@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Staging: EXFO Card</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_snc_exfo_cmdb_staging_card</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">da5340c21b1321106e86e0cb234bcb67</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-10-11 18:45:04</sys_created_on>
+        <sys_id>ee0e3e391baab190da698666624bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staging: EXFO Card</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_db_object_ee0e3e391baab190da698666624bcbf9</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-10-11 18:45:04</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_snc_exfo_cmdb.user" name="x_snc_exfo_cmdb.user">5491422087b274103e867518cebb3549</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_db_object_ee0e3e391baab190da698666624bcbf9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Staging: EXFO Card</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_snc_exfo_cmdb_staging_card</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">da5340c21b1321106e86e0cb234bcb67</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-10-11 18:45:04</sys_created_on>
+        <sys_id>ee0e3e391baab190da698666624bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staging: EXFO Card</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_db_object_ee0e3e391baab190da698666624bcbf9</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-10-11 18:45:04</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_snc_exfo_cmdb.user" name="x_snc_exfo_cmdb.user">5491422087b274103e867518cebb3549</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>]]></payload>
+        <payload_hash>1623238200</payload_hash>
+        <record_name>Staging: EXFO Card</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:13:56</sys_created_on>
+        <sys_id>b0c363f41bd48a106e86e0cb234bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e6eb4730000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:13:56</sys_updated_on>
+        <type>Table</type>
+        <update_guid>7cc363f4e2d48a10bb8076493e6a27a2</update_guid>
+        <update_guid_history>7cc363f4e2d48a10bb8076493e6a27a2:0,5b511b2c92d40a108b602f2c8cc1c61a:1252079579,4c2619e03e14c6106ebc25e22d616c70:0,db845d28bad0c610db7bdb55fca6a0fb:-1665654103,6984592866d0c610d40829afeb8a27d4:862918172</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 15:35:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>507e964f34db48b4b4d0107d06cbd8a4</sys_id>
+        <sys_metadata>ee0e3e391baab190da698666624bcbf9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staging: EXFO Card</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_db_object_ee0e3e391baab190da698666624bcbf9</sys_update_name>
+        <sys_update_version display_value="sys_db_object_ee0e3e391baab190da698666624bcbf9">b0c363f41bd48a106e86e0cb234bcba3</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 15:35:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

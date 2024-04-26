@@ -9,7 +9,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_HAS_LINK_KEY" label="FIBER_HAS_LINK_KEY" max_length="40" name="u_fiber_has_link_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_HAS_Z_SITE_KEY" label="FIBER_HAS_Z_SITE_KEY" max_length="40" name="u_fiber_has_z_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_KEY" label="FIBER_KEY" max_length="40" name="u_fiber_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_NAME" label="FIBER_NAME" max_length="40" name="u_fiber_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_NAME" label="FIBER_NAME" max_length="255" name="u_fiber_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_NUMBER" label="FIBER_NUMBER" max_length="40" name="u_fiber_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_STATUS" label="FIBER_STATUS" max_length="40" name="u_fiber_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_TNI_DOMAIN" label="FIBER_TNI_DOMAIN" max_length="40" name="u_fiber_tni_domain" type="string"/>

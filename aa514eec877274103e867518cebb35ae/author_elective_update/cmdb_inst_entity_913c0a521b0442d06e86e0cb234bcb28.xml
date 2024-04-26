@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>TNI CI Attributes 1</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>tni_entity_1</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-01 14:26:35</sys_created_on>
+        <sys_id>913c0a521b0442d06e86e0cb234bcb28</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TNI CI Attributes 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_913c0a521b0442d06e86e0cb234bcb28</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-01 14:26:45</sys_updated_on>
+        <table>tni_entity</table>
+    </cmdb_inst_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>cmdb_inst_entity_913c0a521b0442d06e86e0cb234bcb28</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity"><cmdb_inst_entity action="INSERT_OR_UPDATE"><child_id_field/><lookup_for_entity/><name>TNI CI Attributes 1</name><parent_entity/><parent_id_field/><path>tni_entity_1</path><related_for_entity/><relationship_type/><sys_class_name>cmdb_inst_entity</sys_class_name><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-02-01 14:26:35</sys_created_on><sys_id>913c0a521b0442d06e86e0cb234bcb28</sys_id><sys_mod_count>1</sys_mod_count><sys_name>TNI CI Attributes 1</sys_name><sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_rte_eb_definition display_value="">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>cmdb_inst_entity_913c0a521b0442d06e86e0cb234bcb28</sys_update_name><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-02-01 14:26:45</sys_updated_on><table>tni_entity</table></cmdb_inst_entity></record_update>]]></payload>
+        <payload_hash>-1824505326</payload_hash>
+        <record_name>TNI CI Attributes 1</record_name>
+        <reverted_from/>
+        <source>3c8da93d1b9c8e10da698666624bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 20:09:24</sys_created_on>
+        <sys_id>7bc989b91b390e50da698666624bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f1c06e37f0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 20:09:24</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>37c989b9f1390e50072f534cfdcfaeee</update_guid>
+        <update_guid_history>37c989b9f1390e50072f534cfdcfaeee:0,80146778f0d48a1059b0eb1b467983d4:0,86b15720b6180a10cb0ac44095d5c533:-679754423,f9b11720b2180a10c72b689f1bdd3a93:0,c4769d64e014c6108494b259a7d5fd74:0,e6f4516c30d0c610b23a93f4969a5e6a:-1364103535,d6f4116c29d0c610e91b451af3c8d8a5:0,333c8a520a0442d0ae7e4b80aa64b6f9:931186861,5d3c0a52480442d0afa03006f2e80729:-1372983250</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="TNI CI Attributes 1">ccd9c9b91b390e50da698666624bcb46</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 20:09:25</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>3f36002fc45b4468aa3ba2ca0ae9a840</sys_id>
+        <sys_metadata>913c0a521b0442d06e86e0cb234bcb28</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TNI CI Attributes 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_913c0a521b0442d06e86e0cb234bcb28</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_913c0a521b0442d06e86e0cb234bcb28">7bc989b91b390e50da698666624bcbee</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 20:09:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

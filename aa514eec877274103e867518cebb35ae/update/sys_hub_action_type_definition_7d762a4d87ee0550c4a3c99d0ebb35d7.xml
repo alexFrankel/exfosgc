@@ -1473,6 +1473,29 @@
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=beeb2acd87ae85503e867518cebb35e5"/>
     <sys_hub_action_output action="delete_multiple" query="model=7d762a4d87ee0550c4a3c99d0ebb35d7^sys_idNOT IN087eaa0587620110c4a3c99d0ebb359e,0f264bc987260110c4a3c99d0ebb35d4,407eaa0587620110c4a3c99d0ebb35a4"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc87eaa05c662011061fe0bd9b180785c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
+        <serialized_content>{"FlowDesigner:FDc87eaa05c662011061fe0bd9b180785c":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDc87eaa05c662011061fe0bd9b180785c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"6cbae9ae-0f38-443c-9229-664fef87f1fc\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc87eaa05c662011061fe0bd9b180785c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-03-28 17:36:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c7eaa0587620110c4a3c99d0ebb355c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDc87eaa05c662011061fe0bd9b180785c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_complex_object_8c7eaa0587620110c4a3c99d0ebb355c</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-03-28 17:38:45</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3317,6 +3340,29 @@
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5b7672c587e20110c4a3c99d0ebb3542"/>
     <sys_hub_action_output action="delete_multiple" query="model=977672c587e20110c4a3c99d0ebb353f^sys_idNOT INbf7672c587e20110c4a3c99d0ebb35c4,f4e8438d87260110c4a3c99d0ebb355a,ff7672c587e20110c4a3c99d0ebb35c9"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf77672c5e6e2011067b3a46a29fc94c0</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
+        <serialized_content>{"FlowDesigner:FDf77672c5e6e2011067b3a46a29fc94c0":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDf77672c5e6e2011067b3a46a29fc94c0.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"6cbae9ae-0f38-443c-9229-664fef87f1fc\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf77672c5e6e2011067b3a46a29fc94c0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-03-28 18:11:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb7672c587e20110c4a3c99d0ebb35c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDf77672c5e6e2011067b3a46a29fc94c0</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_complex_object_bb7672c587e20110c4a3c99d0ebb35c0</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-27 13:01:23</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>

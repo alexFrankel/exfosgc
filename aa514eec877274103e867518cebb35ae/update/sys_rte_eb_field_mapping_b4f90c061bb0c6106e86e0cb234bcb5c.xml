@@ -11,7 +11,7 @@
         <sys_name/>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
-        <sys_rte_eb_definition display_value="SG-EXFO Physical Links">0826ccce1b70c6106e86e0cb234bcbf9</sys_rte_eb_definition>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Link Parents">0826ccce1b70c6106e86e0cb234bcbf9</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="tempToTNI CI Attributes 1">84e908061bb0c6106e86e0cb234bcbde</sys_rte_eb_entity_mapping>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_field_mapping_b4f90c061bb0c6106e86e0cb234bcb5c</sys_update_name>

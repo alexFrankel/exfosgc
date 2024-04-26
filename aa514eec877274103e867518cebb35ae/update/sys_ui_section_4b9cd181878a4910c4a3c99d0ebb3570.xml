@@ -8,7 +8,7 @@
             <sys_id>266e9dc1878a4910c4a3c99d0ebb3593</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Advanced MID Server Configuration" display_value="Advanced MID Server Configuration" name="sys_connection" sys_domain="global" view="413c5d41878a4910c4a3c99d0ebb35fe">4b9cd181878a4910c4a3c99d0ebb3570</sys_ui_section>
+            <sys_ui_section caption="Advanced MID Server Configuration" display_value="Advanced MID Server Configuration" name="sys_connection" sys_domain="global" view="987993381b584a10da698666624bcb6e">4b9cd181878a4910c4a3c99d0ebb3570</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-03-03 15:15:04</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>a66e9dc1878a4910c4a3c99d0ebb3593</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Advanced MID Server Configuration" display_value="Advanced MID Server Configuration" name="sys_connection" sys_domain="global" view="413c5d41878a4910c4a3c99d0ebb35fe">4b9cd181878a4910c4a3c99d0ebb3570</sys_ui_section>
+            <sys_ui_section caption="Advanced MID Server Configuration" display_value="Advanced MID Server Configuration" name="sys_connection" sys_domain="global" view="987993381b584a10da698666624bcb6e">4b9cd181878a4910c4a3c99d0ebb3570</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-03-03 15:15:04</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_updated_on>2022-03-03 15:15:03</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="EXFO Setup" name="exfo_setup">413c5d41878a4910c4a3c99d0ebb35fe</view>
+            <view display_value="EXFO Setup" name="exfo_setup">987993381b584a10da698666624bcb6e</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

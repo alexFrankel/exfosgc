@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>cmdb_rel_ci_1636572963686_0</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_rel_ci_1636572963686_0</path>
+        <related_for_entity/>
+        <relationship_type display_value="Contains::Contained by">55c95bf6c0a8010e0118ec7056ebc54d</relationship_type>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-10 19:36:03</sys_created_on>
+        <sys_id>777e94f887fbb8103e867518cebb3584</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_rel_ci_1636572963686_0</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_777e94f887fbb8103e867518cebb3584</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-10 19:36:03</sys_updated_on>
+        <table>cmdb_rel_ci</table>
+    </cmdb_inst_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>cmdb_inst_entity_777e94f887fbb8103e867518cebb3584</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="INSERT_OR_UPDATE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>cmdb_rel_ci_1636572963686_0</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_rel_ci_1636572963686_0</path>
+        <related_for_entity/>
+        <relationship_type display_value="Contains::Contained by">55c95bf6c0a8010e0118ec7056ebc54d</relationship_type>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-10 19:36:03</sys_created_on>
+        <sys_id>777e94f887fbb8103e867518cebb3584</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_rel_ci_1636572963686_0</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>cmdb_inst_entity_777e94f887fbb8103e867518cebb3584</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-10 19:36:03</sys_updated_on>
+        <table>cmdb_rel_ci</table>
+    </cmdb_inst_entity>
+</record_update>]]></payload>
+        <payload_hash>1424158249</payload_hash>
+        <record_name>cmdb_rel_ci_1636572963686_0</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:15:14</sys_created_on>
+        <sys_id>081467781bd48a106e86e0cb234bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e6fe7790000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:15:14</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>c0146778abd48a1058b9d378f542e0a3</update_guid>
+        <update_guid_history>c0146778abd48a1058b9d378f542e0a3:0,82b1572016180a10dc05e36fbfb7c705:1732752362,80769d645914c6100bc1bd8e22af5244:0,56f4516c9fd0c610fd3fe6e01ab58423:-1202046387,09e6f6f5fe6ab190afc557c9885d0873:0,c3a57a71f16ab190d1736737cdcea87d:515715123,ca3cd4112f62f5904c1b05d8eb0cef9c:0,10aae381362efd5089eb61bfd754a1b9:37145160,5093926f7b9e7950bf3996d5f64b29fd:0,34729aa7199e79503856e5c184489ae3:1822429514,e99fab90c656bd10f9dea381bb47ab8d:0,a4ecefd88716bd10f622c7c42f816ae1:-2069780146,c4b113068346b5106c30827d646062a5:1424158249</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="cmdb_rel_ci_1636572963686_0">8cd9c9b91b390e50da698666624bcb21</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 20:09:25</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>110240264e68403087a26a6a040f7629</sys_id>
+        <sys_metadata>777e94f887fbb8103e867518cebb3584</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_rel_ci_1636572963686_0</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_777e94f887fbb8103e867518cebb3584</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_777e94f887fbb8103e867518cebb3584">081467781bd48a106e86e0cb234bcba3</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 20:09:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

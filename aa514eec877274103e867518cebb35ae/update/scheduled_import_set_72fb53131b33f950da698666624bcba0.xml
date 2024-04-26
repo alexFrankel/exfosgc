@@ -2,7 +2,7 @@
     <scheduled_import_set action="INSERT_OR_UPDATE">
         <active>true</active>
         <business_calendar/>
-        <concurrent_import>false</concurrent_import>
+        <concurrent_import>true</concurrent_import>
         <condition><![CDATA[var dataSource = current.data_source;
 var attachmentGR = new GlideRecord('sys_attachment');
 if(attachmentGR.get('table_sys_id', dataSource)){
@@ -13,11 +13,11 @@ else{
 }]]></condition>
         <conditional>true</conditional>
         <connection_override/>
-        <data_source display_value="SG-EXFO Service">208b17df1bffb950da698666624bcb6c</data_source>
+        <data_source display_value="SG-EXFO Service Parent">208b17df1bffb950da698666624bcb6c</data_source>
         <entered_time/>
         <map/>
         <max_drift/>
-        <name>SG-EXFO Service Import</name>
+        <name>SG-EXFO Service Parents Import</name>
         <offset/>
         <offset_type>0</offset_type>
         <order>95</order>
@@ -40,7 +40,7 @@ else{
         <pre_script/>
         <pre_script_bool>false</pre_script_bool>
         <record_source>regular</record_source>
-        <run_as display_value="Alex Frankel">7311e5641bcab910da698666624bcb3c</run_as>
+        <run_as display_value="">9d1fd9fa1bc23910da698666624bcb54</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
@@ -54,14 +54,14 @@ else{
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-23 12:33:48</sys_created_on>
         <sys_id>72fb53131b33f950da698666624bcba0</sys_id>
-        <sys_mod_count>21</sys_mod_count>
-        <sys_name>SG-EXFO Service Import</sys_name>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>SG-EXFO Service Parents Import</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>scheduled_import_set_72fb53131b33f950da698666624bcba0</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-02-29 10:19:02</sys_updated_on>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 16:41:10</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
         <use_child_connection>false</use_child_connection>

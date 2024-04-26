@@ -122,23 +122,50 @@ EXFOImportUtil.prototype = {
         if (fileImportType == 'ne') {
             fileImportType = 'Network Element';
         }
-        if (fileImportType == 'PhysicalPort') {
-            fileImportType = 'Physical Port';
-        }
-        if (fileImportType == 'LogicalPort') {
-            fileImportType = 'Logical Port';
-        }
-        if (fileImportType == 'PhysicalLink') {
-            fileImportType = 'Physical Link';
-        }
-        if (fileImportType == 'LogicalLink') {
-            fileImportType = 'Logical Link';
-        }
-        if (fileImportType == 'EquipmentHolder') {
-            fileImportType = 'Equipment Holder';
-        }
         if (fileImportType == 'IpAddress') {
             fileImportType = 'Ip Address';
+        }
+        if (fileImportType == 'EquipmentHolderChild') {
+            fileImportType = 'Equipment Holder Child';
+        }
+        if (fileImportType == 'EquipmentHolderParent') {
+            fileImportType = 'Equipment Holder Parent';
+        }
+        if (fileImportType == 'CardChild') {
+            fileImportType = 'Card Child';
+        }
+        if (fileImportType == 'CardParent') {
+            fileImportType = 'Card Parent';
+        }
+        if (fileImportType == 'PhysicalPortParent') {
+            fileImportType = 'Physical Port Parent';
+        }
+        if (fileImportType == 'PhysicalPortChild') {
+            fileImportType = 'Physical Port Child';
+        }
+        if (fileImportType == 'LogicalPortParent') {
+            fileImportType = 'Logical Port Parent';
+        }
+        if (fileImportType == 'LogicalPortChild') {
+            fileImportType = 'Logical Port Child';
+        }
+        if (fileImportType == 'PhysicalLinkParent') {
+            fileImportType = 'Physical Link Parent';
+        }
+        if (fileImportType == 'PhysicalLinkChild') {
+            fileImportType = 'Physical Link Child';
+        }
+        if (fileImportType == 'LogicalLinkParent') {
+            fileImportType = 'Logical Link Parent';
+        }
+        if (fileImportType == 'LogicalLinkChild') {
+            fileImportType = 'Logical Link Child';
+        }
+        if (fileImportType == 'ServiceParent') {
+            fileImportType = 'Service Parent';
+        }
+        if (fileImportType == 'ServiceChild') {
+            fileImportType = 'Service Child';
         }
         if (fileImportType == 'Rel') {
             fileImportType = 'Relationships';
@@ -364,13 +391,13 @@ EXFOImportUtil.prototype = {
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-10-18 16:56:28</sys_created_on>
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
-        <sys_mod_count>91</sys_mod_count>
+        <sys_mod_count>93</sys_mod_count>
         <sys_name>EXFOImportUtil</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-04-18 08:38:25</sys_updated_on>
+        <sys_updated_on>2024-04-26 16:45:11</sys_updated_on>
     </sys_script_include>
 </record_update>

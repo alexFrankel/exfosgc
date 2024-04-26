@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_snc_exfo_cmdb_staging_equipment_holder" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_row</element>
+            <list_id display_value="x_snc_exfo_cmdb_staging_equipment_holder" element="NULL" name="x_snc_exfo_cmdb_staging_equipment_holder" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">796d7a421b33f5506e86e0cb234bcb29</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_id>b16d7a421b33f5506e86e0cb234bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_set</element>
+            <list_id display_value="x_snc_exfo_cmdb_staging_equipment_holder" element="NULL" name="x_snc_exfo_cmdb_staging_equipment_holder" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">796d7a421b33f5506e86e0cb234bcb29</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_id>b96d7a421b33f5506e86e0cb234bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_state</element>
+            <list_id display_value="x_snc_exfo_cmdb_staging_equipment_holder" element="NULL" name="x_snc_exfo_cmdb_staging_equipment_holder" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">796d7a421b33f5506e86e0cb234bcb29</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_id>bd6d7a421b33f5506e86e0cb234bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_table</element>
+            <list_id display_value="x_snc_exfo_cmdb_staging_equipment_holder" element="NULL" name="x_snc_exfo_cmdb_staging_equipment_holder" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">796d7a421b33f5506e86e0cb234bcb29</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_id>b16d7a421b33f5506e86e0cb234bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_sys_id</element>
+            <list_id display_value="x_snc_exfo_cmdb_staging_equipment_holder" element="NULL" name="x_snc_exfo_cmdb_staging_equipment_holder" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">796d7a421b33f5506e86e0cb234bcb29</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_id>b56d7a421b33f5506e86e0cb234bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_row_error</element>
+            <list_id display_value="x_snc_exfo_cmdb_staging_equipment_holder" element="NULL" name="x_snc_exfo_cmdb_staging_equipment_holder" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">796d7a421b33f5506e86e0cb234bcb29</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_id>b96d7a421b33f5506e86e0cb234bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_exfo_cmdb_staging_equipment_holder</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>796d7a421b33f5506e86e0cb234bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_exfo_cmdb_staging_equipment_holder</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_exfo_cmdb_staging_equipment_holder_null</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_ui_list_x_snc_exfo_cmdb_staging_equipment_holder_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_exfo_cmdb_staging_equipment_holder" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_row</element>
+            <list_id display_value="x_snc_exfo_cmdb_staging_equipment_holder" element="NULL" name="x_snc_exfo_cmdb_staging_equipment_holder" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">796d7a421b33f5506e86e0cb234bcb29</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_id>b16d7a421b33f5506e86e0cb234bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_set</element>
+            <list_id display_value="x_snc_exfo_cmdb_staging_equipment_holder" element="NULL" name="x_snc_exfo_cmdb_staging_equipment_holder" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">796d7a421b33f5506e86e0cb234bcb29</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_id>b96d7a421b33f5506e86e0cb234bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_state</element>
+            <list_id display_value="x_snc_exfo_cmdb_staging_equipment_holder" element="NULL" name="x_snc_exfo_cmdb_staging_equipment_holder" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">796d7a421b33f5506e86e0cb234bcb29</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_id>bd6d7a421b33f5506e86e0cb234bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_table</element>
+            <list_id display_value="x_snc_exfo_cmdb_staging_equipment_holder" element="NULL" name="x_snc_exfo_cmdb_staging_equipment_holder" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">796d7a421b33f5506e86e0cb234bcb29</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_id>b16d7a421b33f5506e86e0cb234bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_sys_id</element>
+            <list_id display_value="x_snc_exfo_cmdb_staging_equipment_holder" element="NULL" name="x_snc_exfo_cmdb_staging_equipment_holder" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">796d7a421b33f5506e86e0cb234bcb29</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_id>b56d7a421b33f5506e86e0cb234bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_row_error</element>
+            <list_id display_value="x_snc_exfo_cmdb_staging_equipment_holder" element="NULL" name="x_snc_exfo_cmdb_staging_equipment_holder" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">796d7a421b33f5506e86e0cb234bcb29</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_id>b96d7a421b33f5506e86e0cb234bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_exfo_cmdb_staging_equipment_holder</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-19 13:07:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>796d7a421b33f5506e86e0cb234bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_exfo_cmdb_staging_equipment_holder</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_exfo_cmdb_staging_equipment_holder_null</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-19 13:07:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>]]></payload>
+        <payload_hash>128665005</payload_hash>
+        <record_name>Staging: EXFO Equipment Holder</record_name>
+        <reverted_from/>
+        <source>279323b41bd48a106e86e0cb234bcb01</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-09 15:17:24</sys_created_on>
+        <sys_id>2f84af7c1bd48a106e86e0cb234bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8e71e0250000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:17:24</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>e784af7cc9d48a1036c82e66577f25aa</update_guid>
+        <update_guid_history>e784af7cc9d48a1036c82e66577f25aa:0,cf419be836d40a100c83b7c276322e68:966890304,68f659a85214c610d01430b6acd6ee2c:0,f574dde449d0c61098886af53271dd93:711640007,c6cc72022533f55025b3a3ea3d18c9e2:966890304</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-26 15:42:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>0cc423599102467c895c3a23b4d6bc49</sys_id>
+        <sys_metadata>796d7a421b33f5506e86e0cb234bcb29</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_exfo_cmdb_staging_equipment_holder</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent display_value="">a16d3a421b33f5506e86e0cb234bcbae</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_snc_exfo_cmdb_staging_equipment_holder_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_snc_exfo_cmdb_staging_equipment_holder_null">2f84af7c1bd48a106e86e0cb234bcbaa</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-26 15:42:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
