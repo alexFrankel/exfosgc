@@ -2,12 +2,12 @@
     <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
         <order>100</order>
         <referenced_sys_rte_eb_entity/>
-        <source_sys_rte_eb_field display_value="u_logical_port_key">389258f91b79ca50da698666624bcbb6</source_sys_rte_eb_field>
+        <source_sys_rte_eb_field display_value="u_logical_port_child_key">ec036d791b3d0e50da698666624bcb43</source_sys_rte_eb_field>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-04-26 16:08:07</sys_created_on>
         <sys_id>d19298f91b79ca50da698666624bcb88</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
@@ -16,7 +16,7 @@
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_field_mapping_d19298f91b79ca50da698666624bcb88</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-04-26 16:08:07</sys_updated_on>
+        <sys_updated_on>2024-04-27 12:39:59</sys_updated_on>
         <target_sys_rte_eb_field display_value="source_native_key">0d9258f91b79ca50da698666624bcbf9</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>
 </record_update>
