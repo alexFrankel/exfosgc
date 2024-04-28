@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
     <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
         <order>10000</order>
-        <referenced_sys_rte_eb_entity display_value="Equipment holder 1">3e55da6a1b8c82d06e86e0cb234bcb7d</referenced_sys_rte_eb_entity>
+        <referenced_sys_rte_eb_entity display_value="Network Gear 1">1be8d0b487fbb8103e867518cebb35f1</referenced_sys_rte_eb_entity>
         <source_sys_rte_eb_field/>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-        <sys_created_on>2024-02-09 12:10:35</sys_created_on>
-        <sys_id>83c932f81b14c61074c9213b234bcb5c</sys_id>
+        <sys_created_on>2024-04-28 12:00:05</sys_created_on>
+        <sys_id>63fca1de1bf10a90269e97d2b24bcba9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
-        <sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1707480635057_0">4bc932f81b14c61074c9213b234bcb59</sys_rte_eb_entity_mapping>
+        <sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1714305605161_0">ebfca1de1bf10a90269e97d2b24bcba5</sys_rte_eb_entity_mapping>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name>sys_rte_eb_field_mapping_83c932f81b14c61074c9213b234bcb5c</sys_update_name>
+        <sys_update_name>sys_rte_eb_field_mapping_63fca1de1bf10a90269e97d2b24bcba9</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-09 12:10:35</sys_updated_on>
-        <target_sys_rte_eb_field display_value="cmdb_rel_ci_1707480635057_0.parent">c7c9fab81b14c61074c9213b234bcb47</target_sys_rte_eb_field>
+        <sys_updated_on>2024-04-28 12:00:05</sys_updated_on>
+        <target_sys_rte_eb_field display_value="cmdb_rel_ci_1714305605161_0.parent">5bfca1de1bf10a90269e97d2b24bcba0</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>
 </record_update>
