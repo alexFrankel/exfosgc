@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scheduled_import_set">
+    <scheduled_import_set action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <concurrent_import>true</concurrent_import>
+        <condition><![CDATA[var dataSource = current.data_source;
+var attachmentGR = new GlideRecord('sys_attachment');
+if(attachmentGR.get('table_sys_id', dataSource)){
+	answer = true;
+}
+else{
+	answer = false;
+}]]></condition>
+        <conditional>true</conditional>
+        <connection_override/>
+        <data_source display_value="SG-EXFO Logical Link Child">8cb795531b7dce90269e97d2b24bcbd5</data_source>
+        <entered_time/>
+        <map/>
+        <max_drift/>
+        <name>SG-EXFO Logical Link Children Import</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <order>71</order>
+        <parent display_value="SG-EXFO Full Import">73391191875370503e867518cebb35bf</parent>
+        <partition_method>roundRobin</partition_method>
+        <partition_script><![CDATA[(function partitionHash(import_set_row) {
+
+	// Add your code here
+	
+	// eg:
+	// return import_set_row.u_important_category;
+	// This would ensure all rows with the same 'u_important_category' value will be in the same Import Set.
+
+	 return import_set_row.sys_import_row;
+
+})(import_set_row);]]></partition_script>
+        <partition_size/>
+        <post_script/>
+        <post_script_bool>false</post_script_bool>
+        <pre_script/>
+        <pre_script_bool>false</pre_script_bool>
+        <record_source>regular</record_source>
+        <run_as display_value="">9d1fd9fa1bc23910da698666624bcb54</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2024-05-01 16:56:15</run_start>
+        <run_time>1970-01-02 05:00:00</run_time>
+        <run_type>parent</run_type>
+        <show_connection_override>false</show_connection_override>
+        <synchronize_inserts>true</synchronize_inserts>
+        <sys_class_name>scheduled_import_set</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-05-01 16:56:31</sys_created_on>
+        <sys_id>db8d8e931bb502d0269e97d2b24bcb0b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SG-EXFO Logical Link Children Import</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>scheduled_import_set_db8d8e931bb502d0269e97d2b24bcb0b</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-05-01 16:57:08</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <use_child_connection>false</use_child_connection>
+    </scheduled_import_set>
+</record_update>

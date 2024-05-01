@@ -56,7 +56,7 @@
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_exfo_cmdb_staging_fiber_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_exfo_cmdb_staging_fiber_NULL</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-11-18 11:37:35</sys_updated_on>
         <table_reference>false</table_reference>

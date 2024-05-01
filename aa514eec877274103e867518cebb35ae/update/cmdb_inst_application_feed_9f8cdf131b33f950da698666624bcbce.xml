@@ -12,19 +12,19 @@
         <description/>
         <execute_after_script>true</execute_after_script>
         <execute_before_script>false</execute_before_script>
-        <name>SG-EXFO Service</name>
+        <name>SG-EXFO Services</name>
         <sys_class_name>cmdb_inst_application_feed</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-23 12:35:50</sys_created_on>
         <sys_data_source display_value="SG-EXFO Service">208b17df1bffb950da698666624bcb6c</sys_data_source>
         <sys_id>9f8cdf131b33f950da698666624bcbce</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>SG-EXFO Service</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SG-EXFO Services</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>cmdb_inst_application_feed_9f8cdf131b33f950da698666624bcbce</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-04-18 08:44:06</sys_updated_on>
+        <sys_updated_on>2024-05-01 17:10:55</sys_updated_on>
     </cmdb_inst_application_feed>
 </record_update>

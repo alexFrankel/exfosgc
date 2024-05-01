@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7d762a4d87ee0550c4a3c99d0ebb35d7</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>EXFO: Get File Folder</sys_name>
         <sys_overrides/>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_7d762a4d87ee0550c4a3c99d0ebb35d7</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-27 16:10:04</sys_updated_on>
+        <sys_updated_on>2024-04-30 16:19:00</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -515,7 +515,7 @@
         <sys_created_on>2022-03-28 17:25:07</sys_created_on>
         <sys_id>93eb6acd87ae85503e867518cebb355c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -866,7 +866,7 @@
         <sys_created_on>2022-03-28 17:25:06</sys_created_on>
         <sys_id>83eb6acd87ae85503e867518cebb3502</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>file_folder</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -889,7 +889,7 @@
         <sys_created_on>2022-03-28 17:25:06</sys_created_on>
         <sys_id>83eb6acd87ae85503e867518cebb3506</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>last_file</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -1013,18 +1013,6 @@
         <sys_updated_on>2022-03-28 17:57:20</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_ff6eaa0587620110c4a3c99d0ebb3530</table>
         <value>{{action.run_type}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>ff6eaa0587620110c4a3c99d0ebb3530</id>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-        <sys_created_on>2024-02-19 16:00:18</sys_created_on>
-        <sys_id>654e4f481bacc650da698666624bcb09</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-19 16:00:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ff6eaa0587620110c4a3c99d0ebb3530^id=ff6eaa0587620110c4a3c99d0ebb3530"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ff6eaa0587620110c4a3c99d0ebb3530"/>
@@ -1377,7 +1365,7 @@
         <sys_created_on>2022-03-28 19:19:47</sys_created_on>
         <sys_id>7e264bc987260110c4a3c99d0ebb35b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>import_folder</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -1473,6 +1461,29 @@
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=beeb2acd87ae85503e867518cebb35e5"/>
     <sys_hub_action_output action="delete_multiple" query="model=7d762a4d87ee0550c4a3c99d0ebb35d7^sys_idNOT IN087eaa0587620110c4a3c99d0ebb359e,0f264bc987260110c4a3c99d0ebb35d4,407eaa0587620110c4a3c99d0ebb35a4"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc87eaa05c662011061fe0bd9b180785c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
+        <serialized_content>{"FlowDesigner:FDc87eaa05c662011061fe0bd9b180785c":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDc87eaa05c662011061fe0bd9b180785c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"6cbae9ae-0f38-443c-9229-664fef87f1fc\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc87eaa05c662011061fe0bd9b180785c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-03-28 17:36:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c7eaa0587620110c4a3c99d0ebb355c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDc87eaa05c662011061fe0bd9b180785c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_complex_object_8c7eaa0587620110c4a3c99d0ebb355c</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-03-28 17:38:45</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1760,7 +1771,7 @@
         <sys_created_on>2022-03-28 17:25:05</sys_created_on>
         <sys_id>32eb2acd87ae85503e867518cebb35ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>run_type</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -1785,7 +1796,7 @@
         <sys_created_on>2022-03-28 19:19:48</sys_created_on>
         <sys_id>03264bc987260110c4a3c99d0ebb35d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>import_folder</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -1808,7 +1819,7 @@
         <sys_created_on>2022-03-28 17:36:06</sys_created_on>
         <sys_id>407eaa0587620110c4a3c99d0ebb35a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -1831,7 +1842,7 @@
         <sys_created_on>2022-03-28 17:36:06</sys_created_on>
         <sys_id>887eaa0587620110c4a3c99d0ebb35b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -2316,7 +2327,7 @@
         <sys_created_on>2022-03-28 18:11:17</sys_created_on>
         <sys_id>637672c587e20110c4a3c99d0ebb356d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>file_folder</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -2339,7 +2350,7 @@
         <sys_created_on>2022-03-28 18:11:17</sys_created_on>
         <sys_id>637672c587e20110c4a3c99d0ebb3571</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>last_file</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -2733,7 +2744,7 @@
         <sys_created_on>2022-03-28 18:11:17</sys_created_on>
         <sys_id>6f7672c587e20110c4a3c99d0ebb3584</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -2857,18 +2868,6 @@
         <sys_updated_on>2022-03-28 18:11:18</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_ef7672c587e20110c4a3c99d0ebb3595</table>
         <value>{{action.run_type}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>ef7672c587e20110c4a3c99d0ebb3595</id>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-        <sys_created_on>2024-02-27 13:01:23</sys_created_on>
-        <sys_id>2e02736e1be846906e86e0cb234bcb7f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-27 13:01:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ef7672c587e20110c4a3c99d0ebb3595^id=ef7672c587e20110c4a3c99d0ebb3595"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ef7672c587e20110c4a3c99d0ebb3595"/>
@@ -3221,7 +3220,7 @@
         <sys_created_on>2022-03-28 19:31:39</sys_created_on>
         <sys_id>a8e8438d87260110c4a3c99d0ebb3516</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>import_folder</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -3317,6 +3316,29 @@
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5b7672c587e20110c4a3c99d0ebb3542"/>
     <sys_hub_action_output action="delete_multiple" query="model=977672c587e20110c4a3c99d0ebb353f^sys_idNOT INbf7672c587e20110c4a3c99d0ebb35c4,f4e8438d87260110c4a3c99d0ebb355a,ff7672c587e20110c4a3c99d0ebb35c9"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf77672c5e6e2011067b3a46a29fc94c0</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
+        <serialized_content>{"FlowDesigner:FDf77672c5e6e2011067b3a46a29fc94c0":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDf77672c5e6e2011067b3a46a29fc94c0.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"6cbae9ae-0f38-443c-9229-664fef87f1fc\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf77672c5e6e2011067b3a46a29fc94c0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-03-28 18:11:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb7672c587e20110c4a3c99d0ebb35c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDf77672c5e6e2011067b3a46a29fc94c0</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_complex_object_bb7672c587e20110c4a3c99d0ebb35c0</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-27 13:01:23</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3604,7 +3626,7 @@
         <sys_created_on>2022-03-28 18:11:17</sys_created_on>
         <sys_id>db7672c587e20110c4a3c99d0ebb3546</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>run_type</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -3629,7 +3651,7 @@
         <sys_created_on>2022-03-28 18:11:18</sys_created_on>
         <sys_id>337672c587e20110c4a3c99d0ebb35c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -3652,7 +3674,7 @@
         <sys_created_on>2022-03-28 18:11:18</sys_created_on>
         <sys_id>3f7672c587e20110c4a3c99d0ebb35cf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -3675,7 +3697,7 @@
         <sys_created_on>2022-03-28 19:31:39</sys_created_on>
         <sys_id>b8e8438d87260110c4a3c99d0ebb355e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>import_folder</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -3689,6 +3711,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>7d762a4d87ee0550c4a3c99d0ebb35d7</sys_id>
         <latest_snapshot>977672c587e20110c4a3c99d0ebb353f</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch4-hotfix1a-12-29-2023_01-09-2024_1214.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch7-hotfix1-03-05-2024_03-06-2024_1225.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

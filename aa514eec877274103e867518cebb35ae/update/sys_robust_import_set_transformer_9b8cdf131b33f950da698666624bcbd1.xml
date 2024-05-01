@@ -5,7 +5,7 @@
         <description/>
         <name>SG-EXFO Service</name>
         <properties/>
-        <robust_transform_engine display_value="SG-EXFO Service">9f8cdf131b33f950da698666624bcbce</robust_transform_engine>
+        <robust_transform_engine display_value="SG-EXFO Services">9f8cdf131b33f950da698666624bcbce</robust_transform_engine>
         <source_table>x_snc_exfo_cmdb_staging_service</source_table>
         <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
