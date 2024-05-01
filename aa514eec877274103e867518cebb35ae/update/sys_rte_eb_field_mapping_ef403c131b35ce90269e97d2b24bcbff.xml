@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="u_card_status">6b403c131b35ce90269e97d2b24bcbfb</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-05-01 10:08:52</sys_created_on>
+        <sys_id>ef403c131b35ce90269e97d2b24bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Card Children">0540f8131b35ce90269e97d2b24bcb54</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="impTotemp">17403c131b35ce90269e97d2b24bcb17</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_ef403c131b35ce90269e97d2b24bcbff</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-05-01 10:08:52</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_card_status">2f403c131b35ce90269e97d2b24bcbfd</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

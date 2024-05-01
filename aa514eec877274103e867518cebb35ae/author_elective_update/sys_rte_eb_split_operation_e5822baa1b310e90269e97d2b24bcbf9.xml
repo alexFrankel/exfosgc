@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_split_operation">
+    <sys_rte_eb_split_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Split - u_card_manufacturer_cleansed</name>
+        <operation_group/>
+        <order>400</order>
+        <source_sys_rte_eb_field display_value="u_card_manufacturer_cleansed">d072a7aa1b310e90269e97d2b24bcb97</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <splitting_string>|||</splitting_string>
+        <sys_class_name>sys_rte_eb_split_operation</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-29 15:12:05</sys_created_on>
+        <sys_id>e5822baa1b310e90269e97d2b24bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Split - u_card_manufacturer_cleansed</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Card Children">36fad7ea1bfdca90269e97d2b24bcbf5</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">b00b5bea1bfdca90269e97d2b24bcbd0</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_split_operation_e5822baa1b310e90269e97d2b24bcbf9</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-29 15:12:05</sys_updated_on>
+        <target_sys_rte_eb_field/>
+        <target_sys_rte_eb_fields>2d82a7aa1b310e90269e97d2b24bcb9f,e1822baa1b310e90269e97d2b24bcbf7</target_sys_rte_eb_fields>
+        <type display_value="Split">9985ae0973200010011e3e2dfef6a7de</type>
+    </sys_rte_eb_split_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_split_operation_e5822baa1b310e90269e97d2b24bcbf9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_split_operation"&gt;&lt;sys_rte_eb_split_operation action="INSERT_OR_UPDATE"&gt;&lt;conditional_fields/&gt;&lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;Split - u_card_manufacturer_cleansed&lt;/name&gt;&lt;operation_group/&gt;&lt;order&gt;400&lt;/order&gt;&lt;source_sys_rte_eb_field display_value="u_card_manufacturer_cleansed"&gt;d072a7aa1b310e90269e97d2b24bcb97&lt;/source_sys_rte_eb_field&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;splitting_string&gt;|||&lt;/splitting_string&gt;&lt;sys_class_name&gt;sys_rte_eb_split_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex.frankel@exfo.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-29 15:12:05&lt;/sys_created_on&gt;&lt;sys_id&gt;e5822baa1b310e90269e97d2b24bcbf9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Split - u_card_manufacturer_cleansed&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG-EXFO Card Children"&gt;36fad7ea1bfdca90269e97d2b24bcbf5&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;b00b5bea1bfdca90269e97d2b24bcbd0&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_split_operation_e5822baa1b310e90269e97d2b24bcbf9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-29 15:12:05&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field/&gt;&lt;target_sys_rte_eb_fields&gt;2d82a7aa1b310e90269e97d2b24bcb9f,e1822baa1b310e90269e97d2b24bcbf7&lt;/target_sys_rte_eb_fields&gt;&lt;type display_value="Split"&gt;9985ae0973200010011e3e2dfef6a7de&lt;/type&gt;&lt;/sys_rte_eb_split_operation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2115941380</payload_hash>
+        <record_name>Split - u_card_manufacturer_cleansed</record_name>
+        <reverted_from/>
+        <source>3c8da93d1b9c8e10da698666624bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-29 15:12:05</sys_created_on>
+        <sys_id>e9822baa1b310e90269e97d2b24bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f2a69c2680000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-29 15:12:05</sys_updated_on>
+        <type>RTE Entity Split Operation</type>
+        <update_guid>ed822baa2e310e9020c8dbab9f2120fa</update_guid>
+        <update_guid_history>ed822baa2e310e9020c8dbab9f2120fa:2115941380</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-05-01 10:07:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_split_operation">sys_rte_eb_split_operation</sys_db_object>
+        <sys_id>3ab1c5434ca34a1dbe21b3431ebf4d91</sys_id>
+        <sys_metadata>e5822baa1b310e90269e97d2b24bcbf9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Split - u_card_manufacturer_cleansed</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_split_operation_e5822baa1b310e90269e97d2b24bcbf9</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_split_operation_e5822baa1b310e90269e97d2b24bcbf9">e9822baa1b310e90269e97d2b24bcbfb</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-05-01 10:07:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
