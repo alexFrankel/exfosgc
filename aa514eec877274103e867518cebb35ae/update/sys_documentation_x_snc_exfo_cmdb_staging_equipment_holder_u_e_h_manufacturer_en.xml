@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_e_h_manufacturer" label="E_H_MANUFACTURER" language="en" table="x_snc_exfo_cmdb_staging_equipment_holder">
+    <sys_documentation element="u_e_h_manufacturer" label="u_e_h_manufacturer" language="en" table="x_snc_exfo_cmdb_staging_equipment_holder">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_e_h_manufacturer</element>
             <help/>
             <hint/>
-            <label>E_H_MANUFACTURER</label>
+            <label>u_e_h_manufacturer</label>
             <language>en</language>
             <name>x_snc_exfo_cmdb_staging_equipment_holder</name>
-            <plural>E_H_MANUFACTURERs</plural>
+            <plural>u_e_h_manufacturers</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2024-01-19 13:07:20</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>E_H_MANUFACTURER</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_e_h_manufacturer</sys_name>
             <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
             <sys_policy/>
             <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
             <sys_update_name>sys_documentation_x_snc_exfo_cmdb_staging_equipment_holder_u_e_h_manufacturer_en</sys_update_name>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-19 13:07:20</sys_updated_on>
+            <sys_updated_on>2024-05-02 13:18:41</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

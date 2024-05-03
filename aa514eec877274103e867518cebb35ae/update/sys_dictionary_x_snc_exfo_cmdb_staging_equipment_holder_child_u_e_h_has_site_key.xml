@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>E_H_HAS_SITE_KEY</column_label>
+        <column_label>u_e_h_has_site_key</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -47,13 +47,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-04-30 08:55:58</sys_created_on>
-        <sys_name>E_H_HAS_SITE_KEY</sys_name>
+        <sys_name>u_e_h_has_site_key</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_exfo_cmdb_staging_equipment_holder_child_u_e_h_has_site_key</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-04-30 15:46:54</sys_updated_on>
+        <sys_updated_on>2024-05-02 13:18:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

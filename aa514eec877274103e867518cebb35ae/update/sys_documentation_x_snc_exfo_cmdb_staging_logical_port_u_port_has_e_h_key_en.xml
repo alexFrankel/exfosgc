@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_port_has_e_h_key" label="PORT_HAS_E_H_KEY" language="en" table="x_snc_exfo_cmdb_staging_logical_port">
+    <sys_documentation element="u_port_has_e_h_key" label="u_port_has_e_h_key" language="en" table="x_snc_exfo_cmdb_staging_logical_port">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_port_has_e_h_key</element>
             <help/>
             <hint/>
-            <label>PORT_HAS_E_H_KEY</label>
+            <label>u_port_has_e_h_key</label>
             <language>en</language>
             <name>x_snc_exfo_cmdb_staging_logical_port</name>
-            <plural>PORT_HAS_E_H_KEYs</plural>
+            <plural>u_port_has_e_h_keys</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2024-01-31 13:31:44</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>PORT_HAS_E_H_KEY</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_port_has_e_h_key</sys_name>
             <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
             <sys_policy/>
             <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
             <sys_update_name>sys_documentation_x_snc_exfo_cmdb_staging_logical_port_u_port_has_e_h_key_en</sys_update_name>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-31 13:31:44</sys_updated_on>
+            <sys_updated_on>2024-05-02 13:32:18</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
