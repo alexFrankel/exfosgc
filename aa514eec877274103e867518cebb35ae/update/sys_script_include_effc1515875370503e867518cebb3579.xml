@@ -67,17 +67,18 @@ EXFOImportUtil.prototype = {
         return dataArray;
     },
 
-    checkIntegrationStatus: function() {
-        //check if import is already running
-        var importActive = (gs.getProperty('x_snc_exfo_cmdb.import_active') == 'true');
-        if (importActive) {
-            gs.info('EXFO Import already running according to the property "x_snc_exfo_cmdb.import_active"; aborting redundant import to protect system performance. You can manually set the property to false if you believe it is incorrect.');
-            return true;
-        } else {
-            gs.setProperty('x_snc_exfo_cmdb.import_active', true);
-            return false;
-        }
-    },
+	// This check is no longer used - replaced by the following two checks
+    // checkIntegrationStatus: function() {
+    //     //check if import is already running
+    //     var importActive = (gs.getProperty('x_snc_exfo_cmdb.import_active') == 'true');
+    //     if (importActive) {
+    //         gs.info('EXFO Import already running according to the property "x_snc_exfo_cmdb.import_active"; aborting redundant import to protect system performance. You can manually set the property to false if you believe it is incorrect.');
+    //         return true;
+    //     } else {
+    //         gs.setProperty('x_snc_exfo_cmdb.import_active', true);
+    //         return false;
+    //     }
+    // },
 
     checkActiveExfoImportSet: function() {
         //Find out if there is an Export import set currently loading
@@ -85,7 +86,7 @@ EXFOImportUtil.prototype = {
         myGR.addQuery('state', "Loading");
         myGR.addEncodedQuery('table_nameLIKEx_snc_exfo');
         myGR.query();
-        if (myGR.getRowCount() > 0) {
+		if (myGR.next()) {
             gs.info('EXFO import set already loading. Wait for it to finish or cancel before running a new import.');
             return true;
         } else {
@@ -99,7 +100,7 @@ EXFOImportUtil.prototype = {
         myGR.addEncodedQuery('stateLIKEIN_PROGRESS^ORstateLIKEWAITING^ORstateLIKEQUEUED^ORstateLIKECONTINUE_SYNC^ORstateLIKEPRESUMED_INTERRUPTED^ORstateLIKEPAUSED');
         myGR.addEncodedQuery('nameSTARTSWITHEXFO');
         myGR.query();
-        if (myGR.getRowCount() > 0) {
+		if (myGR.next()) {
             gs.info('EXFO Import Data sub-flow already running. Wait for it to finish or cancel before running a new flow.');
             return true;
         } else {
@@ -385,13 +386,13 @@ EXFOImportUtil.prototype = {
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-10-18 16:56:28</sys_created_on>
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
-        <sys_mod_count>94</sys_mod_count>
+        <sys_mod_count>96</sys_mod_count>
         <sys_name>EXFOImportUtil</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-05-01 12:32:43</sys_updated_on>
+        <sys_updated_on>2024-05-07 10:17:36</sys_updated_on>
     </sys_script_include>
 </record_update>
