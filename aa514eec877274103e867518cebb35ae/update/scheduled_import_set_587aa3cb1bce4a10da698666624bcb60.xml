@@ -13,14 +13,14 @@ else{
 }]]></condition>
         <conditional>true</conditional>
         <connection_override/>
-        <data_source display_value="SG-EXFO Ip Address">271536a91bccca906e86e0cb234bcb61</data_source>
+        <data_source display_value="SG-EXFO Network Element Child">114f1b431bce4a10da698666624bcb7a</data_source>
         <entered_time/>
         <map/>
         <max_drift/>
-        <name>SG-EXFO Ip Address Import</name>
+        <name>SG-EXFO Network Element Child Import</name>
         <offset/>
         <offset_type>0</offset_type>
-        <order>22</order>
+        <order>21</order>
         <parent display_value="SG-EXFO Full Import">73391191875370503e867518cebb35bf</parent>
         <partition_method>roundRobin</partition_method>
         <partition_script><![CDATA[(function partitionHash(import_set_row) {
@@ -45,23 +45,23 @@ else{
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
         <run_period/>
-        <run_start>2024-01-30 11:15:29</run_start>
+        <run_start>2024-05-13 15:19:19</run_start>
         <run_time>1970-01-02 05:00:00</run_time>
         <run_type>parent</run_type>
         <show_connection_override>false</show_connection_override>
         <synchronize_inserts>true</synchronize_inserts>
         <sys_class_name>scheduled_import_set</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-        <sys_created_on>2024-01-30 11:15:52</sys_created_on>
-        <sys_id>124d07a11b800e906e86e0cb234bcb44</sys_id>
-        <sys_mod_count>28</sys_mod_count>
-        <sys_name>SG-EXFO Ip Address Import</sys_name>
+        <sys_created_on>2024-05-13 15:19:46</sys_created_on>
+        <sys_id>587aa3cb1bce4a10da698666624bcb60</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>SG-EXFO Network Element Child Import</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name>scheduled_import_set_124d07a11b800e906e86e0cb234bcb44</sys_update_name>
+        <sys_update_name>scheduled_import_set_587aa3cb1bce4a10da698666624bcb60</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-05-13 15:35:58</sys_updated_on>
+        <sys_updated_on>2024-05-13 15:22:59</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
         <use_child_connection>false</use_child_connection>

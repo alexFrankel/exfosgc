@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_site_top_exp_status" table="x_snc_exfo_cmdb_staging_exfo_site">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_ne_child_key" table="x_snc_exfo_cmdb_staging_network_element_child">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true,import_attribute_name=SITE_TOP_EXP_STATUS</attributes>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=NE_CHILD_KEY</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>u_site_top_exp_status</column_label>
+        <column_label>u_ne_child_key</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_site_top_exp_status</element>
+        <element>u_ne_child_key</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -29,8 +29,8 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_snc_exfo_cmdb_staging_exfo_site</name>
+        <max_length>255</max_length>
+        <name>x_snc_exfo_cmdb_staging_network_element_child</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -45,15 +45,15 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>system</sys_created_by>
-        <sys_created_on>2024-02-19 13:38:38</sys_created_on>
-        <sys_name>u_site_top_exp_status</sys_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-05-13 14:32:22</sys_created_on>
+        <sys_name>u_ne_child_key</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_exfo_cmdb_staging_exfo_site_u_site_top_exp_status</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_exfo_cmdb_staging_network_element_child_u_ne_child_key</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-05-13 14:49:39</sys_updated_on>
+        <sys_updated_on>2024-05-13 14:51:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -61,7 +61,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
