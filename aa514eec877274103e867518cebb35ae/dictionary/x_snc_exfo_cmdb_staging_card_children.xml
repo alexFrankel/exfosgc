@@ -12,6 +12,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_MANUFACTURER" label="CARD_MANUFACTURER" max_length="40" name="u_card_manufacturer" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_MODEL" label="CARD_MODEL" max_length="40" name="u_card_model" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_NAME" label="CARD_NAME" max_length="255" name="u_card_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_SERIAL_NUMBER" label="CARD_SERIAL_NUMBER" max_length="40" name="u_card_serial_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_SLOT" label="CARD_SLOT" max_length="40" name="u_card_slot" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_STATUS" label="CARD_STATUS" max_length="40" name="u_card_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_TNI_DOMAIN" label="CARD_TNI_DOMAIN" max_length="40" name="u_card_tni_domain" type="string"/>

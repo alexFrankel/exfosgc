@@ -10,6 +10,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_NAME" label="u_service_name" max_length="255" name="u_service_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_STATUS" label="u_service_status" max_length="40" name="u_service_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_TNI_DOMAIN" label="u_service_tni_domain" max_length="40" name="u_service_tni_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_TOP_EXP_STATUS" label="SERVICE_TOP_EXP_STATUS" max_length="40" name="u_service_top_exp_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_TYPE" label="u_service_type" max_length="40" name="u_service_type" type="string"/>
     </element>
 </database>
