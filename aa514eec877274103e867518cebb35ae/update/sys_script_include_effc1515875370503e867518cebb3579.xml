@@ -19,7 +19,7 @@ EXFOImportUtil.prototype = {
                 .subflow('x_snc_exfo_cmdb.exfo_import_data')
                 .inForeground()
                 .withInputs(inputs)
-                .timeout(120000)
+                .timeout(1800000)
                 .run();
             var outputs = result.getOutputs();
             var attachment_id = outputs['attachment_id'];
@@ -50,7 +50,7 @@ EXFOImportUtil.prototype = {
             var lowerName = fileName.toLowerCase();
 
             if (lowerName.indexOf(".zip") != -1) {
-
+                //Some input files get copied to a second data source with transform map
                 if (lowerName.indexOf('segment') > -1) {
                     dataArray.push(this.createFileObj(folder, fileName, 'Segment'));
                     dataArray.push(this.createFileObj(folder, fileName, 'Segment Connection Element'));
@@ -58,16 +58,20 @@ EXFOImportUtil.prototype = {
                     dataArray.push(this.createFileObj(folder, fileName));
                 }
 
-                if (lowerName.indexOf('site') > -1) {
+                if ((lowerName.indexOf('site') > -1) && (!(lowerName.indexOf('sitechild') > -1))) {
                     dataArray.push(this.createFileObj(folder, fileName, 'Location'));
                 }
+                if (lowerName.indexOf('sitechild') > -1) {
+                    dataArray.push(this.createFileObj(folder, fileName, 'Location Child'));
+                }
+				
             }
         }
 
         return dataArray;
     },
 
-	// This check is no longer used - replaced by the following two checks
+    // This check is no longer used - replaced by the following two checks
     // checkIntegrationStatus: function() {
     //     //check if import is already running
     //     var importActive = (gs.getProperty('x_snc_exfo_cmdb.import_active') == 'true');
@@ -86,7 +90,7 @@ EXFOImportUtil.prototype = {
         myGR.addQuery('state', "Loading");
         myGR.addEncodedQuery('table_nameLIKEx_snc_exfo');
         myGR.query();
-		if (myGR.next()) {
+        if (myGR.next()) {
             gs.info('EXFO import set already loading. Wait for it to finish or cancel before running a new import.');
             return true;
         } else {
@@ -100,7 +104,7 @@ EXFOImportUtil.prototype = {
         myGR.addEncodedQuery('stateLIKEIN_PROGRESS^ORstateLIKEWAITING^ORstateLIKEQUEUED^ORstateLIKECONTINUE_SYNC^ORstateLIKEPRESUMED_INTERRUPTED^ORstateLIKEPAUSED');
         myGR.addEncodedQuery('nameSTARTSWITHEXFO');
         myGR.query();
-		if (myGR.next()) {
+        if (myGR.next()) {
             gs.info('EXFO Import Data sub-flow already running. Wait for it to finish or cancel before running a new flow.');
             return true;
         } else {
@@ -120,6 +124,9 @@ EXFOImportUtil.prototype = {
         var fileImportType = fileName.split('_')[0];
         var dataSourceGR = new GlideRecord('sys_data_source');
 
+        if (fileImportType == 'SiteChild') {
+            fileImportType = 'Site Child';
+        }
         if (fileImportType == 'Ne') {
             fileImportType = 'Network Element';
         }
@@ -288,8 +295,8 @@ EXFOImportUtil.prototype = {
     },
 
     tniEntityPostProcessing: function(ireOutput) {
-		// 1. Updates TNI CI Attributes on CI with sys_id of the tni_entity record
-		// 2. Splits operation_notes field from ETL on ||| delimiter and inserts into cmdb_key_value
+        // 1. Updates TNI CI Attributes on CI with sys_id of the tni_entity record
+        // 2. Splits operation_notes field from ETL on ||| delimiter and inserts into cmdb_key_value
         // Called from RTE definitions
 
         for (var i = 0; i < ireOutput.length; i++) {
@@ -389,13 +396,13 @@ EXFOImportUtil.prototype = {
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-10-18 16:56:28</sys_created_on>
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
-        <sys_mod_count>98</sys_mod_count>
+        <sys_mod_count>126</sys_mod_count>
         <sys_name>EXFOImportUtil</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-05-13 15:48:59</sys_updated_on>
+        <sys_updated_on>2024-05-15 15:23:43</sys_updated_on>
     </sys_script_include>
 </record_update>
