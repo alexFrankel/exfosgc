@@ -5,6 +5,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_COMMENT" label="u_ne_comment" max_length="40" name="u_ne_comment" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_CUSTOM_ATTRIBUTES" label="NE_CUSTOM_ATTRIBUTES" max_length="1000" name="u_ne_custom_attributes" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_DESCRIPTION" label="NE_DESCRIPTION" max_length="1000" name="u_ne_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_HAS_PARENT_NE_KEY" label="NE_HAS_PARENT_NE_KEY" max_length="40" name="u_ne_has_parent_ne_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_HAS_SITE_KEY" label="u_ne_has_site_key" max_length="255" name="u_ne_has_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_IP" label="u_ne_ip" max_length="40" name="u_ne_ip" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NE_KEY" label="u_ne_key" max_length="255" name="u_ne_key" type="string"/>
