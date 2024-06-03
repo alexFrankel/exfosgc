@@ -2,7 +2,7 @@
     <sys_alias action="INSERT_OR_UPDATE">
         <configuration_template/>
         <connection_type>sys_connection</connection_type>
-        <id>x_exfo2_sgc.EXFO_SFTP</id>
+        <id>${plugin.scope_nam.EXFO_SFTP</id>
         <is_internal>false</is_internal>
         <multiple_connections>false</multiple_connections>
         <name>EXFO-SFTP</name>
@@ -14,9 +14,9 @@
         <sys_id>bb306a28874c4110c4a3c99d0ebb35b1</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>x_exfo2_sgc.EXFO_SFTP</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
         <sys_update_name>sys_alias_bb306a28874c4110c4a3c99d0ebb35b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-22 20:45:34</sys_updated_on>

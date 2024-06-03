@@ -2,7 +2,7 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_exfo2_sgc.EXFOImportUtil</api_name>
+        <api_name>${plugin.scope_nam.EXFOImportUtil</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
@@ -398,9 +398,9 @@ EXFOImportUtil.prototype = {
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
         <sys_mod_count>126</sys_mod_count>
         <sys_name>EXFOImportUtil</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
         <sys_policy>read</sys_policy>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-15 15:23:43</sys_updated_on>

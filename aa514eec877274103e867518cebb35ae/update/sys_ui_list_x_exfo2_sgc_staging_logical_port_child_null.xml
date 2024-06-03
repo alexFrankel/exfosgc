@@ -108,9 +108,9 @@
             <sys_id>85e8559b1b7dce90269e97d2b24bcb66</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_exfo2_sgc_staging_logical_port_child</sys_name>
-            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+            <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
             <sys_update_name>sys_ui_list_x_exfo2_sgc_staging_logical_port_child_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-05-01 13:06:11</sys_updated_on>

@@ -5,11 +5,14 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>exfo_import_data</internal_name>
         <label_cache>[{"name":"59a77ad1-c3c3-4615-a189-470ec8a05b4c.import_folder","label":"1 - EXFO: Get File Folder➛import_folder","reference_display":"import_folder","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","child_label":"file_name","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","child_type":"string","child_name":"file_name","child_uiUniqueId":"8643c16c-970f-4ca4-b111-48b69ea6ff24","uiUniqueId":"d0996d23-d142-4c26-ba5d-724162b8e192"}},{"name":"subflow.run_type","label":"Input➛run_type","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"82068c10-f11f-4dd4-8772-c21272f8cee4"}},{"name":"59a77ad1-c3c3-4615-a189-470ec8a05b4c.file_list","label":"1➛file_list","reference_display":"file_list","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD7b7672c5e0e2011076188ce1f16552c2","child_label":"file_name","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"file_name","child_uiUniqueId":"8643c16c-970f-4ca4-b111-48b69ea6ff24","uiUniqueId":"d0996d23-d142-4c26-ba5d-724162b8e192"}},{"name":"59a77ad1-c3c3-4615-a189-470ec8a05b4c.__dont_treat_as_error__","label":"1 - EXFO: Get File Folder➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"9d26c80c-6cfb-4d96-8785-9116726697d7"}},{"name":"59a77ad1-c3c3-4615-a189-470ec8a05b4c.__action_status__","label":"1 - EXFO: Get File Folder➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDf77672c5e6e2011067b3a46a29fc94c0","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"6cbae9ae-0f38-443c-9229-664fef87f1fc"}},{"name":"9a21a052-17b9-47e0-948a-6c5b399bcb3d.attachment_id","label":"6 - EXFO: Create CSV Attachment➛attachment_id","reference_display":"attachment_id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"0e35e726-d81d-45bf-bab3-4a5ecbac46a6"}},{"name":"9a21a052-17b9-47e0-948a-6c5b399bcb3d.__dont_treat_as_error__","label":"6 - EXFO: Create CSV Attachment➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"a20b2159-aa7e-4c30-a1d2-98bd8cdc164d"}},{"name":"9a21a052-17b9-47e0-948a-6c5b399bcb3d.__action_status__","label":"6 - EXFO: Create CSV Attachment➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2c5278f7c24c89102991cf2f490a8bef","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"6200b230-0660-490e-a7b1-31465c48f9d2"}},{"name":"cc9e2178-6dcd-47ff-a777-62f0f4c12d08.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cc9e2178-6dcd-47ff-a777-62f0f4c12d08.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"225a6011-3185-49f8-973d-215e836d1b26.attachment_id","label":"4➛attachment_id","reference_display":"attachment_id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"0e35e726-d81d-45bf-bab3-4a5ecbac46a6"}},{"name":"225a6011-3185-49f8-973d-215e836d1b26.variable","label":"4➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"664a99a6-325d-4cc2-a5db-a2093b1d5197"}},{"name":"225a6011-3185-49f8-973d-215e836d1b26.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"a20b2159-aa7e-4c30-a1d2-98bd8cdc164d"}},{"name":"225a6011-3185-49f8-973d-215e836d1b26.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2c5278f7c24c89102991cf2f490a8bef","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"6200b230-0660-490e-a7b1-31465c48f9d2"}},{"name":"512677af-a605-42ae-8212-37bd45bf833f.item.data_source","label":"5➛map➛data_source","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"512677af-a605-42ae-8212-37bd45bf833f.item.file_path","label":"5➛map➛file_path","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"512677af-a605-42ae-8212-37bd45bf833f.item","label":"5 - For Each➛map","reference_display":"map","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"aa9df31b-efec-48af-b780-e969f203c72d.data_maps","label":"3 - EXFO: Pre-Process Data➛data_maps","reference_display":"data_maps","type":"array.object","base_type":"array.object","attributes":{"sourceId":"fa541940-c56d-42cc-bcbd-fe7185d1c95b","child_name":"map","uiUniqueId":"5b25b3fe-e2a4-477c-b73c-a8e7d77742a1","uiTypeLabel":"Array.Object","co_type_name":"FD38d2b3f8b888811061281038c3579667","child_label":"map","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"97f98654-8349-4064-b243-2bc5f5deaa3b","uiType":"array.object","child_type":"object","child_uiUniqueId":"b12bdbaf-f461-40a6-86c2-aa18ba4387c0"}},{"name":"aa9df31b-efec-48af-b780-e969f203c72d.__dont_treat_as_error__","label":"3 - EXFO: Pre-Process Data➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"9e63be64-df61-4b12-8b8d-c4844ff14e14"}},{"name":"aa9df31b-efec-48af-b780-e969f203c72d.__action_status__","label":"3 - EXFO: Pre-Process Data➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDf4d2b3f8b78881104c49c53f04faf365","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"39897d03-f9c7-43a0-9956-288fa9ed16fb"}},{"name":"39db2633-a926-4ef1-a116-0eb9f703f83c.item","label":"3 - For Each➛Item","reference_display":"Item","type":"document_id","base_type":"document_id","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"d7f7bc45-78e4-4f88-9a28-b532b2709d52.record","label":"8 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7f7bc45-78e4-4f88-9a28-b532b2709d52.table_name","label":"8 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7f7bc45-78e4-4f88-9a28-b532b2709d52.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"d7f7bc45-78e4-4f88-9a28-b532b2709d52.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
         <master_snapshot>35d1bfcd87114110c4a3c99d0ebb3521</master_snapshot>
@@ -33,12 +36,12 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>EXFO: Import Data</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
         <sys_update_name>sys_hub_flow_666f678187114110c4a3c99d0ebb359a</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-30 16:19:07</sys_updated_on>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-06-03 08:56:28</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=666f678187114110c4a3c99d0ebb359a"/>
@@ -127,7 +130,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:13:51</sys_updated_on>
@@ -212,7 +215,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-25 19:07:58</sys_updated_on>
@@ -296,7 +299,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 22:22:40</sys_updated_on>
@@ -324,6 +327,7 @@
         <comment/>
         <display_text/>
         <flow display_value="EXFO: Import Data">666f678187114110c4a3c99d0ebb359a</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>68c30755-9e95-4cc0-882f-879a030d7626</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -331,7 +335,7 @@
         <sys_created_on>2022-01-25 19:03:36</sys_created_on>
         <sys_id>11ef274587114110c4a3c99d0ebb35fa</sys_id>
         <sys_mod_count>112</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-01 10:00:26</sys_updated_on>
         <ui_id>aa9df31b-efec-48af-b780-e969f203c72d</ui_id>
@@ -361,6 +365,7 @@
         <comment/>
         <display_text/>
         <flow display_value="EXFO: Import Data">666f678187114110c4a3c99d0ebb359a</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -368,7 +373,7 @@
         <sys_created_on>2022-03-28 18:13:52</sys_created_on>
         <sys_id>1d17bec587e20110c4a3c99d0ebb3550</sys_id>
         <sys_mod_count>48</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-01 10:00:26</sys_updated_on>
         <ui_id>59a77ad1-c3c3-4615-a189-470ec8a05b4c</ui_id>
@@ -398,6 +403,7 @@
         <comment/>
         <display_text/>
         <flow display_value="EXFO: Import Data">666f678187114110c4a3c99d0ebb359a</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>512677af-a605-42ae-8212-37bd45bf833f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -405,7 +411,7 @@
         <sys_created_on>2022-01-27 16:54:42</sys_created_on>
         <sys_id>3c95adfd87194d10c4a3c99d0ebb35eb</sys_id>
         <sys_mod_count>58</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-01 10:00:26</sys_updated_on>
         <ui_id>9a21a052-17b9-47e0-948a-6c5b399bcb3d</ui_id>
@@ -452,6 +458,7 @@
         <flow display_value="EXFO: Import Data">666f678187114110c4a3c99d0ebb359a</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -464,7 +471,7 @@
         <sys_created_on>2022-01-25 19:03:36</sys_created_on>
         <sys_id>5def274587114110c4a3c99d0ebb35fb</sys_id>
         <sys_mod_count>45</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:25:04</sys_updated_on>
         <ui_id>512677af-a605-42ae-8212-37bd45bf833f</ui_id>
@@ -500,6 +507,7 @@
         <flow display_value="EXFO: Import Data">666f678187114110c4a3c99d0ebb359a</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -512,7 +520,7 @@
         <sys_created_on>2022-03-30 19:22:36</sys_created_on>
         <sys_id>73f9d53587668110c4a3c99d0ebb35a9</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:25:04</sys_updated_on>
         <ui_id>68c30755-9e95-4cc0-882f-879a030d7626</ui_id>
@@ -574,6 +582,7 @@
         <flow display_value="EXFO: Import Data">666f678187114110c4a3c99d0ebb359a</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -586,7 +595,7 @@
         <sys_created_on>2022-03-30 19:20:03</sys_created_on>
         <sys_id>da6919f187668110c4a3c99d0ebb35a7</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:25:04</sys_updated_on>
         <ui_id>ac524bc7-0d50-4889-81b2-beea1a5ad519</ui_id>
@@ -648,6 +657,7 @@
         <flow display_value="EXFO: Import Data">666f678187114110c4a3c99d0ebb359a</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>7</order>
@@ -660,7 +670,7 @@
         <sys_created_on>2022-01-27 16:54:42</sys_created_on>
         <sys_id>f095adfd87194d10c4a3c99d0ebb35fa</sys_id>
         <sys_mod_count>26</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:25:04</sys_updated_on>
         <ui_id>df94e305-5fbd-49ed-a036-5e5d0e847af8</ui_id>
@@ -724,9 +734,9 @@
         <sys_id>8d17bec587e20110c4a3c99d0ebb3538</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>run_type</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_666f678187114110c4a3c99d0ebb359a_run_type_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:13:51</sys_updated_on>
@@ -749,9 +759,9 @@
         <sys_id>d1e07b8987114110c4a3c99d0ebb35a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>attachment_id</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_666f678187114110c4a3c99d0ebb359a_attachment_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-25 19:07:58</sys_updated_on>
@@ -772,9 +782,9 @@
         <sys_id>fd0033c1872a0110c4a3c99d0ebb351f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>import_folder</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_666f678187114110c4a3c99d0ebb359a_import_folder_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 22:22:40</sys_updated_on>
@@ -788,11 +798,13 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>exfo_import_data</internal_name>
         <label_cache>[{"name":"59a77ad1-c3c3-4615-a189-470ec8a05b4c.import_folder","label":"1 - EXFO: Get File Folder➛import_folder","reference_display":"import_folder","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","child_label":"file_name","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","child_type":"string","child_name":"file_name","child_uiUniqueId":"8643c16c-970f-4ca4-b111-48b69ea6ff24","uiUniqueId":"d0996d23-d142-4c26-ba5d-724162b8e192"}},{"name":"subflow.run_type","label":"Input➛run_type","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"82068c10-f11f-4dd4-8772-c21272f8cee4"}},{"name":"59a77ad1-c3c3-4615-a189-470ec8a05b4c.file_list","label":"1➛file_list","reference_display":"file_list","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD7b7672c5e0e2011076188ce1f16552c2","child_label":"file_name","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"file_name","child_uiUniqueId":"8643c16c-970f-4ca4-b111-48b69ea6ff24","uiUniqueId":"d0996d23-d142-4c26-ba5d-724162b8e192"}},{"name":"59a77ad1-c3c3-4615-a189-470ec8a05b4c.__dont_treat_as_error__","label":"1 - EXFO: Get File Folder➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"9d26c80c-6cfb-4d96-8785-9116726697d7"}},{"name":"59a77ad1-c3c3-4615-a189-470ec8a05b4c.__action_status__","label":"1 - EXFO: Get File Folder➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDf77672c5e6e2011067b3a46a29fc94c0","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"6cbae9ae-0f38-443c-9229-664fef87f1fc"}},{"name":"9a21a052-17b9-47e0-948a-6c5b399bcb3d.attachment_id","label":"6 - EXFO: Create CSV Attachment➛attachment_id","reference_display":"attachment_id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"0e35e726-d81d-45bf-bab3-4a5ecbac46a6"}},{"name":"9a21a052-17b9-47e0-948a-6c5b399bcb3d.__dont_treat_as_error__","label":"6 - EXFO: Create CSV Attachment➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"a20b2159-aa7e-4c30-a1d2-98bd8cdc164d"}},{"name":"9a21a052-17b9-47e0-948a-6c5b399bcb3d.__action_status__","label":"6 - EXFO: Create CSV Attachment➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2c5278f7c24c89102991cf2f490a8bef","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"6200b230-0660-490e-a7b1-31465c48f9d2"}},{"name":"cc9e2178-6dcd-47ff-a777-62f0f4c12d08.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cc9e2178-6dcd-47ff-a777-62f0f4c12d08.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"225a6011-3185-49f8-973d-215e836d1b26.attachment_id","label":"4➛attachment_id","reference_display":"attachment_id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"0e35e726-d81d-45bf-bab3-4a5ecbac46a6"}},{"name":"225a6011-3185-49f8-973d-215e836d1b26.variable","label":"4➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"664a99a6-325d-4cc2-a5db-a2093b1d5197"}},{"name":"225a6011-3185-49f8-973d-215e836d1b26.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"a20b2159-aa7e-4c30-a1d2-98bd8cdc164d"}},{"name":"225a6011-3185-49f8-973d-215e836d1b26.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2c5278f7c24c89102991cf2f490a8bef","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"6200b230-0660-490e-a7b1-31465c48f9d2"}},{"name":"512677af-a605-42ae-8212-37bd45bf833f.item.data_source","label":"5➛map➛data_source","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"512677af-a605-42ae-8212-37bd45bf833f.item.file_path","label":"5➛map➛file_path","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"512677af-a605-42ae-8212-37bd45bf833f.item","label":"5 - For Each➛map","reference_display":"map","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"aa9df31b-efec-48af-b780-e969f203c72d.data_maps","label":"3 - EXFO: Pre-Process Data➛data_maps","reference_display":"data_maps","type":"array.object","base_type":"array.object","attributes":{"sourceId":"fa541940-c56d-42cc-bcbd-fe7185d1c95b","child_name":"map","uiUniqueId":"5b25b3fe-e2a4-477c-b73c-a8e7d77742a1","uiTypeLabel":"Array.Object","co_type_name":"FD38d2b3f8b888811061281038c3579667","child_label":"map","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"97f98654-8349-4064-b243-2bc5f5deaa3b","uiType":"array.object","child_type":"object","child_uiUniqueId":"b12bdbaf-f461-40a6-86c2-aa18ba4387c0"}},{"name":"aa9df31b-efec-48af-b780-e969f203c72d.__dont_treat_as_error__","label":"3 - EXFO: Pre-Process Data➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"9e63be64-df61-4b12-8b8d-c4844ff14e14"}},{"name":"aa9df31b-efec-48af-b780-e969f203c72d.__action_status__","label":"3 - EXFO: Pre-Process Data➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDf4d2b3f8b78881104c49c53f04faf365","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"39897d03-f9c7-43a0-9956-288fa9ed16fb"}},{"name":"39db2633-a926-4ef1-a116-0eb9f703f83c.item","label":"3 - For Each➛Item","reference_display":"Item","type":"document_id","base_type":"document_id","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"d7f7bc45-78e4-4f88-9a28-b532b2709d52.record","label":"8 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7f7bc45-78e4-4f88-9a28-b532b2709d52.table_name","label":"8 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7f7bc45-78e4-4f88-9a28-b532b2709d52.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"d7f7bc45-78e4-4f88-9a28-b532b2709d52.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
         <master>true</master>
@@ -816,7 +828,7 @@
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:24:56</sys_updated_on>
@@ -908,7 +920,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 20:56:20</sys_updated_on>
@@ -993,7 +1005,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-25 19:12:06</sys_updated_on>
@@ -1077,7 +1089,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 22:23:45</sys_updated_on>
@@ -1105,6 +1117,7 @@
         <comment/>
         <display_text/>
         <flow display_value="EXFO: Import Data">35d1bfcd87114110c4a3c99d0ebb3521</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>512677af-a605-42ae-8212-37bd45bf833f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1112,7 +1125,7 @@
         <sys_created_on>2022-02-24 17:56:56</sys_created_on>
         <sys_id>15504a36873d8110c4a3c99d0ebb354a</sys_id>
         <sys_mod_count>20</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:24:56</sys_updated_on>
         <ui_id>9a21a052-17b9-47e0-948a-6c5b399bcb3d</ui_id>
@@ -1154,6 +1167,7 @@
         <comment/>
         <display_text/>
         <flow display_value="EXFO: Import Data">35d1bfcd87114110c4a3c99d0ebb3521</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1161,7 +1175,7 @@
         <sys_created_on>2022-03-28 20:56:20</sys_created_on>
         <sys_id>514c93cd87660110c4a3c99d0ebb35d7</sys_id>
         <sys_mod_count>16</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:24:55</sys_updated_on>
         <ui_id>59a77ad1-c3c3-4615-a189-470ec8a05b4c</ui_id>
@@ -1191,6 +1205,7 @@
         <comment/>
         <display_text/>
         <flow display_value="EXFO: Import Data">35d1bfcd87114110c4a3c99d0ebb3521</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>68c30755-9e95-4cc0-882f-879a030d7626</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1198,7 +1213,7 @@
         <sys_created_on>2022-01-25 19:12:07</sys_created_on>
         <sys_id>8ad1bfcd87114110c4a3c99d0ebb35af</sys_id>
         <sys_mod_count>46</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:24:55</sys_updated_on>
         <ui_id>aa9df31b-efec-48af-b780-e969f203c72d</ui_id>
@@ -1233,6 +1248,7 @@
         <flow display_value="EXFO: Import Data">35d1bfcd87114110c4a3c99d0ebb3521</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>7</order>
@@ -1245,7 +1261,7 @@
         <sys_created_on>2022-02-24 17:56:56</sys_created_on>
         <sys_id>21504a36873d8110c4a3c99d0ebb3553</sys_id>
         <sys_mod_count>15</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:24:56</sys_updated_on>
         <ui_id>df94e305-5fbd-49ed-a036-5e5d0e847af8</ui_id>
@@ -1304,6 +1320,7 @@
         <flow display_value="EXFO: Import Data">35d1bfcd87114110c4a3c99d0ebb3521</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1316,7 +1333,7 @@
         <sys_created_on>2022-03-30 19:24:55</sys_created_on>
         <sys_id>e58a5d7587668110c4a3c99d0ebb35b5</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:24:55</sys_updated_on>
         <ui_id>68c30755-9e95-4cc0-882f-879a030d7626</ui_id>
@@ -1378,6 +1395,7 @@
         <flow display_value="EXFO: Import Data">35d1bfcd87114110c4a3c99d0ebb3521</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1390,7 +1408,7 @@
         <sys_created_on>2022-03-30 19:24:55</sys_created_on>
         <sys_id>e58a5d7587668110c4a3c99d0ebb35b9</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:24:56</sys_updated_on>
         <ui_id>ac524bc7-0d50-4889-81b2-beea1a5ad519</ui_id>
@@ -1452,6 +1470,7 @@
         <flow display_value="EXFO: Import Data">35d1bfcd87114110c4a3c99d0ebb3521</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -1464,7 +1483,7 @@
         <sys_created_on>2022-01-25 19:12:06</sys_created_on>
         <sys_id>f5d1bfcd87114110c4a3c99d0ebb354e</sys_id>
         <sys_mod_count>27</sys_mod_count>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:24:56</sys_updated_on>
         <ui_id>512677af-a605-42ae-8212-37bd45bf833f</ui_id>
@@ -1505,9 +1524,9 @@
         <sys_id>014c93cd87660110c4a3c99d0ebb3590</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>run_type</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_35d1bfcd87114110c4a3c99d0ebb3521_run_type_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 20:56:20</sys_updated_on>
@@ -1530,9 +1549,9 @@
         <sys_id>3d4077c1872a0110c4a3c99d0ebb35a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>import_folder</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_35d1bfcd87114110c4a3c99d0ebb3521_import_folder_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 22:23:45</sys_updated_on>
@@ -1553,9 +1572,9 @@
         <sys_id>79d1bfcd87114110c4a3c99d0ebb3548</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>attachment_id</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_35d1bfcd87114110c4a3c99d0ebb3521_attachment_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-25 19:12:06</sys_updated_on>

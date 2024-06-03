@@ -9,11 +9,11 @@
         <sys_id>9717d4a5879d8510c4a3c99d0ebb3502</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Segments">4cc69425879d8510c4a3c99d0ebb3574</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="TempToConfiguration Item 1">3d1714a5879d8510c4a3c99d0ebb35de</sys_rte_eb_entity_mapping>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
         <sys_update_name>sys_rte_eb_field_mapping_9717d4a5879d8510c4a3c99d0ebb3502</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-26 16:33:26</sys_updated_on>

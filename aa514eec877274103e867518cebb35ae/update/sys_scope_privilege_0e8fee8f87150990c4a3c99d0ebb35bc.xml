@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
     <sys_scope_privilege action="INSERT_OR_UPDATE">
         <operation>create</operation>
-        <source_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</source_scope>
+        <source_scope display_value="">aa514eec877274103e867518cebb35ae</source_scope>
         <status>allowed</status>
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -9,9 +9,9 @@
         <sys_id>0e8fee8f87150990c4a3c99d0ebb35bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>bandwidth</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
         <sys_update_name>sys_scope_privilege_0e8fee8f87150990c4a3c99d0ebb35bc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-31 19:30:15</sys_updated_on>

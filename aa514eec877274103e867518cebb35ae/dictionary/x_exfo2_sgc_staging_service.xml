@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="538cdf131b33f950da698666624bcbf4" extends="sys_import_set_row" label="Staging: EXFO Service" max_length="40" name="x_exfo2_sgc_staging_service" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_ALIAS1" label="u_service_alias1" max_length="255" name="u_service_alias1" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_ALIAS2" label="u_service_alias2" max_length="255" name="u_service_alias2" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_CUSTOM_ATTRIBUTES" label="u_service_custom_attributes" max_length="1000" name="u_service_custom_attributes" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_DESCRIPTION" label="u_service_description" max_length="1000" name="u_service_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_A_NE_KEY" label="u_service_has_a_ne_key" max_length="255" name="u_service_has_a_ne_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_A_PORT_KEY" label="u_service_has_a_port_key" max_length="255" name="u_service_has_a_port_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_A_SITE_KEY" label="u_service_has_a_site_key" max_length="255" name="u_service_has_a_site_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_LINK_KEY" label="u_service_has_link_key" max_length="255" name="u_service_has_link_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_Z_NE_KEY" label="u_service_has_z_ne_key" max_length="255" name="u_service_has_z_ne_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_Z_PORT_KEY" label="u_service_has_z_port_key" max_length="255" name="u_service_has_z_port_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_Z_SITE_KEY" label="u_service_has_z_site_key" max_length="255" name="u_service_has_z_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_ALIAS1" label="Service alias1" max_length="255" name="u_service_alias1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_ALIAS2" label="Service alias2" max_length="255" name="u_service_alias2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_CUSTOM_ATTRIBUTES" label="Service custom attributes" max_length="1000" name="u_service_custom_attributes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_DESCRIPTION" label="Service description" max_length="1000" name="u_service_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_A_NE_KEY" label="Service has a ne key" max_length="255" name="u_service_has_a_ne_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_A_PORT_KEY" label="Service has a port key" max_length="255" name="u_service_has_a_port_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_A_SITE_KEY" label="Service has a site key" max_length="255" name="u_service_has_a_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_LINK_KEY" label="Service has link key" max_length="255" name="u_service_has_link_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_Z_NE_KEY" label="Service has z ne key" max_length="255" name="u_service_has_z_ne_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_Z_PORT_KEY" label="Service has z port key" max_length="255" name="u_service_has_z_port_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_Z_SITE_KEY" label="Service has z site key" max_length="255" name="u_service_has_z_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_PARENT_SERVICE_KEY" label="u_service_has_parent_service_key" max_length="255" name="u_service_has__nt_service_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_KEY" label="u_service_key" max_length="255" name="u_service_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_NAME" label="u_service_name" max_length="255" name="u_service_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_PRODUCT" label="u_service_product" max_length="40" name="u_service_product" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_SERIAL_NUMBER" label="u_service_serial_number" max_length="40" name="u_service_serial_number" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_STATUS" label="u_service_status" max_length="40" name="u_service_status" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_TNI_DOMAIN" label="u_service_tni_domain" max_length="40" name="u_service_tni_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_KEY" label="Service key" max_length="255" name="u_service_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_NAME" label="Service name" max_length="255" name="u_service_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_PRODUCT" label="Service product" max_length="40" name="u_service_product" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_SERIAL_NUMBER" label="Service serial number" max_length="40" name="u_service_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_STATUS" label="Service status" max_length="40" name="u_service_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_TNI_DOMAIN" label="Service tni domain" max_length="40" name="u_service_tni_domain" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_TOP_EXP_STATUS" label="SERVICE_TOP_EXP_STATUS" max_length="40" name="u_service_top_exp_status" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_TYPE" label="u_service_type" max_length="40" name="u_service_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_TYPE" label="Service type" max_length="40" name="u_service_type" type="string"/>
     </element>
 </database>

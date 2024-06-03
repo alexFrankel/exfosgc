@@ -11,9 +11,9 @@
         <sys_id>ac113d0587ca4910c4a3c99d0ebb3579</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>2022-03-03 16:36:35</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
         <sys_update_name>gsw_change_log_ac113d0587ca4910c4a3c99d0ebb3579</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-03 16:36:35</sys_updated_on>

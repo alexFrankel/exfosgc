@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="directory" label="directory" language="en" table="var__m_sys_hub_step_ext_output_d85278f7874c8910c4a3c99d0ebb3597">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>directory</element>
+            <help/>
+            <hint/>
+            <label>directory</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_d85278f7874c8910c4a3c99d0ebb3597</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-02 15:00:07</sys_created_on>
+            <sys_id>545278f7874c8910c4a3c99d0ebb35a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>directory</sys_name>
+            <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d85278f7874c8910c4a3c99d0ebb3597_directory_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-02 15:00:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

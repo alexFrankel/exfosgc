@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_path_has_link_key" label="Path has link key" language="en" table="x_exfo2_sgc_staging_path">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_path_has_link_key</element>
+            <help/>
+            <hint/>
+            <label>Path has link key</label>
+            <language>en</language>
+            <name>x_exfo2_sgc_staging_path</name>
+            <plural>Path has link keys</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-06-03 08:55:32</sys_created_on>
+            <sys_id>93fbd2391b6e0a1043f3cae2604bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Path has link key</sys_name>
+            <sys_package display_value="${plugin.name}" source="${plugin.scope_name}">${plugin.scope_sys_id}</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="${plugin.name}">${plugin.scope_sys_id}</sys_scope>
+            <sys_update_name>sys_documentation_x_exfo2_sgc_staging_path_u_path_has_link_key_en</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-06-03 08:55:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
