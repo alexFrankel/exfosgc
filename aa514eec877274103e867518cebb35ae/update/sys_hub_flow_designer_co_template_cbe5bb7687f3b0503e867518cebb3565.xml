@@ -3,16 +3,16 @@
         <active>true</active>
         <complex_definition>FDc3e5bb762af3b05016133f5035795863</complex_definition>
         <sys_class_name>sys_hub_flow_designer_co_template</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-17 16:25:07</sys_created_on>
         <sys_id>cbe5bb7687f3b0503e867518cebb3565</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>data_object</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_hub_flow_designer_co_template_cbe5bb7687f3b0503e867518cebb3565</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-17 16:25:07</sys_updated_on>
         <template_label>data_object</template_label>
         <template_name>data_object</template_name>

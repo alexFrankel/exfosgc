@@ -30,18 +30,18 @@
         <source_sys_rte_eb_field/>
         <source_sys_rte_eb_fields/>
         <sys_class_name>sys_rte_eb_set_operation</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 16:48:51</sys_created_on>
         <sys_id>b656fbe61b08c2d06e86e0cb234bcbfa</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>inventory_category</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Sites">5b85f3a61b08c2d06e86e0cb234bcb21</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="temp">6c9577a61b08c2d06e86e0cb234bcb83</sys_rte_eb_entity>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_set_operation_b656fbe61b08c2d06e86e0cb234bcbfa</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-15 11:16:23</sys_updated_on>
         <target_sys_rte_eb_field display_value="inventory_category">7a56f7e61b08c2d06e86e0cb234bcb41</target_sys_rte_eb_field>
         <target_sys_rte_eb_fields/>

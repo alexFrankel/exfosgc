@@ -22,7 +22,7 @@
         <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:15:31</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -30,11 +30,11 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>EXFO: Pre-Process Data</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_67e1b7b887888110c4a3c99d0ebb3592</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-04-30 16:18:57</sys_updated_on>
         <system_level>false</system_level>
         <type/>
@@ -46,11 +46,11 @@
         <document_key>67e1b7b887888110c4a3c99d0ebb3592</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:17</sys_created_on>
         <sys_id>3ac273f887888110c4a3c99d0ebb351c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:17</sys_updated_on>
         <value>0</value>
         <variable display_value="Don't Treat as Error">2ec273f887888110c4a3c99d0ebb3509</variable>
@@ -60,11 +60,11 @@
         <document_key>67e1b7b887888110c4a3c99d0ebb3592</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:17</sys_created_on>
         <sys_id>fac273f887888110c4a3c99d0ebb351c</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:16:13</sys_updated_on>
         <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD2ec233f8ea88811081b9a10a6a37bdfe":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD2ec233f8ea88811081b9a10a6a37bdfe.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"39897d03-f9c7-43a0-9956-288fa9ed16fb\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD2ec233f8ea88811081b9a10a6a37bdfe\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">eec273f887888110c4a3c99d0ebb3502</variable>
@@ -73,11 +73,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>data_maps</field>
         <id>67e1b7b887888110c4a3c99d0ebb3592</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:17</sys_created_on>
         <sys_id>32c273f887888110c4a3c99d0ebb351c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:17</sys_updated_on>
         <table>var__m_sys_hub_action_output_67e1b7b887888110c4a3c99d0ebb3592</table>
         <value>{{step[fa541940-c56d-42cc-bcbd-fe7185d1c95b].data_maps}}</value>
@@ -85,11 +85,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__action_status__</field>
         <id>67e1b7b887888110c4a3c99d0ebb3592</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:17</sys_created_on>
         <sys_id>b6c273f887888110c4a3c99d0ebb351c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:17</sys_updated_on>
         <table>var__m_sys_hub_action_output_67e1b7b887888110c4a3c99d0ebb3592</table>
         <value/>
@@ -97,11 +97,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__dont_treat_as_error__</field>
         <id>67e1b7b887888110c4a3c99d0ebb3592</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:17</sys_created_on>
         <sys_id>f2c273f887888110c4a3c99d0ebb351c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:17</sys_updated_on>
         <table>var__m_sys_hub_action_output_67e1b7b887888110c4a3c99d0ebb3592</table>
         <value/>
@@ -121,12 +121,12 @@
         <outputs/>
         <section/>
         <step_type display_value="SFTP">051d55f3b7132300100a9b56ee11a9cb</step_type>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:29</sys_created_on>
         <sys_id>7036223e87c00910c4a3c99d0ebb3569</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:46:35</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7036223e87c00910c4a3c99d0ebb3569"/>
@@ -135,11 +135,11 @@
         <document_key>7036223e87c00910c4a3c99d0ebb3569</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>0936223e87c00910c4a3c99d0ebb35c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <value>get_file_list</value>
         <variable display_value="SFTP Command">0a102537b7132300100a9b56ee11a9a8</variable>
@@ -149,11 +149,11 @@
         <document_key>7036223e87c00910c4a3c99d0ebb3569</document_key>
         <order>111</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>0d36223e87c00910c4a3c99d0ebb35c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <value>e385484773100010e3a71afe2ff6a709</value>
         <variable display_value="Retry Policy">b7a1c530b7c33300100a9b56ee11a923</variable>
@@ -163,11 +163,11 @@
         <document_key>7036223e87c00910c4a3c99d0ebb3569</document_key>
         <order>54</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>4536223e87c00910c4a3c99d0ebb35c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <value/>
         <variable display_value="Minimum File Size (Bytes)">64970eb3b7532300100a9b56ee11a9d9</variable>
@@ -177,11 +177,11 @@
         <document_key>7036223e87c00910c4a3c99d0ebb3569</document_key>
         <order>35</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>4936223e87c00910c4a3c99d0ebb35c4</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-01 19:29:43</sys_updated_on>
         <value/>
         <variable display_value="Source Path">64c30673b7532300100a9b56ee11a985</variable>
@@ -191,11 +191,11 @@
         <document_key>7036223e87c00910c4a3c99d0ebb3569</document_key>
         <order>39</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-01 19:29:43</sys_created_on>
         <sys_id>7766a06787408910c4a3c99d0ebb35ec</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-03 15:49:50</sys_updated_on>
         <value>*.zip</value>
         <variable display_value="Include Files">96d48a73b7532300100a9b56ee11a9a6</variable>
@@ -205,11 +205,11 @@
         <document_key>7036223e87c00910c4a3c99d0ebb3569</document_key>
         <order>18</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>8136223e87c00910c4a3c99d0ebb35c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
         <variable display_value="Capabilities">6b8be57bb7132300100a9b56ee11a92e</variable>
@@ -219,11 +219,11 @@
         <document_key>7036223e87c00910c4a3c99d0ebb3569</document_key>
         <order>103</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>8536223e87c00910c4a3c99d0ebb35c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <value/>
         <variable display_value="Permissions (chmod)">886c0e37b7532300100a9b56ee11a99d</variable>
@@ -233,11 +233,11 @@
         <document_key>7036223e87c00910c4a3c99d0ebb3569</document_key>
         <order>13</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>8d36223e87c00910c4a3c99d0ebb35c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <value>bb306a28874c4110c4a3c99d0ebb35b1</value>
         <variable display_value="Source Connection Alias">1475e1b7b7132300100a9b56ee11a9c5</variable>
@@ -247,11 +247,11 @@
         <document_key>7036223e87c00910c4a3c99d0ebb3569</document_key>
         <order>17</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>c936223e87c00910c4a3c99d0ebb35c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="MID Application">554929f7b7132300100a9b56ee11a91d</variable>
@@ -261,11 +261,11 @@
         <document_key>7036223e87c00910c4a3c99d0ebb3569</document_key>
         <order>55</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>cd36223e87c00910c4a3c99d0ebb35c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <value/>
         <variable display_value="Maximum File Size (Bytes)">285802f3b7532300100a9b56ee11a9b2</variable>
@@ -275,11 +275,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
         <id>7036223e87c00910c4a3c99d0ebb3569</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>0d36223e87c00910c4a3c99d0ebb35c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -287,11 +287,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>capabilities</field>
         <id>7036223e87c00910c4a3c99d0ebb3569</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>c136223e87c00910c4a3c99d0ebb35c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -299,11 +299,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>command</field>
         <id>7036223e87c00910c4a3c99d0ebb3569</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>4936223e87c00910c4a3c99d0ebb35c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -311,11 +311,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection_alias</field>
         <id>7036223e87c00910c4a3c99d0ebb3569</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>0136223e87c00910c4a3c99d0ebb35c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -323,11 +323,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>include_files</field>
         <id>7036223e87c00910c4a3c99d0ebb3569</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-01 19:29:43</sys_created_on>
         <sys_id>3f66a06787408910c4a3c99d0ebb35eb</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-03 15:49:50</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -335,11 +335,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>max_file_size_in_bytes</field>
         <id>7036223e87c00910c4a3c99d0ebb3569</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>0136223e87c00910c4a3c99d0ebb35c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -347,11 +347,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>min_file_size_in_bytes</field>
         <id>7036223e87c00910c4a3c99d0ebb3569</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>8536223e87c00910c4a3c99d0ebb35c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -359,11 +359,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>permissions</field>
         <id>7036223e87c00910c4a3c99d0ebb3569</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>c536223e87c00910c4a3c99d0ebb35c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -371,11 +371,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>retry_policy</field>
         <id>7036223e87c00910c4a3c99d0ebb3569</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>4d36223e87c00910c4a3c99d0ebb35c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -383,11 +383,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>source_path</field>
         <id>7036223e87c00910c4a3c99d0ebb3569</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>8936223e87c00910c4a3c99d0ebb35c2</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-01 19:29:43</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value>{{step[0da2a3db-41fd-48c0-adb0-a46fdbc857a6].file_folder}}</value>
@@ -454,7 +454,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:30</sys_created_on>
         <sys_id>0136223e87c00910c4a3c99d0ebb35b3</sys_id>
         <sys_mod_count>1</sys_mod_count>
@@ -463,7 +463,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 21:18:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -488,16 +488,16 @@
         <name>var__m_sys_hub_step_ext_output_7036223e87c00910c4a3c99d0ebb3569</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:31</sys_created_on>
         <sys_id>c936223e87c00910c4a3c99d0ebb35b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Credential Value</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_7036223e87c00910c4a3c99d0ebb3569_sn_auth_token_en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:31</sys_updated_on>
         <url/>
         <url_target/>
@@ -516,12 +516,12 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:18:08</sys_created_on>
         <sys_id>b9827fb887888110c4a3c99d0ebb35f1</sys_id>
         <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:17:33</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b9827fb887888110c4a3c99d0ebb35f1"/>
@@ -530,16 +530,16 @@
         <document_key>b9827fb887888110c4a3c99d0ebb35f1</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:18:08</sys_created_on>
         <sys_id>4282bfb887888110c4a3c99d0ebb3513</sys_id>
         <sys_mod_count>19</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:17:33</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
-  var util = new x_snc_exfo_cmdb.EXFOImportUtil();
-  //var folder = gs.getProperty('x_snc_exfo_cmdb.exfoFileFolder');
+  var util = new x_exfo2_sgc.EXFOImportUtil();
+  //var folder = gs.getProperty('x_exfo2_sgc.exfoFileFolder');
   var folder = inputs.folder_path+='/';
   var jsonObj = JSON.parse(inputs.fileObj);
   var fileList = jsonObj.fileInfos;
@@ -556,11 +556,11 @@
         <document_key>b9827fb887888110c4a3c99d0ebb35f1</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:18:08</sys_created_on>
         <sys_id>8e82bfb887888110c4a3c99d0ebb3512</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:18:08</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
@@ -569,11 +569,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>dataObj</field>
         <id>b9827fb887888110c4a3c99d0ebb35f1</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:18:08</sys_created_on>
         <sys_id>ca82bfb887888110c4a3c99d0ebb3513</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:18:08</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_b9827fb887888110c4a3c99d0ebb35f1</table>
         <value>{{step[0da2a3db-41fd-48c0-adb0-a46fdbc857a6].data_source_file_map}}</value>
@@ -581,11 +581,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>fileList</field>
         <id>b9827fb887888110c4a3c99d0ebb35f1</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 20:52:32</sys_created_on>
         <sys_id>9536623e87c00910c4a3c99d0ebb3507</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 20:52:32</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_b9827fb887888110c4a3c99d0ebb35f1</table>
         <value>{{step[d170159f-ae73-4c4e-b8a1-3c9de4799e56].output}}</value>
@@ -593,11 +593,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>fileObj</field>
         <id>b9827fb887888110c4a3c99d0ebb35f1</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 21:18:32</sys_created_on>
         <sys_id>d22c6e3287040910c4a3c99d0ebb3550</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 21:18:32</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_b9827fb887888110c4a3c99d0ebb35f1</table>
         <value>{{step[d170159f-ae73-4c4e-b8a1-3c9de4799e56].output}}</value>
@@ -605,11 +605,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>folder_path</field>
         <id>b9827fb887888110c4a3c99d0ebb35f1</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 18:25:57</sys_created_on>
         <sys_id>12d93a0d87e20110c4a3c99d0ebb358d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:25:57</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_b9827fb887888110c4a3c99d0ebb35f1</table>
         <value>{{step[0da2a3db-41fd-48c0-adb0-a46fdbc857a6].file_folder}}</value>
@@ -677,7 +677,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 21:18:32</sys_created_on>
         <sys_id>1a2c6e3287040910c4a3c99d0ebb353d</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -686,7 +686,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-29 21:18:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -760,7 +760,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 18:25:57</sys_created_on>
         <sys_id>52d93a0d87e20110c4a3c99d0ebb3583</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -769,7 +769,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:25:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -791,7 +791,7 @@
         <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
         <serialized_content>{"FlowDesigner:FDca82bfb89988811056427171d61a8f06":{"$COCollectionField":[{"map":{"file_path":"String","file_path.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"file_path\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"9ed3a0fd-137f-4401-b57e-2a78f8c77f0a\"}"},"data_source":"String","data_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"data_source\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0dfe6929-9d05-492a-917c-6312c402e7c2\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"data_maps\",\"mandatory\":\"false\",\"child_name\":\"map\",\"uiUniqueId\":\"97f98654-8349-4064-b243-2bc5f5deaa3b\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDca82bfb89988811056427171d61a8f06\",\"child_label\":\"map\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b12bdbaf-f461-40a6-86c2-aa18ba4387c0\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDca82bfb89988811056427171d61a8f06.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"data_maps\",\"mandatory\":\"false\",\"child_name\":\"map\",\"uiUniqueId\":\"97f98654-8349-4064-b243-2bc5f5deaa3b\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDca82bfb89988811056427171d61a8f06\",\"child_label\":\"map\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b12bdbaf-f461-40a6-86c2-aa18ba4387c0\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:18:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -799,11 +799,11 @@
         <sys_mod_count>1</sys_mod_count>
         <sys_name>FDca82bfb89988811056427171d61a8f06</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_complex_object_8e82bfb887888110c4a3c99d0ebb3506</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:16</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
@@ -867,7 +867,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:18:08</sys_created_on>
         <sys_id>4282bfb887888110c4a3c99d0ebb3509</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -876,7 +876,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:18:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -901,16 +901,16 @@
         <name>var__m_sys_hub_step_ext_output_b9827fb887888110c4a3c99d0ebb35f1</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:18:08</sys_created_on>
         <sys_id>8a82bfb887888110c4a3c99d0ebb350e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>data_maps</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_b9827fb887888110c4a3c99d0ebb35f1_data_maps_en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:18:08</sys_updated_on>
         <url/>
         <url_target/>
@@ -929,12 +929,12 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:18:08</sys_created_on>
         <sys_id>bd827fb887888110c4a3c99d0ebb35d0</sys_id>
         <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:46:35</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bd827fb887888110c4a3c99d0ebb35d0"/>
@@ -943,14 +943,14 @@
         <document_key>bd827fb887888110c4a3c99d0ebb35d0</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:18:08</sys_created_on>
         <sys_id>35827fb887888110c4a3c99d0ebb35ef</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:18:55</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-  	var parentFolder = gs.getProperty('x_snc_exfo_cmdb.exfoFileFolder');
+  	var parentFolder = gs.getProperty('x_exfo2_sgc.exfoFileFolder');
   	if(parentFolder.charAt(parentFolder.length - 1) != '/'){
      	parentFolder+='/'; 
     }
@@ -964,11 +964,11 @@
         <document_key>bd827fb887888110c4a3c99d0ebb35d0</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:18:08</sys_created_on>
         <sys_id>71827fb887888110c4a3c99d0ebb35ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:18:08</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
@@ -977,11 +977,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>import_folder</field>
         <id>bd827fb887888110c4a3c99d0ebb35d0</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 18:16:12</sys_created_on>
         <sys_id>1b97f60987e20110c4a3c99d0ebb3544</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:16:12</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_bd827fb887888110c4a3c99d0ebb35d0</table>
         <value>{{action.import_folder}}</value>
@@ -989,11 +989,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>import_type</field>
         <id>bd827fb887888110c4a3c99d0ebb35d0</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-03 15:44:54</sys_created_on>
         <sys_id>af352189878a4910c4a3c99d0ebb35d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-03 15:44:54</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_bd827fb887888110c4a3c99d0ebb35d0</table>
         <value>{{action.import_type}}</value>
@@ -1061,7 +1061,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 18:16:11</sys_created_on>
         <sys_id>9f97f60987e20110c4a3c99d0ebb353a</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -1070,7 +1070,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:16:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -1145,7 +1145,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-01 19:29:41</sys_created_on>
         <sys_id>1366a06787408910c4a3c99d0ebb355b</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -1154,7 +1154,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-01 19:29:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -1179,16 +1179,16 @@
         <name>var__m_sys_hub_step_ext_output_bd827fb887888110c4a3c99d0ebb35d0</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-01 19:29:41</sys_created_on>
         <sys_id>db66a06787408910c4a3c99d0ebb3560</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>file_folder</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_bd827fb887888110c4a3c99d0ebb35d0_file_folder_en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-01 19:29:41</sys_updated_on>
         <url/>
         <url_target/>
@@ -1254,7 +1254,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 18:16:11</sys_created_on>
         <sys_id>9f97f60987e20110c4a3c99d0ebb352d</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -1263,7 +1263,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:16:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -1341,7 +1341,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:17</sys_created_on>
         <sys_id>2ec273f887888110c4a3c99d0ebb3509</sys_id>
         <sys_mod_count>1</sys_mod_count>
@@ -1350,7 +1350,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -1373,7 +1373,7 @@
         <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
         <serialized_content>{"FlowDesigner:FDeac273f826888110c0cf8d2471a13300":{"$COCollectionField":[{"map":{"file_path":"String","file_path.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"file_path\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"9ed3a0fd-137f-4401-b57e-2a78f8c77f0a\"}"},"data_source":"String","data_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"data_source\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0dfe6929-9d05-492a-917c-6312c402e7c2\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"fa541940-c56d-42cc-bcbd-fe7185d1c95b\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"data_maps\",\"mandatory\":\"false\",\"child_name\":\"map\",\"uiUniqueId\":\"5b25b3fe-e2a4-477c-b73c-a8e7d77742a1\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDeac273f826888110c0cf8d2471a13300\",\"child_label\":\"map\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"97f98654-8349-4064-b243-2bc5f5deaa3b\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b12bdbaf-f461-40a6-86c2-aa18ba4387c0\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDeac273f826888110c0cf8d2471a13300.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"fa541940-c56d-42cc-bcbd-fe7185d1c95b\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"data_maps\",\"mandatory\":\"false\",\"child_name\":\"map\",\"uiUniqueId\":\"5b25b3fe-e2a4-477c-b73c-a8e7d77742a1\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDeac273f826888110c0cf8d2471a13300\",\"child_label\":\"map\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"97f98654-8349-4064-b243-2bc5f5deaa3b\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b12bdbaf-f461-40a6-86c2-aa18ba4387c0\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -1381,11 +1381,11 @@
         <sys_mod_count>1</sys_mod_count>
         <sys_name>FDeac273f826888110c0cf8d2471a13300</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_complex_object_aec273f887888110c4a3c99d0ebb3500</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:24</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
@@ -1451,7 +1451,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:17</sys_created_on>
         <sys_id>b6c273f887888110c4a3c99d0ebb3513</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -1460,7 +1460,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -1483,7 +1483,7 @@
         <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
         <serialized_content>{"FlowDesigner:FD2ec233f8ea88811081b9a10a6a37bdfe":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD2ec233f8ea88811081b9a10a6a37bdfe.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"39897d03-f9c7-43a0-9956-288fa9ed16fb\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD2ec233f8ea88811081b9a10a6a37bdfe\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -1491,11 +1491,11 @@
         <sys_mod_count>1</sys_mod_count>
         <sys_name>FD2ec233f8ea88811081b9a10a6a37bdfe</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_complex_object_eec233f887888110c4a3c99d0ebb35fe</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:24</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
@@ -1561,7 +1561,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:17</sys_created_on>
         <sys_id>eec273f887888110c4a3c99d0ebb3502</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -1570,7 +1570,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -1590,11 +1590,11 @@
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=67e1b7b887888110c4a3c99d0ebb3592^sys_idNOT IN4282bfb887888110c4a3c99d0ebb3518"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="EXFO: Pre-Process Data">67e1b7b887888110c4a3c99d0ebb3592</action_type_id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:18:08</sys_created_on>
         <sys_id>4282bfb887888110c4a3c99d0ebb3518</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:18:08</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=4282bfb887888110c4a3c99d0ebb3518"/>
@@ -1608,16 +1608,16 @@
         <name>var__m_sys_hub_action_input_67e1b7b887888110c4a3c99d0ebb3592</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 18:16:11</sys_created_on>
         <sys_id>1797f60987e20110c4a3c99d0ebb3532</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>import_folder</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_67e1b7b887888110c4a3c99d0ebb3592_import_folder_en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:16:11</sys_updated_on>
         <url/>
         <url_target/>
@@ -1633,16 +1633,16 @@
         <name>var__m_sys_hub_action_output_67e1b7b887888110c4a3c99d0ebb3592</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:17</sys_created_on>
         <sys_id>26c273f887888110c4a3c99d0ebb3508</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Action Status</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67e1b7b887888110c4a3c99d0ebb3592___action_status___en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:17</sys_updated_on>
         <url/>
         <url_target/>
@@ -1656,16 +1656,16 @@
         <name>var__m_sys_hub_action_output_67e1b7b887888110c4a3c99d0ebb3592</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:17</sys_created_on>
         <sys_id>bec273f887888110c4a3c99d0ebb3511</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Don't Treat as Error</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67e1b7b887888110c4a3c99d0ebb3592___dont_treat_as_error___en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:17</sys_updated_on>
         <url/>
         <url_target/>
@@ -1679,16 +1679,16 @@
         <name>var__m_sys_hub_action_output_67e1b7b887888110c4a3c99d0ebb3592</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:17</sys_created_on>
         <sys_id>fac273f887888110c4a3c99d0ebb3518</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>data_maps</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67e1b7b887888110c4a3c99d0ebb3592_data_maps_en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:17</sys_updated_on>
         <url/>
         <url_target/>
@@ -1699,7 +1699,7 @@
         <action_id display_value="EXFO: Pre-Process Data">67e1b7b887888110c4a3c99d0ebb3592</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"9dd2b3f887888110c4a3c99d0ebb35ff","name":"plan","plan_signature":null}}</plan>
         <snapshot>5ad89db187668110c4a3c99d0ebb3550</snapshot>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -1707,7 +1707,7 @@
         <sys_mod_count>10</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:17:39</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
@@ -1730,7 +1730,7 @@
         <outputs/>
         <parent_action display_value="EXFO: Pre-Process Data">67e1b7b887888110c4a3c99d0ebb3592</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -1742,7 +1742,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:15:54</sys_updated_on>
         <system_level>false</system_level>
         <type/>
@@ -1754,11 +1754,11 @@
         <document_key>a0d273f887888110c4a3c99d0ebb35e1</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:26</sys_created_on>
         <sys_id>38d2b3f887888110c4a3c99d0ebb3583</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:20:53</sys_updated_on>
         <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDf4d2b3f8b78881104c49c53f04faf365":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDf4d2b3f8b78881104c49c53f04faf365.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"39897d03-f9c7-43a0-9956-288fa9ed16fb\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf4d2b3f8b78881104c49c53f04faf365\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">3cd2b3f887888110c4a3c99d0ebb3569</variable>
@@ -1768,11 +1768,11 @@
         <document_key>a0d273f887888110c4a3c99d0ebb35e1</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:26</sys_created_on>
         <sys_id>74d2b3f887888110c4a3c99d0ebb3583</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:26</sys_updated_on>
         <value>0</value>
         <variable display_value="Don't Treat as Error">78d2b3f887888110c4a3c99d0ebb3570</variable>
@@ -1781,11 +1781,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>data_maps</field>
         <id>a0d273f887888110c4a3c99d0ebb35e1</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:26</sys_created_on>
         <sys_id>7cd2b3f887888110c4a3c99d0ebb3582</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:26</sys_updated_on>
         <table>var__m_sys_hub_action_output_a0d273f887888110c4a3c99d0ebb35e1</table>
         <value>{{step[fa541940-c56d-42cc-bcbd-fe7185d1c95b].data_maps}}</value>
@@ -1793,11 +1793,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__action_status__</field>
         <id>a0d273f887888110c4a3c99d0ebb35e1</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:26</sys_created_on>
         <sys_id>f0d2b3f887888110c4a3c99d0ebb3583</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:26</sys_updated_on>
         <table>var__m_sys_hub_action_output_a0d273f887888110c4a3c99d0ebb35e1</table>
         <value/>
@@ -1805,11 +1805,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__dont_treat_as_error__</field>
         <id>a0d273f887888110c4a3c99d0ebb35e1</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:26</sys_created_on>
         <sys_id>30d2b3f887888110c4a3c99d0ebb3583</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:26</sys_updated_on>
         <table>var__m_sys_hub_action_output_a0d273f887888110c4a3c99d0ebb35e1</table>
         <value/>
@@ -1829,12 +1829,12 @@
         <outputs/>
         <section/>
         <step_type display_value="SFTP">051d55f3b7132300100a9b56ee11a9cb</step_type>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>41627cf7874c8910c4a3c99d0ebb356b</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:46:46</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=41627cf7874c8910c4a3c99d0ebb356b"/>
@@ -1843,11 +1843,11 @@
         <document_key>41627cf7874c8910c4a3c99d0ebb356b</document_key>
         <order>18</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>05627cf7874c8910c4a3c99d0ebb3585</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
         <variable display_value="Capabilities">6b8be57bb7132300100a9b56ee11a92e</variable>
@@ -1857,11 +1857,11 @@
         <document_key>41627cf7874c8910c4a3c99d0ebb356b</document_key>
         <order>103</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>09627cf7874c8910c4a3c99d0ebb3584</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <value/>
         <variable display_value="Permissions (chmod)">886c0e37b7532300100a9b56ee11a99d</variable>
@@ -1871,11 +1871,11 @@
         <document_key>41627cf7874c8910c4a3c99d0ebb356b</document_key>
         <order>39</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>41627cf7874c8910c4a3c99d0ebb3585</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <value>*.zip</value>
         <variable display_value="Include Files">96d48a73b7532300100a9b56ee11a9a6</variable>
@@ -1885,11 +1885,11 @@
         <document_key>41627cf7874c8910c4a3c99d0ebb356b</document_key>
         <order>13</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>45627cf7874c8910c4a3c99d0ebb3584</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <value>bb306a28874c4110c4a3c99d0ebb35b1</value>
         <variable display_value="Source Connection Alias">1475e1b7b7132300100a9b56ee11a9c5</variable>
@@ -1899,11 +1899,11 @@
         <document_key>41627cf7874c8910c4a3c99d0ebb356b</document_key>
         <order>17</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>4d627cf7874c8910c4a3c99d0ebb3585</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="MID Application">554929f7b7132300100a9b56ee11a91d</variable>
@@ -1913,11 +1913,11 @@
         <document_key>41627cf7874c8910c4a3c99d0ebb356b</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>89627cf7874c8910c4a3c99d0ebb3585</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <value>get_file_list</value>
         <variable display_value="SFTP Command">0a102537b7132300100a9b56ee11a9a8</variable>
@@ -1927,11 +1927,11 @@
         <document_key>41627cf7874c8910c4a3c99d0ebb356b</document_key>
         <order>55</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>8d627cf7874c8910c4a3c99d0ebb3584</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <value/>
         <variable display_value="Maximum File Size (Bytes)">285802f3b7532300100a9b56ee11a9b2</variable>
@@ -1941,11 +1941,11 @@
         <document_key>41627cf7874c8910c4a3c99d0ebb356b</document_key>
         <order>54</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>c5627cf7874c8910c4a3c99d0ebb3585</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <value/>
         <variable display_value="Minimum File Size (Bytes)">64970eb3b7532300100a9b56ee11a9d9</variable>
@@ -1955,11 +1955,11 @@
         <document_key>41627cf7874c8910c4a3c99d0ebb356b</document_key>
         <order>111</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>c9627cf7874c8910c4a3c99d0ebb3584</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <value>e385484773100010e3a71afe2ff6a709</value>
         <variable display_value="Retry Policy">b7a1c530b7c33300100a9b56ee11a923</variable>
@@ -1969,11 +1969,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
         <id>41627cf7874c8910c4a3c99d0ebb356b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>c1627cf7874c8910c4a3c99d0ebb3584</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -1981,11 +1981,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>capabilities</field>
         <id>41627cf7874c8910c4a3c99d0ebb356b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>89627cf7874c8910c4a3c99d0ebb3583</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -1993,11 +1993,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>command</field>
         <id>41627cf7874c8910c4a3c99d0ebb356b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>01627cf7874c8910c4a3c99d0ebb3584</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -2005,11 +2005,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection_alias</field>
         <id>41627cf7874c8910c4a3c99d0ebb356b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>09627cf7874c8910c4a3c99d0ebb3582</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -2017,11 +2017,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>include_files</field>
         <id>41627cf7874c8910c4a3c99d0ebb356b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>c5627cf7874c8910c4a3c99d0ebb3583</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -2029,11 +2029,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>max_file_size_in_bytes</field>
         <id>41627cf7874c8910c4a3c99d0ebb356b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>05627cf7874c8910c4a3c99d0ebb3583</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -2041,11 +2041,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>min_file_size_in_bytes</field>
         <id>41627cf7874c8910c4a3c99d0ebb356b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>4d627cf7874c8910c4a3c99d0ebb3583</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -2053,11 +2053,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>permissions</field>
         <id>41627cf7874c8910c4a3c99d0ebb356b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>c9627cf7874c8910c4a3c99d0ebb3582</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -2065,11 +2065,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>retry_policy</field>
         <id>41627cf7874c8910c4a3c99d0ebb356b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>41627cf7874c8910c4a3c99d0ebb3583</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value/>
@@ -2077,11 +2077,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>source_path</field>
         <id>41627cf7874c8910c4a3c99d0ebb356b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>8d627cf7874c8910c4a3c99d0ebb3582</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_051d55f3b7132300100a9b56ee11a9cb</table>
         <value>{{step[0da2a3db-41fd-48c0-adb0-a46fdbc857a6].file_folder}}</value>
@@ -2148,7 +2148,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>c1627cf7874c8910c4a3c99d0ebb3574</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -2157,7 +2157,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -2182,16 +2182,16 @@
         <name>var__m_sys_hub_step_ext_output_41627cf7874c8910c4a3c99d0ebb356b</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>89627cf7874c8910c4a3c99d0ebb3579</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Credential Value</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_41627cf7874c8910c4a3c99d0ebb356b_sn_auth_token_en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <url/>
         <url_target/>
@@ -2210,12 +2210,12 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_id>60d2b3f887888110c4a3c99d0ebb353c</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:46:46</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=60d2b3f887888110c4a3c99d0ebb353c"/>
@@ -2224,14 +2224,14 @@
         <document_key>60d2b3f887888110c4a3c99d0ebb353c</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_id>b4d2b3f887888110c4a3c99d0ebb3549</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:20:53</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-  	var parentFolder = gs.getProperty('x_snc_exfo_cmdb.exfoFileFolder');
+  	var parentFolder = gs.getProperty('x_exfo2_sgc.exfoFileFolder');
   	if(parentFolder.charAt(parentFolder.length - 1) != '/'){
      	parentFolder+='/'; 
     }
@@ -2245,11 +2245,11 @@
         <document_key>60d2b3f887888110c4a3c99d0ebb353c</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_id>f0d2b3f887888110c4a3c99d0ebb3549</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:25</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
@@ -2258,11 +2258,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>import_folder</field>
         <id>60d2b3f887888110c4a3c99d0ebb353c</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 18:20:53</sys_created_on>
         <sys_id>c0b8368987e20110c4a3c99d0ebb351b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:20:53</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_60d2b3f887888110c4a3c99d0ebb353c</table>
         <value>{{action.import_folder}}</value>
@@ -2330,7 +2330,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 18:20:53</sys_created_on>
         <sys_id>0cb8368987e20110c4a3c99d0ebb3511</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -2339,7 +2339,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:20:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -2414,7 +2414,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>70627cf7874c8910c4a3c99d0ebb3531</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -2423,7 +2423,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -2448,16 +2448,16 @@
         <name>var__m_sys_hub_step_ext_output_60d2b3f887888110c4a3c99d0ebb353c</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>f4627cf7874c8910c4a3c99d0ebb3536</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>file_folder</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_60d2b3f887888110c4a3c99d0ebb353c_file_folder_en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <url/>
         <url_target/>
@@ -2476,12 +2476,12 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_id>b8d2b3f887888110c4a3c99d0ebb354b</sys_id>
         <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:17:35</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b8d2b3f887888110c4a3c99d0ebb354b"/>
@@ -2490,16 +2490,16 @@
         <document_key>b8d2b3f887888110c4a3c99d0ebb354b</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_id>70d2b3f887888110c4a3c99d0ebb3562</sys_id>
         <sys_mod_count>7</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-30 19:17:35</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
-  var util = new x_snc_exfo_cmdb.EXFOImportUtil();
-  //var folder = gs.getProperty('x_snc_exfo_cmdb.exfoFileFolder');
+  var util = new x_exfo2_sgc.EXFOImportUtil();
+  //var folder = gs.getProperty('x_exfo2_sgc.exfoFileFolder');
   var folder = inputs.folder_path+='/';
   var jsonObj = JSON.parse(inputs.fileObj);
   var fileList = jsonObj.fileInfos;
@@ -2516,11 +2516,11 @@
         <document_key>b8d2b3f887888110c4a3c99d0ebb354b</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_id>bcd2b3f887888110c4a3c99d0ebb3561</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:25</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
@@ -2529,11 +2529,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>dataObj</field>
         <id>b8d2b3f887888110c4a3c99d0ebb354b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_id>f8d2b3f887888110c4a3c99d0ebb3562</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:25</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_b8d2b3f887888110c4a3c99d0ebb354b</table>
         <value>{{step[0da2a3db-41fd-48c0-adb0-a46fdbc857a6].data_source_file_map}}</value>
@@ -2541,11 +2541,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>fileObj</field>
         <id>b8d2b3f887888110c4a3c99d0ebb354b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:27</sys_created_on>
         <sys_id>c5627cf7874c8910c4a3c99d0ebb35b0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:27</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_b8d2b3f887888110c4a3c99d0ebb354b</table>
         <value>{{step[d170159f-ae73-4c4e-b8a1-3c9de4799e56].output}}</value>
@@ -2553,11 +2553,11 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>folder_path</field>
         <id>b8d2b3f887888110c4a3c99d0ebb354b</id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 18:28:08</sys_created_on>
         <sys_id>9e5aba4d87e20110c4a3c99d0ebb355f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:28:08</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_b8d2b3f887888110c4a3c99d0ebb354b</table>
         <value>{{step[0da2a3db-41fd-48c0-adb0-a46fdbc857a6].file_folder}}</value>
@@ -2625,7 +2625,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 18:28:08</sys_created_on>
         <sys_id>5a5aba4d87e20110c4a3c99d0ebb3556</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -2634,7 +2634,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:28:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -2708,7 +2708,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-02 15:00:26</sys_created_on>
         <sys_id>89627cf7874c8910c4a3c99d0ebb358e</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -2717,7 +2717,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-02 15:00:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -2739,7 +2739,7 @@
         <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
         <serialized_content>{"FlowDesigner:FD3cd2b3f87d888110796383972af13e55":{"$COCollectionField":[{"map":{"file_path":"String","file_path.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"file_path\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"9ed3a0fd-137f-4401-b57e-2a78f8c77f0a\"}"},"data_source":"String","data_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"data_source\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0dfe6929-9d05-492a-917c-6312c402e7c2\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"data_maps\",\"mandatory\":\"false\",\"child_name\":\"map\",\"uiUniqueId\":\"97f98654-8349-4064-b243-2bc5f5deaa3b\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD3cd2b3f87d888110796383972af13e55\",\"child_label\":\"map\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b12bdbaf-f461-40a6-86c2-aa18ba4387c0\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD3cd2b3f87d888110796383972af13e55.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"data_maps\",\"mandatory\":\"false\",\"child_name\":\"map\",\"uiUniqueId\":\"97f98654-8349-4064-b243-2bc5f5deaa3b\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD3cd2b3f87d888110796383972af13e55\",\"child_label\":\"map\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b12bdbaf-f461-40a6-86c2-aa18ba4387c0\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -2747,11 +2747,11 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FD3cd2b3f87d888110796383972af13e55</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_complex_object_fcd2b3f887888110c4a3c99d0ebb3555</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:25</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
@@ -2815,7 +2815,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_id>b0d2b3f887888110c4a3c99d0ebb3558</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -2824,7 +2824,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -2849,16 +2849,16 @@
         <name>var__m_sys_hub_step_ext_output_b8d2b3f887888110c4a3c99d0ebb354b</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_id>f8d2b3f887888110c4a3c99d0ebb355d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>data_maps</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_b8d2b3f887888110c4a3c99d0ebb354b_data_maps_en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:25</sys_updated_on>
         <url/>
         <url_target/>
@@ -2924,7 +2924,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 18:20:52</sys_created_on>
         <sys_id>73a8368987e20110c4a3c99d0ebb3509</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -2933,7 +2933,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:20:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -2956,7 +2956,7 @@
         <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
         <serialized_content>{"FlowDesigner:FDf4d2b3f8b78881104c49c53f04faf365":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDf4d2b3f8b78881104c49c53f04faf365.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"39897d03-f9c7-43a0-9956-288fa9ed16fb\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf4d2b3f8b78881104c49c53f04faf365\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -2964,11 +2964,11 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FDf4d2b3f8b78881104c49c53f04faf365</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_complex_object_b8d2b3f887888110c4a3c99d0ebb3565</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:25</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
@@ -3034,7 +3034,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_id>3cd2b3f887888110c4a3c99d0ebb3569</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -3043,7 +3043,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -3121,7 +3121,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:26</sys_created_on>
         <sys_id>78d2b3f887888110c4a3c99d0ebb3570</sys_id>
         <sys_mod_count>1</sys_mod_count>
@@ -3130,7 +3130,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -3153,7 +3153,7 @@
         <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
         <serialized_content>{"FlowDesigner:FD38d2b3f8b888811061281038c3579667":{"$COCollectionField":[{"map":{"file_path":"String","file_path.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"file_path\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"9ed3a0fd-137f-4401-b57e-2a78f8c77f0a\"}"},"data_source":"String","data_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"data_source\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0dfe6929-9d05-492a-917c-6312c402e7c2\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"fa541940-c56d-42cc-bcbd-fe7185d1c95b\",\"default_value\":\"\",\"label\":\"data_maps\",\"mandatory\":\"false\",\"child_name\":\"map\",\"uiUniqueId\":\"5b25b3fe-e2a4-477c-b73c-a8e7d77742a1\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD38d2b3f8b888811061281038c3579667\",\"child_label\":\"map\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"97f98654-8349-4064-b243-2bc5f5deaa3b\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b12bdbaf-f461-40a6-86c2-aa18ba4387c0\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD38d2b3f8b888811061281038c3579667.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"fa541940-c56d-42cc-bcbd-fe7185d1c95b\",\"default_value\":\"\",\"label\":\"data_maps\",\"mandatory\":\"false\",\"child_name\":\"map\",\"uiUniqueId\":\"5b25b3fe-e2a4-477c-b73c-a8e7d77742a1\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD38d2b3f8b888811061281038c3579667\",\"child_label\":\"map\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"97f98654-8349-4064-b243-2bc5f5deaa3b\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b12bdbaf-f461-40a6-86c2-aa18ba4387c0\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -3161,11 +3161,11 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FD38d2b3f8b888811061281038c3579667</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_complex_object_f8d2b3f887888110c4a3c99d0ebb3567</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:25</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
@@ -3231,7 +3231,7 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:26</sys_created_on>
         <sys_id>f0d2b3f887888110c4a3c99d0ebb357a</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -3240,7 +3240,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -3260,11 +3260,11 @@
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=a0d273f887888110c4a3c99d0ebb35e1^sys_idNOT INf8d2b3f887888110c4a3c99d0ebb3585"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="EXFO: Pre-Process Data">a0d273f887888110c4a3c99d0ebb35e1</action_type_id>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:26</sys_created_on>
         <sys_id>f8d2b3f887888110c4a3c99d0ebb3585</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:26</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f8d2b3f887888110c4a3c99d0ebb3585"/>
@@ -3278,16 +3278,16 @@
         <name>var__m_sys_hub_action_input_a0d273f887888110c4a3c99d0ebb35e1</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 18:20:53</sys_created_on>
         <sys_id>40b8368987e20110c4a3c99d0ebb350d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>import_folder</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a0d273f887888110c4a3c99d0ebb35e1_import_folder_en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 18:20:53</sys_updated_on>
         <url/>
         <url_target/>
@@ -3303,16 +3303,16 @@
         <name>var__m_sys_hub_action_output_a0d273f887888110c4a3c99d0ebb35e1</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:26</sys_created_on>
         <sys_id>38d2b3f887888110c4a3c99d0ebb357f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>data_maps</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a0d273f887888110c4a3c99d0ebb35e1_data_maps_en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:26</sys_updated_on>
         <url/>
         <url_target/>
@@ -3326,16 +3326,16 @@
         <name>var__m_sys_hub_action_output_a0d273f887888110c4a3c99d0ebb35e1</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:26</sys_created_on>
         <sys_id>70d2b3f887888110c4a3c99d0ebb356f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Action Status</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a0d273f887888110c4a3c99d0ebb35e1___action_status___en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:26</sys_updated_on>
         <url/>
         <url_target/>
@@ -3349,16 +3349,16 @@
         <name>var__m_sys_hub_action_output_a0d273f887888110c4a3c99d0ebb35e1</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:19:26</sys_created_on>
         <sys_id>f8d2b3f887888110c4a3c99d0ebb3578</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Don't Treat as Error</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a0d273f887888110c4a3c99d0ebb35e1___dont_treat_as_error___en</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:19:26</sys_updated_on>
         <url/>
         <url_target/>

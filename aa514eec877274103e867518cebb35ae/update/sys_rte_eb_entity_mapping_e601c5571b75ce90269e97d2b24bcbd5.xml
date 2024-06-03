@@ -14,17 +14,17 @@
         <order>100</order>
         <source_sys_rte_eb_entity display_value="temp">f74c4e9487f778103e867518cebb3542</source_sys_rte_eb_entity>
         <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-01 11:21:59</sys_created_on>
         <sys_id>e601c5571b75ce90269e97d2b24bcbd5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>TempTocmdb_rel_ci_1714562519360_0</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_entity_mapping_e601c5571b75ce90269e97d2b24bcbd5</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-01 11:21:59</sys_updated_on>
         <target_sys_rte_eb_entity display_value="cmdb_rel_ci_1714562519360_0">ee01c5571b75ce90269e97d2b24bcbc1</target_sys_rte_eb_entity>
     </sys_rte_eb_entity_mapping>

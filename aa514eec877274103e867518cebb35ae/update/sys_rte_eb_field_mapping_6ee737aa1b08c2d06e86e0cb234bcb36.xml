@@ -4,18 +4,18 @@
         <referenced_sys_rte_eb_entity display_value="Network Site 2">2fa7bb6a1b08c2d06e86e0cb234bcb5a</referenced_sys_rte_eb_entity>
         <source_sys_rte_eb_field/>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 16:55:39</sys_created_on>
         <sys_id>6ee737aa1b08c2d06e86e0cb234bcb36</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Sites">5b85f3a61b08c2d06e86e0cb234bcb21</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1706892939490_0">6ae737aa1b08c2d06e86e0cb234bcb34</sys_rte_eb_entity_mapping>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_field_mapping_6ee737aa1b08c2d06e86e0cb234bcb36</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 16:55:39</sys_updated_on>
         <target_sys_rte_eb_field display_value="cmdb_rel_ci_1706892939490_0.parent">e6e7b3aa1b08c2d06e86e0cb234bcb19</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>

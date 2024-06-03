@@ -9,17 +9,17 @@
         <order>100</order>
         <source_sys_rte_eb_entity display_value="Import">297446081be4c650da698666624bcbd5</source_sys_rte_eb_entity>
         <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-19 10:37:49</sys_created_on>
         <sys_id>6d7446081be4c650da698666624bcbda</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>impTotemp</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Relationships">2c748ec41be4c650da698666624bcbfe</sys_rte_eb_definition>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_entity_mapping_6d7446081be4c650da698666624bcbda</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-19 10:37:49</sys_updated_on>
         <target_sys_rte_eb_entity display_value="temp">297446081be4c650da698666624bcbd8</target_sys_rte_eb_entity>
     </sys_rte_eb_entity_mapping>

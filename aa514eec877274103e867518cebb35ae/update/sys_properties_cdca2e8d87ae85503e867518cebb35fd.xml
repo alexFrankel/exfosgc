@@ -4,24 +4,24 @@
         <description/>
         <ignore_cache>true</ignore_cache>
         <is_private>false</is_private>
-        <name>x_snc_exfo_cmdb.lastIncrementalFolderProcessed</name>
-        <read_roles>x_snc_exfo_cmdb.admin,x_snc_exfo_cmdb.user</read_roles>
+        <name>x_exfo2_sgc.lastIncrementalFolderProcessed</name>
+        <read_roles>x_exfo2_sgc.admin,x_exfo2_sgc.user</read_roles>
         <suffix>lastIncrementalFolderProcessed</suffix>
         <sys_class_name>sys_properties</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 17:20:03</sys_created_on>
         <sys_id>cdca2e8d87ae85503e867518cebb35fd</sys_id>
-        <sys_mod_count>48</sys_mod_count>
-        <sys_name>x_snc_exfo_cmdb.lastIncrementalFolderProcessed</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>x_exfo2_sgc.lastIncrementalFolderProcessed</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_properties_cdca2e8d87ae85503e867518cebb35fd</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-05-16 10:47:48</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 10:11:14</sys_updated_on>
         <type>string</type>
-        <value>SN_20240516T093715354_20240516T103933628_incremental</value>
-        <write_roles>x_snc_exfo_cmdb.admin</write_roles>
+        <value>SN_20240227T114526389_20240227T131629898_incremental</value>
+        <write_roles>x_exfo2_sgc.admin</write_roles>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=cdca2e8d87ae85503e867518cebb35fd"/>
 </record_update>

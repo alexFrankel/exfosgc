@@ -4,18 +4,18 @@
         <referenced_sys_rte_eb_entity/>
         <source_sys_rte_eb_field display_value="inventory_category">e3aff3861b9842506e86e0cb234bcb11</source_sys_rte_eb_field>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-13 15:23:05</sys_created_on>
         <sys_id>3d3cc4961bd842506e86e0cb234bcbfa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Fibers">9b7f7f461b9842506e86e0cb234bcbca</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="tempToTNI CI Attributes 1">312c84961bd842506e86e0cb234bcbaa</sys_rte_eb_entity_mapping>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_field_mapping_3d3cc4961bd842506e86e0cb234bcbfa</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-13 15:23:05</sys_updated_on>
         <target_sys_rte_eb_field display_value="inventory_category">b53cc4961bd842506e86e0cb234bcbf8</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>

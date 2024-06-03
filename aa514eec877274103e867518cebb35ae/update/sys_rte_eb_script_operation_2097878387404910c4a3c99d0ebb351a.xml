@@ -28,7 +28,7 @@
 	for (var i = 0; i < batch.length; i++) {
 		var input = batch[i].input; 
 
-		var util = new x_snc_exfo_cmdb.EXFOStatusDictionary();
+		var util = new x_exfo2_sgc.EXFOStatusDictionary();
      
     var snValues = util.getSNValues(input);
      
@@ -39,18 +39,18 @@
         <source_sys_rte_eb_field display_value="u_card_status">045c4e9487f778103e867518cebb35b3</source_sys_rte_eb_field>
         <source_sys_rte_eb_fields/>
         <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-30 17:56:47</sys_created_on>
         <sys_id>2097878387404910c4a3c99d0ebb351a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Script Operation - u_card_status</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="temp">f74c4e9487f778103e867518cebb3542</sys_rte_eb_entity>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_script_operation_2097878387404910c4a3c99d0ebb351a</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-30 17:56:47</sys_updated_on>
         <target_sys_rte_eb_field display_value="u_card_status_lookup">ec97c38387404910c4a3c99d0ebb35c2</target_sys_rte_eb_field>
         <target_sys_rte_eb_fields/>

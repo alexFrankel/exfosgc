@@ -6,7 +6,7 @@
         <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
         <serialized_content>{"FlowDesigner:FDad5332cd86a20110da0218c57d421d84":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDad5332cd86a20110da0218c57d421d84.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"file_list\",\"mandatory\":\"false\",\"child_name\":\"file_name\",\"uiUniqueId\":\"753294ac-b351-4bef-ad63-01e78eda1ea1\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDad5332cd86a20110da0218c57d421d84\",\"child_label\":\"file_name\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"e2f3536d-240f-4fea-b080-d87b2fd4b7ca\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 17:57:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -14,11 +14,11 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FDad5332cd86a20110da0218c57d421d84</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_complex_object_615332cd87a20110c4a3c99d0ebb3585</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-28 17:57:30</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>

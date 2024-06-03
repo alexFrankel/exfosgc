@@ -40,18 +40,18 @@
         <source_sys_rte_eb_field/>
         <source_sys_rte_eb_fields>e03fd95b1b3102d0269e97d2b24bcb59,643fd95b1b3102d0269e97d2b24bcb60</source_sys_rte_eb_fields>
         <sys_class_name>sys_rte_eb_multi_in_script_operation</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-01 13:38:57</sys_created_on>
         <sys_id>096025d31b7102d0269e97d2b24bcbde</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Multiple Input Script - u_link_alias1,u_link_alias2</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Physical Link Children">262f155b1b3102d0269e97d2b24bcb72</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="temp">2c3f595b1b3102d0269e97d2b24bcb6c</sys_rte_eb_entity>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_multi_in_script_operation_096025d31b7102d0269e97d2b24bcbde</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-01 13:38:57</sys_updated_on>
         <target_sys_rte_eb_field display_value="distinguished_name">0160e9df1b3102d0269e97d2b24bcb56</target_sys_rte_eb_field>
         <target_sys_rte_eb_fields/>

@@ -28,18 +28,18 @@
         <source_sys_rte_eb_field display_value="u_link_vendor">d0668a5b1b7502d0269e97d2b24bcb5d</source_sys_rte_eb_field>
         <source_sys_rte_eb_fields/>
         <sys_class_name>sn_cmdb_int_util_cleanse_company_operation</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-01 16:32:12</sys_created_on>
         <sys_id>be084adb1b7502d0269e97d2b24bcb94</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Cleanse Company - u_link_vendor</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Logical Links">8280cc441b500610da698666624bcb3f</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="temp">bb8000841b500610da698666624bcb09</sys_rte_eb_entity>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sn_cmdb_int_util_cleanse_company_operation_be084adb1b7502d0269e97d2b24bcb94</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-01 16:32:12</sys_updated_on>
         <target_sys_rte_eb_field display_value="u_link_vendor_cleansed">b6084adb1b7502d0269e97d2b24bcb92</target_sys_rte_eb_field>
         <target_sys_rte_eb_fields/>

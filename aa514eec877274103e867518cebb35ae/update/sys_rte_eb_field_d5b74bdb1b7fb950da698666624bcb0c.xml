@@ -3,18 +3,18 @@
         <field>ni_type</field>
         <name>ni_type</name>
         <sys_class_name>sys_rte_eb_field</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-23 11:04:46</sys_created_on>
         <sys_id>d5b74bdb1b7fb950da698666624bcb0c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ni_type</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Equipment Holders">956d36421b33f5506e86e0cb234bcbba</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="TNI CI Attributes 1">d0248f971b7fb950da698666624bcbbd</sys_rte_eb_entity>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_field_d5b74bdb1b7fb950da698666624bcb0c</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-23 11:04:46</sys_updated_on>
     </sys_rte_eb_field>
 </record_update>

@@ -3,18 +3,18 @@
         <field>source_native_key</field>
         <name>source_native_key</name>
         <sys_class_name>sys_rte_eb_field</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-13 12:31:57</sys_created_on>
         <sys_id>c305abc61b1842506e86e0cb234bcba1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>source_native_key</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Cables">1483df421bd442506e86e0cb234bcb33</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="Physical connection 1">48c4a3c61b1842506e86e0cb234bcbeb</sys_rte_eb_entity>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_field_c305abc61b1842506e86e0cb234bcba1</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-13 12:31:57</sys_updated_on>
     </sys_rte_eb_field>
 </record_update>

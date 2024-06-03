@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="970ebe391baab190da698666624bcb9b" extends="sys_import_set_row" label="Staging: EXFO Segment Connection Element" max_length="40" name="x_exfo2_sgc_staging_segment_connection_element" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_HAS_A_PORT_KEY" label="u_segment_has_a_port_key" max_length="255" name="u_segment_has_a_port_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_HAS_A_SITE_KEY" label="u_segment_has_a_site_key" max_length="255" name="u_segment_has_a_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_HAS_CHILD_LINK_KEY" label="u_segment_has_child_link_key" max_length="255" name="u_segment_has_child_link_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_HAS_LINK_KEY" label="u_segment_has_link_key" max_length="255" name="u_segment_has_link_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_HAS_PATH_KEY" label="u_segment_has_path_key" max_length="255" name="u_segment_has_path_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_HAS_Z_PORT_KEY" label="u_segment_has_z_port_key" max_length="255" name="u_segment_has_z_port_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_HAS_Z_SITE_KEY" label="u_segment_has_z_site_key" max_length="255" name="u_segment_has_z_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_KEY" label="u_segment_key" max_length="255" name="u_segment_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_NAME" label="u_segment_name" max_length="255" name="u_segment_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_NUMBER" label="u_segment_number" max_length="40" name="u_segment_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_STATUS" label="u_segment_status" max_length="40" name="u_segment_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEGMENT_TOP_EXP_STATUS" label="SEGMENT_TOP_EXP_STATUS" max_length="40" name="u_segment_top_exp_status" type="string"/>
+    </element>
+</database>

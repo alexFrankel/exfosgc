@@ -4,18 +4,18 @@
         <referenced_sys_rte_eb_entity/>
         <source_sys_rte_eb_field display_value="u_e_h_description">d2d58f4e1b33f5506e86e0cb234bcb30</source_sys_rte_eb_field>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-19 13:44:14</sys_created_on>
         <sys_id>1ad58f4e1b33f5506e86e0cb234bcb34</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Equipment Holders">956d36421b33f5506e86e0cb234bcbba</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="impTotemp">56d54f4e1b33f5506e86e0cb234bcbf8</sys_rte_eb_entity_mapping>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_field_mapping_1ad58f4e1b33f5506e86e0cb234bcb34</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-19 13:44:14</sys_updated_on>
         <target_sys_rte_eb_field display_value="u_e_h_description">96d58f4e1b33f5506e86e0cb234bcb32</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>

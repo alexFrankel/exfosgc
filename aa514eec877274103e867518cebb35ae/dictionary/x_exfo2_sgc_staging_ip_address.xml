@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ee36366d1bccca906e86e0cb234bcb93" extends="sys_import_set_row" label="Staging: EXFO Ip Address" max_length="40" name="x_exfo2_sgc_staging_ip_address" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_ADDRESS" label="u_ip_address" max_length="255" name="u_ip_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_ADDRESS_KEY" label="u_ip_address_key" max_length="255" name="u_ip_address_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_HAS_NE_KEY" label="u_ip_has_ne_key" max_length="255" name="u_ip_has_ne_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_HAS_PORT_KEY" label="IP_HAS_PORT_KEY" max_length="255" name="u_ip_has_port_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_NETMASK" label="u_ip_netmask" max_length="40" name="u_ip_netmask" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_STATUS" label="u_ip_status" max_length="40" name="u_ip_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_TOP_EXP_STATUS" label="IP_TOP_EXP_STATUS" max_length="40" name="u_ip_top_exp_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IP_VERSION" label="u_ip_version" max_length="40" name="u_ip_version" type="string"/>
+    </element>
+</database>

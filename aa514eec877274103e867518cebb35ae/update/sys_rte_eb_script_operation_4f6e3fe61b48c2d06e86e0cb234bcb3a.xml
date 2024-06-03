@@ -29,7 +29,7 @@
 	for (var i = 0; i < batch.length; i++) {
 		var input = batch[i].input; 
 
-		var util = new x_snc_exfo_cmdb.EXFOStatusDictionary();
+		var util = new x_exfo2_sgc.EXFOStatusDictionary();
      
     var snValues = util.getSNValues(input);
      
@@ -39,18 +39,18 @@
         <source_sys_rte_eb_field display_value="u_ne_status">50adb3a61b48c2d06e86e0cb234bcb29</source_sys_rte_eb_field>
         <source_sys_rte_eb_fields/>
         <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 17:24:04</sys_created_on>
         <sys_id>4f6e3fe61b48c2d06e86e0cb234bcb3a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Script Operation - u_ne_status</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Network Element">369d33a61b48c2d06e86e0cb234bcb54</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="temp">f39d73a61b48c2d06e86e0cb234bcb42</sys_rte_eb_entity>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_script_operation_4f6e3fe61b48c2d06e86e0cb234bcb3a</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 17:24:04</sys_updated_on>
         <target_sys_rte_eb_field display_value="u_ne_status_lookup">b66e3fe61b48c2d06e86e0cb234bcb38</target_sys_rte_eb_field>
         <target_sys_rte_eb_fields/>

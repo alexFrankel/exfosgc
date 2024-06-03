@@ -26,16 +26,16 @@
         <skippable>false</skippable>
         <supports_child_content>true</supports_child_content>
         <sys_class_name>gsw_content_group</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-22 20:44:54</sys_created_on>
         <sys_id>f377f622871734503e867518cebb355c</sys_id>
         <sys_mod_count>8</sys_mod_count>
         <sys_name>Connect</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>gsw_content_group_f377f622871734503e867518cebb355c</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-04 19:43:16</sys_updated_on>
         <title>Connect</title>
         <weight>1</weight>
@@ -53,11 +53,11 @@
         <size_bytes>554</size_bytes>
         <size_compressed>577</size_compressed>
         <state>available</state>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-22 20:45:17</sys_created_on>
         <sys_id>a0287e22871734503e867518cebb35e9</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-22 20:45:17</sys_updated_on>
         <table_name>ZZ_YYgsw_content_group</table_name>
         <table_sys_id>f377f622871734503e867518cebb355c</table_sys_id>
@@ -67,7 +67,7 @@
         <length>16</length>
         <position>0</position>
         <sys_attachment display_value="icon" sys_id="a0287e22871734503e867518cebb35e9">a0287e22871734503e867518cebb35e9</sys_attachment>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-22 20:45:17</sys_created_on>
         <sys_id>e0287e22871734503e867518cebb35e9</sys_id>
     </sys_attachment_doc>
@@ -76,7 +76,7 @@
         <length>756</length>
         <position>1</position>
         <sys_attachment display_value="icon" sys_id="a0287e22871734503e867518cebb35e9">a0287e22871734503e867518cebb35e9</sys_attachment>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-22 20:45:17</sys_created_on>
         <sys_id>64287e22871734503e867518cebb35e9</sys_id>
     </sys_attachment_doc>

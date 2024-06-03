@@ -6,7 +6,7 @@
         <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
         <serialized_content>{"FlowDesigner:FDe6727fb8a0888110345faf9cddacad46":{"file_path":"String","file_path.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"file_path\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"9ed3a0fd-137f-4401-b57e-2a78f8c77f0a\"}"},"data_source":"String","data_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"data_source\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0dfe6929-9d05-492a-917c-6312c402e7c2\"}"}},"FlowDesigner:FDe6727fb8a0888110345faf9cddacad46.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":null,\"label\":\"map\",\"mandatory\":\"false\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDe6727fb8a0888110345faf9cddacad46\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 21:17:54</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -14,11 +14,11 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FDe6727fb8a0888110345faf9cddacad46</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_complex_object_aa727fb887888110c4a3c99d0ebb3546</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 21:17:54</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>

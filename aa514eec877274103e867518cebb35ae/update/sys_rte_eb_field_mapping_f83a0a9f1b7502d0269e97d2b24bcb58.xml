@@ -4,18 +4,18 @@
         <referenced_sys_rte_eb_entity/>
         <source_sys_rte_eb_field display_value="u_logical_link_key_tni_entity">4798421f1b7502d0269e97d2b24bcbca</source_sys_rte_eb_field>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-01 16:41:37</sys_created_on>
         <sys_id>f83a0a9f1b7502d0269e97d2b24bcb58</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Logical Link Children">d46386571b7502d0269e97d2b24bcb31</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="tempToTNI CI Attributes 1">b71a869f1b7502d0269e97d2b24bcb98</sys_rte_eb_entity_mapping>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_field_mapping_f83a0a9f1b7502d0269e97d2b24bcb58</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-01 16:41:37</sys_updated_on>
         <target_sys_rte_eb_field display_value="source_native_key">f43ac69f1b7502d0269e97d2b24bcb76</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>

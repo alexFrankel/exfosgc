@@ -3,18 +3,18 @@
         <field>manufacturer</field>
         <name>manufacturer</name>
         <sys_class_name>sys_rte_eb_field</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-13 14:43:39</sys_created_on>
         <sys_id>bd4263471bce4a10da698666624bcb1c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>manufacturer</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Network Element Children">88bf93831bce4a10da698666624bcb09</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="Network Gear 1">b2ef57831bce4a10da698666624bcbd7</sys_rte_eb_entity>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_field_bd4263471bce4a10da698666624bcb1c</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-13 14:43:39</sys_updated_on>
     </sys_rte_eb_field>
 </record_update>

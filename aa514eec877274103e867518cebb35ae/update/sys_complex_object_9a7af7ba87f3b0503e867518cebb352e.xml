@@ -6,7 +6,7 @@
         <scope_name>aa514eec877274103e867518cebb35ae</scope_name>
         <serialized_content>{"FlowDesigner:FDd67af7ba19f3b0501d599f803f99a12e":{"$COCollectionField":[{"map":{"file_path":"String","file_path.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"file_path\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"1a194871-caa1-456b-816f-2ccddb178ccb\"}"},"data_source":"String","data_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"data_source\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"72878c60-c40a-461d-a122-7745965c06ae\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"83f78f41-572d-4fb1-b133-300f0de64b09\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"data_maps\",\"mandatory\":\"true\",\"child_name\":\"map\",\"uiUniqueId\":\"beb8fb65-a808-48a3-a975-52785df8c584\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDd67af7ba19f3b0501d599f803f99a12e\",\"child_label\":\"map\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"d196d7c9-d9f9-4e51-aa52-447b2a0bc5a9\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"97c4fcee-74f4-4387-ae4d-486bd863bc7a\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDd67af7ba19f3b0501d599f803f99a12e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"83f78f41-572d-4fb1-b133-300f0de64b09\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"data_maps\",\"mandatory\":\"true\",\"child_name\":\"map\",\"uiUniqueId\":\"beb8fb65-a808-48a3-a975-52785df8c584\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDd67af7ba19f3b0501d599f803f99a12e\",\"child_label\":\"map\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"d196d7c9-d9f9-4e51-aa52-447b2a0bc5a9\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"97c4fcee-74f4-4387-ae4d-486bd863bc7a\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-17 16:45:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -14,11 +14,11 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FDd67af7ba19f3b0501d599f803f99a12e</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_complex_object_9a7af7ba87f3b0503e867518cebb352e</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-17 16:45:00</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>

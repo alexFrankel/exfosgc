@@ -34,18 +34,18 @@
         <source_sys_rte_eb_field display_value="u_card_child_key">5b403c131b35ce90269e97d2b24bcb69</source_sys_rte_eb_field>
         <source_sys_rte_eb_fields/>
         <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-01 11:13:35</sys_created_on>
         <sys_id>6f1f74931b75ce90269e97d2b24bcb66</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Script Operation - u_card_has_site_key</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Card Children">0540f8131b35ce90269e97d2b24bcb54</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="temp">13403c131b35ce90269e97d2b24bcb15</sys_rte_eb_entity>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_script_operation_6f1f74931b75ce90269e97d2b24bcb66</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-16 09:01:32</sys_updated_on>
         <target_sys_rte_eb_field display_value="u_card_key_tni_entity">6f1f70931b75ce90269e97d2b24bcbe4</target_sys_rte_eb_field>
         <target_sys_rte_eb_fields/>

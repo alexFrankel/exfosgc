@@ -3,18 +3,18 @@
         <field>u_logical_link_key_tni_entity</field>
         <name>u_logical_link_key_tni_entity</name>
         <sys_class_name>sys_rte_eb_field</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-01 16:34:41</sys_created_on>
         <sys_id>4798421f1b7502d0269e97d2b24bcbca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_logical_link_key_tni_entity</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Logical Link Children">d46386571b7502d0269e97d2b24bcb31</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="temp">f4c58a1b1b7502d0269e97d2b24bcbc1</sys_rte_eb_entity>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_field_4798421f1b7502d0269e97d2b24bcbca</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-01 16:34:41</sys_updated_on>
     </sys_rte_eb_field>
 </record_update>

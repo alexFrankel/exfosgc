@@ -4,18 +4,18 @@
         <referenced_sys_rte_eb_entity/>
         <source_sys_rte_eb_field display_value="u_path_type_lookup">45709ba587ed8954c4a3c99d0ebb3519</source_sys_rte_eb_field>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
-        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-08 09:48:00</sys_created_on>
         <sys_id>f89f8de41b9c461074c9213b234bcb0b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Paths">e1adaaac87604950c4a3c99d0ebb35d2</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="tempToTNI CI Attributes 1">095f89e41b9c461074c9213b234bcb30</sys_rte_eb_entity_mapping>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_field_mapping_f89f8de41b9c461074c9213b234bcb0b</sys_update_name>
-        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-08 09:48:00</sys_updated_on>
         <target_sys_rte_eb_field display_value="ni_type">789f8de41b9c461074c9213b234bcb09</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>

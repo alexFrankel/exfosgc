@@ -6,16 +6,16 @@
         <related_change_log_entry/>
         <related_task_entry/>
         <sys_class_name>gsw_change_log</sys_class_name>
-        <sys_created_by>jwigard</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-04 18:40:11</sys_created_on>
         <sys_id>38f6db998742c9103e867518cebb350c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>2022-03-04 18:40:11</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_sgc">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>gsw_change_log_38f6db998742c9103e867518cebb350c</sys_update_name>
-        <sys_updated_by>jwigard</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-03-04 18:40:11</sys_updated_on>
         <type>1</type>
     </gsw_change_log>
