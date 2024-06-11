@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_segement_has_path_key" label="SEGEMENT_HAS_PATH_KEY" language="en" table="x_exfo2_cmdb_staging_segment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_segement_has_path_key</element>
+            <help/>
+            <hint/>
+            <label>SEGEMENT_HAS_PATH_KEY</label>
+            <language>en</language>
+            <name>x_exfo2_cmdb_staging_segment</name>
+            <plural>SEGEMENT_HAS_PATH_KEYs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aveenstra</sys_created_by>
+            <sys_created_on>2021-12-17 18:10:28</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SEGEMENT_HAS_PATH_KEY</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+            <sys_update_name>sys_documentation_x_exfo2_cmdb_staging_segment_u_segement_has_path_key_en</sys_update_name>
+            <sys_updated_by>aveenstra</sys_updated_by>
+            <sys_updated_on>2021-12-17 18:10:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

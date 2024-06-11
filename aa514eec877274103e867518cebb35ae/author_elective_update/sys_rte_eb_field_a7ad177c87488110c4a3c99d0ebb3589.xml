@@ -8,7 +8,7 @@
         <sys_id>a7ad177c87488110c4a3c99d0ebb3589</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>cmdb_rel_ci_1637696823350_0.child</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Shelves">ed2dcad487f778103e867518cebb3549</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="cmdb_rel_ci_1637696823350_0">67ad177c87488110c4a3c99d0ebb3585</sys_rte_eb_entity>
@@ -34,7 +34,7 @@
         <sys_id>a7ad177c87488110c4a3c99d0ebb3589</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>cmdb_rel_ci_1637696823350_0.child</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Shelves">ed2dcad487f778103e867518cebb3549</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="cmdb_rel_ci_1637696823350_0">67ad177c87488110c4a3c99d0ebb3585</sys_rte_eb_entity>
@@ -71,7 +71,7 @@
         <sys_metadata>a7ad177c87488110c4a3c99d0ebb3589</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>cmdb_rel_ci_1637696823350_0.child</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>

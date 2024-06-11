@@ -6,16 +6,16 @@
 By default, the integration queries for existing locations based on the "Street address" field. If you would like to override this query, you may do so using the "SGEXFOLocationMapOverride" extension point.</description>
         <ignore_cache>true</ignore_cache>
         <is_private>false</is_private>
-        <name>x_snc_exfo_cmdb.createExfoLocations</name>
-        <read_roles>x_snc_exfo_cmdb.user,x_snc_exfo_cmdb.admin</read_roles>
+        <name>x_exfo2_cmdb.createExfoLocations</name>
+        <read_roles>x_exfo2_cmdb.user,x_exfo2_cmdb.admin</read_roles>
         <suffix>createExfoLocations</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-11-30 14:11:33</sys_created_on>
         <sys_id>84839e4b878c0910c4a3c99d0ebb358e</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>x_snc_exfo_cmdb.createExfoLocations</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_name>x_exfo2_cmdb.createExfoLocations</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_properties_84839e4b878c0910c4a3c99d0ebb358e</sys_update_name>
@@ -23,7 +23,7 @@ By default, the integration queries for existing locations based on the "Street 
         <sys_updated_on>2022-03-04 21:09:41</sys_updated_on>
         <type>boolean</type>
         <value>true</value>
-        <write_roles>x_snc_exfo_cmdb.admin</write_roles>
+        <write_roles>x_exfo2_cmdb.admin</write_roles>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=84839e4b878c0910c4a3c99d0ebb358e"/>
 </record_update>

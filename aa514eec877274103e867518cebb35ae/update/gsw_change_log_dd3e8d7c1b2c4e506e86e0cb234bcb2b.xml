@@ -11,7 +11,7 @@
         <sys_id>dd3e8d7c1b2c4e506e86e0cb234bcb2b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>2024-02-21 14:36:13</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>gsw_change_log_dd3e8d7c1b2c4e506e86e0cb234bcb2b</sys_update_name>

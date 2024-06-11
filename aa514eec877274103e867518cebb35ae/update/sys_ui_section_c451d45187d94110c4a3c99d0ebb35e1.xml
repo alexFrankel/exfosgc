@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="c451d45187d94110c4a3c99d0ebb35e1" sys_domain="global" table="x_snc_exfo_cmdb_staging_location" version="3" view="">
+    <sys_ui_section caption="" section_id="c451d45187d94110c4a3c99d0ebb35e1" sys_domain="global" table="x_exfo2_cmdb_staging_location" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>
@@ -8,7 +8,7 @@
             <sys_id>4451585187d94110c4a3c99d0ebb35fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>c851585187d94110c4a3c99d0ebb35fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>4c51585187d94110c4a3c99d0ebb35fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_id>cc51585187d94110c4a3c99d0ebb35fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_id>4051585187d94110c4a3c99d0ebb35ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -78,7 +78,7 @@
             <sys_id>c051585187d94110c4a3c99d0ebb35ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -92,7 +92,7 @@
             <sys_id>4451585187d94110c4a3c99d0ebb35ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -106,7 +106,7 @@
             <sys_id>c451585187d94110c4a3c99d0ebb35ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -120,7 +120,7 @@
             <sys_id>4851585187d94110c4a3c99d0ebb35ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -134,7 +134,7 @@
             <sys_id>c851585187d94110c4a3c99d0ebb35ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -148,7 +148,7 @@
             <sys_id>4c51585187d94110c4a3c99d0ebb35ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -162,7 +162,7 @@
             <sys_id>cc51585187d94110c4a3c99d0ebb35ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -176,7 +176,7 @@
             <sys_id>4051985187d94110c4a3c99d0ebb3500</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -190,7 +190,7 @@
             <sys_id>c051985187d94110c4a3c99d0ebb3500</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -204,7 +204,7 @@
             <sys_id>4451985187d94110c4a3c99d0ebb3500</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -218,7 +218,7 @@
             <sys_id>c451985187d94110c4a3c99d0ebb3500</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -232,7 +232,7 @@
             <sys_id>4851985187d94110c4a3c99d0ebb3500</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -246,7 +246,7 @@
             <sys_id>c851985187d94110c4a3c99d0ebb3500</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -260,7 +260,7 @@
             <sys_id>4c51985187d94110c4a3c99d0ebb3500</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -274,7 +274,7 @@
             <sys_id>cc51985187d94110c4a3c99d0ebb3500</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -288,7 +288,7 @@
             <sys_id>4051985187d94110c4a3c99d0ebb3501</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -302,7 +302,7 @@
             <sys_id>c051985187d94110c4a3c99d0ebb3501</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -316,7 +316,7 @@
             <sys_id>4451985187d94110c4a3c99d0ebb3501</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_exfo_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
             <sys_updated_by>aveenstra</sys_updated_by>
             <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
             <sys_user/>
@@ -325,7 +325,7 @@
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
-            <name>x_snc_exfo_cmdb_staging_location</name>
+            <name>x_exfo2_cmdb_staging_location</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>aveenstra</sys_created_by>
@@ -334,9 +334,9 @@
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c451d45187d94110c4a3c99d0ebb35e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_snc_exfo_cmdb_staging_location</sys_name>
+            <sys_name>x_exfo2_cmdb_staging_location</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
             <sys_policy/>
             <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
             <sys_update_name>sys_ui_section_c451d45187d94110c4a3c99d0ebb35e1</sys_update_name>

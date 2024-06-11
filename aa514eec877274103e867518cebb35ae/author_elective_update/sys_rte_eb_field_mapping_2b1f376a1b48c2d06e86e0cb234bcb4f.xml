@@ -9,7 +9,7 @@
         <sys_id>2b1f376a1b48c2d06e86e0cb234bcb4f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Network Element">369d33a61b48c2d06e86e0cb234bcb54</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="tempToNetwork Gear 1">05debb2a1b48c2d06e86e0cb234bcbb0</sys_rte_eb_entity_mapping>
@@ -37,7 +37,7 @@
         <sys_id>2b1f376a1b48c2d06e86e0cb234bcb4f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Network Element">369d33a61b48c2d06e86e0cb234bcb54</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="tempToNetwork Gear 1">05debb2a1b48c2d06e86e0cb234bcbb0</sys_rte_eb_entity_mapping>
@@ -75,7 +75,7 @@
         <sys_metadata>2b1f376a1b48c2d06e86e0cb234bcb4f</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>

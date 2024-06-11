@@ -8,7 +8,7 @@
         <sys_id>1328bc4a1bc08e906e86e0cb234bcb3a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>inventory_category</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Logical Ports">3f067c461bc08e906e86e0cb234bcbf0</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="TNI CI Attributes 1">f7183c4a1bc08e906e86e0cb234bcb51</sys_rte_eb_entity>

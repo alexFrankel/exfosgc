@@ -9,7 +9,7 @@
         <sys_id>061d25de1bf10a90269e97d2b24bcba6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1714305632445_0">861d25de1bf10a90269e97d2b24bcba1</sys_rte_eb_entity_mapping>

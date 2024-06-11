@@ -9,7 +9,7 @@
         <sys_id>9bf570d11b9082507ba065b3b24bcbbe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Physical Ports">e8d3d44e1bcc4e906e86e0cb234bcb00</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="tempToTNI CI Attributes 1">a61adc0a1b008e906e86e0cb234bcbf1</sys_rte_eb_entity_mapping>

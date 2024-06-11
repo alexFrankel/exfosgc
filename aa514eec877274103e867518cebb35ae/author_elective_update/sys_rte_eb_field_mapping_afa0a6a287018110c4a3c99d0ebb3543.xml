@@ -9,7 +9,7 @@
         <sys_id>afa0a6a287018110c4a3c99d0ebb3543</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="tempToPhysical connection 1">10c9095c87600950c4a3c99d0ebb3558</sys_rte_eb_entity_mapping>
@@ -26,7 +26,7 @@
         <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
         <instance_name>ven06184</instance_name>
         <name>sys_rte_eb_field_mapping_afa0a6a287018110c4a3c99d0ebb3543</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping"><sys_rte_eb_field_mapping action="INSERT_OR_UPDATE"><order>100</order><referenced_sys_rte_eb_entity/><source_sys_rte_eb_field display_value="u_link_key">61a8491c87600950c4a3c99d0ebb355d</source_sys_rte_eb_field><sys_class_name>sys_rte_eb_field_mapping</sys_class_name><sys_created_by>aveenstra</sys_created_by><sys_created_on>2022-01-17 18:52:41</sys_created_on><sys_id>afa0a6a287018110c4a3c99d0ebb3543</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition><sys_rte_eb_entity_mapping display_value="tempToPhysical connection 1">10c9095c87600950c4a3c99d0ebb3558</sys_rte_eb_entity_mapping><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>sys_rte_eb_field_mapping_afa0a6a287018110c4a3c99d0ebb3543</sys_update_name><sys_updated_by>aveenstra</sys_updated_by><sys_updated_on>2022-01-17 18:52:41</sys_updated_on><target_sys_rte_eb_field/></sys_rte_eb_field_mapping></record_update>]]></payload>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping"><sys_rte_eb_field_mapping action="INSERT_OR_UPDATE"><order>100</order><referenced_sys_rte_eb_entity/><source_sys_rte_eb_field display_value="u_link_key">61a8491c87600950c4a3c99d0ebb355d</source_sys_rte_eb_field><sys_class_name>sys_rte_eb_field_mapping</sys_class_name><sys_created_by>aveenstra</sys_created_by><sys_created_on>2022-01-17 18:52:41</sys_created_on><sys_id>afa0a6a287018110c4a3c99d0ebb3543</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition><sys_rte_eb_entity_mapping display_value="tempToPhysical connection 1">10c9095c87600950c4a3c99d0ebb3558</sys_rte_eb_entity_mapping><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>sys_rte_eb_field_mapping_afa0a6a287018110c4a3c99d0ebb3543</sys_update_name><sys_updated_by>aveenstra</sys_updated_by><sys_updated_on>2022-01-17 18:52:41</sys_updated_on><target_sys_rte_eb_field/></sys_rte_eb_field_mapping></record_update>]]></payload>
         <payload_hash>-14960672</payload_hash>
         <record_name/>
         <reverted_from/>
@@ -54,7 +54,7 @@
         <sys_metadata>afa0a6a287018110c4a3c99d0ebb3543</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>

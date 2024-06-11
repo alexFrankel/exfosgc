@@ -43,7 +43,7 @@
         <sys_id>9a4e9fc21bf3f5506e86e0cb234bcba6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SG-EXFO Equipment Holders Import</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>scheduled_data_import_9a4e9fc21bf3f5506e86e0cb234bcba6</sys_update_name>
@@ -69,7 +69,7 @@
 
 	 return import_set_row.sys_import_row;
 
-})(import_set_row);]]&gt;&lt;/partition_script&gt;&lt;partition_size/&gt;&lt;post_script/&gt;&lt;post_script_bool&gt;false&lt;/post_script_bool&gt;&lt;pre_script/&gt;&lt;pre_script_bool&gt;false&lt;/pre_script_bool&gt;&lt;run_as display_value="Alex Frankel"&gt;7311e5641bcab910da698666624bcb3c&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2024-01-19 15:31:00&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 08:00:00&lt;/run_time&gt;&lt;run_type&gt;daily&lt;/run_type&gt;&lt;sys_class_name&gt;scheduled_data_import&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex.frankel@exfo.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-19 15:33:25&lt;/sys_created_on&gt;&lt;sys_id&gt;9a4e9fc21bf3f5506e86e0cb234bcba6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;SG-EXFO Equipment Holders Import&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;scheduled_data_import_9a4e9fc21bf3f5506e86e0cb234bcba6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-19 15:33:25&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/scheduled_data_import&gt;&lt;/record_update&gt;</payload>
+})(import_set_row);]]&gt;&lt;/partition_script&gt;&lt;partition_size/&gt;&lt;post_script/&gt;&lt;post_script_bool&gt;false&lt;/post_script_bool&gt;&lt;pre_script/&gt;&lt;pre_script_bool&gt;false&lt;/pre_script_bool&gt;&lt;run_as display_value="Alex Frankel"&gt;7311e5641bcab910da698666624bcb3c&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2024-01-19 15:31:00&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 08:00:00&lt;/run_time&gt;&lt;run_type&gt;daily&lt;/run_type&gt;&lt;sys_class_name&gt;scheduled_data_import&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex.frankel@exfo.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-19 15:33:25&lt;/sys_created_on&gt;&lt;sys_id&gt;9a4e9fc21bf3f5506e86e0cb234bcba6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;SG-EXFO Equipment Holders Import&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;scheduled_data_import_9a4e9fc21bf3f5506e86e0cb234bcba6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-19 15:33:25&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/scheduled_data_import&gt;&lt;/record_update&gt;</payload>
         <payload_hash>-1126723232</payload_hash>
         <record_name>SG-EXFO Equipment Holders Import</record_name>
         <reverted_from/>
@@ -97,7 +97,7 @@
         <sys_metadata>9a4e9fc21bf3f5506e86e0cb234bcba6</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SG-EXFO Equipment Holders Import</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>

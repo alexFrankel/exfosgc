@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_path_key" table="x_exfo2_cmdb_staging_path_connection_element">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=PATH_KEY</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>PATH_KEY</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_path_key</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_exfo2_cmdb_staging_path_connection_element</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-12 14:00:27</sys_created_on>
+        <sys_id>ea1f6b0d1ba50610269e97d2b24bcbf5</sys_id>
+        <sys_name>PATH_KEY</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_update_name>sys_dictionary_x_exfo2_cmdb_staging_path_connection_element_u_path_key</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-12 14:00:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_dictionary_x_exfo2_cmdb_staging_path_connection_element_u_path_key</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_path_key" table="x_exfo2_cmdb_staging_path_connection_element"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=PATH_KEY</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>PATH_KEY</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_path_key</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_exfo2_cmdb_staging_path_connection_element</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-04-12 14:00:27</sys_created_on><sys_id>ea1f6b0d1ba50610269e97d2b24bcbf5</sys_id><sys_name>PATH_KEY</sys_name><sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>sys_dictionary_x_exfo2_cmdb_staging_path_connection_element_u_path_key</sys_update_name><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-04-12 14:00:27</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-163359703</payload_hash>
+        <record_name>SG-EXFO Path Connection Element.PATH_KEY</record_name>
+        <reverted_from/>
+        <source>3c8da93d1b9c8e10da698666624bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-12 14:00:28</sys_created_on>
+        <sys_id>be1fab0d1ba50610269e97d2b24bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ed29c15670000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-12 14:00:28</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>761fab0d3ba50610df370e0a83e0f161</update_guid>
+        <update_guid_history>761fab0d3ba50610df370e0a83e0f161:-163359703,cbce07896025061085fc5977a4aceb90:-1127508747,00042f3820d48a10b74928a037f2495f:0,1d51932c16d40a1038bbb94ba784c960:-1127508747,3f565564c314c610dd5cfe3b10dbcafd:0,3c84d5283dd0c610ed89cfe8cb085ae5:-1127508747,4a3e32b925aab1901094f83918943bd3:0,5c9c723563aab190ca6a82d30a64c6a2:-1127508747,c3d6f2f5a16ab190d9bd50c142dcfad2:0,6474ba3d442ab19099fc60107ec17750:-1127508747,443cd0113e62f590bb22b8dda60d1f70:0,9e3a6f8d8aeafd5025081951545ece0e:-1127508747,1e83de2fcd9e795038a57defa5fa857a:0,a30212e32c9e7950a6b1d64f7e291f39:-1127508747,e78fe7901456bd10f012e86a49d1c317:0,799c2398b016bd105df89b11300a2fa5:-1127508747,29a11fc2a846b51094baff307bd0f51b:0,65a11fc27946b510f0bc5fb95b6c5e0a:-163359703</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-12 14:23:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>5f485db53f7a4add9be06a1a12f25891</sys_id>
+        <sys_metadata>ea1f6b0d1ba50610269e97d2b24bcbf5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PATH_KEY</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_parent display_value="">6a1f6b0d1ba50610269e97d2b24bcbcd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_exfo2_cmdb_staging_path_connection_element_u_path_key</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_exfo2_cmdb_staging_path_connection_element_u_path_key">be1fab0d1ba50610269e97d2b24bcb61</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-12 14:23:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

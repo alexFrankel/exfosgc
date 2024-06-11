@@ -25,7 +25,7 @@
         <glide_keystore>false</glide_keystore>
         <header_row>0</header_row>
         <import_set_table_label/>
-        <import_set_table_name>x_snc_exfo_cmdb_staging_exfo_site_child</import_set_table_name>
+        <import_set_table_name>x_exfo2_cmdb_staging_exfo_site_child</import_set_table_name>
         <instance_name/>
         <jdbc_password/>
         <jdbc_server/>
@@ -68,7 +68,7 @@
         <sys_id>8f6ae1841b5a4e10da698666624bcb54</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SG-EXFO Site Child</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_data_source_8f6ae1841b5a4e10da698666624bcb54</sys_update_name>

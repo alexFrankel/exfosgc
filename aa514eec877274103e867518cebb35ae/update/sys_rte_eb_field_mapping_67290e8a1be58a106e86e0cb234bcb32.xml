@@ -9,7 +9,7 @@
         <sys_id>67290e8a1be58a106e86e0cb234bcb32</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Fibers">9b7f7f461b9842506e86e0cb234bcbca</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="tempToTNI CI Attributes 1">312c84961bd842506e86e0cb234bcbaa</sys_rte_eb_entity_mapping>

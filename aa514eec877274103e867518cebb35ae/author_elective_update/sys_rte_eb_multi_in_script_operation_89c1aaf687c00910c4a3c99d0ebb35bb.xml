@@ -45,7 +45,7 @@
         <sys_id>89c1aaf687c00910c4a3c99d0ebb35bb</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name>Multiple Input Script - u_site_address,u_site_city</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Sites">0bd8821087f778103e867518cebb35be</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="temp">75994a5087f778103e867518cebb35cc</sys_rte_eb_entity>
@@ -112,7 +112,7 @@
         &lt;sys_id&gt;89c1aaf687c00910c4a3c99d0ebb35bb&lt;/sys_id&gt;
         &lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;
         &lt;sys_name&gt;Multiple Input Script - u_site_address,u_site_city&lt;/sys_name&gt;
-        &lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;
+        &lt;sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;
         &lt;sys_policy/&gt;
         &lt;sys_rte_eb_definition display_value="SG-EXFO Sites"&gt;0bd8821087f778103e867518cebb35be&lt;/sys_rte_eb_definition&gt;
         &lt;sys_rte_eb_entity display_value="temp"&gt;75994a5087f778103e867518cebb35cc&lt;/sys_rte_eb_entity&gt;
@@ -153,7 +153,7 @@
         <sys_metadata>89c1aaf687c00910c4a3c99d0ebb35bb</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Multiple Input Script - u_site_address,u_site_city</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>

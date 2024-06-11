@@ -19,10 +19,10 @@
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
-        <scope>x_snc_exfo_cmdb</scope>
+        <scope>x_exfo2_cmdb</scope>
         <scoped_administration>false</scoped_administration>
         <short_description>The Service Graph Connector for EXFO is capable of importing your device data, while leveraging the IntegrationHub ETL as a no-code/low-code interface for importing into the CMDB using the IRE and RTE for optimal performance and best practices.</short_description>
-        <source>x_snc_exfo_cmdb</source>
+        <source>x_exfo2_cmdb</source>
         <store_correlation_id>REPOAPP0000003512</store_correlation_id>
         <store_url/>
         <subscription_entitlement/>
@@ -37,7 +37,7 @@
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
-        <user_role display_value="x_snc_exfo_cmdb.user" name="x_snc_exfo_cmdb.user">5491422087b274103e867518cebb3549</user_role>
+        <user_role display_value="x_exfo2_cmdb.user" name="x_exfo2_cmdb.user">5491422087b274103e867518cebb3549</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.27</version>

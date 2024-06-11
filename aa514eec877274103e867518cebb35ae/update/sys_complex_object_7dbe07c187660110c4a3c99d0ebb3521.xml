@@ -14,7 +14,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FDb9be07c1516601101d5a6699651b4c21</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_complex_object_7dbe07c187660110c4a3c99d0ebb3521</sys_update_name>

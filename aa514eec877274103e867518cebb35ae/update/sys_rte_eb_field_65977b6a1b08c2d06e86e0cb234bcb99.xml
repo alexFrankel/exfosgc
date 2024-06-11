@@ -8,7 +8,7 @@
         <sys_id>65977b6a1b08c2d06e86e0cb234bcb99</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ni_type</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Sites">5b85f3a61b08c2d06e86e0cb234bcb21</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="TNI CI Attributes 1">cf47336a1b08c2d06e86e0cb234bcbfe</sys_rte_eb_entity>

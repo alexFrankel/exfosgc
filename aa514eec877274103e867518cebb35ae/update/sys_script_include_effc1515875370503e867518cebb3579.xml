@@ -2,7 +2,7 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_snc_exfo_cmdb.EXFOImportUtil</api_name>
+        <api_name>x_exfo2_cmdb.EXFOImportUtil</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
@@ -16,7 +16,7 @@ EXFOImportUtil.prototype = {
             var inputs = {};
             inputs['run_type'] = runType;
             var result = sn_fd.FlowAPI.getRunner()
-                .subflow('x_snc_exfo_cmdb.exfo_import_data')
+                .subflow('x_exfo2_cmdb.exfo_import_data')
                 .inForeground()
                 .withInputs(inputs)
                 .timeout(1800000)
@@ -29,7 +29,7 @@ EXFOImportUtil.prototype = {
                 return true;
             } else if (!attachment_id) {
                 var importProp = new GlideRecord('sys_properties');
-                if (importProp.get('name', 'x_snc_exfo_cmdb.import_active')) {
+                if (importProp.get('name', 'x_exfo2_cmdb.import_active')) {
                     importProp.value = false;
                     importProp.update();
                 }
@@ -74,12 +74,12 @@ EXFOImportUtil.prototype = {
     // This check is no longer used - replaced by the following two checks
     // checkIntegrationStatus: function() {
     //     //check if import is already running
-    //     var importActive = (gs.getProperty('x_snc_exfo_cmdb.import_active') == 'true');
+    //     var importActive = (gs.getProperty('x_exfo2_cmdb.import_active') == 'true');
     //     if (importActive) {
-    //         gs.info('EXFO Import already running according to the property "x_snc_exfo_cmdb.import_active"; aborting redundant import to protect system performance. You can manually set the property to false if you believe it is incorrect.');
+    //         gs.info('EXFO Import already running according to the property "x_exfo2_cmdb.import_active"; aborting redundant import to protect system performance. You can manually set the property to false if you believe it is incorrect.');
     //         return true;
     //     } else {
-    //         gs.setProperty('x_snc_exfo_cmdb.import_active', true);
+    //         gs.setProperty('x_exfo2_cmdb.import_active', true);
     //         return false;
     //     }
     // },
@@ -88,7 +88,7 @@ EXFOImportUtil.prototype = {
         //Find out if there is an Export import set currently loading
         var myGR = new GlideRecord('sys_import_set');
         myGR.addQuery('state', "Loading");
-        myGR.addEncodedQuery('table_nameLIKEx_snc_exfo');
+        myGR.addEncodedQuery('table_nameLIKEx_exfo2');
         myGR.query();
         if (myGR.next()) {
             gs.info('EXFO import set already loading. Wait for it to finish or cancel before running a new import.');
@@ -273,7 +273,7 @@ EXFOImportUtil.prototype = {
 
     // setLinkHeaders: function(propValue) {
     //     var headerProp = new GlideRecord('sys_properties');
-    //     if (headerProp.get('name', 'x_snc_exfo_cmdb.physicalLinkHeaders')) {
+    //     if (headerProp.get('name', 'x_exfo2_cmdb.physicalLinkHeaders')) {
     //         headerProp.value = propValue;
     //         headerProp.update();
     //     }
@@ -282,12 +282,12 @@ EXFOImportUtil.prototype = {
     _updateLastFolderProcessed: function(runType, folder) {
         var propGR = new GlideRecord('sys_properties');
         if (runType == 'full') {
-            if (propGR.get('name', 'x_snc_exfo_cmdb.lastFullFolderProcessed')) {
+            if (propGR.get('name', 'x_exfo2_cmdb.lastFullFolderProcessed')) {
                 propGR.value = folder;
                 propGR.update();
             }
         } else if (runType == 'incremental') {
-            if (propGR.get('name', 'x_snc_exfo_cmdb.lastIncrementalFolderProcessed')) {
+            if (propGR.get('name', 'x_exfo2_cmdb.lastIncrementalFolderProcessed')) {
                 propGR.value = folder;
                 propGR.update();
             }
@@ -398,7 +398,7 @@ EXFOImportUtil.prototype = {
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
         <sys_mod_count>126</sys_mod_count>
         <sys_name>EXFOImportUtil</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>

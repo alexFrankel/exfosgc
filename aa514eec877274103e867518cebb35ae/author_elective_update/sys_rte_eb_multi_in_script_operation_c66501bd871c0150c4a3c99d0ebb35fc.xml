@@ -44,7 +44,7 @@
         <sys_id>c66501bd871c0150c4a3c99d0ebb35fc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Multiple Input Script - u_card_has_shelf_key,u_card_has_parent_card_key</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Cards">344c0a5487f778103e867518cebb35f2</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="temp">f74c4e9487f778103e867518cebb3542</sys_rte_eb_entity>
@@ -93,7 +93,7 @@
     output[i] = neKey;
 	}
 })(batch, output);
-]]&gt;&lt;/script&gt;&lt;source_sys_rte_eb_field/&gt;&lt;source_sys_rte_eb_fields&gt;b41f467f8740c910c4a3c99d0ebb3598,fc1f467f8740c910c4a3c99d0ebb3592&lt;/source_sys_rte_eb_fields&gt;&lt;sys_class_name&gt;sys_rte_eb_multi_in_script_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-08 21:31:22&lt;/sys_created_on&gt;&lt;sys_id&gt;c66501bd871c0150c4a3c99d0ebb35fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Multiple Input Script - u_card_has_shelf_key,u_card_has_parent_card_key&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG-EXFO Cards"&gt;344c0a5487f778103e867518cebb35f2&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;f74c4e9487f778103e867518cebb3542&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_multi_in_script_operation_c66501bd871c0150c4a3c99d0ebb35fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aveenstra&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-08 21:31:22&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field/&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Multiple Input Script"&gt;a5584ee4739000102b6265a751ab9eae&lt;/type&gt;&lt;use_unique_input_sets&gt;true&lt;/use_unique_input_sets&gt;&lt;/sys_rte_eb_multi_in_script_operation&gt;&lt;/record_update&gt;</payload>
+]]&gt;&lt;/script&gt;&lt;source_sys_rte_eb_field/&gt;&lt;source_sys_rte_eb_fields&gt;b41f467f8740c910c4a3c99d0ebb3598,fc1f467f8740c910c4a3c99d0ebb3592&lt;/source_sys_rte_eb_fields&gt;&lt;sys_class_name&gt;sys_rte_eb_multi_in_script_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-08 21:31:22&lt;/sys_created_on&gt;&lt;sys_id&gt;c66501bd871c0150c4a3c99d0ebb35fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Multiple Input Script - u_card_has_shelf_key,u_card_has_parent_card_key&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG-EXFO Cards"&gt;344c0a5487f778103e867518cebb35f2&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;f74c4e9487f778103e867518cebb3542&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_multi_in_script_operation_c66501bd871c0150c4a3c99d0ebb35fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aveenstra&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-08 21:31:22&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field/&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Multiple Input Script"&gt;a5584ee4739000102b6265a751ab9eae&lt;/type&gt;&lt;use_unique_input_sets&gt;true&lt;/use_unique_input_sets&gt;&lt;/sys_rte_eb_multi_in_script_operation&gt;&lt;/record_update&gt;</payload>
         <payload_hash>1482869584</payload_hash>
         <record_name>Multiple Input Script - u_card_has_shelf_key,u_card_has_parent_card_key</record_name>
         <reverted_from/>
@@ -121,7 +121,7 @@
         <sys_metadata>c66501bd871c0150c4a3c99d0ebb35fc</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Multiple Input Script - u_card_has_shelf_key,u_card_has_parent_card_key</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>

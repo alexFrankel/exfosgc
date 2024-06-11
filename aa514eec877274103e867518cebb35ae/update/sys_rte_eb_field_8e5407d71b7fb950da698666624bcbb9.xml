@@ -8,7 +8,7 @@
         <sys_id>8e5407d71b7fb950da698666624bcbb9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ci</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Equipment Holders">956d36421b33f5506e86e0cb234bcbba</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="TNI CI Attributes 1">d0248f971b7fb950da698666624bcbbd</sys_rte_eb_entity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4b0e7e391baab190da698666624bcbc0" extends="sys_import_set_row" label="Staging: EXFO Location" max_length="40" name="x_exfo2_cmdb_staging_location" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_ADDRESS" label="u_site_address" max_length="255" name="u_site_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_ALIAS1" label="SITE_ALIAS1" max_length="255" name="u_site_alias1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_ALIAS1_ID" label="u_site_alias1_id" max_length="40" name="u_site_alias1_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_ALIAS1_SYSTEM" label="u_site_alias1_system" max_length="40" name="u_site_alias1_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_ALIAS2" label="SITE_ALIAS2" max_length="255" name="u_site_alias2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_CITY" label="u_site_city" max_length="40" name="u_site_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_CLLI" label="SITE_CLLI" max_length="40" name="u_site_clli" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_COMMENT" label="SITE_COMMENT" max_length="40" name="u_site_comment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_COUNTRY" label="u_site_country" max_length="40" name="u_site_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_CUSTOM_ATTRIBUTES" label="SITE_CUSTOM_ATTRIBUTES" max_length="1000" name="u_site_custom_attributes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_DESC" label="u_site_desc" max_length="40" name="u_site_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_DESCRIPTION" label="u_site_description" max_length="1000" name="u_site_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_DOMAIN" label="SITE_DOMAIN" max_length="40" name="u_site_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_HAS_PARENT_SITE_KEY" label="u_site_has_parent_site_key" max_length="255" name="u_site_has_parent_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_ID" label="u_site_id" max_length="40" name="u_site_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_KEY" label="u_site_key" max_length="255" name="u_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_LATITUDE" label="u_site_latitude" max_length="40" name="u_site_latitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_LONGITUDE" label="u_site_longitude" max_length="40" name="u_site_longitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_NAME" label="u_site_name" max_length="255" name="u_site_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_OWNER" label="u_site_owner" max_length="40" name="u_site_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_PARENT_SITE_ID" label="u_site_parent_site_id" max_length="40" name="u_site_parent_site_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_POSTAL_CODE" label="u_site_postal_code" max_length="40" name="u_site_postal_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_STATE" label="u_site_state" max_length="40" name="u_site_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_STATUS" label="u_site_status" max_length="40" name="u_site_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_SYSTEM" label="u_site_system" max_length="40" name="u_site_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_TNI_DOMAIN" label="u_site_tni_domain" max_length="40" name="u_site_tni_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_TOP_EXP_STATUS" label="u_site_top_exp_status" max_length="40" name="u_site_top_exp_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_TYPE" label="u_site_type" max_length="40" name="u_site_type" type="string"/>
+    </element>
+</database>

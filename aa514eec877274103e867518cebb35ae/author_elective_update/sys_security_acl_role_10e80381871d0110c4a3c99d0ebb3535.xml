@@ -5,15 +5,15 @@
         <sys_created_on>2022-01-25 16:13:08</sys_created_on>
         <sys_id>10e80381871d0110c4a3c99d0ebb3535</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_exfo_cmdb_staging_path_connection_element.x_snc_exfo_cmdb.user</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_name>x_exfo2_cmdb_staging_path_connection_element.x_exfo2_cmdb.user</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_security_acl display_value="x_snc_exfo_cmdb_staging_path_connection_element">1ce80381871d0110c4a3c99d0ebb3531</sys_security_acl>
+        <sys_security_acl display_value="x_exfo2_cmdb_staging_path_connection_element">1ce80381871d0110c4a3c99d0ebb3531</sys_security_acl>
         <sys_update_name>sys_security_acl_role_10e80381871d0110c4a3c99d0ebb3535</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-01-25 16:13:08</sys_updated_on>
-        <sys_user_role display_value="x_snc_exfo_cmdb.user" name="x_snc_exfo_cmdb.user">5491422087b274103e867518cebb3549</sys_user_role>
+        <sys_user_role display_value="x_exfo2_cmdb.user" name="x_exfo2_cmdb.user">5491422087b274103e867518cebb3549</sys_user_role>
     </sys_security_acl_role>
 <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
@@ -29,19 +29,19 @@
         <sys_created_on>2022-01-25 16:13:08</sys_created_on>
         <sys_id>10e80381871d0110c4a3c99d0ebb3535</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_exfo_cmdb_staging_path_connection_element.x_snc_exfo_cmdb.user</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_name>x_exfo2_cmdb_staging_path_connection_element.x_exfo2_cmdb.user</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_security_acl display_value="x_snc_exfo_cmdb_staging_path_connection_element">1ce80381871d0110c4a3c99d0ebb3531</sys_security_acl>
+        <sys_security_acl display_value="x_exfo2_cmdb_staging_path_connection_element">1ce80381871d0110c4a3c99d0ebb3531</sys_security_acl>
         <sys_update_name>sys_security_acl_role_10e80381871d0110c4a3c99d0ebb3535</sys_update_name>
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-01-25 16:13:08</sys_updated_on>
-        <sys_user_role display_value="x_snc_exfo_cmdb.user" name="x_snc_exfo_cmdb.user">5491422087b274103e867518cebb3549</sys_user_role>
+        <sys_user_role display_value="x_exfo2_cmdb.user" name="x_exfo2_cmdb.user">5491422087b274103e867518cebb3549</sys_user_role>
     </sys_security_acl_role>
 </record_update>]]></payload>
         <payload_hash>45857646</payload_hash>
-        <record_name>x_snc_exfo_cmdb_staging_path_connection_element.x_snc_exfo_cmdb.user</record_name>
+        <record_name>x_exfo2_cmdb_staging_path_connection_element.x_exfo2_cmdb.user</record_name>
         <reverted_from/>
         <source>279323b41bd48a106e86e0cb234bcb01</source>
         <source_table>sys_upgrade_history</source_table>
@@ -58,7 +58,7 @@
         <update_guid_history>b2842f7cd8d48a101e751f35d40560be:0,fc51132c06d40a10d1d3aff8f39a183a:2093394490,67e6d5a8a514c6102eb661ba5592e47a:0,10845528f2d0c61073b86a66d20852b1:2101711270,b16e7af9ecaab1901a7e520456a6a349:0,2b8cfef177aab1900b1daa84251dfbd4:-931028856,a337f2b9676ab190bf6d57b3fae20386:0,7b64f63ddd2ab190524f232150f36dfc:-2098879968,a28c90d16c62f590981955f1510575ad:0,753a2f8db3eafd5037a7d25e0cd86c48:-237828445,32e39aef0e9e795008cb20e7182d6b94:0,cf029ea3c49e7950bbd12f2ff12974b4:-1767483410,1befa7549756bd107b5b1a5e0d4491df:0,2d9cef586716bd109a1fd02f551537f5:431422865,e71293c68546b51079ebd7541325de8b:544946923</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_exfo_cmdb_staging_path_connection_element.x_snc_exfo_cmdb.user">4acec3891b250610269e97d2b24bcb86</sys_audit_delete>
+        <sys_audit_delete display_value="x_exfo2_cmdb_staging_path_connection_element.x_exfo2_cmdb.user">4acec3891b250610269e97d2b24bcb86</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-04-12 11:39:14</sys_created_on>
@@ -66,8 +66,8 @@
         <sys_id>2017429f39b44fac8d1f6d5d2158ffa4</sys_id>
         <sys_metadata>10e80381871d0110c4a3c99d0ebb3535</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_exfo_cmdb_staging_path_connection_element.x_snc_exfo_cmdb.user</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_name>x_exfo2_cmdb_staging_path_connection_element.x_exfo2_cmdb.user</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_parent display_value="">1ce80381871d0110c4a3c99d0ebb3531</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>

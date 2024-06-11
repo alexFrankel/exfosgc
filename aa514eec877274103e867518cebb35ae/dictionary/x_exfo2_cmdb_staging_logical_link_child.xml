@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4fa50a1b1b7502d0269e97d2b24bcbcc" extends="sys_import_set_row" label="Staging: EXFO Logical Link Child" max_length="40" name="x_exfo2_cmdb_staging_logical_link_child" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_ALIAS1" label="u_link_alias1" max_length="255" name="u_link_alias1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_ALIAS2" label="u_link_alias2" max_length="255" name="u_link_alias2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_BANDWIDTH" label="u_link_bandwidth" max_length="40" name="u_link_bandwidth" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_CUSTOM_ATTRIBUTES" label="u_link_custom_attributes" max_length="1000" name="u_link_custom_attributes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_DESCRIPTION" label="u_link_description" max_length="1000" name="u_link_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_CARD_KEY" label="u_link_has_a_card_key" max_length="255" name="u_link_has_a_card_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_E_H_KEY" label="u_link_has_a_e_h_key" max_length="255" name="u_link_has_a_e_h_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_NE_KEY" label="u_link_has_a_ne_key" max_length="255" name="u_link_has_a_ne_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_PORT_KEY" label="u_link_has_a_port_key" max_length="255" name="u_link_has_a_port_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_A_SITE_KEY" label="u_link_has_a_site_key" max_length="255" name="u_link_has_a_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_PARENT_LINK_KEY" label="u_link_has_parent_link_key" max_length="255" name="u_link_has_parent_link_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_CARD_KEY" label="u_link_has_z_card_key" max_length="255" name="u_link_has_z_card_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_E_H_KEY" label="u_link_has_z_e_h_key" max_length="255" name="u_link_has_z_e_h_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_NE_KEY" label="u_link_has_z_ne_key" max_length="255" name="u_link_has_z_ne_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_PORT_KEY" label="u_link_has_z_port_key" max_length="255" name="u_link_has_z_port_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_HAS_Z_SITE_KEY" label="u_link_has_z_site_key" max_length="255" name="u_link_has_z_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_LENGTH" label="u_link_length" max_length="40" name="u_link_length" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_LENGTH_UNIT" label="u_link_length_unit" max_length="40" name="u_link_length_unit" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_NAME" label="u_link_name" max_length="255" name="u_link_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_STATUS" label="u_link_status" max_length="40" name="u_link_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_SUB_TYPE" label="u_link_sub_type" max_length="40" name="u_link_sub_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_TNI_DOMAIN" label="u_link_tni_domain" max_length="40" name="u_link_tni_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_TOP_EXP_STATUS" label="u_link_top_exp_status" max_length="40" name="u_link_top_exp_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_TYPE" label="u_link_type" max_length="40" name="u_link_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_VENDOR" label="u_link_vendor" max_length="40" name="u_link_vendor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LOGICAL_LINK_CHILD_KEY" label="u_logical_link_child_key" max_length="255" name="u_logical_link_child_key" type="string"/>
+    </element>
+</database>

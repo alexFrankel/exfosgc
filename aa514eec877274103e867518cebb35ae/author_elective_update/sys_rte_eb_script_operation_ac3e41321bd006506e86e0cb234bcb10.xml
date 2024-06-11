@@ -44,7 +44,7 @@
         <sys_id>ac3e41321bd006506e86e0cb234bcb10</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Script Operation - u_ip_has_port_key</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Ip Addresses">2a36326d1bccca906e86e0cb234bcba9</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="temp">d546766d1bccca906e86e0cb234bcbf0</sys_rte_eb_entity>
@@ -93,7 +93,7 @@
          output[i]=myGR.getUniqueValue();
       }
    }
-})(batch, output);]]&gt;&lt;/script&gt;&lt;source_sys_rte_eb_field display_value="u_ip_has_port_key"&gt;ef2c32291b000e906e86e0cb234bcbfe&lt;/source_sys_rte_eb_field&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;sys_class_name&gt;sys_rte_eb_script_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex.frankel@exfo.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-15 09:28:18&lt;/sys_created_on&gt;&lt;sys_id&gt;ac3e41321bd006506e86e0cb234bcb10&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Script Operation - u_ip_has_port_key&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG-EXFO Ip Addresses"&gt;2a36326d1bccca906e86e0cb234bcba9&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;d546766d1bccca906e86e0cb234bcbf0&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_script_operation_ac3e41321bd006506e86e0cb234bcb10&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-15 09:28:18&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="u_ip_has_port_sys_id"&gt;683e41321bd006506e86e0cb234bcb0d&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Script Operation"&gt;941f88e273b333002b6265a751ab9e84&lt;/type&gt;&lt;use_unique_input_sets&gt;true&lt;/use_unique_input_sets&gt;&lt;/sys_rte_eb_script_operation&gt;&lt;/record_update&gt;</payload>
+})(batch, output);]]&gt;&lt;/script&gt;&lt;source_sys_rte_eb_field display_value="u_ip_has_port_key"&gt;ef2c32291b000e906e86e0cb234bcbfe&lt;/source_sys_rte_eb_field&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;sys_class_name&gt;sys_rte_eb_script_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex.frankel@exfo.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-15 09:28:18&lt;/sys_created_on&gt;&lt;sys_id&gt;ac3e41321bd006506e86e0cb234bcb10&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Script Operation - u_ip_has_port_key&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG-EXFO Ip Addresses"&gt;2a36326d1bccca906e86e0cb234bcba9&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;d546766d1bccca906e86e0cb234bcbf0&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_script_operation_ac3e41321bd006506e86e0cb234bcb10&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-15 09:28:18&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="u_ip_has_port_sys_id"&gt;683e41321bd006506e86e0cb234bcb0d&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Script Operation"&gt;941f88e273b333002b6265a751ab9e84&lt;/type&gt;&lt;use_unique_input_sets&gt;true&lt;/use_unique_input_sets&gt;&lt;/sys_rte_eb_script_operation&gt;&lt;/record_update&gt;</payload>
         <payload_hash>-1609540536</payload_hash>
         <record_name>Script Operation - u_ip_has_port_key</record_name>
         <reverted_from/>
@@ -121,7 +121,7 @@
         <sys_metadata>ac3e41321bd006506e86e0cb234bcb10</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Script Operation - u_ip_has_port_key</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>

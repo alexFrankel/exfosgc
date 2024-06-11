@@ -4,7 +4,7 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_snc_exfo_cmdb_staging_segment</name>
+        <name>x_exfo2_cmdb_staging_segment</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
@@ -14,8 +14,8 @@
         <sys_created_on>2021-12-17 18:05:21</sys_created_on>
         <sys_id>b20e7e391baab190da698666624bcb5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_exfo_cmdb_staging_segment</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_name>x_exfo2_cmdb_staging_segment</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>ua_table_licensing_config_b20e7e391baab190da698666624bcb5a</sys_update_name>

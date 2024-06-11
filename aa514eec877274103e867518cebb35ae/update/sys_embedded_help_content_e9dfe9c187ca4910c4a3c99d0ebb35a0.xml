@@ -21,7 +21,7 @@
         <sys_id>e9dfe9c187ca4910c4a3c99d0ebb35a0</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>exfo_sgc_import_locations-setup</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_embedded_help_content_e9dfe9c187ca4910c4a3c99d0ebb35a0</sys_update_name>

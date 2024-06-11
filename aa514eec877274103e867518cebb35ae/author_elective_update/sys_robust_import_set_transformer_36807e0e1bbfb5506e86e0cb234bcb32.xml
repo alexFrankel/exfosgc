@@ -6,14 +6,14 @@
         <name>SG-EXFO Equipment Holders</name>
         <properties/>
         <robust_transform_engine display_value="SG-EXFO Equipment Holders">fa807e0e1bbfb5506e86e0cb234bcb2e</robust_transform_engine>
-        <source_table>x_snc_exfo_cmdb_staging_equipment_holder</source_table>
+        <source_table>x_exfo2_cmdb_staging_equipment_holder</source_table>
         <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-19 12:11:10</sys_created_on>
         <sys_id>36807e0e1bbfb5506e86e0cb234bcb32</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SG-EXFO Equipment Holders</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_robust_import_set_transformer_36807e0e1bbfb5506e86e0cb234bcb32</sys_update_name>
@@ -28,7 +28,7 @@
         <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
         <instance_name>ven06184</instance_name>
         <name>sys_robust_import_set_transformer_36807e0e1bbfb5506e86e0cb234bcb32</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer"><sys_robust_import_set_transformer action="INSERT_OR_UPDATE"><active>true</active><batch_size>100</batch_size><description/><name>SG-EXFO Equipment Holders</name><properties/><robust_transform_engine display_value="SG-EXFO Equipment Holders">fa807e0e1bbfb5506e86e0cb234bcb2e</robust_transform_engine><source_table>x_snc_exfo_cmdb_staging_equipment_holder</source_table><sys_class_name>sys_robust_import_set_transformer</sys_class_name><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-01-19 12:11:10</sys_created_on><sys_id>36807e0e1bbfb5506e86e0cb234bcb32</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SG-EXFO Equipment Holders</sys_name><sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>sys_robust_import_set_transformer_36807e0e1bbfb5506e86e0cb234bcb32</sys_update_name><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-01-19 12:11:10</sys_updated_on><verbose>false</verbose></sys_robust_import_set_transformer></record_update>]]></payload>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer"><sys_robust_import_set_transformer action="INSERT_OR_UPDATE"><active>true</active><batch_size>100</batch_size><description/><name>SG-EXFO Equipment Holders</name><properties/><robust_transform_engine display_value="SG-EXFO Equipment Holders">fa807e0e1bbfb5506e86e0cb234bcb2e</robust_transform_engine><source_table>x_exfo2_cmdb_staging_equipment_holder</source_table><sys_class_name>sys_robust_import_set_transformer</sys_class_name><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-01-19 12:11:10</sys_created_on><sys_id>36807e0e1bbfb5506e86e0cb234bcb32</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SG-EXFO Equipment Holders</sys_name><sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>sys_robust_import_set_transformer_36807e0e1bbfb5506e86e0cb234bcb32</sys_update_name><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-01-19 12:11:10</sys_updated_on><verbose>false</verbose></sys_robust_import_set_transformer></record_update>]]></payload>
         <payload_hash>1570588986</payload_hash>
         <record_name>SG-EXFO Equipment Holders</record_name>
         <reverted_from/>
@@ -56,7 +56,7 @@
         <sys_metadata>36807e0e1bbfb5506e86e0cb234bcb32</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SG-EXFO Equipment Holders</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>

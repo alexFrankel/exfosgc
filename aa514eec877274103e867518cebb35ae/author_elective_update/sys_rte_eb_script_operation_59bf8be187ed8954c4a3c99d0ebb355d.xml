@@ -52,7 +52,7 @@
         <sys_id>59bf8be187ed8954c4a3c99d0ebb355d</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Script Operation - u_link_type</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Physical Links">24b681d887600950c4a3c99d0ebb3502</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="temp">15a881d887600950c4a3c99d0ebb353c</sys_rte_eb_entity>
@@ -109,7 +109,7 @@
      }
 	}
 })(batch, output);
-]]&gt;&lt;/script&gt;&lt;source_sys_rte_eb_field display_value="u_link_type"&gt;3da8491c87600950c4a3c99d0ebb3598&lt;/source_sys_rte_eb_field&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;sys_class_name&gt;sys_rte_eb_script_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-08 16:15:37&lt;/sys_created_on&gt;&lt;sys_id&gt;59bf8be187ed8954c4a3c99d0ebb355d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Script Operation - u_link_type&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG-EXFO Physical Links"&gt;24b681d887600950c4a3c99d0ebb3502&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;15a881d887600950c4a3c99d0ebb353c&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_script_operation_59bf8be187ed8954c4a3c99d0ebb355d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-27 17:16:17&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="u_link_type_lookup"&gt;d5bf8be187ed8954c4a3c99d0ebb355b&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Script Operation"&gt;941f88e273b333002b6265a751ab9e84&lt;/type&gt;&lt;use_unique_input_sets&gt;true&lt;/use_unique_input_sets&gt;&lt;/sys_rte_eb_script_operation&gt;&lt;/record_update&gt;</payload>
+]]&gt;&lt;/script&gt;&lt;source_sys_rte_eb_field display_value="u_link_type"&gt;3da8491c87600950c4a3c99d0ebb3598&lt;/source_sys_rte_eb_field&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;sys_class_name&gt;sys_rte_eb_script_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aveenstra&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-08 16:15:37&lt;/sys_created_on&gt;&lt;sys_id&gt;59bf8be187ed8954c4a3c99d0ebb355d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Script Operation - u_link_type&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG-EXFO Physical Links"&gt;24b681d887600950c4a3c99d0ebb3502&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;15a881d887600950c4a3c99d0ebb353c&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_script_operation_59bf8be187ed8954c4a3c99d0ebb355d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-27 17:16:17&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="u_link_type_lookup"&gt;d5bf8be187ed8954c4a3c99d0ebb355b&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Script Operation"&gt;941f88e273b333002b6265a751ab9e84&lt;/type&gt;&lt;use_unique_input_sets&gt;true&lt;/use_unique_input_sets&gt;&lt;/sys_rte_eb_script_operation&gt;&lt;/record_update&gt;</payload>
         <payload_hash>-1392375261</payload_hash>
         <record_name>Script Operation - u_link_type</record_name>
         <reverted_from/>
@@ -137,7 +137,7 @@
         <sys_metadata>59bf8be187ed8954c4a3c99d0ebb355d</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Script Operation - u_link_type</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>

@@ -14,7 +14,7 @@
         <sys_id>4b8cdb1a1b0c42d06e86e0cb234bcb86</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>cmdb_rel_ci_1706818656351_0</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Network Element">e3dc46d487f778103e867518cebb3567</sys_rte_eb_definition>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
@@ -30,7 +30,7 @@
         <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
         <instance_name>ven06184</instance_name>
         <name>cmdb_inst_entity_4b8cdb1a1b0c42d06e86e0cb234bcb86</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity"><cmdb_inst_entity action="INSERT_OR_UPDATE"><child_id_field/><lookup_for_entity/><name>cmdb_rel_ci_1706818656351_0</name><parent_entity/><parent_id_field/><path>cmdb_rel_ci_1706818656351_0</path><related_for_entity/><relationship_type display_value="Contains::Contained by">55c95bf6c0a8010e0118ec7056ebc54d</relationship_type><sys_class_name>cmdb_inst_entity</sys_class_name><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-02-01 20:17:36</sys_created_on><sys_id>4b8cdb1a1b0c42d06e86e0cb234bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_rel_ci_1706818656351_0</sys_name><sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_rte_eb_definition display_value="SG-EXFO Network Element">e3dc46d487f778103e867518cebb3567</sys_rte_eb_definition><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>cmdb_inst_entity_4b8cdb1a1b0c42d06e86e0cb234bcb86</sys_update_name><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-02-01 20:17:36</sys_updated_on><table>cmdb_rel_ci</table></cmdb_inst_entity></record_update>]]></payload>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity"><cmdb_inst_entity action="INSERT_OR_UPDATE"><child_id_field/><lookup_for_entity/><name>cmdb_rel_ci_1706818656351_0</name><parent_entity/><parent_id_field/><path>cmdb_rel_ci_1706818656351_0</path><related_for_entity/><relationship_type display_value="Contains::Contained by">55c95bf6c0a8010e0118ec7056ebc54d</relationship_type><sys_class_name>cmdb_inst_entity</sys_class_name><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-02-01 20:17:36</sys_created_on><sys_id>4b8cdb1a1b0c42d06e86e0cb234bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_rel_ci_1706818656351_0</sys_name><sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package><sys_policy/><sys_rte_eb_definition display_value="SG-EXFO Network Element">e3dc46d487f778103e867518cebb3567</sys_rte_eb_definition><sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope><sys_update_name>cmdb_inst_entity_4b8cdb1a1b0c42d06e86e0cb234bcb86</sys_update_name><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-02-01 20:17:36</sys_updated_on><table>cmdb_rel_ci</table></cmdb_inst_entity></record_update>]]></payload>
         <payload_hash>-1760168403</payload_hash>
         <record_name>cmdb_rel_ci_1706818656351_0</record_name>
         <reverted_from/>
@@ -58,7 +58,7 @@
         <sys_metadata>4b8cdb1a1b0c42d06e86e0cb234bcb86</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>cmdb_rel_ci_1706818656351_0</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>

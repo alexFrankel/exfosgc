@@ -35,7 +35,7 @@
         <sys_id>b61202121bc042d06e86e0cb234bcbf8</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>inventory_category</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Sites">0bd8821087f778103e867518cebb35be</sys_rte_eb_definition>
         <sys_rte_eb_entity display_value="temp">75994a5087f778103e867518cebb35cc</sys_rte_eb_entity>
@@ -73,7 +73,7 @@
 (function(batch, output) {
     // add your code here
     
-})(batch, output);]]&gt;&lt;/conditional_script&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;inventory_category&lt;/name&gt;&lt;operation_group/&gt;&lt;order&gt;1&lt;/order&gt;&lt;overwrite_existing_value&gt;true&lt;/overwrite_existing_value&gt;&lt;set_value&gt;network site&lt;/set_value&gt;&lt;source_sys_rte_eb_field/&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;sys_class_name&gt;sys_rte_eb_set_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex.frankel@exfo.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-01 13:42:27&lt;/sys_created_on&gt;&lt;sys_id&gt;b61202121bc042d06e86e0cb234bcbf8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;inventory_category&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG-EXFO Sites"&gt;0bd8821087f778103e867518cebb35be&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;75994a5087f778103e867518cebb35cc&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_set_operation_b61202121bc042d06e86e0cb234bcbf8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-01 16:22:58&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="inventory_category"&gt;be1202121bc042d06e86e0cb234bcbf5&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Set"&gt;c588011e730000102b6265a751ab9e4a&lt;/type&gt;&lt;/sys_rte_eb_set_operation&gt;&lt;/record_update&gt;</payload>
+})(batch, output);]]&gt;&lt;/conditional_script&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;inventory_category&lt;/name&gt;&lt;operation_group/&gt;&lt;order&gt;1&lt;/order&gt;&lt;overwrite_existing_value&gt;true&lt;/overwrite_existing_value&gt;&lt;set_value&gt;network site&lt;/set_value&gt;&lt;source_sys_rte_eb_field/&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;sys_class_name&gt;sys_rte_eb_set_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex.frankel@exfo.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-01 13:42:27&lt;/sys_created_on&gt;&lt;sys_id&gt;b61202121bc042d06e86e0cb234bcbf8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;inventory_category&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG-EXFO Sites"&gt;0bd8821087f778103e867518cebb35be&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;75994a5087f778103e867518cebb35cc&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;aa514eec877274103e867518cebb35ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_set_operation_b61202121bc042d06e86e0cb234bcbf8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-01 16:22:58&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="inventory_category"&gt;be1202121bc042d06e86e0cb234bcbf5&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Set"&gt;c588011e730000102b6265a751ab9e4a&lt;/type&gt;&lt;/sys_rte_eb_set_operation&gt;&lt;/record_update&gt;</payload>
         <payload_hash>1670292028</payload_hash>
         <record_name>inventory_category</record_name>
         <reverted_from/>
@@ -101,7 +101,7 @@
         <sys_metadata>b61202121bc042d06e86e0cb234bcbf8</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>inventory_category</sys_name>
-        <sys_package display_value="Service Graph Connector for EXFO" source="x_snc_exfo_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
