@@ -65,7 +65,7 @@
         <update_guid_history>871fab0dbca5061028cc238f4a7abba1:-641177437</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SG-EXFO Path Connection Element">0c54b3811be50610269e97d2b24bcb9d</sys_audit_delete>
+        <sys_audit_delete display_value="">0c54b3811be50610269e97d2b24bcb9d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-04-12 14:23:13</sys_created_on>

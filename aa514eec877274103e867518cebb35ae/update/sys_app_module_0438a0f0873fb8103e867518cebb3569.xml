@@ -19,6 +19,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
+        <require_confirmation>false</require_confirmation>
         <roles>x_exfo2_cmdb.admin,x_exfo2_cmdb.user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>aveenstra</sys_created_by>

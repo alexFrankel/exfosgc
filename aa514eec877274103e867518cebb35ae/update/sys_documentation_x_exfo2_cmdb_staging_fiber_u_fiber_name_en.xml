@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_fiber_name" label="FIBER_NAME" language="en" table="x_exfo2_cmdb_staging_fiber">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_fiber_name</element>
+            <help/>
+            <hint/>
+            <label>FIBER_NAME</label>
+            <language>en</language>
+            <name>x_exfo2_cmdb_staging_fiber</name>
+            <plural>FIBER_NAMEs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-06-11 09:49:32</sys_created_on>
+            <sys_id>5815f79c1bba82104912c9d3604bcbdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>FIBER_NAME</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+            <sys_update_name>sys_documentation_x_exfo2_cmdb_staging_fiber_u_fiber_name_en</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-06-11 09:49:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

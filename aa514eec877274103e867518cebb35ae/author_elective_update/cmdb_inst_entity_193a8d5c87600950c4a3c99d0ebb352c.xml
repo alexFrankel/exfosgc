@@ -74,7 +74,7 @@
         <update_guid_history>2b042778c0d48a10f4fb4edb9693e0a1:0,bf811bac24d40a1027ab2976ba4e91bb:2106960424,23665d645914c610ebd175572eae463a:0,8ac411e8e6d0c610d2a53bd496b457ea:-1104315194,248dd33beb4cc21030d1131d814e6bfe:-1957738427,bce6f6f5076ab1909656234ca6922802:0,8b85f631ec6ab190c61b2cfcfb10bc71:-149569509,b13c9411b762f59005efa25d1f3e46ed:0,6f7a63415e2efd50879bfaad60653f91:945232298,8493926f319e79506b2a05fbf1310a83:0,d4525667659e79508ad102752a2b7416:942924526,9d9fab903456bd102b592a2fd5a8702c:0,30cc27d84016bd1018f55776b5397023:1697925730,ffa113067946b510217ea881aa1a761e:-346652636</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Network Gear 1">3d25408e1b70c6106e86e0cb234bcb94</sys_audit_delete>
+        <sys_audit_delete display_value="">3d25408e1b70c6106e86e0cb234bcb94</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-03-08 16:45:08</sys_created_on>

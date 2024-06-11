@@ -90,7 +90,7 @@
         <update_guid_history>2472a7aa86310e9072164241b0b0599b:1402292109</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Cleanse Company - u_card_manufacturer">13efacdf1bf1ce90269e97d2b24bcb51</sys_audit_delete>
+        <sys_audit_delete display_value="">13efacdf1bf1ce90269e97d2b24bcb51</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-05-01 10:07:13</sys_created_on>

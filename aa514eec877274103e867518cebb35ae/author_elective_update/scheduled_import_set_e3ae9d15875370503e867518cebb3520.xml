@@ -109,7 +109,7 @@ else{
         <update_guid_history>9c75c4bdbb7eb150ee15c52168d4b075:-392328695,0b7cdb4b2beaf1108895f5774a185b62:-599364498,ec5ebeb9d7aab190ed77d2b7123c4bad:0,978a3e3544ee7990a69e80be9b21e1f2:-392328695,92f67239976ab1907256597084ed052b:0,8af57235b66ab190f23630f47f64688d:1717055529,45f5fef1836ab1902a27e7a1b8bd1738:0,3fc57eb12c6ab190b4c98f83b045101f:0,7c4ed2b1706e79902fffc4012437c7c3:-392328695,7e4c10517062f590fbe7350108a0e9ce:0,06faaf057c2efd50b12d3d9dcc43ebad:751036591,68faeb05412efd503db900c10b8594e2:0,0bca6bc1932efd50b678c49fba10acc9:0,91a3da6f309e7950dfb50d5722146cff:0,13c292abb59e79503375974314ab198f:416897682,4ec2de6bce9e7950f5302812791c2a35:0,8f92d22b9a9e7950e6c7486744094eb9:0,feafe3d0e156bd10f4980525e2f98e52:0,422d2f5cf816bd101fdd5b23a7f6e754:1632003470,952dab5cd216bd109694ae7adbc112fe:0,740d2f1c6c16bd10a7e0b0520171e8cd:0,3ac11f06d946b510b4e84cefd43c623c:1568827168</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SG-EXFO Shelves Import">e13a486b1b7ff950da698666624bcb54</sys_audit_delete>
+        <sys_audit_delete display_value="">e13a486b1b7ff950da698666624bcb54</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-23 15:55:20</sys_created_on>

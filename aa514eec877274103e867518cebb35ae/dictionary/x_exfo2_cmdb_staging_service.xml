@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="538cdf131b33f950da698666624bcbf4" extends="sys_import_set_row" label="Staging: EXFO Service" max_length="40" name="x_exfo2_cmdb_staging_service" type="collection">
+    <element db_object_id="4015f79c1bba82104912c9d3604bcb6e" extends="sys_import_set_row" label="Staging: EXFO Service" max_length="40" name="x_exfo2_cmdb_staging_service" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_ALIAS1" label="u_service_alias1" max_length="255" name="u_service_alias1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_ALIAS2" label="u_service_alias2" max_length="255" name="u_service_alias2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_CUSTOM_ATTRIBUTES" label="u_service_custom_attributes" max_length="1000" name="u_service_custom_attributes" type="string"/>

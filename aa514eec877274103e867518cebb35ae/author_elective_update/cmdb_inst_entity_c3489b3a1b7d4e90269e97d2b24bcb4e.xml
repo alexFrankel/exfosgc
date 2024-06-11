@@ -49,7 +49,7 @@
         <update_guid_history>c7489b3a567d4e90629266867c1e2b4f:-709530408</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Equipment holder 2">ca2afc0f1b358e90269e97d2b24bcbec</sys_audit_delete>
+        <sys_audit_delete display_value="">ca2afc0f1b358e90269e97d2b24bcbec</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-04-30 16:13:26</sys_created_on>

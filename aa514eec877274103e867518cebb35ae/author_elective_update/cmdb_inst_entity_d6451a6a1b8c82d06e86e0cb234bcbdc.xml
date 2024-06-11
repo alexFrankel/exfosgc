@@ -49,7 +49,7 @@
         <update_guid_history>96451a6a468c82d0c8a891a16d06b2de:-407012045</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Network Site 2">bca516aa1b8c82d06e86e0cb234bcb26</sys_audit_delete>
+        <sys_audit_delete display_value="">bca516aa1b8c82d06e86e0cb234bcb26</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-02 09:46:16</sys_created_on>

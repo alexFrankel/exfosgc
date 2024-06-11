@@ -9,8 +9,8 @@
             <sys_id>ad9cff1b1b77f950da698666624bcb46</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="cmdb_ci_multiplexer" name="cmdb_ci_multiplexer" sys_domain="global" view="b0e6c8421b9321106e86e0cb234bcb62">299cff1b1b77f950da698666624bcb3c</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_multiplexer" sys_domain="global" view="b0e6c8421b9321106e86e0cb234bcb62">ed9cff1b1b77f950da698666624bcb3e</sys_ui_section>
+            <sys_ui_form display_value="cmdb_ci_multiplexer" name="cmdb_ci_multiplexer" sys_domain="global" view="1a37c8421b9321107ba065b3b24bcb60">299cff1b1b77f950da698666624bcb3c</sys_ui_form>
+            <sys_ui_section display_value="">ed9cff1b1b77f950da698666624bcb3e</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
             <sys_updated_on>2024-01-23 14:55:48</sys_updated_on>
         </sys_ui_form_section>
@@ -23,8 +23,8 @@
             <sys_id>699cff1b1b77f950da698666624bcb68</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="cmdb_ci_multiplexer" name="cmdb_ci_multiplexer" sys_domain="global" view="b0e6c8421b9321106e86e0cb234bcb62">299cff1b1b77f950da698666624bcb3c</sys_ui_form>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_multiplexer" sys_domain="global" view="b0e6c8421b9321106e86e0cb234bcb62">659cff1b1b77f950da698666624bcb47</sys_ui_section>
+            <sys_ui_form display_value="cmdb_ci_multiplexer" name="cmdb_ci_multiplexer" sys_domain="global" view="1a37c8421b9321107ba065b3b24bcb60">299cff1b1b77f950da698666624bcb3c</sys_ui_form>
+            <sys_ui_section display_value="">659cff1b1b77f950da698666624bcb47</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
             <sys_updated_on>2024-01-23 14:55:48</sys_updated_on>
         </sys_ui_form_section>
@@ -47,7 +47,7 @@
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
             <sys_updated_on>2024-01-23 14:55:48</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace" name="workspace">b0e6c8421b9321106e86e0cb234bcb62</view>
+            <view display_value="Workspace" name="workspace">1a37c8421b9321107ba065b3b24bcb60</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

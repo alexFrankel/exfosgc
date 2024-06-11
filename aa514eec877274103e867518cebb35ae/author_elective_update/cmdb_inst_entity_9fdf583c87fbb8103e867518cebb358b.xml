@@ -74,7 +74,7 @@
         <update_guid_history>85e6f6f5ea6ab19085d023f4fae1c68d:0,fd957e31366ab190a3361266e652f479:901106440,523cd411ac62f590ff61ef11a5c42cb7:0,de8ae7419c2efd50520dc8764e6af51e:375477817,9493d26f169e795055f48c6e91f3da22:0,0b52da67619e7950a5ca1a5404d8885f:-2079375018,699fab90f256bd1090b5db0c747d5ca6:0,4bcce7d87c16bd1024c6233049e83cf1:-1502621112,54b113069746b5107a2d4d5532cdeac2:638105924</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Telco equipment 2">f5fa88a31bbff950da698666624bcb41</sys_audit_delete>
+        <sys_audit_delete display_value="">f5fa88a31bbff950da698666624bcb41</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-23 15:58:38</sys_created_on>

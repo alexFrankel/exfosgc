@@ -95,7 +95,7 @@
         <update_guid_history>8e2f5757e66506500ef4b11e8069bd1d:-581732987</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SG-EXFO AF">b8d1afd71b6506506e86e0cb234bcb49</sys_audit_delete>
+        <sys_audit_delete display_value="">b8d1afd71b6506506e86e0cb234bcb49</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-04-19 12:48:45</sys_created_on>

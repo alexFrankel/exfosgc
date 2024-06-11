@@ -88,7 +88,7 @@
         <update_guid_history>e9dedb0655f3f550514c0631ec09d3df:-1126723232</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SG-EXFO Equipment Holders Import">737f1b861bf3f5506e86e0cb234bcb6b</sys_audit_delete>
+        <sys_audit_delete display_value="">737f1b861bf3f5506e86e0cb234bcb6b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-19 15:36:18</sys_created_on>

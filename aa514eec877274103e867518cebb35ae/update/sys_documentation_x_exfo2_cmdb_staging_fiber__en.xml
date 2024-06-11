@@ -11,6 +11,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>aveenstra</sys_created_by>
             <sys_created_on>2022-01-27 16:59:30</sys_created_on>
+            <sys_id>9815f79c1bba82104912c9d3604bcbcc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Staging: EXFO Fiber</sys_name>
             <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>

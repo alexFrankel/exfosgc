@@ -72,7 +72,7 @@
         <update_guid_history>74e6b6f5dc6ab1904f82031e2ebe19de:0,62f5b235b16ab19052209f663257d6d6:781540003,85f5fef1df6ab1907fd2292d870ccb36:0,3875f6fdc62ab190f20a82d8458693e6:0,213c9411fe62f590a32f5cabb1cf9eaf:0,07fa2345822efd5002ca3f80332a0271:-1272066564,a8faeb05902efd508d00a3b9c40724e0:0,ec6aa301d02efd50178e305fb52a750e:0,8093926f579e79500e89700a6b79b854:0,50d256ab4f9e79505ccd3f1b26064c12:-478326562,8ec2de6b209e7950e85daa3e85362933:0,e9325627bd9e795019f54b52c6f04e24:0,5d9f6b90a356bd10f76f0d9631db53f0:0,a22d6f5c3616bd1066255b5cd4e1b637:1101049519,d52dab5cc816bd1019f0905b469f90fc:0,36acab980716bd10dbcee0a8375b5168:0,7ba1dfc2bb46b510623d69ce0f5c8ae9:1142020857</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SG-EXFO Shelves">8f0b84271bbff950da698666624bcbe2</sys_audit_delete>
+        <sys_audit_delete display_value="">8f0b84271bbff950da698666624bcbe2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-23 15:58:59</sys_created_on>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="4fa50a1b1b7502d0269e97d2b24bcbcc" extends="sys_import_set_row" label="Staging: EXFO Logical Link Child" max_length="40" name="x_exfo2_cmdb_staging_logical_link_child" type="collection">
+    <element db_object_id="3e157f9c1bba82104912c9d3604bcb79" extends="sys_import_set_row" label="Staging: EXFO Logical Link Child" max_length="40" name="x_exfo2_cmdb_staging_logical_link_child" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_ALIAS1" label="u_link_alias1" max_length="255" name="u_link_alias1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_ALIAS2" label="u_link_alias2" max_length="255" name="u_link_alias2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_BANDWIDTH" label="u_link_bandwidth" max_length="40" name="u_link_bandwidth" type="string"/>

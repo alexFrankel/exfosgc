@@ -58,7 +58,7 @@
         <update_guid_history>f6846f7c89d48a1057076ff53d13c426:0,0d51132c7dd40a10213b444f2001d35d:167634371,73e6d5a82b14c610973fe3d4d24637e9:0,d484552812d0c61035bbe78c13507dec:-1456763308,866e7af986aab19078c099c0550b2ade:0,338c323576aab1904454eb559e4fe708:331855529,3f3736b9e66ab19047a1facd56751113:0,88743a3dd12ab190f36235ddb64f2b23:1639992546,7e8cd0d1e262f59031f9a338a4a2f491:0,863a2f8d64eafd50d6a5cfae0ae9636b:-1933820986,0fe3daefdf9e7950dc719d76fddc2208:0,43029ea37a9e7950ce4070d28724c0cb:-1394649377,bbefe754e856bd10d5c6f4d0184e4f6e:0,6d9c23985a16bd101616d010f8f0e516:-550911399,3f12d3c61346b510a712124d40159130:-267066605</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_exfo2_cmdb_staging_path_connection_element.x_exfo2_cmdb.user">12cec3891b250610269e97d2b24bcbab</sys_audit_delete>
+        <sys_audit_delete display_value="">12cec3891b250610269e97d2b24bcbab</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-04-12 11:39:15</sys_created_on>

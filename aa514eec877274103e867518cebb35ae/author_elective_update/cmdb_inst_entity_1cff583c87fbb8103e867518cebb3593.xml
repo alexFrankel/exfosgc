@@ -74,7 +74,7 @@
         <update_guid_history>b8e6f6f5c76ab190fdd20de3c898b70c:0,37857a318a6ab190d0c104cffe1f3c48:-98132086,bd3c94118a62f59014814a0a25cff2f6:0,188aa341522efd5051c69f4a8bd3f5e5:-895856176,c093926fd59e7950543e742790113899:0,05529667219e7950478238da44b7877f:-2056895761,159fab90c656bd10e660d2f0b426b036:0,1dcc27d8ce16bd1003fae430fcf564fa:-667295111,bba113069a46b510f0de3ab2f91b8129:-1716008913</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Interface Card 1">b5fa48a31bbff950da698666624bcbb4</sys_audit_delete>
+        <sys_audit_delete display_value="">b5fa48a31bbff950da698666624bcbb4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-23 15:58:37</sys_created_on>

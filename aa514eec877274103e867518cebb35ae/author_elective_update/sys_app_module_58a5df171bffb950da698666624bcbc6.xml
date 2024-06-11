@@ -65,7 +65,7 @@
         <update_guid_history>dca5df1708ffb950be74389c3d2bf0c8:1071173123</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Exfo CMDB Staging Port">628f43991bccc690da698666624bcb42</sys_audit_delete>
+        <sys_audit_delete display_value="">628f43991bccc690da698666624bcb42</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-29 16:46:50</sys_created_on>

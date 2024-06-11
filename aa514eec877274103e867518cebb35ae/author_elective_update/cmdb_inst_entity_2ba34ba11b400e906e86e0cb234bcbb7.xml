@@ -49,7 +49,7 @@
         <update_guid_history>b7a34ba198400e90ca09f16ee157b8b9:-1737957561</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Network Gear 1">b99507651b400e906e86e0cb234bcb8b</sys_audit_delete>
+        <sys_audit_delete display_value="">b99507651b400e906e86e0cb234bcb8b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-30 10:41:51</sys_created_on>

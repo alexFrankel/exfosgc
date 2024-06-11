@@ -74,7 +74,7 @@
         <update_guid_history>59e6f6f5816ab190c269cc40e4aac1c0:0,ef95b271326ab190f158797dff57460c:650436727,1a3c1811c062f590477224a65775ef03:0,6c9aeb41d42efd50471937b81b81bfe7:-607373244,2893d26f3b9e79502ad99647275d7660:0,456292a73a9e7950fb54f495df4f5174:-1290132943,359fab900356bd10602401408ceb2bd8:0,d1dcabd83516bd103060414c1216f2f4:-649032662,54b153061746b510b563e134f3bc1f06:1052877288</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Logical connection 1">7d0dd7f71b4cc210da698666624bcb73</sys_audit_delete>
+        <sys_audit_delete display_value="">7d0dd7f71b4cc210da698666624bcb73</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-06 12:10:35</sys_created_on>

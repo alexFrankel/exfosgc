@@ -74,7 +74,7 @@
         <update_guid_history>211473b01e988a10de49da10b46ca082:504359418</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="cmdb_rel_ci_1707493211396_0">0e25808e1b70c6106e86e0cb234bcb45</sys_audit_delete>
+        <sys_audit_delete display_value="">0e25808e1b70c6106e86e0cb234bcb45</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-03-08 16:45:09</sys_created_on>

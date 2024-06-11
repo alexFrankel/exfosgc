@@ -65,7 +65,7 @@
         <update_guid_history>68fd4f4f5898c250686e6747c7fce2fe:-355084695</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Exfo CMDB Staging Rel">5f3f07cf1b98c250da698666624bcb35</sys_audit_delete>
+        <sys_audit_delete display_value="">5f3f07cf1b98c250da698666624bcb35</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-16 13:30:36</sys_created_on>

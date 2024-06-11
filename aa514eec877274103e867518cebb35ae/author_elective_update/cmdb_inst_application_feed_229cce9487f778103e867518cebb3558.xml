@@ -72,7 +72,7 @@
         <update_guid_history>f4e6b6f54d6ab1909399a5bd42a330ca:0,8a95be317e6ab190616651b7ff99053b:2081664616,b475f6fdc52ab1909c8b7bd7a9ea19c5:0,693c9411b862f590af5edf488222088e:0,b68a2b41e82efd506a327774ed098115:-2022081943,5c6a6301852efd50d3ec40257feabbed:0,3383926fab9e7950f6acd204341c0e41:0,a7521e67e59e7950fe536020022614bf:-1050161192,e53256275a9e7950cba30c319fa8a71c:0,cd9f6b908b56bd10a363a2994b1f3eab:0,a7cc2bd89316bd10af5699503ca09890:1603369565,7aacab982916bd104e84944060634953:0,eba1dfc2f746b51086ca30611e90f5d3:1801720526</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SG-EXFO Interfaces">6afa4ca31bbff950da698666624bcb19</sys_audit_delete>
+        <sys_audit_delete display_value="">6afa4ca31bbff950da698666624bcb19</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-23 15:58:40</sys_created_on>

@@ -106,7 +106,7 @@
         <update_guid_history>b05efeb9b6aab1909f86756396c0ed01:0,f0cc72b58daab190e6ee2c668a3cf79e:344292200,22f67239c56ab1904dafa215b4b1909f:0,ab547ef9472ab190362777edfab5de15:1179849829,834c50510262f5905c5646dbfee0b850:0,9f2ae78d8eeafd5074c0472c5c611d85:-1653730770,6da31e6faa9e7950ae1af2a150656171:0,6a1296e31e9e7950507eb0368ab312a4:1695602527,4fafe3d0c356bd109e5581b29d185dba:0,e0aca798e516bd107d353ebdf800e084:1486332451,cbc11f060446b510a948caa42fb21f9e:902114639</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Staging: EXFO Link">be70104c1b900610da698666624bcb37</sys_audit_delete>
+        <sys_audit_delete display_value="">be70104c1b900610da698666624bcb37</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-06 15:55:23</sys_created_on>

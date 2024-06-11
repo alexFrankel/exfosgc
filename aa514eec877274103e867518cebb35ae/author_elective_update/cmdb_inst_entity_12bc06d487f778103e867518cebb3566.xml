@@ -74,7 +74,7 @@
         <update_guid_history>b0e6b6f5e16ab190620d9094138fb9f9:0,6585b231f96ab190033c152f101fc4c3:-1304626074,b53c94118b62f590ee9f33f0bc4648e3:0,0a7a6f01102efd500b61f3e47ed55be8:1306778894,0093926f859e79509d8283ef1679217a:0,fa4252672c9e795069567a5f2725df01:-1296514675,199fab906656bd10b16d4d7540f67923:0,57bc63d8fd16bd10af2b3843997a0d44:-574589342,7fa11306db46b510589b900e227b7007:708268421</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Network Interface 1">69fa08a31bbff950da698666624bcbe1</sys_audit_delete>
+        <sys_audit_delete display_value="">69fa08a31bbff950da698666624bcbe1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-23 15:58:37</sys_created_on>

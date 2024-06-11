@@ -49,7 +49,7 @@
         <update_guid_history>8391c41a699842507c623dcaef4ae295:241612260</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Physical connection 1">e9e5449e1b9842506e86e0cb234bcb80</sys_audit_delete>
+        <sys_audit_delete display_value="">e9e5449e1b9842506e86e0cb234bcb80</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-13 14:55:28</sys_created_on>

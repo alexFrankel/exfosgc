@@ -106,7 +106,7 @@
         <update_guid_history>705ebeb926aab190104ff115162764db:0,8cacfa3569aab19081cdb238030e76cf:523452074,aaf67239676ab190f6cc9c2b92568688:0,4f74327d072ab1907c5c869dfc9c1f59:1917665377,764c5051a862f5900b381dd8d95fe92d:0,755a2fcdcfeafd5025305cac415f9994:2037025559,e5a31e6ff99e7950ddb1a8afe619c15b:0,e51216e3f39e7950d1036319c2d431cc:-873477259,32afe3d01656bd1013e11bfa221f1498:0,f58ce7582d16bd109b97448c8a882ec2:-120373446,c7c11f060f46b5104726b838d423b093:1899824553</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Staging: EXFO Shelf">d21339151bc4c690da698666624bcb38</sys_audit_delete>
+        <sys_audit_delete display_value="">d21339151bc4c690da698666624bcb38</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-29 10:02:57</sys_created_on>

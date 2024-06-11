@@ -88,7 +88,7 @@
         <update_guid_history>54a75b1b6fffb950b8603ae8cec46410:-1112137784,30875fd7ebffb9504f436e3282413536:1248183805,50171fd728ffb950e31566e490d7c5da:-1112137784,80a653971cffb9503c191fb24f564b53:-1867529791</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SG-EXFO Port Import">07a71f1b1bffb950da698666624bcb73</sys_audit_delete>
+        <sys_audit_delete display_value="">07a71f1b1bffb950da698666624bcb73</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-23 12:14:31</sys_created_on>

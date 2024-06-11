@@ -90,7 +90,7 @@
         <update_guid_history>7fb22faafd310e90ee0687a048aa4379:1947269463</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Cleanse Hardware Model - u_card_manufacturer_cleansed_name,u_card_model">dfefacdf1bf1ce90269e97d2b24bcb26</sys_audit_delete>
+        <sys_audit_delete display_value="">dfefacdf1bf1ce90269e97d2b24bcb26</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-05-01 10:07:12</sys_created_on>

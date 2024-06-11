@@ -90,7 +90,7 @@
         <update_guid_history>743adf4a1ed44250848c6a7bc2a8aaa8:-484049063</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Cleanse Hardware Model - u_cable_manufacturer_cleansed,u_cable_model">d84a138a1bd442506e86e0cb234bcbc2</sys_audit_delete>
+        <sys_audit_delete display_value="">d84a138a1bd442506e86e0cb234bcbc2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-13 11:44:48</sys_created_on>

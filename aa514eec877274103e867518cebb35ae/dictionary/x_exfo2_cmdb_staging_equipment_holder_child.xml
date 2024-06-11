@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="f10693f61b3d4e90269e97d2b24bcb22" extends="sys_import_set_row" label="Staging: EXFO Equipment Holder Child" max_length="40" name="x_exfo2_cmdb_staging_equipment_holder_child" type="collection">
+    <element db_object_id="15157b9c1bba82104912c9d3604bcbb7" extends="sys_import_set_row" label="Staging: EXFO Equipment Holder Child" max_length="40" name="x_exfo2_cmdb_staging_equipment_holder_child" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=EQUIPMENT_HOLDER_CHILD_KEY" label="u_equipment_holder_child_key" max_length="40" name="u_equipment_holder_child_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=EQUIPMENT_HOLDER_KEY" label="u_equipment_holder_key" max_length="40" name="u_equipment_holder_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=E_H_ALIAS1" label="u_e_h_alias1" max_length="255" name="u_e_h_alias1" type="string"/>

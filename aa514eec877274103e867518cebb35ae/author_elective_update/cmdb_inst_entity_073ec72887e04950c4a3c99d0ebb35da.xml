@@ -74,7 +74,7 @@
         <update_guid_history>a304277883d48a10650b4a530a961b64:0,a761d36c00d40a105b71447c69ca18e2:1014129338,d7665d64b014c610daaaf4be1c147e00:0,68a499688dd0c6100270965990f7163d:316410688,70e6b6f5146ab1909c035e449b62edec:0,8275bafdd02ab190b27cc882c21eb4fa:1317845110,7d3c94114f62f5901a536473480e0ec9:0,426a27014d2efd50039f0620dedf54b9:-37830031,0093926f4c9e79502b24cdca21df8961:0,3a32d627bf9e795046c2e50d255f88d0:1419491702,199fab903c56bd10a5c7e0c6d2283c0a:0,f3aceb981116bd10c79a025419b7bcd5:-1431189620,f7a1dfc2bf46b510b3b1a07cb162a9f9:2085431639</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Network Interface 2">40258c4e1b70c6106e86e0cb234bcb38</sys_audit_delete>
+        <sys_audit_delete display_value="">40258c4e1b70c6106e86e0cb234bcb38</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-03-08 16:45:01</sys_created_on>

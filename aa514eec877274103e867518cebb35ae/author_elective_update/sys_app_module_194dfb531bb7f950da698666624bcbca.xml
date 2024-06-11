@@ -65,7 +65,7 @@
         <update_guid_history>d54dfb530db7f950ba1fce35cc779ccc:1834651481</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Staging: EXFO Port">a190184c1b900610da698666624bcb01</sys_audit_delete>
+        <sys_audit_delete display_value="">a190184c1b900610da698666624bcb01</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-06 15:55:51</sys_created_on>

@@ -16,6 +16,7 @@
         <logo>6fc4f555875e4910c4a3c99d0ebb3571</logo>
         <menu display_value="Service Graph Connector for EXFO">517ff1c3878ff8103e867518cebb3585</menu>
         <name>Service Graph Connector for EXFO</name>
+        <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>

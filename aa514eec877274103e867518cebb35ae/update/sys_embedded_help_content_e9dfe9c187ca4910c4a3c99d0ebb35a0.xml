@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
     <sys_embedded_help_content action="INSERT_OR_UPDATE">
         <active>true</active>
+        <ai_generated>false</ai_generated>
         <category/>
         <content><![CDATA[<p>Much of the EXFO data references Site information. Sites will be imported regardless of related location information, but it is highly recommended to use ServiceNow Locations to track location data. </p>
 <ol class="steps-ordered"><li class="li step">To allow the integration to create new locations, set the property value to &#39;true&#39;. </li><li class="li step">If you do not want the integration to create new locations, and instead try to query on existing records, set the property value to &#39;false&#39;.</li><li class="li step">By default, the integration will query on the &#34;Street address&#34; field to find existing location records. If you would like to override this with your own query, you may do so using the <a title="&#34;SGEXFOLocationMapOverride&#34; extension point" href="nav_to.do?uri&#61;sys_extension_point.do?sys_id&#61;6b2f4b0b87404910c4a3c99d0ebb3598" target="_blank" rel="noopener noopener noreferrer noopener noreferrer">&#34;SGEXFOLocationMapOverride&#34; extension point</a>.</li><li class="li step">Save and click &#34;Back to Guided Setup&#34;</li><li class="li step">&#34;Mark as Complete&#34; and proceed to the next step of the Guided Setup.</li></ol>]]></content>

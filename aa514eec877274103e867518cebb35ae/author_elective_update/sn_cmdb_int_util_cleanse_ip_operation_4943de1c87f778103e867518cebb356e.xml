@@ -116,7 +116,7 @@
         <update_guid_history>1ef67239326ab1901b6449c7a4d1d84a:0,6c95fa31036ab190599b60c36780a62c:-1321001194,fa4c10517b62f590a041116a0a6854fb:0,198a27410b2efd50d6e1023067b35ed6:-1847682226,ada31e6f809e79507d9a725396292636:0,ca525a671d9e7950e73863cc7318cd13:-225387697,07c11f062146b5106ab89c30ed3b366a:1849221963</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Cleanse IP Address - u_interface_ip">e3eac8631bbff950da698666624bcbb6</sys_audit_delete>
+        <sys_audit_delete display_value="">e3eac8631bbff950da698666624bcbb6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-23 15:58:29</sys_created_on>

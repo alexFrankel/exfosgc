@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="7a0e7e391baab190da698666624bcb99" extends="sys_import_set_row" label="Staging: EXFO Fiber" max_length="40" name="x_exfo2_cmdb_staging_fiber" type="collection">
+    <element db_object_id="dc15f79c1bba82104912c9d3604bcbc6" extends="sys_import_set_row" label="Staging: EXFO Fiber" max_length="40" name="x_exfo2_cmdb_staging_fiber" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_ALIAS1" label="FIBER_ALIAS1" max_length="255" name="u_fiber_alias1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_ALIAS2" label="FIBER_ALIAS2" max_length="255" name="u_fiber_alias2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FIBER_CUSTOM_ATTRIBUTES" label="FIBER_CUSTOM_ATTRIBUTES" max_length="1000" name="u_fiber_custom_attributes" type="string"/>

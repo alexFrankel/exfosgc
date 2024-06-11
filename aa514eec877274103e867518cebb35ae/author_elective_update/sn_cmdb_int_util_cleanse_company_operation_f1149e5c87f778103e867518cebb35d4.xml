@@ -116,7 +116,7 @@
         <update_guid_history>1ef67239a46ab190d17618478b2f7243:0,21f53235ac6ab190db5c8c8e946bf8b2:981999090,d2e5baf1766ab1905b3279272d1b2a3e:0,764c10512b62f590715bc2440b49d8f4:0,95fa6f05da2efd50ff0fa734c7df9476:2132221224,61eaa705542efd509f0c7691a9e54094:0,e9a31e6f729e79503e3b79d5f0357a23:0,36c252ab3e9e795088dde4d3aa3f0c86:-649269902,a2b2d66b779e795040307a9c50ecec53:0,8bc11f06c146b51049996fe22b4bab62:-1577297589</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Cleanse Company - u_ne_manufacturer">853dfb261b48c2d06e86e0cb234bcb68</sys_audit_delete>
+        <sys_audit_delete display_value="">853dfb261b48c2d06e86e0cb234bcb68</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-02 17:18:46</sys_created_on>

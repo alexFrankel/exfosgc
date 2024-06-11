@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="last_file" label="last_file" language="en" table="var__m_sys_hub_step_ext_output_7aeb2acd87ae85503e867518cebb35f0">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>last_file</element>
+            <help/>
+            <hint/>
+            <label>last_file</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_7aeb2acd87ae85503e867518cebb35f0</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aveenstra</sys_created_by>
+            <sys_created_on>2022-03-28 17:25:06</sys_created_on>
+            <sys_id>83eb6acd87ae85503e867518cebb3506</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>last_file</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_7aeb2acd87ae85503e867518cebb35f0_last_file_en</sys_update_name>
+            <sys_updated_by>aveenstra</sys_updated_by>
+            <sys_updated_on>2022-03-28 17:25:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

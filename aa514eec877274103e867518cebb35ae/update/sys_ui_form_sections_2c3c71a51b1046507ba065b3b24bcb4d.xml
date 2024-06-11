@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="cmdb_ci_enode_b" name="cmdb_ci_enode_b" sys_domain="global" view="Default view">2c3c71a51b1046507ba065b3b24bcb4d</sys_ui_form>
-            <sys_ui_section display_value="">343c71a51b1046507ba065b3b24bcb58</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_enode_b" sys_domain="global" view="Default view">343c71a51b1046507ba065b3b24bcb58</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
             <sys_updated_on>2024-02-11 15:36:54</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="cmdb_ci_enode_b" name="cmdb_ci_enode_b" sys_domain="global" view="Default view">2c3c71a51b1046507ba065b3b24bcb4d</sys_ui_form>
-            <sys_ui_section display_value="">e03c71a51b1046507ba065b3b24bcb50</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_enode_b" sys_domain="global" view="Default view">e03c71a51b1046507ba065b3b24bcb50</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
             <sys_updated_on>2024-02-11 15:36:54</sys_updated_on>
         </sys_ui_form_section>

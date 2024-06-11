@@ -74,7 +74,7 @@
         <update_guid_history>9c146778bad48a10175c17363c2281e9:0,80a197ec83d40a101570e7cb2ea90c6f:-2038897913,8c769d644d14c6105c62bf24ffd01f87:0,abd4dde810d0c6102b753c17ce2c4cd3:1761304447,2c69efbbc68cc21078771de50b4c440c:148929996</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Equipment holder 2">b925808e1b70c6106e86e0cb234bcb1e</sys_audit_delete>
+        <sys_audit_delete display_value="">b925808e1b70c6106e86e0cb234bcb1e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-03-08 16:45:09</sys_created_on>

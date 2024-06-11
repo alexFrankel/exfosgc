@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="cmdb_ci_multiplexer" name="cmdb_ci_multiplexer" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">259cff1b1b77f950da698666624bcba5</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_multiplexer" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">e99cff1b1b77f950da698666624bcbc7</sys_ui_section>
+            <sys_ui_section display_value="">e99cff1b1b77f950da698666624bcbc7</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
             <sys_updated_on>2024-01-23 14:55:48</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="cmdb_ci_multiplexer" name="cmdb_ci_multiplexer" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">259cff1b1b77f950da698666624bcba5</sys_ui_form>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_multiplexer" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">e99cff1b1b77f950da698666624bcba7</sys_ui_section>
+            <sys_ui_section display_value="">e99cff1b1b77f950da698666624bcba7</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
             <sys_updated_on>2024-01-23 14:55:48</sys_updated_on>
         </sys_ui_form_section>

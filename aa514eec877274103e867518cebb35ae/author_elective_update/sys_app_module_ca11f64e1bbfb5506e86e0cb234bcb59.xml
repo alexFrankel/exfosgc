@@ -65,7 +65,7 @@
         <update_guid_history>0611f64e3dbfb550e40208589303965c:-247503702</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Exfo CMDB Staging Equipment Holder">f5cc72021b33f5506e86e0cb234bcbab</sys_audit_delete>
+        <sys_audit_delete display_value="">f5cc72021b33f5506e86e0cb234bcbab</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-19 13:04:37</sys_created_on>

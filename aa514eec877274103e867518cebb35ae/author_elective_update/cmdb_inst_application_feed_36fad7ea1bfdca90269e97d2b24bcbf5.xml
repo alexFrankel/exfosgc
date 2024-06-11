@@ -58,7 +58,7 @@
         <update_guid_history>6f7ca89b37f1ce90e5fd46661beaad34:-802883152,ef0bf0cfbc358e90ac72cd16c5f4b7c5:0,553727264a710e90e9d9398258032f92:-802883152,8ffad7eae1fdca9000e87c9355be8ef6:1697010072</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SG-EXFO Card Children">9bff24131b35ce90269e97d2b24bcb3e</sys_audit_delete>
+        <sys_audit_delete display_value="">9bff24131b35ce90269e97d2b24bcb3e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-05-01 10:07:29</sys_created_on>

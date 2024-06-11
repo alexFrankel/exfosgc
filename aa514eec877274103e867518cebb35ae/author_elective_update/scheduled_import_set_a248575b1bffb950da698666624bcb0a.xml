@@ -109,7 +109,7 @@ else{
         <update_guid_history>8cf85b9b38ffb950cffb188c07342ad5:-149697660,0e981b5b20ffb950468ed7b6c62505f1:860662809,37785b5b39ffb950b3c342e6362ba2ea:-1151134770</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SG-EXFO Port Import">56f9fc0e1bc08e906e86e0cb234bcba6</sys_audit_delete>
+        <sys_audit_delete display_value="">56f9fc0e1bc08e906e86e0cb234bcba6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-31 13:48:49</sys_created_on>

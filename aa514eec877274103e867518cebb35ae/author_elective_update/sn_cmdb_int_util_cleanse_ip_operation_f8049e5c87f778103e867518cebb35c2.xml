@@ -116,7 +116,7 @@
         <update_guid_history>92f67239f26ab19052ec0b8806c3764e:0,a9f53235f16ab190f89fe473f916cdb7:-536555446,a5f53235566ab190d7b41e43e6afbd63:0,2ae5faf1516ab1904a04140c23aaa066:0,3a4c50518862f59055d93141723ee30b:0,91fa6f05d42efd506cdb5c2e3bcb5d7c:2130637462,d9fa6f05cf2efd509a76ccffa89b4228:0,79eae705c62efd502169fd798be1db69:0,a1a31e6fdd9e7950e725a03ec8962f3a:0,3ec252ab029e79500af03895a4e40a8b:564021793,26c212abc69e7950a4b723ece1eb1ecc:0,53b21a6bf79e7950aa4a33ec7ed4b2f9:0,0fc11f063e46b510db11e1bdc1dea66d:2011084754</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Cleanse IP Address - u_ne_ip">d93dfb261b48c2d06e86e0cb234bcb6f</sys_audit_delete>
+        <sys_audit_delete display_value="">d93dfb261b48c2d06e86e0cb234bcb6f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-02 17:18:46</sys_created_on>

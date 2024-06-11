@@ -74,7 +74,7 @@
         <update_guid_history>0de6f6f5816ab190b6cdbc45228bdd83:0,1fd5f2f1226ab190cd3cae89e1b41b67:380533067,463cd4119e62f590f9722720ad3fd9ad:0,e6daefc12c2efd506dc6772aa7ccafc8:-1986709964,9093d26f7a9e79503db398677bbbf119:0,6ea2da2bfd9e7950366bec0fb1efd186:-775702761,659fab907856bd10d277d8b9fab6ef9d:0,930d235c1a16bd10a074b0138a023b70:-1505762457,98b113069746b5107c5541b92925c4b7:602023093</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Network Site 1">6f3d33661b48c2d06e86e0cb234bcbe1</sys_audit_delete>
+        <sys_audit_delete display_value="">6f3d33661b48c2d06e86e0cb234bcbe1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-02 17:18:55</sys_created_on>

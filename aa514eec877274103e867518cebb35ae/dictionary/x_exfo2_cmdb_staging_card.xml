@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ee0e3e391baab190da698666624bcbf9" extends="sys_import_set_row" label="Staging: EXFO Card" max_length="40" name="x_exfo2_cmdb_staging_card" type="collection">
+    <element db_object_id="22153f9c1bba82104912c9d3604bcbf0" extends="sys_import_set_row" label="Staging: EXFO Card" max_length="40" name="x_exfo2_cmdb_staging_card" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_ALIAS1" label="CARD_ALIAS1" max_length="255" name="u_card_alias1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_ALIAS2" label="CARD_ALIAS2" max_length="255" name="u_card_alias2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CARD_CUSTOM_ATTRIBUTES" label="CARD_CUSTOM_ATTRIBUTES" max_length="1000" name="u_card_custom_attributes" type="string"/>

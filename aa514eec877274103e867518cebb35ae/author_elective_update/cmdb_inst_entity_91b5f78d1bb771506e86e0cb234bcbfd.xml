@@ -49,7 +49,7 @@
         <update_guid_history>bd6be712028c42d0f4072cf517243145:-1150041225,bc4be312568c42d0ecbd518de97ed956:-592916569,0d1befdef74c42d0c00f1dfa2e618b66:1743692649,1a2c131abb0c42d01e6f36c5b7c3ba98:-1150041225,123b5796420c42d049d65b88a7438f08:-592916569,9db533cd4ab771503bdc9bb6c49c2d7f:-1150041225</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Network Gear 1">7f3d73661b48c2d06e86e0cb234bcb54</sys_audit_delete>
+        <sys_audit_delete display_value="">7f3d73661b48c2d06e86e0cb234bcb54</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-02 17:18:56</sys_created_on>

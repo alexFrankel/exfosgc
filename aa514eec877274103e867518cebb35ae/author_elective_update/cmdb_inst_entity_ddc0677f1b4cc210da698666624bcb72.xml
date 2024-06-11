@@ -49,7 +49,7 @@
         <update_guid_history>d1c0677f914cc210fedacdfeb83a7974:-416352091</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Logical connection 1">161b67bf1b8cc210da698666624bcb84</sys_audit_delete>
+        <sys_audit_delete display_value="">161b67bf1b8cc210da698666624bcb84</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-06 13:12:03</sys_created_on>

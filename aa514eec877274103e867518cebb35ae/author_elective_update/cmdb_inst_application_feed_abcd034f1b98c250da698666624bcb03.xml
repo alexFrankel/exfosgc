@@ -48,7 +48,7 @@
         <update_guid_history>ebcd034fff98c25062db30ecabb5bc05:-128602497</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SG-EXFO Relationships">311f43cf1b98c250da698666624bcbf6</sys_audit_delete>
+        <sys_audit_delete display_value="">311f43cf1b98c250da698666624bcbf6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-16 13:29:56</sys_created_on>

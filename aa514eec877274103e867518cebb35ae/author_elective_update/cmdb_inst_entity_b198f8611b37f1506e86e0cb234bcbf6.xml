@@ -49,7 +49,7 @@
         <update_guid_history>ff3d73665148c2d0a266101c580fb44d:0,166bffdf5137f9509de29d85f3cabc22:1262041475,f198f8618237f150b2fdd0c690ce89f9:1511972809</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="TNI CI Attributes 1">f73d73661b48c2d06e86e0cb234bcb81</sys_audit_delete>
+        <sys_audit_delete display_value="">f73d73661b48c2d06e86e0cb234bcb81</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-02 17:18:56</sys_created_on>

@@ -106,7 +106,7 @@
         <update_guid_history>f45ebeb981aab1901900bc18556291df:0,4fbc7e75d8aab190aa6155bf81104564:37344369,eef67239586ab190edf9be3b9571668b:0,7a64763d252ab1903230cefaf7da5c0b:-483975798,3a4c5051eb62f59063b3115c01a57949:0,e94ae3cd4aeafd50ef1377dfec2479bf:-129927873,2da31e6fc69e7950d635cb2162a4ae5e:0,b30212e3059e79500fe2c0d97a9b8ab8:-982212737,c3afe3d09d56bd105dcf1def6dc9fab4:0,008ce3582816bd10d93f1e49248d6d71:413861960,c3c11f06fb46b510bd3e0140f9e45697:-1949108503</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Staging: EXFO Interface">5c0371151bc4c690da698666624bcbab</sys_audit_delete>
+        <sys_audit_delete display_value="">5c0371151bc4c690da698666624bcbab</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-29 10:02:32</sys_created_on>

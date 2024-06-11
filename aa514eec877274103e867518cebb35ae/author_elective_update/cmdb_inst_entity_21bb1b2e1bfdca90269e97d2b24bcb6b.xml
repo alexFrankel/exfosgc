@@ -49,7 +49,7 @@
         <update_guid_history>aacb5b2e41fdca90d97cb015733c2467:1461555948,65bb1b2edffdca90f72f4ddb6c567c6c:1667651882</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Card 2">a2ffa0131b35ce90269e97d2b24bcbab</sys_audit_delete>
+        <sys_audit_delete display_value="">a2ffa0131b35ce90269e97d2b24bcbab</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-05-01 10:07:25</sys_created_on>

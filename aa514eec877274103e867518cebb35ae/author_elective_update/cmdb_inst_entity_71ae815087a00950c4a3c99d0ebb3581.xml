@@ -74,7 +74,7 @@
         <update_guid_history>cc1467789fd48a1063746f0264db289b:0,88a197ecc8d40a10f80eff5873b00f5d:-1406941515,3f669d64fb14c6107d77e9c194493f24:0,17d4dde832d0c6109513c5ba969079a9:287339307,0de6f6f5606ab190bff049e63d17df69:0,6f957271de6ab190c26a9730f47f1ac9:671769881,0a3cd411a862f590bee40a0669f2d586:0,a89aeb41432efd509c91d2e4e57a3ec9:-855361562,d893926f489e79509772eafdce1be9f3:0,c56292a78b9e7950485f352faf819e4a:760061817,659fab903256bd102c7cfafc56c4c384:0,dddcabd8b716bd10c4aaec34ffb93ce3:1244807674,0cb113068f46b51036f366228387719a:1681099833</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Network Site 2">7125808e1b70c6106e86e0cb234bcb04</sys_audit_delete>
+        <sys_audit_delete display_value="">7125808e1b70c6106e86e0cb234bcb04</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-03-08 16:45:08</sys_created_on>

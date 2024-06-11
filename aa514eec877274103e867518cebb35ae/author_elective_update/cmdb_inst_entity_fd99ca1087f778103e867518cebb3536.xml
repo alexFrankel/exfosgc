@@ -74,7 +74,7 @@
         <update_guid_history>1de63af5296ab190ac42714928ec8009:0,b375befd282ab1904ba2a6de1b85cafa:-1730048089,da3c18119262f5903a1c3632346ec540:0,f76a6b01b02efd507a21a17bec799867:785189848,a493d26f6c9e7950069fe48e53a8059b:0,b8421e27ab9e79507c6a88ddc2272c3b:244018640,799feb908656bd10159ecc2edf60821f:0,a9bcaf98d016bd108ee92fb01881129e:1862135802,a8b15306e146b510f8cb97c208626454:450019234</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Import">5b557f661b08c2d06e86e0cb234bcba6</sys_audit_delete>
+        <sys_audit_delete display_value="">5b557f661b08c2d06e86e0cb234bcba6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-02 16:44:30</sys_created_on>

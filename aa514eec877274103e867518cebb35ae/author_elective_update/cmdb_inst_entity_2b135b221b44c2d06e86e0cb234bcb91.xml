@@ -49,7 +49,7 @@
         <update_guid_history>af135b227544c2d0cd436ba722cff893:-1252985910</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Serial Number 1">ea535b621b44c2d06e86e0cb234bcbcd</sys_audit_delete>
+        <sys_audit_delete display_value="">ea535b621b44c2d06e86e0cb234bcbcd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-02 14:15:54</sys_created_on>

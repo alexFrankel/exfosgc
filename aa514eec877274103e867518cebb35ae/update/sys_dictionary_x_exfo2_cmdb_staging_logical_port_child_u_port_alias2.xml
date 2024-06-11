@@ -47,6 +47,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-05-01 13:06:09</sys_created_on>
+        <sys_id>89157b9c1bba82104912c9d3604bcb21</sys_id>
         <sys_name>u_port_alias2</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>

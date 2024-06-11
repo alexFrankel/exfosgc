@@ -49,7 +49,7 @@
         <update_guid_history>f3685016451c4250b2de8fd11d54d5c0:-1777917870</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Cable 1">d5f595e61b90c2506e86e0cb234bcb6c</sys_audit_delete>
+        <sys_audit_delete display_value="">d5f595e61b90c2506e86e0cb234bcb6c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-14 15:23:45</sys_created_on>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
     <sys_embedded_help_content action="INSERT_OR_UPDATE">
         <active>true</active>
+        <ai_generated>false</ai_generated>
         <category/>
         <content><![CDATA[<p>The Service Graph Connector for EXFO requires a connection to an SFTP server to transfer files to your ServiceNow instance. In this step, please define your connection details.</p>
 <ol class="steps-ordered"><li class="li step">Update the fields as they apply to your SFTP server. </li><li class="li step">If using a MID server, please ensure your MID user has either the import_admin or admin role assigned. </li><li class="li step">Once validated, click &#34;Back to Guided Setup&#34;</li><li class="li step">&#34;Mark as Complete&#34; and proceed to the next step of the Guided Setup.</li></ol>]]></content>

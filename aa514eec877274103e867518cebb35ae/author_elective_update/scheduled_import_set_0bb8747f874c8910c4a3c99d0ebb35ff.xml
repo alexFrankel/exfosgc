@@ -109,7 +109,7 @@ else{
         <update_guid_history>cc75c4bdef7eb150eb06d016c795d057:983690034,7a7cdb4bbceaf1101f903604a4d12d50:-2043277009,a05ebeb958aab1905bfcd9f7181cd56f:0,9f8a3e3508ee79903819238fce0ac3e0:983690034,4af63239fc6ab190348c620adc3bb7fc:0,2e75fafde12ab1904700d020081c5ae4:2145424207,f44ed2b1d16e7990851cbd2bb4328ea5:983690034,6e4c10510662f590593c8d741a94ac93:0,d26a67011e2efd501a687fae268b5ce1:-2039883728,1da3da6f889e79509ced677be8db9cd0:0,d3325a27799e7950b41eaa6db3796610:-2024932803,6aafe3d0f156bd10628927e51822b424:0,dcbc2f983316bd104061b38c62fefb71:987821220,76c11f06cb46b510a6175f67de797109:-1731146323</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SG-EXFO Interfaces Import">b20a802b1b7ff950da698666624bcb35</sys_audit_delete>
+        <sys_audit_delete display_value="">b20a802b1b7ff950da698666624bcb35</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-23 15:54:36</sys_created_on>

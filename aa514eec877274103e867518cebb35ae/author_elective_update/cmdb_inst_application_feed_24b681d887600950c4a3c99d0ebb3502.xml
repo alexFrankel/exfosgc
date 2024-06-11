@@ -58,7 +58,7 @@
         <update_guid_history>899ce754f3a40e50101efe6c513cdf2f:-386983481,4f04e378d0d48a1067ee61eec3e2e9c4:0,d8a197ecaed40a106dd2b769b68343c4:-1007756402,a9619f2c2cd40a103c5e86ba4d5fb3ce:0,8f661d64a414c61080f0b358f04b5ea5:0,a7d4112c18d0c6105191c23f8054471c:98776316,7994156801d0c610190174c923ff4e2b:0,f4f793bffc0cc21041c43bebacee2973:2140293390,489fa32e97c4c2d02902de646c568206:2140293390,bce6b6f5cc6ab190002e817340a270cd:0,3795b271056ab190bd51c1c8bf8d7537:-119282771,3c75f6fdc92ab19066cfd1745ffcd6c6:0,213c94113662f590156e32087e7f1092:0,a89a2f41992efd5062794447761b482b:-1788252846,e06a63015b2efd502dba3569d5fc31ef:0,7783926f7c9e7950cb157f5b6c2b2044:0,496292a7279e7950963c7c215589b491:474378478,6d325627979e7950022000a6b951de1d:0,059f6b90e756bd10fef53edb246e59af:0,e1dcebd83516bd10e124b0f14274da10:718207350,feacab98d016bd106adf575371aba654:0,f7a1dfc21c46b510bdb7016120c19bd7:-654964532</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SG-EXFO Physical Links">8e25808e1b70c6106e86e0cb234bcb58</sys_audit_delete>
+        <sys_audit_delete display_value="">8e25808e1b70c6106e86e0cb234bcb58</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-03-08 16:45:09</sys_created_on>

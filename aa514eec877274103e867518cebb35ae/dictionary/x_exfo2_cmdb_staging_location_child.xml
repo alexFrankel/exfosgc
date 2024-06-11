@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="75cc01331bca4e10269e97d2b24bcb69" extends="sys_import_set_row" label="Staging: EXFO Location Child" max_length="40" name="x_exfo2_cmdb_staging_location_child" type="collection">
+    <element db_object_id="a115bb9c1bba82104912c9d3604bcbcf" extends="sys_import_set_row" label="Staging: EXFO Location Child" max_length="40" name="x_exfo2_cmdb_staging_location_child" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_ADDRESS" label="u_site_address" max_length="255" name="u_site_address" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_ALIAS1" label="u_site_alias1" max_length="255" name="u_site_alias1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_ALIAS2" label="u_site_alias2" max_length="255" name="u_site_alias2" type="string"/>

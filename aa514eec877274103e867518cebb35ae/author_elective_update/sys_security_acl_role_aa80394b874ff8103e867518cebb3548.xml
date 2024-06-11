@@ -60,7 +60,7 @@
         <update_guid_history>0a6e7af983aab1901a7781fa160c5cfd:0,c4acfa3539aab1907effaa24e46f76a7:785983062,b33736b97f6ab190f246805451691923:0,3e74fe3dc52ab190c60c60d133742ae7:1715365143,3a8cd0d19d62f59057d902f35333fac6:0,615a2fcd1ceafd508ede8d6e457f2364:-1656192690,83e3daeff29e7950c56f363096832a18:0,e91216e3079e795010b61e4a6fe5ba9c:-1683472234,37efe754a256bd10c96c4ef52116607e:0,7d8ce758f316bd10a42562a3886a2c87:-826757746,7712d3c6f446b510c78ab7cb64b0ea80:282950774</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_exfo2_cmdb_staging_shelf.x_exfo2_cmdb.user">c613f5151bc4c690da698666624bcbf9</sys_audit_delete>
+        <sys_audit_delete display_value="">c613f5151bc4c690da698666624bcbf9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-01-29 10:02:57</sys_created_on>

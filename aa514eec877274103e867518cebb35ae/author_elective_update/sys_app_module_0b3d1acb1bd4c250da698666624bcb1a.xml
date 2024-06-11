@@ -65,7 +65,7 @@
         <update_guid_history>f675e2079f18c2503634e96cee1fc039:688712393,cf3d1acb02d4c2503b6a14ea0f371b1c:478229913</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Staging: EXFO Relationships">4ead474f1b98c250da698666624bcb91</sys_audit_delete>
+        <sys_audit_delete display_value="">4ead474f1b98c250da698666624bcb91</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-16 13:23:40</sys_created_on>

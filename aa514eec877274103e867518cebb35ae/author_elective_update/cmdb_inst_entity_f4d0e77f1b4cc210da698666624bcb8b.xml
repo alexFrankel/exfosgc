@@ -49,7 +49,7 @@
         <update_guid_history>7125408e8770c610949d3dbfd284b2a2:0,e814a778a7d48a108f9d627419e673d8:0,54a197ecf3d40a10605a2fcdf1c381bd:813998371,cca197ec4dd40a103bda0586b2970735:0,e876dd64ad14c6102a02558301be3ff9:0,63d4112c58d0c6108fe64e1f99326209:1809534725,dbd4dde8cbd0c61079ebd65605696868:0,52d02b7fa34cc210d62672fe028926a9:1201448453,f8d0e77fa54cc210e2ac2d10ba73b98c:1403517717</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="TNI CI Attributes 1">0225808e1b70c6106e86e0cb234bcb53</sys_audit_delete>
+        <sys_audit_delete display_value="">0225808e1b70c6106e86e0cb234bcb53</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-03-08 16:45:09</sys_created_on>

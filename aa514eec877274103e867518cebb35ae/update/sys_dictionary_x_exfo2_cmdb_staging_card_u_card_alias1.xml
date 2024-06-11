@@ -47,6 +47,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>exfo.mid.user</sys_created_by>
         <sys_created_on>2024-01-23 12:41:57</sys_created_on>
+        <sys_id>a2157f9c1bba82104912c9d3604bcb1e</sys_id>
         <sys_name>CARD_ALIAS1</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>

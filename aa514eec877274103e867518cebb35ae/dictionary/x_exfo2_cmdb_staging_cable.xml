@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ea0e7e391baab190da698666624bcb2d" extends="sys_import_set_row" label="Staging: EXFO Cable" max_length="40" name="x_exfo2_cmdb_staging_cable" type="collection">
+    <element db_object_id="8a15fb9c1bba82104912c9d3604bcbba" extends="sys_import_set_row" label="Staging: EXFO Cable" max_length="40" name="x_exfo2_cmdb_staging_cable" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_ALIAS1" label="CABLE_ALIAS1" max_length="255" name="u_cable_alias1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_ALIAS2" label="CABLE_ALIAS2" max_length="255" name="u_cable_alias2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CABLE_CONNECTOR_TYPE_A" label="CABLE_CONNECTOR_TYPE_A" max_length="40" name="u_cable_connector_type_a" type="string"/>

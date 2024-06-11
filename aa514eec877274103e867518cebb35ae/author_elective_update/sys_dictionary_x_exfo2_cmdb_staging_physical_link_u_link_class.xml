@@ -103,7 +103,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>LINK_CLASS</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
-        <sys_parent display_value="Staging: EXFO Physical Link">31c47f371b000610da698666624bcbca</sys_parent>
+        <sys_parent display_value="Sgc Staging Physical Link">31c47f371b000610da698666624bcbca</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>

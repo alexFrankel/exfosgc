@@ -65,7 +65,7 @@
         <update_guid_history>1e5be72179f5ca500a32137d2553f622:-1620335416</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Exfo CMDB Staging Card Parent">4d6ac9f91b390e50da698666624bcbc6</sys_audit_delete>
+        <sys_audit_delete display_value="">4d6ac9f91b390e50da698666624bcbc6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-04-26 20:11:57</sys_created_on>
