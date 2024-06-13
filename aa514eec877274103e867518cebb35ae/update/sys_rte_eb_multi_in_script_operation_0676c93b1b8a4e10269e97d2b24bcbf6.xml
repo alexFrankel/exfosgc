@@ -26,16 +26,18 @@
         <operation_group/>
         <order>300</order>
         <script><![CDATA[(function(batch, output) {
-	for (var i = 0; i < batch.length; i++) {
-		var input = batch[i].input; 
-    var address = batch[i].u_site_address;
-
-		var helper = new EXFOLocationHelper();
-    var locationGR = helper.findLocation(address);
-     if(locationGR){
-        output[i] = locationGR.getUniqueValue();
-     }
-	}
+   for (var i = 0; i < batch.length; i++) {
+      if (batch[i].u_site_address) {
+         var input = batch[i].input;
+         var address = batch[i].u_site_address;
+         
+         var helper = new EXFOLocationHelper();
+         var locationGR = helper.findLocation(address);
+         if(locationGR){
+            output[i] = locationGR.getUniqueValue();
+         }
+      }
+   }
 })(batch, output);]]></script>
         <source_sys_rte_eb_field/>
         <source_sys_rte_eb_fields>d83309371b8a4e10269e97d2b24bcb46,583309371b8a4e10269e97d2b24bcb62</source_sys_rte_eb_fields>
@@ -43,7 +45,7 @@
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-05-15 11:18:21</sys_created_on>
         <sys_id>0676c93b1b8a4e10269e97d2b24bcbf6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Multiple Input Script - u_site_address,u_site_city</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
@@ -52,7 +54,7 @@
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
         <sys_update_name>sys_rte_eb_multi_in_script_operation_0676c93b1b8a4e10269e97d2b24bcbf6</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-05-15 11:18:21</sys_updated_on>
+        <sys_updated_on>2024-06-13 14:08:59</sys_updated_on>
         <target_sys_rte_eb_field display_value="u_site_location">0e76cdf71b8a4e10269e97d2b24bcb83</target_sys_rte_eb_field>
         <target_sys_rte_eb_fields/>
         <type display_value="Multiple Input Script">a5584ee4739000102b6265a751ab9eae</type>
