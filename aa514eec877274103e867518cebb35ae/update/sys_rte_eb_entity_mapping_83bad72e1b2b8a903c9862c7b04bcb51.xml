@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
     <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
         <condition_script><![CDATA[(function() {
-    if (((input.temp.u_service_has_link_key))) {
+    if (((input.temp.u_service_has_path_key))) {
         return true;
     }
     return false;
 })();]]></condition_script>
-        <encoded_query>u_service_has_link_keyISNOTEMPTY</encoded_query>
-        <entity_mapping_group>bbd235e71bb146d0269e97d2b24bcb5f</entity_mapping_group>
+        <encoded_query>u_service_has_path_keyISNOTEMPTY</encoded_query>
+        <entity_mapping_group>cfbad72e1b2b8a903c9862c7b04bcb4d</entity_mapping_group>
         <ignore>false</ignore>
         <is_conditional>true</is_conditional>
-        <name>TempTocmdb_rel_ci_1714642691457_0</name>
+        <name>TempToLogical connection 1</name>
         <order>100</order>
         <source_sys_rte_eb_entity display_value="temp">199c53531b33f950da698666624bcb45</source_sys_rte_eb_entity>
         <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-        <sys_created_on>2024-05-02 09:38:11</sys_created_on>
-        <sys_id>33d275e71bb146d0269e97d2b24bcbf5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>TempTocmdb_rel_ci_1714642691457_0</sys_name>
+        <sys_created_on>2024-07-25 14:27:56</sys_created_on>
+        <sys_id>83bad72e1b2b8a903c9862c7b04bcb51</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TempToLogical connection 1</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">aa514eec877274103e867518cebb35ae</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG-EXFO Services">9f8cdf131b33f950da698666624bcbce</sys_rte_eb_definition>
         <sys_scope display_value="Service Graph Connector for EXFO">aa514eec877274103e867518cebb35ae</sys_scope>
-        <sys_update_name>sys_rte_eb_entity_mapping_33d275e71bb146d0269e97d2b24bcbf5</sys_update_name>
+        <sys_update_name>sys_rte_eb_entity_mapping_83bad72e1b2b8a903c9862c7b04bcb51</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-05-02 09:38:11</sys_updated_on>
-        <target_sys_rte_eb_entity display_value="cmdb_rel_ci_1714642691457_0">ffd235e71bb146d0269e97d2b24bcb5f</target_sys_rte_eb_entity>
+        <sys_updated_on>2024-07-25 14:32:24</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Logical connection 1">43bad72e1b2b8a903c9862c7b04bcb4e</target_sys_rte_eb_entity>
     </sys_rte_eb_entity_mapping>
 </record_update>
