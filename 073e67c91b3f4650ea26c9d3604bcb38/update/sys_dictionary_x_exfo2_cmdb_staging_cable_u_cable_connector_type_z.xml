@@ -47,6 +47,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-13 12:07:38</sys_created_on>
+        <sys_id>77aeacd91bb38650ea26c9d3604bcb2a</sys_id>
         <sys_name>CABLE_CONNECTOR_TYPE_Z</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
         <sys_policy/>
