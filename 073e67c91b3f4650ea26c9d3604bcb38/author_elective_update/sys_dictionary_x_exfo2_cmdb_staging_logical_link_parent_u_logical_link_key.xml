@@ -106,7 +106,7 @@
         <sys_parent display_value="">2ce614b11bb9ca50da698666624bcb84</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
-        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_scope_delete display_value="Service Graph Connector for EXFO">0146885dac0341b58009a97623912db9</sys_scope_delete>
         <sys_update_name>sys_dictionary_x_exfo2_cmdb_staging_logical_link_parent_u_logical_link_key</sys_update_name>
         <sys_update_version display_value="sys_dictionary_x_exfo2_cmdb_staging_logical_link_parent_u_logical_link_key">49e654b11bb9ca50da698666624bcbd4</sys_update_version>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>

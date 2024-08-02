@@ -56,7 +56,7 @@
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
-        <sys_scope_delete display_value="">0146885dac0341b58009a97623912db9</sys_scope_delete>
+        <sys_scope_delete display_value="Service Graph Connector for EXFO">0146885dac0341b58009a97623912db9</sys_scope_delete>
         <sys_update_name>sys_rte_eb_field_1d0b9bea1bfdca90269e97d2b24bcb9c</sys_update_name>
         <sys_update_version display_value="sys_rte_eb_field_1d0b9bea1bfdca90269e97d2b24bcb9c">590b9bea1bfdca90269e97d2b24bcb9e</sys_update_version>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
