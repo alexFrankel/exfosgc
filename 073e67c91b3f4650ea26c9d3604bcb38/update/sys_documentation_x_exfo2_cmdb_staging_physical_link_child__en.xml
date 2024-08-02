@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Staging: EXFO Physical Link Child" language="en" table="x_exfo2_cmdb_staging_physical_link_child">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Staging: EXFO Physical Link Child</label>
+            <language>en</language>
+            <name>x_exfo2_cmdb_staging_physical_link_child</name>
+            <plural>Staging: EXFO Physical Link Childs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-05-01 13:33:37</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Staging: EXFO Physical Link Child</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_documentation_x_exfo2_cmdb_staging_physical_link_child__en</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-05-01 15:13:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

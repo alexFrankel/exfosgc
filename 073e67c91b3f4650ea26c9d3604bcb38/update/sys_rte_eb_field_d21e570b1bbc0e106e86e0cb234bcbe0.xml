@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="INSERT_OR_UPDATE">
+        <field>tni_entity</field>
+        <name>tni_entity</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-03-12 11:06:54</sys_created_on>
+        <sys_id>d21e570b1bbc0e106e86e0cb234bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tni_entity</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Sites">5b85f3a61b08c2d06e86e0cb234bcb21</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Network Site 1">93c6b72a1b08c2d06e86e0cb234bcb86</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_rte_eb_field_d21e570b1bbc0e106e86e0cb234bcbe0</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-03-12 11:06:54</sys_updated_on>
+    </sys_rte_eb_field>
+</record_update>

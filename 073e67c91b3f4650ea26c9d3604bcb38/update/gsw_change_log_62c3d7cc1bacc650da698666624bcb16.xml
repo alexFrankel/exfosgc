@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2024-02-19 16:24:24</change_date>
+        <changed_by display_value="Alex Frankel">7311e5641bcab910da698666624bcb3c</changed_by>
+        <content display_value="Validate Connection - Test Load 20 Records">cde9258d878a4910c4a3c99d0ebb3564</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-19 16:24:24</sys_created_on>
+        <sys_id>62c3d7cc1bacc650da698666624bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2024-02-19 16:24:24</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>gsw_change_log_62c3d7cc1bacc650da698666624bcb16</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-19 16:24:24</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_exfo2_cmdb.EXFOImportUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>EXFOImportUtil</name>
+        <script><![CDATA[var EXFOImportUtil = Class.create();
+EXFOImportUtil.prototype = {
+    initialize: function() {},
+
+    runFlow: function(runType) {
+        try {
+            var inputs = {};
+            inputs['run_type'] = runType;
+            var result = sn_fd.FlowAPI.getRunner()
+                .subflow('x_exfo2_cmdb.exfo_import_data')
+                .inForeground()
+                .withInputs(inputs)
+                .timeout(1800000)
+                .run();
+            var outputs = result.getOutputs();
+            var attachment_id = outputs['attachment_id'];
+            var import_folder = outputs['import_folder'];
+            if (attachment_id && attachment_id.length > 0) {
+                this._updateLastFolderProcessed(runType, import_folder);
+                return true;
+            } else if (!attachment_id) {
+                var importProp = new GlideRecord('sys_properties');
+                if (importProp.get('name', 'x_exfo2_cmdb.import_active')) {
+                    importProp.value = false;
+                    importProp.update();
+                }
+                gs.info('EXFO Import cancelled; no new folders to process for runtype ' + runType + '. If you believe this is incorrect, please check the system properties "lastFullFolderProcessed" and "lastIncrementalFolderProcessed"');
+                return false;
+            }
+
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.error(ex);
+        }
+    },
+
+    buildFileArray: function(folder, fileList) {
+        var dataArray = [];
+        for (var i = 0; i < fileList.length; i++) {
+            var fileName = fileList[i].name;
+            var lowerName = fileName.toLowerCase();
+
+            if (lowerName.indexOf(".zip") != -1) {
+                //Some input files get copied to a second data source with transform map
+                if (lowerName.indexOf('segment') > -1) {
+                    dataArray.push(this.createFileObj(folder, fileName, 'Segment'));
+                    dataArray.push(this.createFileObj(folder, fileName, 'Segment Connection Element'));
+                } else {
+                    dataArray.push(this.createFileObj(folder, fileName));
+                }
+
+                if ((lowerName.indexOf('site') > -1) && (!(lowerName.indexOf('sitechild') > -1))) {
+                    dataArray.push(this.createFileObj(folder, fileName, 'Location'));
+                }
+                if (lowerName.indexOf('sitechild') > -1) {
+                    dataArray.push(this.createFileObj(folder, fileName, 'Location Child'));
+                }
+				
+            }
+        }
+
+        return dataArray;
+    },
+
+    // This check is no longer used - replaced by the following two checks
+    // checkIntegrationStatus: function() {
+    //     //check if import is already running
+    //     var importActive = (gs.getProperty('x_exfo2_cmdb.import_active') == 'true');
+    //     if (importActive) {
+    //         gs.info('EXFO Import already running according to the property "x_exfo2_cmdb.import_active"; aborting redundant import to protect system performance. You can manually set the property to false if you believe it is incorrect.');
+    //         return true;
+    //     } else {
+    //         gs.setProperty('x_exfo2_cmdb.import_active', true);
+    //         return false;
+    //     }
+    // },
+
+    checkActiveExfoImportSet: function() {
+        //Find out if there is an Export import set currently loading
+        var myGR = new GlideRecord('sys_import_set');
+        myGR.addQuery('state', "Loading");
+        myGR.addEncodedQuery('table_nameLIKEx_exfo2');
+        myGR.query();
+        if (myGR.next()) {
+            gs.info('EXFO import set already loading. Wait for it to finish or cancel before running a new import.');
+            return true;
+        } else {
+            return false;
+        }
+    },
+
+    checkActiveExfoFlow: function() {
+        //Find out if there is an EXFO flow currently running
+        var myGR = new GlideRecord('sys_flow_context');
+        myGR.addEncodedQuery('stateLIKEIN_PROGRESS^ORstateLIKEWAITING^ORstateLIKEQUEUED^ORstateLIKECONTINUE_SYNC^ORstateLIKEPRESUMED_INTERRUPTED^ORstateLIKEPAUSED');
+        myGR.addEncodedQuery('nameSTARTSWITHEXFO');
+        myGR.query();
+        if (myGR.next()) {
+            gs.info('EXFO Import Data sub-flow already running. Wait for it to finish or cancel before running a new flow.');
+            return true;
+        } else {
+            return false;
+        }
+    },
+
+
+    createFileObj: function(folder, fileName, targetOverride) {
+        var arrayObj = {};
+        arrayObj.file_path = folder + fileName;
+        arrayObj.data_source = this.matchFileToDataSource(fileName, targetOverride);
+        return arrayObj;
+    },
+
+    matchFileToDataSource: function(fileName, targetOverride) {
+        var fileImportType = fileName.split('_')[0];
+        var dataSourceGR = new GlideRecord('sys_data_source');
+
+        if (fileImportType == 'SiteChild') {
+            fileImportType = 'Site Child';
+        }
+        if (fileImportType == 'Ne') {
+            fileImportType = 'Network Element';
+        }
+        if (fileImportType == 'NeChild') {
+            fileImportType = 'Network Element Child';
+        }
+        if (fileImportType == 'EquipmentHolder') {
+            fileImportType = 'Equipment Holder';
+        }
+        if (fileImportType == 'EquipmentHolderChild') {
+            fileImportType = 'Equipment Holder Child';
+        }
+        if (fileImportType == 'CardChild') {
+            fileImportType = 'Card Child';
+        }
+        if (fileImportType == 'PhysicalPort') {
+            fileImportType = 'Physical Port';
+        }
+        if (fileImportType == 'PhysicalPortChild') {
+            fileImportType = 'Physical Port Child';
+        }
+        if (fileImportType == 'LogicalPort') {
+            fileImportType = 'Logical Port';
+        }
+        if (fileImportType == 'LogicalPortChild') {
+            fileImportType = 'Logical Port Child';
+        }
+        if (fileImportType == 'PhysicalLink') {
+            fileImportType = 'Physical Link';
+        }
+        if (fileImportType == 'PhysicalLinkChild') {
+            fileImportType = 'Physical Link Child';
+        }
+        if (fileImportType == 'LogicalLink') {
+            fileImportType = 'Logical Link';
+        }
+        if (fileImportType == 'LogicalLinkChild') {
+            fileImportType = 'Logical Link Child';
+        }
+        if (fileImportType == 'ServiceChild') {
+            fileImportType = 'Service Child';
+        }
+        if (fileImportType == 'IpAddress') {
+            fileImportType = 'Ip Address';
+        }
+        if (fileImportType == 'Rel') {
+            fileImportType = 'Relationships';
+        }
+        if (targetOverride) {
+            fileImportType = targetOverride;
+        }
+
+        dataSourceGR.addEncodedQuery('nameSTARTSWITHSG-EXFO^nameLIKE' + fileImportType);
+        dataSourceGR.orderBy('name');
+        dataSourceGR.query();
+        if (dataSourceGR.next()) {
+            return dataSourceGR.getUniqueValue() + '';
+        }
+
+    },
+
+    removeExistingAttachments: function() {
+        var dataSourceGR = new GlideRecord('sys_data_source');
+        dataSourceGR.addEncodedQuery('sys_scope=073e67c91b3f4650ea26c9d3604bcb38');
+        dataSourceGR.query();
+        while (dataSourceGR.next()) {
+            var attachment = new GlideRecordSecure('sys_attachment');
+            attachment.addQuery('table_sys_id', dataSourceGR.getUniqueValue());
+            attachment.query();
+            var sysAttachment = new GlideSysAttachment();
+            while (attachment.next()) {
+                sysAttachment.deleteAttachment(attachment.getUniqueValue());
+            }
+        }
+    },
+
+    updateParentJob: function(importType) {
+        var parentJobID;
+        var parentJobGR = new GlideRecord('scheduled_import_set');
+        if (importType == 'test' || importType == 'full') {
+            if (parentJobGR.get('name', 'SG-EXFO Full Import')) {
+                parentJobID = parentJobGR.getUniqueValue();
+            }
+        } else {
+            if (parentJobGR.get('name', 'SG-EXFO Incremental Import')) {
+                parentJobID = parentJobGR.getUniqueValue();
+            }
+        }
+
+        var childJobGR = new GlideRecord('scheduled_import_set');
+        childJobGR.addEncodedQuery('sys_scope=073e67c91b3f4650ea26c9d3604bcb38^run_type=parent');
+        childJobGR.query();
+        while (childJobGR.next()) {
+            childJobGR.parent = parentJobID;
+            childJobGR.update();
+        }
+    },
+
+    classDict: {
+        "site": "cmdb_ci_ni_site",
+        "ne": "cmdb_ci_netgear",
+        "shelf": "cmdb_ci_equipment_holder",
+        "interface": "cmdb_ci_ni_interface",
+        "card": "cmdb_ci_interface_card"
+    },
+
+    objectSourceLookup: function(lookupKey) {
+        var objSourceGR = new GlideRecord('sys_object_source');
+        if (objSourceGR.get('id', lookupKey)) {
+            return objSourceGR.target_sys_id;
+        }
+    },
+
+    relationshipLookup: function(relatedKey, relatedClass) {
+        var returnKey = ''; //sys_obj_source key of related record we want to find
+        var relatedSysID; //sys_id of related record we want to find
+
+        //get sys_id of directly related record based on key
+        var objSourceGR = new GlideRecord('sys_object_source');
+        if (objSourceGR.get('id', relatedKey)) {
+            relatedSysID = objSourceGR.target_sys_id;
+        }
+
+        //if parent related record exists in cmdb...
+        if (relatedSysID) {
+            var className = this.classDict[relatedClass];
+
+            //query for relationship based on direct related record + class we want to relate
+            var relationsGR = new GlideRecord('cmdb_rel_ci');
+            relationsGR.addEncodedQuery('parent.sys_class_name=' + className + '^child=' + relatedSysID);
+            relationsGR.query();
+            if (relationsGR.next()) {
+                //if relationship exists, get parent sys_id and get sys_object_source key
+                var targetID = relationsGR.parent;
+                var relatedObjSourceGR = new GlideRecord('sys_object_source');
+                if (relatedObjSourceGR.get('target_sys_id', targetID)) {
+                    returnKey = relatedObjSourceGR.id;
+                }
+            }
+        }
+
+        return returnKey;
+    },
+
+    // setLinkHeaders: function(propValue) {
+    //     var headerProp = new GlideRecord('sys_properties');
+    //     if (headerProp.get('name', 'x_exfo2_cmdb.physicalLinkHeaders')) {
+    //         headerProp.value = propValue;
+    //         headerProp.update();
+    //     }
+    // },
+
+    _updateLastFolderProcessed: function(runType, folder) {
+        var propGR = new GlideRecord('sys_properties');
+        if (runType == 'full') {
+            if (propGR.get('name', 'x_exfo2_cmdb.lastFullFolderProcessed')) {
+                propGR.value = folder;
+                propGR.update();
+            }
+        } else if (runType == 'incremental') {
+            if (propGR.get('name', 'x_exfo2_cmdb.lastIncrementalFolderProcessed')) {
+                propGR.value = folder;
+                propGR.update();
+            }
+        }
+    },
+
+    tniEntityPostProcessing: function(ireOutput) {
+        // 1. Updates TNI CI Attributes on CI with sys_id of the tni_entity record
+        // 2. Splits operation_notes field from ETL on ||| delimiter and inserts into cmdb_key_value
+        // Called from RTE definitions
+
+        for (var i = 0; i < ireOutput.length; i++) {
+            var output = ireOutput[i];
+            var items = output.items;
+
+            // //Anything useful in ireInput?
+            // for (var ii = 0; ii < ireInput.length; ii++) {
+            // 	var payload = ireInput[ii];
+            // 	gs.info("ALEX2: " + payload.items)
+            // }
+
+            //Loop through each CI in the payload
+            //Look up corresponding tni_entity record - there should only be one
+            for (var j = 0; j < items.length; j++) {
+                var tniGR = new GlideRecord('tni_entity');
+                var ciSysId = items[j].sysId;
+                tniGR.addQuery('ci', ciSysId);
+                tniGR.query();
+                tniGR.next();
+
+                //1. Update TNI CI Attributes field on CI - this is used in Network Inventory Workspace
+                var tniEntityId = tniGR.getValue('sys_id');
+                //gs.info('ALEX1 CI sys id = ' + ciSysId + ' and TNI sysId is ' + tniEntityId)
+                var ciGR = new GlideRecord('cmdb_ci');
+                ciGR.addQuery('sys_id', ciSysId);
+                ciGR.query();
+                if (ciGR.next()) {
+                    var ciTniEntityId = ciGR.getValue('tni_entity');
+                    if (!ciTniEntityId) {
+                        ciGR.setValue('tni_entity', tniEntityId);
+                        ciGR.update();
+                    }
+                }
+
+                //2. Check if there are custom attributes in operation notes field, parse and create an entry in cmdb_key_value
+                var opNotes = tniGR.getValue('operation_notes');
+                if (opNotes) {
+                    var atts = opNotes.split('|||');
+                    //gs.info("ALEX1: split " + atts)
+
+                    //Process deletes
+                    //Possible issue is that this will also delete manually created key-value entries
+                    var kvGR = new GlideRecord('cmdb_key_value');
+                    var newKeys = [];
+                    for (var k = 0; k < atts.length; k++) {
+                        var pair = atts[k].split(':');
+                        newKeys.push(pair[0]);
+                    }
+                    kvGR.addQuery('configuration_item', ciSysId);
+                    kvGR.query();
+                    while (kvGR.next()) {
+                        if (newKeys.indexOf(kvGR.getValue('key')) < 0) {
+                            //gs.info("ALEX4: processing " + ciSysId + " " + opNotes + " New Keys: " + newKeys + " " + kvGR.getValue('key') + " TO BE DELETED");
+                            kvGR.deleteRecord();
+                        }
+                    }
+
+                    //Process inserts and updates
+                    for (var k = 0; k < atts.length; k++) {
+                        var pair = atts[k].split(':');
+                        //Insert or update each custom attribute pair in cmdb_key_value
+                        //gs.info("ALEX2: id " + pair[0] + " value " + pair[1]);
+                        var kvGR = new GlideRecord('cmdb_key_value');
+                        kvGR.addQuery('configuration_item', ciSysId);
+                        kvGR.addQuery('key', pair[0]);
+                        kvGR.query();
+                        if (kvGR.next()) {
+                            //If key exists with different value, update it
+                            if (kvGR.getValue('value') != pair[1]) {
+                                //gs.info("ALEX3: " + kvGR.getValue('key') + " different to " + pair[1])
+                                kvGR.setValue('value', pair[1]);
+                                kvGR.update();
+                            }
+                        } else {
+                            //gs.info("ALEX4: adding " + pair[0] + " " + pair[1])
+                            //If key doesn't already exist, insert the new pair
+                            kvGR.setValue('key', pair[0]);
+                            kvGR.setValue('value', pair[1]);
+                            kvGR.setValue('configuration_item', ciSysId);
+                            kvGR.insert();
+                        }
+                        //blank out operation_notes on CI.
+                        //No - this would force an update every time the CI is loaded, even for no changes
+                        // tniGR.setValue('operation_notes', '');
+                        // tniGR.update();
+                    }
+                }
+
+            }
+
+        }
+    },
+    type: 'EXFOImportUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-10-18 16:56:28</sys_created_on>
+        <sys_id>effc1515875370503e867518cebb3579</sys_id>
+        <sys_mod_count>126</sys_mod_count>
+        <sys_name>EXFOImportUtil</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-05-15 15:23:43</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_script_operation">
+    <sys_rte_eb_script_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Script Operation - u_service_type</name>
+        <operation_group/>
+        <order>500</order>
+        <script><![CDATA[(function(batch, output) {
+	for (var i = 0; i < batch.length; i++) {
+		var input = batch[i].input; 
+     var trfGR = new GlideRecord('trf_value');
+     trfGR.addQuery('type', 'Type');
+     trfGR.addQuery('name', input);
+     trfGR.query();
+     if(trfGR.next()){
+        output[i] = trfGR.getUniqueValue();
+     }
+     else if (input.length>0) {
+        trfGR.initialize();
+        trfGR.type = 'Type';
+        trfGR.name = input;
+        //Note - there is no service inventory_category, so this will just get stored as text
+        //but not trigger any functionality in the TNI workspace
+        trfGR.inventory_category = 'service';
+        output[i] = trfGR.insert();
+     }
+	}
+})(batch, output);
+(function(batch, output) {
+   for (var i = 0; i < batch.length; i++) {
+      var input = batch[i].input; // Value of the input column.
+
+      // Add your code here.
+
+      // Set each output element below
+      //output[i] = output_variable_name;
+   }
+})(batch, output);]]></script>
+        <source_sys_rte_eb_field display_value="u_service_type">2021ded71bb502d0269e97d2b24bcbbc</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-05-01 17:17:14</sys_created_on>
+        <sys_id>ae52d65b1bb502d0269e97d2b24bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Operation - u_service_type</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Service Children">2511dad71bb502d0269e97d2b24bcbf7</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">9421ded71bb502d0269e97d2b24bcb1a</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_rte_eb_script_operation_ae52d65b1bb502d0269e97d2b24bcbdf</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-05-01 17:17:14</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_service_type_lookup">a252165b1bb502d0269e97d2b24bcb83</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_script_operation>
+</record_update>

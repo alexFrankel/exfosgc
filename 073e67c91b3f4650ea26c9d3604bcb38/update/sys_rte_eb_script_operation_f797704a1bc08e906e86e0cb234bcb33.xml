@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_script_operation">
+    <sys_rte_eb_script_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Script Operation - u_port_type</name>
+        <operation_group/>
+        <order>601</order>
+        <script><![CDATA[(function(batch, output) {
+	for (var i = 0; i < batch.length; i++) {
+		var input = batch[i].input; 
+     var trfGR = new GlideRecord('trf_value');
+     trfGR.addQuery('type', 'Type');
+     trfGR.addQuery('name', input);
+     trfGR.query();
+     if(trfGR.next()){
+        output[i] = trfGR.getUniqueValue();
+     }
+     else if (input.length>0) {
+        trfGR.initialize();
+        trfGR.type = 'Type';
+        trfGR.name = input;
+        trfGR.inventory_category = 'interface';
+        output[i] = trfGR.insert();
+     }
+	}
+})(batch, output);
+]]></script>
+        <source_sys_rte_eb_field display_value="u_port_type">ef16f0861bc08e906e86e0cb234bcb7c</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-31 13:38:33</sys_created_on>
+        <sys_id>f797704a1bc08e906e86e0cb234bcb33</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Script Operation - u_port_type</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Logical Ports">3f067c461bc08e906e86e0cb234bcbf0</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">1716b0861bc08e906e86e0cb234bcbbd</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_rte_eb_script_operation_f797704a1bc08e906e86e0cb234bcb33</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-03-11 10:44:38</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_port_type_lookup">3397704a1bc08e906e86e0cb234bcb31</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_script_operation>
+</record_update>

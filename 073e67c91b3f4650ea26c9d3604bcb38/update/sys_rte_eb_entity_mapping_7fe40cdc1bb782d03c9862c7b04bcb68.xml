@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[(function() {
+    if (((input.temp.u_cable_has_a_ne_key))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>u_cable_has_a_ne_keyISNOTEMPTY</encoded_query>
+        <entity_mapping_group>7be40cdc1bb782d03c9862c7b04bcb65</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>true</is_conditional>
+        <name>tempToNetwork Gear 1</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">328353821bd442506e86e0cb234bcb8c</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-07-30 09:23:10</sys_created_on>
+        <sys_id>7fe40cdc1bb782d03c9862c7b04bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToNetwork Gear 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cables">1483df421bd442506e86e0cb234bcb33</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_7fe40cdc1bb782d03c9862c7b04bcb68</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-07-30 09:23:10</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Network Gear 1">fbe40cdc1bb782d03c9862c7b04bcb65</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

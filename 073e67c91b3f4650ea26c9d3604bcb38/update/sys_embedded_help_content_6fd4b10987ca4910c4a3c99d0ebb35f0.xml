@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[<p>The Service Graph Connector for EXFO has two scheduled import jobs: Incremental and Full. </p>
+<p>The incremental import will only import updates to the data, and is intended to run on a more frequent basis to keep your ServiceNow data up to date. </p>
+<ol class="steps-ordered"><li class="li step">Click the &#34;Active&#34; checkmark to activate the import job.</li><li class="li step">Once active, a time picker will show on the form. Configure your import to run on a schedule that will not impact your users or business. </li><li class="li step">Save, and click &#34;Back to Guided Setup&#34;</li><li class="li step">&#34;Mark as Complete&#34; and proceed to the next step of the Guided Setup.</li></ol>]]></content>
+        <last_sync/>
+        <modifier>setup</modifier>
+        <name>exfo_sgc_incremental_import_set-setup</name>
+        <page>scheduled_import_set</page>
+        <product>1</product>
+        <qualifier>exfo_sgc_incremental_import_set-setup</qualifier>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>false</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-03-03 16:56:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6fd4b10987ca4910c4a3c99d0ebb35f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>exfo_sgc_incremental_import_set-setup</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_embedded_help_content_6fd4b10987ca4910c4a3c99d0ebb35f0</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-03-03 16:56:36</sys_updated_on>
+        <version>s</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=6fd4b10987ca4910c4a3c99d0ebb35f0"/>
+</record_update>

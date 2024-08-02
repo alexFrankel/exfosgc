@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0f9cd181878a4910c4a3c99d0ebb356e" sys_domain="global" table="sys_connection" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>aveenstra</sys_created_by>
+            <sys_created_on>2022-03-03 15:07:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>439cd181878a4910c4a3c99d0ebb3570</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_connection" name="sys_connection" sys_domain="global" view="413c5d41878a4910c4a3c99d0ebb35fe">0f9cd181878a4910c4a3c99d0ebb356e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sys_connection" sys_domain="global" view="413c5d41878a4910c4a3c99d0ebb35fe">853c9d41878a4910c4a3c99d0ebb3505</sys_ui_section>
+            <sys_updated_by>aveenstra</sys_updated_by>
+            <sys_updated_on>2022-03-03 15:07:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>aveenstra</sys_created_by>
+            <sys_created_on>2022-03-03 15:07:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b9cd181878a4910c4a3c99d0ebb3571</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_connection" name="sys_connection" sys_domain="global" view="413c5d41878a4910c4a3c99d0ebb35fe">0f9cd181878a4910c4a3c99d0ebb356e</sys_ui_form>
+            <sys_ui_section caption="Advanced MID Server Configuration" display_value="Advanced MID Server Configuration" name="sys_connection" sys_domain="global" view="413c5d41878a4910c4a3c99d0ebb35fe">4b9cd181878a4910c4a3c99d0ebb3570</sys_ui_section>
+            <sys_updated_by>aveenstra</sys_updated_by>
+            <sys_updated_on>2022-03-03 15:07:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sys_connection</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>aveenstra</sys_created_by>
+            <sys_created_on>2022-03-03 15:07:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f9cd181878a4910c4a3c99d0ebb356e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_connection</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0f9cd181878a4910c4a3c99d0ebb356e</sys_update_name>
+            <sys_updated_by>aveenstra</sys_updated_by>
+            <sys_updated_on>2022-03-03 15:07:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="EXFO Setup" name="exfo_setup">413c5d41878a4910c4a3c99d0ebb35fe</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

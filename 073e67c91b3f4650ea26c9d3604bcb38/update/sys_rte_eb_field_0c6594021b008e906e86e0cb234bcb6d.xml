@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="INSERT_OR_UPDATE">
+        <field>u_port_manufacturer</field>
+        <name>u_port_manufacturer</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-31 11:08:55</sys_created_on>
+        <sys_id>0c6594021b008e906e86e0cb234bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_port_manufacturer</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Physical Ports">e8d3d44e1bcc4e906e86e0cb234bcb00</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Import">775554021b008e906e86e0cb234bcb4a</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_rte_eb_field_0c6594021b008e906e86e0cb234bcb6d</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-31 11:08:55</sys_updated_on>
+    </sys_rte_eb_field>
+</record_update>

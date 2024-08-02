@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmdb_int_util_cleanse_hardware_model_operation">
+    <sn_cmdb_int_util_cleanse_hardware_model_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Cleanse Hardware Model - u_e_h_manufacturer_cleansed_name,u_e_h_model</name>
+        <operation_group/>
+        <order>400</order>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields>76e613be1b3d4e90269e97d2b24bcb9e,6b065b3a1b3d4e90269e97d2b24bcb1b</source_sys_rte_eb_fields>
+        <sys_class_name>sn_cmdb_int_util_cleanse_hardware_model_operation</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-30 09:00:33</sys_created_on>
+        <sys_id>cd1753fe1b3d4e90269e97d2b24bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cleanse Hardware Model - u_e_h_manufacturer_cleansed_name,u_e_h_model</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">b106dfb61b3d4e90269e97d2b24bcb68</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">5706973a1b3d4e90269e97d2b24bcb5b</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sn_cmdb_int_util_cleanse_hardware_model_operation_cd1753fe1b3d4e90269e97d2b24bcbab</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-30 09:00:33</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_e_h_model_cleansed">851753fe1b3d4e90269e97d2b24bcba9</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Cleanse Hardware Model">bd466ff4735500102b6265a751ab9e18</type>
+    </sn_cmdb_int_util_cleanse_hardware_model_operation>
+</record_update>

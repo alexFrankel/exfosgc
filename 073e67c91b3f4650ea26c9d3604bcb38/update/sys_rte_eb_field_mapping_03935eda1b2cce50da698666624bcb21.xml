@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="u_fiber_top_exp_status">07935eda1b2cce50da698666624bcb1c</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-26 11:30:19</sys_created_on>
+        <sys_id>03935eda1b2cce50da698666624bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Fibers">9b7f7f461b9842506e86e0cb234bcbca</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="impTotemp">998f33861b9842506e86e0cb234bcb03</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_03935eda1b2cce50da698666624bcb21</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-26 11:30:19</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_fiber_top_exp_status">0f935eda1b2cce50da698666624bcb1e</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

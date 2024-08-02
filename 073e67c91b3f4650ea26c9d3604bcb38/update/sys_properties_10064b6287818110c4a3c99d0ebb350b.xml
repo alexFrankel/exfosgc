@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_exfo2_cmdb.physicalLinkHeaders</name>
+        <read_roles>x_exfo2_cmdb.admin,x_exfo2_cmdb.user</read_roles>
+        <suffix>physicalLinkHeaders</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-01-17 21:36:57</sys_created_on>
+        <sys_id>10064b6287818110c4a3c99d0ebb350b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_exfo2_cmdb.physicalLinkHeaders</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_properties_10064b6287818110c4a3c99d0ebb350b</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-31 14:25:19</sys_updated_on>
+        <type>string</type>
+        <value>["LINK_KEY","LINK_ALIAS1","LINK_ALIAS2","LINK_BANDWIDTH","LINK_CLASS","LINK_CUSTOM_ATTRIBUTES","LINK_DESCRIPTION","LINK_LENGTH","LINK_LENGTH_UNIT","LINK_NAME","LINK_OWNER","LINK_STATUS","LINK_TYPE","LINK_HAS_A_E_H_KEY","LINK_HAS_A_NE_KEY","LINK_HAS_A_PORT_KEY","LINK_HAS_A_SITE_KEY","LINK_HAS_PARENT_LINK_KEY","LINK_HAS_Z_E_H_KEY","LINK_HAS_Z_NE_KEY","LINK_HAS_Z_PORT_KEY","LINK_HAS_Z_SITE_KEY","IS_PHYSICAL"]</value>
+        <write_roles>x_exfo2_cmdb.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=10064b6287818110c4a3c99d0ebb350b"/>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_group">
+    <gsw_content_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum>57ywj8AahVW8TX6AFS7bWIN7pnQ=</checksum>
+        <child_can_have_roles>false</child_can_have_roles>
+        <children_layout>0</children_layout>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description><![CDATA[<p>Welcome to the Service Graph Connector for EXFO. The integration is capable of importing a large number of devices and device types, while leveraging the IntegrationHub ETL framework for easy no-code/low-code functionality. The IntegrationHub ETL provides a wizard-like experience to simplify its use of <a title="RTE" href="https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/import-sets/concept/robust-import-set-transformers.html" target="_blank" rel="noopener noreferrer nofollow">RTE</a> and <a title="IRE" href="https://docs.servicenow.com/bundle/orlando-servicenow-platform/page/product/configuration-management/concept/ire.html" target="_blank" rel="noopener noreferrer nofollow">IRE</a> for optimal performance and CMDB best practices. We just need you to configure a couple quick steps - click &#34;Get Started&#34; to begin!</p>]]></description>
+        <display_child_max_num>5</display_child_max_num>
+        <done_status_text/>
+        <hide_getting_started>false</hide_getting_started>
+        <icon/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_root_content>true</is_root_content>
+        <order>0</order>
+        <parent/>
+        <parents/>
+        <progress_text/>
+        <roles>x_exfo2_cmdb.admin</roles>
+        <root_intro_frame_link>https://exfosgdev.service-now.com/x_exfo2_cmdb_exfo_guided_setup_home.do</root_intro_frame_link>
+        <root_parent/>
+        <skippable>false</skippable>
+        <supports_child_content>true</supports_child_content>
+        <sys_class_name>gsw_content_group</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-10-22 20:42:09</sys_created_on>
+        <sys_id>2b27f222871734503e867518cebb355b</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Service Graph Connector for EXFO</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>gsw_content_group_2b27f222871734503e867518cebb355b</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-03-04 19:39:04</sys_updated_on>
+        <title>Service Graph Connector for EXFO</title>
+        <weight>1</weight>
+    </gsw_content_group>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b27f222871734503e867518cebb355b"/>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="u_segment_has_child_link_key">c9c61825879d8510c4a3c99d0ebb354c</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-01-26 16:32:56</sys_created_on>
+        <sys_id>00079825879d8510c4a3c99d0ebb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Segments">4cc69425879d8510c4a3c99d0ebb3574</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="tempToLogical connection 1">5ef69825879d8510c4a3c99d0ebb3542</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_00079825879d8510c4a3c99d0ebb354a</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-01-26 16:32:56</sys_updated_on>
+        <target_sys_rte_eb_field display_value="source_native_key">00079825879d8510c4a3c99d0ebb3548</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

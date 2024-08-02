@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article><![CDATA[<p>First let&#39;s validate your connection to the SFTP. When redirected, run the scheduled job &#34;SG-EXFO Test Import&#34;. This job will run the Flow to query for your EXFO files based on the parent folder defined in the previous step. If successful, the Flow will create new attachments on the EXFO data sources. </p>
+<p>If unsuccessful, please verify your MID server, credentials, and parent folder. </p>]]></article>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents>0548324487dcc910c4a3c99d0ebb3558</dependent_on_contents>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description/>
+        <embedded_help_qualifier>exfo_sgc_test_flow-setup</embedded_help_qualifier>
+        <end_point>/scheduled_import_set.do?sys_id=de57e10d878a4910c4a3c99d0ebb3523</end_point>
+        <end_point_open_mode>3</end_point_open_mode>
+        <end_point_type>1</end_point_type>
+        <field/>
+        <filter/>
+        <filter_result/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_dynamic>false</is_dynamic>
+        <more_info_available>false</more_info_available>
+        <more_info_html/>
+        <order>500</order>
+        <parent display_value="Connect">f377f622871734503e867518cebb355c</parent>
+        <parents>f377f622871734503e867518cebb355c,2b27f222871734503e867518cebb355b</parents>
+        <plugin_id/>
+        <property_name/>
+        <property_value/>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="Service Graph Connector for EXFO">2b27f222871734503e867518cebb355b</root_parent>
+        <skippable>true</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2022-03-03 16:04:44</sys_created_on>
+        <sys_id>6231a185878a4910c4a3c99d0ebb3566</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Validate Connection - Execute Flow</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>gsw_content_information_6231a185878a4910c4a3c99d0ebb3566</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2022-03-04 21:13:15</sys_updated_on>
+        <table/>
+        <title>Validate Connection - Execute Flow</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=6231a185878a4910c4a3c99d0ebb3566"/>
+</record_update>

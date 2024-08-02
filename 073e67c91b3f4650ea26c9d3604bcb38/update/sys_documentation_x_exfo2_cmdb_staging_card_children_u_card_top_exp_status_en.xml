@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_card_top_exp_status" label="CARD_TOP_EXP_STATUS" language="en" table="x_exfo2_cmdb_staging_card_children">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_card_top_exp_status</element>
+            <help/>
+            <hint/>
+            <label>CARD_TOP_EXP_STATUS</label>
+            <language>en</language>
+            <name>x_exfo2_cmdb_staging_card_children</name>
+            <plural>CARD_TOP_EXP_STATUSs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-06-11 15:13:13</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>CARD_TOP_EXP_STATUS</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_documentation_x_exfo2_cmdb_staging_card_children_u_card_top_exp_status_en</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-06-11 15:13:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_size>100</batch_size>
+        <description/>
+        <name>SG-EXFO Logical Ports</name>
+        <properties/>
+        <robust_transform_engine display_value="SG-EXFO Logical Ports">3f067c461bc08e906e86e0cb234bcbf0</robust_transform_engine>
+        <source_table>x_exfo2_cmdb_staging_logical_port</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-01-31 13:31:43</sys_created_on>
+        <sys_id>fb0630861bc08e906e86e0cb234bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-EXFO Logical Ports</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_fb0630861bc08e906e86e0cb234bcbdf</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-01-31 13:31:43</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+</record_update>

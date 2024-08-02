@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="INSERT_OR_UPDATE">
+        <field>ni_type</field>
+        <name>ni_type</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-05-01 11:05:24</sys_created_on>
+        <sys_id>273d3cdf1b35ce90269e97d2b24bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ni_type</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Equipment Holder Children">4f31b8531b35ce90269e97d2b24bcbe7</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="TNI CI Attributes 1">0e8c709f1b35ce90269e97d2b24bcb04</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_rte_eb_field_273d3cdf1b35ce90269e97d2b24bcb5d</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-05-01 11:05:24</sys_updated_on>
+    </sys_rte_eb_field>
+</record_update>
