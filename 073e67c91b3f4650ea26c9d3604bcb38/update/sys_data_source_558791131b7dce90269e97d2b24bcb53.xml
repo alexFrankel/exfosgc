@@ -48,7 +48,7 @@
 (function(line,lineNumber,result) {
 	// add code here
 })(line,lineNumber,result);]]></parsing_script>
-        <properties/>
+        <properties>charset=utf-8</properties>
         <query>All Rows from Table</query>
         <query_timeout>0</query_timeout>
         <request_action/>
@@ -66,14 +66,14 @@
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-05-01 13:00:25</sys_created_on>
         <sys_id>558791131b7dce90269e97d2b24bcb53</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>SG-EXFO Physical Link Child</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
         <sys_update_name>sys_data_source_558791131b7dce90269e97d2b24bcb53</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-05-01 13:00:25</sys_updated_on>
+        <sys_updated_on>2024-08-09 15:14:36</sys_updated_on>
         <table_name/>
         <type>File</type>
         <use_batch_import>false</use_batch_import>
