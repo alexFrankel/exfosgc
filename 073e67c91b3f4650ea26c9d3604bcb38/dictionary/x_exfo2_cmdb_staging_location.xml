@@ -22,6 +22,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_OWNER" label="u_site_owner" max_length="40" name="u_site_owner" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_PARENT_SITE_ID" label="u_site_parent_site_id" max_length="40" name="u_site_parent_site_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_POSTAL_CODE" label="u_site_postal_code" max_length="40" name="u_site_postal_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_SERIAL_NUMBER" label="SITE_SERIAL_NUMBER" max_length="40" name="u_site_serial_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_STATE" label="u_site_state" max_length="40" name="u_site_state" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_STATUS" label="u_site_status" max_length="40" name="u_site_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_SYSTEM" label="u_site_system" max_length="40" name="u_site_system" type="string"/>

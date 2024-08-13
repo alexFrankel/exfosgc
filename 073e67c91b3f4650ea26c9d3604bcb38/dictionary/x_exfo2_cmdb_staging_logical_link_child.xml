@@ -26,5 +26,6 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_TYPE" label="u_link_type" max_length="40" name="u_link_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_VENDOR" label="u_link_vendor" max_length="40" name="u_link_vendor" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LOGICAL_LINK_CHILD_KEY" label="u_logical_link_child_key" max_length="255" name="u_logical_link_child_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PK&#3;&#4;&#20;&#0;&#0;&#0;&#8;&#0;�l�XT��%�&#0;&#0;&#0;�&#1;&#0;&#0;'&#0;&#28;&#0;LogicalLink_20240723T133001364_full.csvUT&#9;&#0;&#3;&#0;��f&#0;��fux&#11;&#0;&#1;&#4;�&#3;&#0;&#0;&#4;�&#3;&#0;&#0;m�K&#14;�0&#12;&#5;�H܄" label="PK&#3;&#4;&#20;&#0;&#0;&#0;&#8;&#0;�l�XT��%�&#0;&#0;&#0;�&#1;&#0;&#0;'&#0;&#28;&#0;LogicalLink_20240723T133001364_full.csvUT&#9;&#0;&#3;&#0;��f&#0;�" max_length="40" name="u_pk_________l____m_k__0___h_" type="string"/>
     </element>
 </database>

@@ -8,6 +8,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_A_PORT_KEY" label="u_service_has_a_port_key" max_length="255" name="u_service_has_a_port_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_A_SITE_KEY" label="u_service_has_a_site_key" max_length="255" name="u_service_has_a_site_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_LINK_KEY" label="u_service_has_link_key" max_length="255" name="u_service_has_link_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_PATH_KEY" label="SERVICE_HAS_PATH_KEY" max_length="40" name="u_service_has_path_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_Z_NE_KEY" label="u_service_has_z_ne_key" max_length="255" name="u_service_has_z_ne_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_Z_PORT_KEY" label="u_service_has_z_port_key" max_length="255" name="u_service_has_z_port_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_Z_SITE_KEY" label="u_service_has_z_site_key" max_length="255" name="u_service_has_z_site_key" type="string"/>
