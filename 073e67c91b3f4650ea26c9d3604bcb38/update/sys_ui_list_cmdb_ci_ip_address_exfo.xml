@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="cmdb_ci_ip_address" version="2" view="exfo">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ip_address</element>
+            <list_id display_value="cmdb_ci_ip_address" element="NULL" name="cmdb_ci_ip_address" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">3e7bd25f1bcc9ad0ea26c9d3604bcb91</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-08-21 14:18:23</sys_created_on>
+            <sys_id>367bd25f1bcc9ad0ea26c9d3604bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-08-21 14:18:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ip_version</element>
+            <list_id display_value="cmdb_ci_ip_address" element="NULL" name="cmdb_ci_ip_address" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">3e7bd25f1bcc9ad0ea26c9d3604bcb91</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-08-21 14:18:23</sys_created_on>
+            <sys_id>ba7bda5f1bcc9ad0ea26c9d3604bcbed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-08-21 14:18:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>netmask</element>
+            <list_id display_value="cmdb_ci_ip_address" element="NULL" name="cmdb_ci_ip_address" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">3e7bd25f1bcc9ad0ea26c9d3604bcb91</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-08-21 14:18:23</sys_created_on>
+            <sys_id>3e7bda5f1bcc9ad0ea26c9d3604bcbed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-08-21 14:18:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>serial_number</element>
+            <list_id display_value="cmdb_ci_ip_address" element="NULL" name="cmdb_ci_ip_address" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">3e7bd25f1bcc9ad0ea26c9d3604bcb91</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-08-21 14:18:23</sys_created_on>
+            <sys_id>be7bda5f1bcc9ad0ea26c9d3604bcbed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-08-21 14:18:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>life_cycle_stage</element>
+            <list_id display_value="cmdb_ci_ip_address" element="NULL" name="cmdb_ci_ip_address" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">3e7bd25f1bcc9ad0ea26c9d3604bcb91</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-08-21 14:18:23</sys_created_on>
+            <sys_id>327bda5f1bcc9ad0ea26c9d3604bcbee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-08-21 14:18:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>life_cycle_stage_status</element>
+            <list_id display_value="cmdb_ci_ip_address" element="NULL" name="cmdb_ci_ip_address" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">3e7bd25f1bcc9ad0ea26c9d3604bcb91</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-08-21 14:18:23</sys_created_on>
+            <sys_id>b27bda5f1bcc9ad0ea26c9d3604bcbee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-08-21 14:18:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>cmdb_ci_ip_address</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-08-21 14:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e7bd25f1bcc9ad0ea26c9d3604bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_ip_address</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_list_cmdb_ci_ip_address_exfo</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-08-21 14:18:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="exfo" name="exfo">6565183e1b0c1ad0ea26c9d3604bcb1a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
