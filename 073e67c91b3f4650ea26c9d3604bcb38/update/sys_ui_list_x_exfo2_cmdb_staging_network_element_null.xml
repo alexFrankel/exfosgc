@@ -32,81 +32,6 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_ne_alias1_id</element>
-            <list_id display_value="x_exfo2_cmdb_staging_network_element" element="NULL" name="x_exfo2_cmdb_staging_network_element" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49863a621be7b1106e86e0cb234bcb98</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-01-08 15:38:31</sys_created_on>
-            <sys_id>8d863a621be7b1106e86e0cb234bcb9a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-08 15:38:31</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_ne_alias1_system</element>
-            <list_id display_value="x_exfo2_cmdb_staging_network_element" element="NULL" name="x_exfo2_cmdb_staging_network_element" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49863a621be7b1106e86e0cb234bcb98</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-01-08 15:38:31</sys_created_on>
-            <sys_id>01863a621be7b1106e86e0cb234bcb9b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-08 15:38:31</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_ne_country</element>
-            <list_id display_value="x_exfo2_cmdb_staging_network_element" element="NULL" name="x_exfo2_cmdb_staging_network_element" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49863a621be7b1106e86e0cb234bcb98</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-01-08 15:38:31</sys_created_on>
-            <sys_id>81863a621be7b1106e86e0cb234bcb9b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-08 15:38:31</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_ne_desc</element>
-            <list_id display_value="x_exfo2_cmdb_staging_network_element" element="NULL" name="x_exfo2_cmdb_staging_network_element" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49863a621be7b1106e86e0cb234bcb98</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>5</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-01-08 15:38:31</sys_created_on>
-            <sys_id>05863a621be7b1106e86e0cb234bcb9b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-08 15:38:31</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_ne_domain</element>
-            <list_id display_value="x_exfo2_cmdb_staging_network_element" element="NULL" name="x_exfo2_cmdb_staging_network_element" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49863a621be7b1106e86e0cb234bcb98</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-01-08 15:38:31</sys_created_on>
-            <sys_id>85863a621be7b1106e86e0cb234bcb9b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-08 15:38:31</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
             <element>u_ne_has_site_key</element>
             <list_id display_value="x_exfo2_cmdb_staging_network_element" element="NULL" name="x_exfo2_cmdb_staging_network_element" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49863a621be7b1106e86e0cb234bcb98</list_id>
             <max_value>false</max_value>
@@ -116,21 +41,6 @@
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2024-01-08 15:38:31</sys_created_on>
             <sys_id>09863a621be7b1106e86e0cb234bcb9b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-08 15:38:31</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_ne_id</element>
-            <list_id display_value="x_exfo2_cmdb_staging_network_element" element="NULL" name="x_exfo2_cmdb_staging_network_element" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49863a621be7b1106e86e0cb234bcb98</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>8</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-01-08 15:38:31</sys_created_on>
-            <sys_id>89863a621be7b1106e86e0cb234bcb9b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
             <sys_updated_on>2024-01-08 15:38:31</sys_updated_on>

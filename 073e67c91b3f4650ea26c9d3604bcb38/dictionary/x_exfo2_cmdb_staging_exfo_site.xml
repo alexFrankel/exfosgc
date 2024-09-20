@@ -6,6 +6,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_CITY" label="u_site_city" max_length="40" name="u_site_city" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_CLLI" label="SITE_CLLI" max_length="40" name="u_site_clli" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_COMMENT" label="u_site_comment" max_length="40" name="u_site_comment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_COMPANY" label="SITE_COMPANY" max_length="40" name="u_site_company" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_COUNTRY" label="u_site_country" max_length="40" name="u_site_country" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_CUSTOM_ATTRIBUTES" label="SITE_CUSTOM_ATTRIBUTES" max_length="1000" name="u_site_custom_attributes" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SITE_DESCRIPTION" label="u_site_description" max_length="1000" name="u_site_description" type="string"/>

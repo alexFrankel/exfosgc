@@ -113,20 +113,6 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_e_h_domain</element>
-            <position>8</position>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-01-23 12:41:36</sys_created_on>
-            <sys_id>afdd53171b33f950da698666624bcb26</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_equipment_holder" sys_domain="global" view="Default view">e3dd53171b33f950da698666624bcb1e</sys_ui_section>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-23 12:41:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>9</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>

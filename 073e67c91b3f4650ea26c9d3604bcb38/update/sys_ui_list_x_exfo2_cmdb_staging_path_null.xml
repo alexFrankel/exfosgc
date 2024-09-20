@@ -32,21 +32,6 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_path_has_a_interface_key</element>
-            <list_id display_value="x_exfo2_cmdb_staging_path" element="NULL" name="x_exfo2_cmdb_staging_path" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f1f9542b1b22b5106e86e0cb234bcb67</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2023-11-22 13:45:41</sys_created_on>
-            <sys_id>31f9542b1b22b5106e86e0cb234bcb6b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2023-11-22 13:45:41</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
             <element>u_path_has_a_site_key</element>
             <list_id display_value="x_exfo2_cmdb_staging_path" element="NULL" name="x_exfo2_cmdb_staging_path" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f1f9542b1b22b5106e86e0cb234bcb67</list_id>
             <max_value>false</max_value>
@@ -77,21 +62,6 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_path_has_z_interface_key</element>
-            <list_id display_value="x_exfo2_cmdb_staging_path" element="NULL" name="x_exfo2_cmdb_staging_path" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f1f9542b1b22b5106e86e0cb234bcb67</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>5</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2023-11-22 13:45:41</sys_created_on>
-            <sys_id>3df9542b1b22b5106e86e0cb234bcb6b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2023-11-22 13:45:41</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
             <element>u_path_has_z_site_key</element>
             <list_id display_value="x_exfo2_cmdb_staging_path" element="NULL" name="x_exfo2_cmdb_staging_path" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f1f9542b1b22b5106e86e0cb234bcb67</list_id>
             <max_value>false</max_value>
@@ -116,21 +86,6 @@
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2023-11-22 13:45:41</sys_created_on>
             <sys_id>35f9542b1b22b5106e86e0cb234bcb6c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2023-11-22 13:45:41</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_path_link_class</element>
-            <list_id display_value="x_exfo2_cmdb_staging_path" element="NULL" name="x_exfo2_cmdb_staging_path" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f1f9542b1b22b5106e86e0cb234bcb67</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>8</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2023-11-22 13:45:41</sys_created_on>
-            <sys_id>39f9542b1b22b5106e86e0cb234bcb6c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
             <sys_updated_on>2023-11-22 13:45:41</sys_updated_on>

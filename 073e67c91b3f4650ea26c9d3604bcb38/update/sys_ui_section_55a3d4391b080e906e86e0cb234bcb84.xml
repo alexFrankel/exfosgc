@@ -29,20 +29,6 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_segment_child_link_class</element>
-            <position>2</position>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-01-30 16:22:53</sys_created_on>
-            <sys_id>2da3d4391b080e906e86e0cb234bcb8a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_segment_connection_element" sys_domain="global" view="Default view">55a3d4391b080e906e86e0cb234bcb84</sys_ui_section>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-30 16:22:53</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_segment_name</element>
             <position>3</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
@@ -57,39 +43,11 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_segment_link_class</element>
-            <position>4</position>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-01-30 16:22:53</sys_created_on>
-            <sys_id>25a3d4391b080e906e86e0cb234bcb8b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_segment_connection_element" sys_domain="global" view="Default view">55a3d4391b080e906e86e0cb234bcb84</sys_ui_section>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-30 16:22:53</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_segment_number</element>
             <position>5</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2024-01-30 16:22:53</sys_created_on>
             <sys_id>29a3d4391b080e906e86e0cb234bcb8b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_segment_connection_element" sys_domain="global" view="Default view">55a3d4391b080e906e86e0cb234bcb84</sys_ui_section>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-30 16:22:53</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_segment_has_a_interface_key</element>
-            <position>6</position>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-01-30 16:22:53</sys_created_on>
-            <sys_id>2da3d4391b080e906e86e0cb234bcb8b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_segment_connection_element" sys_domain="global" view="Default view">55a3d4391b080e906e86e0cb234bcb84</sys_ui_section>
@@ -160,20 +118,6 @@
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2024-01-30 16:22:53</sys_created_on>
             <sys_id>25a398391b080e906e86e0cb234bcb77</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_segment_connection_element" sys_domain="global" view="Default view">55a3d4391b080e906e86e0cb234bcb84</sys_ui_section>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-01-30 16:22:53</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_segment_has_z_interface_key</element>
-            <position>12</position>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-01-30 16:22:53</sys_created_on>
-            <sys_id>29a398391b080e906e86e0cb234bcb77</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_segment_connection_element" sys_domain="global" view="Default view">55a3d4391b080e906e86e0cb234bcb84</sys_ui_section>

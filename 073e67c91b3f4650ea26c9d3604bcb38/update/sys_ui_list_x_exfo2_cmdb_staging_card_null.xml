@@ -32,36 +32,6 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_card_alias1_id</element>
-            <list_id display_value="x_exfo2_cmdb_staging_card" element="NULL" name="x_exfo2_cmdb_staging_card" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cee1c7311beab190da698666624bcbb9</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2023-11-17 15:30:03</sys_created_on>
-            <sys_id>0ee1c7311beab190da698666624bcbbb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2023-11-17 15:30:03</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_card_alias1_system</element>
-            <list_id display_value="x_exfo2_cmdb_staging_card" element="NULL" name="x_exfo2_cmdb_staging_card" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cee1c7311beab190da698666624bcbb9</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2023-11-17 15:30:03</sys_created_on>
-            <sys_id>02e1c7311beab190da698666624bcbbc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2023-11-17 15:30:03</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
             <element>u_card_has_ne_key</element>
             <list_id display_value="x_exfo2_cmdb_staging_card" element="NULL" name="x_exfo2_cmdb_staging_card" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cee1c7311beab190da698666624bcbb9</list_id>
             <max_value>false</max_value>
@@ -92,21 +62,6 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_card_has_shelf_key</element>
-            <list_id display_value="x_exfo2_cmdb_staging_card" element="NULL" name="x_exfo2_cmdb_staging_card" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cee1c7311beab190da698666624bcbb9</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2023-11-17 15:30:03</sys_created_on>
-            <sys_id>0ee1c7311beab190da698666624bcbbc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2023-11-17 15:30:03</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
             <element>u_card_has_site_key</element>
             <list_id display_value="x_exfo2_cmdb_staging_card" element="NULL" name="x_exfo2_cmdb_staging_card" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cee1c7311beab190da698666624bcbb9</list_id>
             <max_value>false</max_value>
@@ -116,21 +71,6 @@
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2023-11-17 15:30:03</sys_created_on>
             <sys_id>02e1c7311beab190da698666624bcbbd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2023-11-17 15:30:03</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_card_id</element>
-            <list_id display_value="x_exfo2_cmdb_staging_card" element="NULL" name="x_exfo2_cmdb_staging_card" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cee1c7311beab190da698666624bcbb9</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>8</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2023-11-17 15:30:03</sys_created_on>
-            <sys_id>06e1c7311beab190da698666624bcbbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
             <sys_updated_on>2023-11-17 15:30:03</sys_updated_on>

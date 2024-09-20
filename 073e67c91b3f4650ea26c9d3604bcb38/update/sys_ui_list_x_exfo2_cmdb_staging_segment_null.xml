@@ -47,36 +47,6 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_segment_child_link_class</element>
-            <list_id display_value="x_exfo2_cmdb_staging_segment" element="NULL" name="x_exfo2_cmdb_staging_segment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a71ce5bf1b2239106e86e0cb234bcb46</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2023-11-23 14:23:05</sys_created_on>
-            <sys_id>a71ce5bf1b2239106e86e0cb234bcb4a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2023-11-23 14:23:05</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_segment_has_a_interface_key</element>
-            <list_id display_value="x_exfo2_cmdb_staging_segment" element="NULL" name="x_exfo2_cmdb_staging_segment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a71ce5bf1b2239106e86e0cb234bcb46</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2023-11-23 14:23:05</sys_created_on>
-            <sys_id>ab1ce5bf1b2239106e86e0cb234bcb4a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2023-11-23 14:23:05</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
             <element>u_segment_has_a_site_key</element>
             <list_id display_value="x_exfo2_cmdb_staging_segment" element="NULL" name="x_exfo2_cmdb_staging_segment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a71ce5bf1b2239106e86e0cb234bcb46</list_id>
             <max_value>false</max_value>
@@ -131,21 +101,6 @@
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2023-11-23 14:23:05</sys_created_on>
             <sys_id>ab1ce5bf1b2239106e86e0cb234bcb4b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2023-11-23 14:23:05</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_segment_has_z_interface_key</element>
-            <list_id display_value="x_exfo2_cmdb_staging_segment" element="NULL" name="x_exfo2_cmdb_staging_segment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a71ce5bf1b2239106e86e0cb234bcb46</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>9</position>
-            <sum>false</sum>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2023-11-23 14:23:05</sys_created_on>
-            <sys_id>af1ce5bf1b2239106e86e0cb234bcb4b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
             <sys_updated_on>2023-11-23 14:23:05</sys_updated_on>

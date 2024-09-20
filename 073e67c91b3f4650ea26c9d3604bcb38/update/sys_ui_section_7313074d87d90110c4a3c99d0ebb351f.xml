@@ -85,20 +85,6 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_segment_has_a_interface_key</element>
-            <position>6</position>
-            <sys_created_by>aveenstra</sys_created_by>
-            <sys_created_on>2022-01-25 15:47:59</sys_created_on>
-            <sys_id>b713874d87d90110c4a3c99d0ebb3588</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_segment" sys_domain="global" view="Default view">7313074d87d90110c4a3c99d0ebb351f</sys_ui_section>
-            <sys_updated_by>aveenstra</sys_updated_by>
-            <sys_updated_on>2022-01-25 15:47:59</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_segment_has_a_site_key</element>
             <position>7</position>
             <sys_created_by>aveenstra</sys_created_by>
@@ -127,20 +113,6 @@
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_segment_has_z_interface_key</element>
-            <position>9</position>
-            <sys_created_by>aveenstra</sys_created_by>
-            <sys_created_on>2022-01-25 15:47:59</sys_created_on>
-            <sys_id>3f13874d87d90110c4a3c99d0ebb3588</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_segment" sys_domain="global" view="Default view">7313074d87d90110c4a3c99d0ebb351f</sys_ui_section>
-            <sys_updated_by>aveenstra</sys_updated_by>
-            <sys_updated_on>2022-01-25 15:47:59</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_segment_has_path_key</element>
             <position>10</position>
             <sys_created_by>aveenstra</sys_created_by>
@@ -160,34 +132,6 @@
             <sys_created_by>aveenstra</sys_created_by>
             <sys_created_on>2022-01-25 15:47:59</sys_created_on>
             <sys_id>3313874d87d90110c4a3c99d0ebb3589</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_segment" sys_domain="global" view="Default view">7313074d87d90110c4a3c99d0ebb351f</sys_ui_section>
-            <sys_updated_by>aveenstra</sys_updated_by>
-            <sys_updated_on>2022-01-25 15:47:59</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_segment_child_link_class</element>
-            <position>12</position>
-            <sys_created_by>aveenstra</sys_created_by>
-            <sys_created_on>2022-01-25 15:47:59</sys_created_on>
-            <sys_id>b313874d87d90110c4a3c99d0ebb3589</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_segment" sys_domain="global" view="Default view">7313074d87d90110c4a3c99d0ebb351f</sys_ui_section>
-            <sys_updated_by>aveenstra</sys_updated_by>
-            <sys_updated_on>2022-01-25 15:47:59</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_segment_link_class</element>
-            <position>13</position>
-            <sys_created_by>aveenstra</sys_created_by>
-            <sys_created_on>2022-01-25 15:47:59</sys_created_on>
-            <sys_id>3713874d87d90110c4a3c99d0ebb3589</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_segment" sys_domain="global" view="Default view">7313074d87d90110c4a3c99d0ebb351f</sys_ui_section>

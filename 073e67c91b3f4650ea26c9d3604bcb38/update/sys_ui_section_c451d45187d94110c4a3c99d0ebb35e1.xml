@@ -43,34 +43,6 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_site_alias1_system</element>
-            <position>3</position>
-            <sys_created_by>aveenstra</sys_created_by>
-            <sys_created_on>2022-01-25 21:29:36</sys_created_on>
-            <sys_id>cc51585187d94110c4a3c99d0ebb35fe</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
-            <sys_updated_by>aveenstra</sys_updated_by>
-            <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_site_alias1_id</element>
-            <position>4</position>
-            <sys_created_by>aveenstra</sys_created_by>
-            <sys_created_on>2022-01-25 21:29:36</sys_created_on>
-            <sys_id>4051585187d94110c4a3c99d0ebb35ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_location" sys_domain="global" view="Default view">c451d45187d94110c4a3c99d0ebb35e1</sys_ui_section>
-            <sys_updated_by>aveenstra</sys_updated_by>
-            <sys_updated_on>2022-01-25 21:29:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_site_name</element>
             <position>5</position>
             <sys_created_by>aveenstra</sys_created_by>
