@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-23 19:24:12</sys_created_on>
+        <sys_id>b4781f7887488110c4a3c99d0ebb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITOMLicensingUtils</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_scope_privilege_b4781f7887488110c4a3c99d0ebb35cb</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-23 19:24:12</sys_updated_on>
+        <target_name>ITOMLicensingUtils</target_name>
+        <target_scope display_value="">5f32c8e7c3f22300daa79624a1d3ae03</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_scope_privilege_b4781f7887488110c4a3c99d0ebb35cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-23 19:24:12</sys_created_on>
+        <sys_id>b4781f7887488110c4a3c99d0ebb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITOMLicensingUtils</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_scope_privilege_b4781f7887488110c4a3c99d0ebb35cb</sys_update_name>
+        <sys_updated_by>aveenstra</sys_updated_by>
+        <sys_updated_on>2021-11-23 19:24:12</sys_updated_on>
+        <target_name>ITOMLicensingUtils</target_name>
+        <target_scope display_value="">5f32c8e7c3f22300daa79624a1d3ae03</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+</record_update>]]></payload>
+        <payload_hash>-734680384</payload_hash>
+        <record_name>ITOMLicensingUtils</record_name>
+        <reverted_from/>
+        <source>864abc111bbf0e143c9862c7b04bcbd4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-08-02 15:56:28</sys_created_on>
+        <sys_id>1ebbfc1d1bbf0e143c9862c7b04bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19113ce8b7c0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-08-02 15:56:28</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>d6bbfc1d8bbf0e14e5029d1bd16051f8</update_guid>
+        <update_guid_history>d6bbfc1d8bbf0e14e5029d1bd16051f8:0,0699b4dd857f0e14fbaa83862168121d:1256761717,0730b41992f3865097b2d4915f89fe1a:0,b3ad6c59cab386506856ac1d90601026:-1885920514,83a04d2c5fbec210ef860b00da640e1f:0,715eb0ec797ec210bbcb911958979355:2042676491,c0cab27b5d8e0e10ea6c1763d68124e3:0,b9d4b2f7174e0e10be8fea81109084dc:-1520281846,0e84eb7cfdd48a109b760c8f293f1713:0,93125fe07e180a10f62c54fb768542a8:-1411871626,3ae655a86b14c610bde38ec2d97214f1:0,d16511602d14c610b7285f61388ea905:-1318663359,a237b2b9446ab19029b3e0e8c0350f26:0,2ee5baf1606ab1907e87c8c962d32798:-1648519252,a98cdc919562f590c452eda0be0ea6ca:0,f1eaa705802efd50dfd8f594ddd85dfc:-1897994286,b9e35aefa79e795015d7b01f6de89902:0,7ab21a6b279e795000a3d09d1e687e4b:-2044983209,66ef67549756bd10f6d3375abc8ef056:0,fe1de75c2c16bd100f96f3b2fc2ab7e6:964856662,921213c6cf46b5105771721dbaa8dbd1:1526157593</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-09-20 11:49:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>1b0b4e4f526549d483b4e73848cfcc29</sys_id>
+        <sys_metadata>b4781f7887488110c4a3c99d0ebb35cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITOMLicensingUtils</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_b4781f7887488110c4a3c99d0ebb35cb</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_b4781f7887488110c4a3c99d0ebb35cb">1ebbfc1d1bbf0e143c9862c7b04bcbf8</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-09-20 11:49:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
