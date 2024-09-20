@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[/* Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group>e5089fb61b7d4e90269e97d2b24bcb35</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>tempToEquipment holder 1</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">5706973a1b3d4e90269e97d2b24bcb5b</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-30 09:04:41</sys_created_on>
+        <sys_id>25089fb61b7d4e90269e97d2b24bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToEquipment holder 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">b106dfb61b3d4e90269e97d2b24bcb68</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_25089fb61b7d4e90269e97d2b24bcb38</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-30 09:04:41</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Equipment holder 1">69089fb61b7d4e90269e97d2b24bcb35</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_entity_mapping_25089fb61b7d4e90269e97d2b24bcb38</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;
+    &lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;condition_script&gt;&lt;![CDATA[/* Example Script  (function() {          //step1: access the input variables         if (input &amp;&amp; input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]&gt;&lt;/condition_script&gt;
+        &lt;encoded_query/&gt;
+        &lt;entity_mapping_group&gt;e5089fb61b7d4e90269e97d2b24bcb35&lt;/entity_mapping_group&gt;
+        &lt;ignore&gt;false&lt;/ignore&gt;
+        &lt;is_conditional&gt;false&lt;/is_conditional&gt;
+        &lt;name&gt;tempToEquipment holder 1&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;source_sys_rte_eb_entity display_value="temp"&gt;5706973a1b3d4e90269e97d2b24bcb5b&lt;/source_sys_rte_eb_entity&gt;
+        &lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;alex.frankel@exfo.com&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-04-30 09:04:41&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;25089fb61b7d4e90269e97d2b24bcb38&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;tempToEquipment holder 1&lt;/sys_name&gt;
+        &lt;sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb"&gt;073e67c91b3f4650ea26c9d3604bcb38&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_rte_eb_definition display_value=""&gt;b106dfb61b3d4e90269e97d2b24bcb68&lt;/sys_rte_eb_definition&gt;
+        &lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;073e67c91b3f4650ea26c9d3604bcb38&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_rte_eb_entity_mapping_25089fb61b7d4e90269e97d2b24bcb38&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-04-30 09:04:41&lt;/sys_updated_on&gt;
+        &lt;target_sys_rte_eb_entity display_value="Equipment holder 1"&gt;69089fb61b7d4e90269e97d2b24bcb35&lt;/target_sys_rte_eb_entity&gt;
+    &lt;/sys_rte_eb_entity_mapping&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>742824554</payload_hash>
+        <record_name>tempToEquipment holder 1</record_name>
+        <reverted_from/>
+        <source>864abc111bbf0e143c9862c7b04bcbd4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-08-02 15:54:11</sys_created_on>
+        <sys_id>a83bb4191bbf0e143c9862c7b04bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19113cc70b40000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-08-02 15:54:11</sys_updated_on>
+        <type>RTE Entity Mapping</type>
+        <update_guid>643bb41958bf0e14ab781964deab79a0</update_guid>
+        <update_guid_history>643bb41958bf0e14ab781964deab79a0:0,bfd8b819597f0e14431562935486431f:-1379322474,a89f6891f0f38650504fe934b89152d1:0,08fc6015eab3865083e1e6bee7122f21:705699073,01108128d7bec210570694c08a79ec39:0,b59d30687e7ec210a93425f293b7a453:775559632,cf1af237e38e0e102ac357334f437727:0,62d3baff8b0e0e10f60e824c7e8117c2:1563957641,2d089fb6a97d4e90694a382824f63539:-1814821562,d70bf0cf91358e90d8a2c6ad9af1f48c:1951493562,2d089fb6a97d4e90694a382824f63539:-1814821562</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-09-20 10:47:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>39c1009621e740ea928e382db2d69b44</sys_id>
+        <sys_metadata>25089fb61b7d4e90269e97d2b24bcb38</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToEquipment holder 1</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_25089fb61b7d4e90269e97d2b24bcb38</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_25089fb61b7d4e90269e97d2b24bcb38">a83bb4191bbf0e143c9862c7b04bcba0</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-09-20 10:47:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

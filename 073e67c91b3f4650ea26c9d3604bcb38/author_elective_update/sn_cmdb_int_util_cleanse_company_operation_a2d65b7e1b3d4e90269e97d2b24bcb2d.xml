@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_operation">
+    <sn_cmdb_int_util_cleanse_company_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Cleanse Company - u_e_h_manufacturer</name>
+        <operation_group/>
+        <order>200</order>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sn_cmdb_int_util_cleanse_company_operation</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-04-30 08:59:33</sys_created_on>
+        <sys_id>a2d65b7e1b3d4e90269e97d2b24bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cleanse Company - u_e_h_manufacturer</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">b106dfb61b3d4e90269e97d2b24bcb68</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">5706973a1b3d4e90269e97d2b24bcb5b</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sn_cmdb_int_util_cleanse_company_operation_a2d65b7e1b3d4e90269e97d2b24bcb2d</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-04-30 08:59:33</sys_updated_on>
+        <target_sys_rte_eb_field/>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Cleanse Company">12e36bf4735500102b6265a751ab9e3f</type>
+    </sn_cmdb_int_util_cleanse_company_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sn_cmdb_int_util_cleanse_company_operation_a2d65b7e1b3d4e90269e97d2b24bcb2d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_operation"&gt;&lt;sn_cmdb_int_util_cleanse_company_operation action="INSERT_OR_UPDATE"&gt;&lt;conditional_fields/&gt;&lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;Cleanse Company - u_e_h_manufacturer&lt;/name&gt;&lt;operation_group/&gt;&lt;order&gt;200&lt;/order&gt;&lt;source_sys_rte_eb_field/&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;sys_class_name&gt;sn_cmdb_int_util_cleanse_company_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex.frankel@exfo.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-30 08:59:33&lt;/sys_created_on&gt;&lt;sys_id&gt;a2d65b7e1b3d4e90269e97d2b24bcb2d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Cleanse Company - u_e_h_manufacturer&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb"&gt;073e67c91b3f4650ea26c9d3604bcb38&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value=""&gt;b106dfb61b3d4e90269e97d2b24bcb68&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;5706973a1b3d4e90269e97d2b24bcb5b&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;073e67c91b3f4650ea26c9d3604bcb38&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_cmdb_int_util_cleanse_company_operation_a2d65b7e1b3d4e90269e97d2b24bcb2d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-30 08:59:33&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field/&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Cleanse Company"&gt;12e36bf4735500102b6265a751ab9e3f&lt;/type&gt;&lt;/sn_cmdb_int_util_cleanse_company_operation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-901417328</payload_hash>
+        <record_name>Cleanse Company - u_e_h_manufacturer</record_name>
+        <reverted_from/>
+        <source>37596be41b385ad8ea26c9d3604bcb02</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-09-20 10:46:32</sys_created_on>
+        <sys_id>f3aa0c8d1b3412103c9862c7b04bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1920f0a644d0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-09-20 10:46:32</sys_updated_on>
+        <type>Robust Transform Engine Entity Cleanse C</type>
+        <update_guid>ffaa0c8de6341210ff4ff9b316d334dc</update_guid>
+        <update_guid_history>ffaa0c8de6341210ff4ff9b316d334dc:0,a3aa0c8d5b341210af597eb76273f084:0,ea1b78d55bbf0e1470b8b583f58b634e:0,3d49341da77f0e14edde2658feae8d34:-1158269338,297fac5181f38650cf5604cd62af8956:0,4a5d60d53ab3865091fbc67a97138fbb:-1331400926,e7efb0e4babec2104e45e53ec69e85ec:0,cc0e382c017ec21029ddf011e4601830:-1184052049,59f9b2f3588e0e101b2889c13e6f60df:0,6b54baf3004e0e107c5e06e0aa7d775c:-1446225481,aed65b7ede3d4e90b31652491d365b2e:-1611495963,001b34cf71358e90a692b3c5c19c3aa1:-906195623,aed65b7ede3d4e90b31652491d365b2e:-1611495963</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cleanse Company - u_e_h_manufacturer">263b88cd1b3412103c9862c7b04bcb05</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-09-20 10:48:54</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmdb_int_util_cleanse_company_operation">sn_cmdb_int_util_cleanse_company_operation</sys_db_object>
+        <sys_id>4377fd744bed44bf9f1bd728981ea3b1</sys_id>
+        <sys_metadata>a2d65b7e1b3d4e90269e97d2b24bcb2d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cleanse Company - u_e_h_manufacturer</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sn_cmdb_int_util_cleanse_company_operation_a2d65b7e1b3d4e90269e97d2b24bcb2d</sys_update_name>
+        <sys_update_version display_value="sn_cmdb_int_util_cleanse_company_operation_a2d65b7e1b3d4e90269e97d2b24bcb2d">f3aa0c8d1b3412103c9862c7b04bcbdd</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-09-20 10:48:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
