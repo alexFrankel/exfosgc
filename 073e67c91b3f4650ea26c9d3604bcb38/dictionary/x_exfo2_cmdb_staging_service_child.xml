@@ -9,6 +9,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_PATH_KEY" label="SERVICE_HAS_PATH_KEY" max_length="40" name="u_service_has_path_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_HAS_PARENT_SERVICE_KEY" label="u_service_has_parent_service_key" max_length="255" name="u_service_has__nt_service_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_NAME" label="u_service_name" max_length="255" name="u_service_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_SERIAL_NUMBER" label="SERVICE_SERIAL_NUMBER" max_length="40" name="u_service_serial_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_STATUS" label="u_service_status" max_length="40" name="u_service_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_TNI_DOMAIN" label="u_service_tni_domain" max_length="40" name="u_service_tni_domain" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERVICE_TOP_EXP_STATUS" label="SERVICE_TOP_EXP_STATUS" max_length="40" name="u_service_top_exp_status" type="string"/>

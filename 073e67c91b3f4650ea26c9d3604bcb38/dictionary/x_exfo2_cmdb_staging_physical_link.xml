@@ -20,6 +20,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_LENGTH_UNIT" label="u_link_length_unit" max_length="40" name="u_link_length_unit" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_NAME" label="u_link_name" max_length="255" name="u_link_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_OWNER" label="u_link_name" max_length="40" name="u_link_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_SERIAL_NUMBER" label="LINK_SERIAL_NUMBER" max_length="40" name="u_link_serial_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_STATUS" label="u_link_status" max_length="40" name="u_link_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_SUB_TYPE" label="LINK_SUB_TYPE" max_length="40" name="u_link_sub_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LINK_TNI_DOMAIN" label="LINK_TNI_DOMAIN" max_length="40" name="u_link_tni_domain" type="string"/>
