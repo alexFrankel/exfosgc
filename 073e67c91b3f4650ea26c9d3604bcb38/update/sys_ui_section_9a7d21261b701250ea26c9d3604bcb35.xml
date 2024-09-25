@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>546fa5e61b701250ea26c9d3604bcbea</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>41aa96a21b341250ea26c9d3604bcb4f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>tni_entity.distinguished_name</element>
             <position>1</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>586fa5e61b701250ea26c9d3604bcbea</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>45aa96a21b341250ea26c9d3604bcb4f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>serial_number</element>
             <position>2</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>5c6fa5e61b701250ea26c9d3604bcbea</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>49aa96a21b341250ea26c9d3604bcb4f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>tni_entity.ni_type</element>
             <position>3</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>506fa5e61b701250ea26c9d3604bcbeb</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>4daa96a21b341250ea26c9d3604bcb4f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>tni_entity.network_domain</element>
             <position>4</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>546fa5e61b701250ea26c9d3604bcbeb</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>41aa96a21b341250ea26c9d3604bcb50</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>tni_entity.inventory_category</element>
             <position>5</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>586fa5e61b701250ea26c9d3604bcbeb</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>45aa96a21b341250ea26c9d3604bcb50</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>location</element>
             <position>6</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>5c6fa5e61b701250ea26c9d3604bcbeb</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>49aa96a21b341250ea26c9d3604bcb50</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>location.country</element>
             <position>7</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>506fa5e61b701250ea26c9d3604bcbec</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>4daa96a21b341250ea26c9d3604bcb50</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>short_description</element>
             <position>8</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>546fa5e61b701250ea26c9d3604bcbec</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>41aa96a21b341250ea26c9d3604bcb51</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>life_cycle_stage</element>
             <position>9</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>586fa5e61b701250ea26c9d3604bcbec</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>45aa96a21b341250ea26c9d3604bcb51</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>life_cycle_stage_status</element>
             <position>10</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>5c6fa5e61b701250ea26c9d3604bcbec</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>49aa96a21b341250ea26c9d3604bcb51</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>comments</element>
             <position>11</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>506fa5e61b701250ea26c9d3604bcbed</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>4daa96a21b341250ea26c9d3604bcb51</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,15 +172,29 @@
             <element>tni_entity.operation_notes</element>
             <position>12</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-09-25 09:57:22</sys_created_on>
-            <sys_id>546fa5e61b701250ea26c9d3604bcbed</sys_id>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>41aa96a21b341250ea26c9d3604bcb52</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-09-25 09:57:22</sys_updated_on>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ui_ng_relation_formatter.xml</element>
+            <position>13</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:06:23</sys_created_on>
+            <sys_id>45aa96a21b341250ea26c9d3604bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="CI Relations">b62309137f32310009fedf92bdfa912b</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_site" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">9a7d21261b701250ea26c9d3604bcb35</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:06:23</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
