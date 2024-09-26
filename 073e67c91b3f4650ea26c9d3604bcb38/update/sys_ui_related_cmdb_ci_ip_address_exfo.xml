@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="cmdb_ci_ip_address" version="2" view="exfo">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="IP Address - exfo" name="cmdb_ci_ip_address" related_list="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">7fd9c8071b785250ea26c9d3604bcba5</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>cmdb_key_value.configuration_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-26 15:50:50</sys_created_on>
+            <sys_id>fbd9c8071b785250ea26c9d3604bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-26 15:50:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="IP Address - exfo" name="cmdb_ci_ip_address" related_list="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">7fd9c8071b785250ea26c9d3604bcba5</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>tni_entity.ci</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-26 15:50:50</sys_created_on>
+            <sys_id>ffd9c8071b785250ea26c9d3604bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-26 15:50:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>IP Address - exfo</calculated_name>
+            <filter/>
+            <name>cmdb_ci_ip_address</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-26 15:50:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7fd9c8071b785250ea26c9d3604bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IP Address - exfo</sys_name>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_related_cmdb_ci_ip_address_exfo</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-26 15:50:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="exfo" name="exfo">6565183e1b0c1ad0ea26c9d3604bcb1a</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
