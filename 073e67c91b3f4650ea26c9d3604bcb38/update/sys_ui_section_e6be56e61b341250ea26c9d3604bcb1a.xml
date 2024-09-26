@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="e6be56e61b341250ea26c9d3604bcb1a" sys_domain="global" table="cmdb_ci_ni_telco_equipment" version="3" view="exfo">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d581ae6a1b341250ea26c9d3604bcb21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tni_entity.distinguished_name</element>
+            <position>1</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d981ae6a1b341250ea26c9d3604bcb21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>2</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>dd81ae6a1b341250ea26c9d3604bcb21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <position>3</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d181ae6a1b341250ea26c9d3604bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tni_entity.ni_type</element>
+            <position>4</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d581ae6a1b341250ea26c9d3604bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tni_entity.network_domain</element>
+            <position>5</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d981ae6a1b341250ea26c9d3604bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tni_entity.inventory_category</element>
+            <position>6</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>dd81ae6a1b341250ea26c9d3604bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manufacturer</element>
+            <position>7</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d181ae6a1b341250ea26c9d3604bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tni_entity.network_site</element>
+            <position>8</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d581ae6a1b341250ea26c9d3604bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>9</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d981ae6a1b341250ea26c9d3604bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>life_cycle_stage</element>
+            <position>10</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>dd81ae6a1b341250ea26c9d3604bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>life_cycle_stage_status</element>
+            <position>11</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d181ae6a1b341250ea26c9d3604bcb24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_number</element>
+            <position>12</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d581ae6a1b341250ea26c9d3604bcb24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>13</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d981ae6a1b341250ea26c9d3604bcb24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ip_address</element>
+            <position>14</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>dd81ae6a1b341250ea26c9d3604bcb24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>15</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d181ae6a1b341250ea26c9d3604bcb25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tni_entity.operation_notes</element>
+            <position>16</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d581ae6a1b341250ea26c9d3604bcb25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ui_ng_relation_formatter.xml</element>
+            <position>17</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:36:26</sys_created_on>
+            <sys_id>d981ae6a1b341250ea26c9d3604bcb25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="CI Relations">b62309137f32310009fedf92bdfa912b</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_ni_telco_equipment" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">e6be56e61b341250ea26c9d3604bcb1a</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:36:26</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>cmdb_ci_ni_telco_equipment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 13:24:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6be56e61b341250ea26c9d3604bcb1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_ni_telco_equipment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_section_e6be56e61b341250ea26c9d3604bcb1a</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 13:24:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="exfo" name="exfo">6565183e1b0c1ad0ea26c9d3604bcb1a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="114052e61bf01250ea26c9d3604bcb64" sys_domain="global" table="tni_entity" version="3" view="exfo">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ci</element>
+            <position>0</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 12:22:55</sys_created_on>
+            <sys_id>9cb05ee61bf01250ea26c9d3604bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="tni_entity" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">114052e61bf01250ea26c9d3604bcb64</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 12:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ci.name</element>
+            <position>1</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 12:22:55</sys_created_on>
+            <sys_id>90b05ee61bf01250ea26c9d3604bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="tni_entity" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">114052e61bf01250ea26c9d3604bcb64</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 12:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ci.serial_number</element>
+            <position>2</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 12:22:55</sys_created_on>
+            <sys_id>94b05ee61bf01250ea26c9d3604bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="tni_entity" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">114052e61bf01250ea26c9d3604bcb64</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 12:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>distinguished_name</element>
+            <position>3</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 12:22:55</sys_created_on>
+            <sys_id>98b05ee61bf01250ea26c9d3604bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="tni_entity" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">114052e61bf01250ea26c9d3604bcb64</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 12:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inventory_category</element>
+            <position>4</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 12:22:55</sys_created_on>
+            <sys_id>9cb05ee61bf01250ea26c9d3604bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="tni_entity" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">114052e61bf01250ea26c9d3604bcb64</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 12:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ni_type</element>
+            <position>5</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 12:22:55</sys_created_on>
+            <sys_id>90b05ee61bf01250ea26c9d3604bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="tni_entity" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">114052e61bf01250ea26c9d3604bcb64</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 12:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>network_site</element>
+            <position>6</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 12:22:55</sys_created_on>
+            <sys_id>94b05ee61bf01250ea26c9d3604bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="tni_entity" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">114052e61bf01250ea26c9d3604bcb64</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 12:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>network_domain</element>
+            <position>7</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 12:22:55</sys_created_on>
+            <sys_id>98b05ee61bf01250ea26c9d3604bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="tni_entity" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">114052e61bf01250ea26c9d3604bcb64</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 12:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>operation_notes</element>
+            <position>8</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 12:22:55</sys_created_on>
+            <sys_id>9cb05ee61bf01250ea26c9d3604bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="tni_entity" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">114052e61bf01250ea26c9d3604bcb64</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 12:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_on</element>
+            <position>9</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 12:22:55</sys_created_on>
+            <sys_id>90b05ee61bf01250ea26c9d3604bcbfb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="tni_entity" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">114052e61bf01250ea26c9d3604bcb64</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 12:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>tni_entity</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-25 12:21:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>114052e61bf01250ea26c9d3604bcb64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tni_entity</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_section_114052e61bf01250ea26c9d3604bcb64</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-25 12:21:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="exfo" name="exfo">6565183e1b0c1ad0ea26c9d3604bcb1a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
