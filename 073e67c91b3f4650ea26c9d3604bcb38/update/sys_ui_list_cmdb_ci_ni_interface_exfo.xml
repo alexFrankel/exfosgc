@@ -3,212 +3,227 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>50dc7c041b145ed0ea26c9d3604bcb6c</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>b2cb640b1bf85250ea26c9d3604bcb4a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>tni_entity.distinguished_name</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>d0dc7c041b145ed0ea26c9d3604bcb6c</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>b6cb640b1bf85250ea26c9d3604bcb4a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>serial_number</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>54dc7c041b145ed0ea26c9d3604bcb6c</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>bacb640b1bf85250ea26c9d3604bcb4a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>tni_entity.ni_type</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <element>manufacturer</element>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>d4dc7c041b145ed0ea26c9d3604bcb6c</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>becb640b1bf85250ea26c9d3604bcb4a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>tni_entity.network_domain</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <element>port_bandwidth</element>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>58dc7c041b145ed0ea26c9d3604bcb6c</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>b2cb640b1bf85250ea26c9d3604bcb4b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>tni_entity.inventory_category</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <element>ip_address</element>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>d8dc7c041b145ed0ea26c9d3604bcb6c</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>b6cb640b1bf85250ea26c9d3604bcb4b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>manufacturer</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <element>telco_equipment</element>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>5cdc7c041b145ed0ea26c9d3604bcb6c</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>bacb640b1bf85250ea26c9d3604bcb4b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>port_bandwidth</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <element>tni_entity.network_domain</element>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>dcdc7c041b145ed0ea26c9d3604bcb6c</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>becb640b1bf85250ea26c9d3604bcb4b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>ip_address</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <element>tni_entity.inventory_category</element>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>50dc7c041b145ed0ea26c9d3604bcb6d</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>b2cb640b1bf85250ea26c9d3604bcb4c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <element>tni_entity.ni_type</element>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>d0dc7c041b145ed0ea26c9d3604bcb6d</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>b6cb640b1bf85250ea26c9d3604bcb4c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>telco_equipment</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <element>life_cycle_stage</element>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>54dc7c041b145ed0ea26c9d3604bcb6d</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>bacb640b1bf85250ea26c9d3604bcb4c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>life_cycle_stage</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <element>life_cycle_stage_status</element>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>11</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>d4dc7c041b145ed0ea26c9d3604bcb6d</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>becb640b1bf85250ea26c9d3604bcb4c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>life_cycle_stage_status</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <element>short_description</element>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>12</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>58dc7c041b145ed0ea26c9d3604bcb6d</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>b2cb640b1bf85250ea26c9d3604bcb4d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>tni_entity.operation_notes</element>
-            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">58dc7c041b145ed0ea26c9d3604bcb6b</list_id>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>13</position>
             <sum>false</sum>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
-            <sys_id>d8dc7c041b145ed0ea26c9d3604bcb6d</sys_id>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>b6cb640b1bf85250ea26c9d3604bcb4d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="cmdb_ci_ni_interface" element="NULL" name="cmdb_ci_ni_interface" parent="NULL" relationship="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">b6cb640b1bf85250ea26c9d3604bcb49</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
+            <sys_id>bacb640b1bf85250ea26c9d3604bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -222,10 +237,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-08-23 15:20:15</sys_created_on>
+            <sys_created_on>2024-09-26 18:19:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>58dc7c041b145ed0ea26c9d3604bcb6b</sys_id>
+            <sys_id>b6cb640b1bf85250ea26c9d3604bcb49</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>cmdb_ci_ni_interface</sys_name>
             <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
@@ -233,7 +248,7 @@
             <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
             <sys_update_name>sys_ui_list_cmdb_ci_ni_interface_exfo</sys_update_name>
             <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-08-23 15:20:15</sys_updated_on>
+            <sys_updated_on>2024-09-26 18:19:02</sys_updated_on>
             <sys_user/>
             <view display_value="exfo" name="exfo">6565183e1b0c1ad0ea26c9d3604bcb1a</view>
             <view_name/>
