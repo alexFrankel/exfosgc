@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="DELETE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum/>
+        <content display_value="Knowledge Analytics and Metrics">cf8a1d2a7310230021741c86fbf6a746</content>
+        <effective_weight>1</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>0</previous_status>
+        <progress>0</progress>
+        <related_log_entry display_value="2024-02-19 08:25:34">fb041fcc1bacc650da698666624bcbbd</related_log_entry>
+        <status>0</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-19 16:25:33</sys_created_on>
+        <sys_id>57041fcc1bacc650da698666624bcb47</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>0</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>gsw_status_of_content_57041fcc1bacc650da698666624bcb47</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-19 16:25:34</sys_updated_on>
+    </gsw_status_of_content>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>gsw_status_of_content_57041fcc1bacc650da698666624bcb47</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="INSERT_OR_UPDATE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum/>
+        <content display_value="Knowledge Analytics and Metrics">cf8a1d2a7310230021741c86fbf6a746</content>
+        <effective_weight>1</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>0</previous_status>
+        <progress>0</progress>
+        <related_log_entry display_value="2024-02-19 08:25:34">fb041fcc1bacc650da698666624bcbbd</related_log_entry>
+        <status>0</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-02-19 16:25:33</sys_created_on>
+        <sys_id>57041fcc1bacc650da698666624bcb47</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>0</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>gsw_status_of_content_57041fcc1bacc650da698666624bcb47</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-02-19 16:25:34</sys_updated_on>
+    </gsw_status_of_content>
+</record_update>]]></payload>
+        <payload_hash>-1333456339</payload_hash>
+        <record_name>0</record_name>
+        <reverted_from/>
+        <source>c39ee4d91bb38650ea26c9d3604bcb70</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-08-02 15:02:49</sys_created_on>
+        <sys_id>547fe8511bf38650ea26c9d3604bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191139d6a690000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-08-02 15:02:49</sys_updated_on>
+        <type>Guided Setup Content Status</type>
+        <update_guid>107fe8518ff3865064ef21990fd42cdb</update_guid>
+        <update_guid_history>107fe8518ff3865064ef21990fd42cdb:0,dcf972f3638e0e10dbea45f4be9bfd0a:1368075633</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Not started">ce4163641b1d5a10ea26c9d3604bcb40</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-14 09:38:33</sys_created_on>
+        <sys_db_object display_value="" name="gsw_status_of_content">gsw_status_of_content</sys_db_object>
+        <sys_id>4cf389985caf4768897a56258073d840</sys_id>
+        <sys_metadata>57041fcc1bacc650da698666624bcb47</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>gsw_status_of_content_57041fcc1bacc650da698666624bcb47</sys_update_name>
+        <sys_update_version display_value="gsw_status_of_content_57041fcc1bacc650da698666624bcb47">547fe8511bf38650ea26c9d3604bcbdb</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-14 09:38:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -11,6 +11,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2024-06-11 15:13:14</sys_created_on>
+            <sys_id>aa7af4911bbf0e143c9862c7b04bcbcb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Site top exp status</sys_name>
             <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
