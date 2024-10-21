@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="DELETE">
+        <col_name_string>u_priority</col_name_string>
+        <index_col_name element="u_priority" name="sn_attribute_pack_site_pack">f529fa761b345250ea26c9d3604bcb3e</index_col_name>
+        <logical_table_name>sn_attribute_pack_site_pack</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-09-27 14:38:46</sys_created_on>
+        <sys_id>fdf285571bf89250ea26c9d3604bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_attribute_pack_site_pack</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_index_sn_attribute_pack_site_pack_u_priority</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-09-27 14:38:46</sys_updated_on>
+        <table/>
+        <unique_index>false</unique_index>
+    </sys_index>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_index_sn_attribute_pack_site_pack_u_priority</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index"><sys_index action="INSERT_OR_UPDATE"><col_name_string>u_priority</col_name_string><index_col_name element="u_priority" name="sn_attribute_pack_site_pack">f529fa761b345250ea26c9d3604bcb3e</index_col_name><logical_table_name>sn_attribute_pack_site_pack</logical_table_name><sys_class_name>sys_index</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-09-27 14:38:46</sys_created_on><sys_id>fdf285571bf89250ea26c9d3604bcba6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_attribute_pack_site_pack</sys_name><sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope><sys_update_name>sys_index_sn_attribute_pack_site_pack_u_priority</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-09-27 14:38:46</sys_updated_on><table/><unique_index>false</unique_index></sys_index></record_update>]]></payload>
+        <payload_hash>-588215501</payload_hash>
+        <record_name>Site Pack: priority</record_name>
+        <reverted_from/>
+        <source>ad9181091b90ca106e86e0cb234bcbe9</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-21 13:10:34</sys_created_on>
+        <sys_id>08f4d0431b511a103c9862c7b04bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192af3367380000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:10:34</sys_updated_on>
+        <type>Indexes</type>
+        <update_guid>44f4d043de511a100a67b634ad90fdb7</update_guid>
+        <update_guid_history>44f4d043de511a100a67b634ad90fdb7:0,42f28557dff892507f7dc8c09bddc2a9:-1826237066</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-21 14:12:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_index">sys_index</sys_db_object>
+        <sys_id>40d9d079b0f649709721c247334d4490</sys_id>
+        <sys_metadata>fdf285571bf89250ea26c9d3604bcba6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_attribute_pack_site_pack</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_index_sn_attribute_pack_site_pack_u_priority</sys_update_name>
+        <sys_update_version display_value="sys_index_sn_attribute_pack_site_pack_u_priority">08f4d0431b511a103c9862c7b04bcbd0</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-21 14:12:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 09:45:43</sys_created_on>
+        <sys_id>a0f5eb3a1b5dd6103c9862c7b04bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_exfo2_cmdb.admin</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_security_acl display_value="">96e5ef3a1b5dd6103c9862c7b04bcb59</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a0f5eb3a1b5dd6103c9862c7b04bcb81</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 09:45:43</sys_updated_on>
+        <sys_user_role display_value="x_exfo2_cmdb.admin" name="x_exfo2_cmdb.admin">85a1822087b274103e867518cebb3576</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_security_acl_role_a0f5eb3a1b5dd6103c9862c7b04bcb81</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-21 09:45:43</sys_created_on><sys_id>a0f5eb3a1b5dd6103c9862c7b04bcb81</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_exfo2_cmdb.admin</sys_name><sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope><sys_security_acl display_value="">96e5ef3a1b5dd6103c9862c7b04bcb59</sys_security_acl><sys_update_name>sys_security_acl_role_a0f5eb3a1b5dd6103c9862c7b04bcb81</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-21 09:45:43</sys_updated_on><sys_user_role display_value="x_exfo2_cmdb.admin" name="x_exfo2_cmdb.admin">85a1822087b274103e867518cebb3576</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>458937860</payload_hash>
+        <record_name>.x_exfo2_cmdb.admin</record_name>
+        <reverted_from/>
+        <source>a5b56b3a1b5dd6103c9862c7b04bcb94</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 09:45:43</sys_created_on>
+        <sys_id>9b06af3a1b5dd6103c9862c7b04bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192ae77daf70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 09:45:43</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>9f06af3abe5dd610c11b12f1af754db6</update_guid>
+        <update_guid_history>9f06af3abe5dd610c11b12f1af754db6:458937860</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_exfo2_cmdb.admin">a181e4c71b519250ea26c9d3604bcb35</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 14:05:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>45f5e5662d924adcad10319ab6116404</sys_id>
+        <sys_metadata>a0f5eb3a1b5dd6103c9862c7b04bcb81</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_exfo2_cmdb.admin</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_a0f5eb3a1b5dd6103c9862c7b04bcb81</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_a0f5eb3a1b5dd6103c9862c7b04bcb81">9b06af3a1b5dd6103c9862c7b04bcbb7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 14:05:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

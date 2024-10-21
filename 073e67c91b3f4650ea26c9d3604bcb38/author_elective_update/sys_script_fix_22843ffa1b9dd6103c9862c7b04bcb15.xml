@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <before>false</before>
+        <description>Cleans out junk we don't want included in the app</description>
+        <name>Pre-publish clean-up for EXFO</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[gs.info('Deleting from gsw_status_of_content');
+var gr_ci = new GlideRecord('sys_app');
+gr_ci.addEncodedQuery("scope=x_exfo2_cmdb");
+gr_ci.setWorkflow(false); // don't run business logic
+gr_ci.query();
+if(gr_ci.next()) {
+ var appId = gr_ci.getValue('sys_id');
+ var gr1 = new GlideRecord('gsw_status_of_content');
+ gr1.addEncodedQuery("sys_scope="+appId);
+ gr1.query();
+ gs.info("Records: " + gr1.getRowCount());
+ while (gr1.next()) {
+  //gs.info("row: " + gr1.getValue('sys_update_name') + " " + gr1.getValue('sys_scope'));
+  gr1.deleteRecord();
+ }
+}
+
+gs.info('Deleting from gsw_change_log');
+var gr_ci2 = new GlideRecord('gsw_change_log');
+gr_ci2.addEncodedQuery("sys_scope="+appId);
+gr_ci2.query();
+gs.info("Records to be Deleted: " + gr_ci2.getRowCount());
+
+while (gr_ci2.next()) {
+  gr_ci2.deleteRecord();
+}
+
+gs.info('Deleting file paths in data source');
+var gr1 = new GlideRecord('sys_data_source');
+gr1.addEncodedQuery("nameLIKESG-EXFO^file_pathLIKEzip");
+gr1.query();
+while (gr1.next()) {
+ //gs.info("row: " + gr1.getValue('name') + " " + gr1.getValue('file_path'));
+ gr1.setValue('file_path', '');
+ gr1.update();
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-21 10:49:54</sys_created_on>
+        <sys_id>22843ffa1b9dd6103c9862c7b04bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pre-publish clean-up for EXFO</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_script_fix_22843ffa1b9dd6103c9862c7b04bcb15</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:49:54</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_script_fix_22843ffa1b9dd6103c9862c7b04bcb15</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;before&gt;false&lt;/before&gt;&lt;description&gt;Cleans out junk we don't want included in the app&lt;/description&gt;&lt;name&gt;Pre-publish clean-up for EXFO&lt;/name&gt;&lt;record_for_rollback&gt;true&lt;/record_for_rollback&gt;&lt;script&gt;&lt;![CDATA[gs.info('Deleting from gsw_status_of_content');
+var gr_ci = new GlideRecord('sys_app');
+gr_ci.addEncodedQuery("scope=x_exfo2_cmdb");
+gr_ci.setWorkflow(false); // don't run business logic
+gr_ci.query();
+if(gr_ci.next()) {
+ var appId = gr_ci.getValue('sys_id');
+ var gr1 = new GlideRecord('gsw_status_of_content');
+ gr1.addEncodedQuery("sys_scope="+appId);
+ gr1.query();
+ gs.info("Records: " + gr1.getRowCount());
+ while (gr1.next()) {
+  //gs.info("row: " + gr1.getValue('sys_update_name') + " " + gr1.getValue('sys_scope'));
+  gr1.deleteRecord();
+ }
+}
+
+gs.info('Deleting from gsw_change_log');
+var gr_ci2 = new GlideRecord('gsw_change_log');
+gr_ci2.addEncodedQuery("sys_scope="+appId);
+gr_ci2.query();
+gs.info("Records to be Deleted: " + gr_ci2.getRowCount());
+
+while (gr_ci2.next()) {
+  gr_ci2.deleteRecord();
+}
+
+gs.info('Deleting file paths in data source');
+var gr1 = new GlideRecord('sys_data_source');
+gr1.addEncodedQuery("nameLIKESG-EXFO^file_pathLIKEzip");
+gr1.query();
+while (gr1.next()) {
+ //gs.info("row: " + gr1.getValue('name') + " " + gr1.getValue('file_path'));
+ gr1.setValue('file_path', '');
+ gr1.update();
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex.frankel@exfo.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 10:49:54&lt;/sys_created_on&gt;&lt;sys_id&gt;22843ffa1b9dd6103c9862c7b04bcb15&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Pre-publish clean-up for EXFO&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb"&gt;073e67c91b3f4650ea26c9d3604bcb38&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;073e67c91b3f4650ea26c9d3604bcb38&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_22843ffa1b9dd6103c9862c7b04bcb15&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 10:49:54&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-272043843</payload_hash>
+        <record_name>Pre-publish clean-up for EXFO</record_name>
+        <reverted_from/>
+        <source>6073c00f1b385250ea26c9d3604bcb40</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-21 10:49:54</sys_created_on>
+        <sys_id>6fb4fffa1b9dd6103c9862c7b04bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192aeb29fc60000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:49:54</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>63b4fffa189dd610febe9632a69ae5a5</update_guid>
+        <update_guid_history>63b4fffa189dd610febe9632a69ae5a5:-272043843</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-21 11:07:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>2a506a675b52433d8801272fd2e12971</sys_id>
+        <sys_metadata>22843ffa1b9dd6103c9862c7b04bcb15</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pre-publish clean-up for EXFO</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_script_fix_22843ffa1b9dd6103c9862c7b04bcb15</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_22843ffa1b9dd6103c9862c7b04bcb15">6fb4fffa1b9dd6103c9862c7b04bcba5</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-21 11:07:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
