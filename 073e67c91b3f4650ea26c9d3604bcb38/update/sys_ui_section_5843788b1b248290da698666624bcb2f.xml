@@ -29,20 +29,6 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_site_system</element>
-            <position>2</position>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-02-28 12:24:47</sys_created_on>
-            <sys_id>5843788b1b248290da698666624bcb35</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_exfo_site" sys_domain="global" view="Default view">5843788b1b248290da698666624bcb2f</sys_ui_section>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-02-28 12:24:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>3</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
@@ -197,39 +183,11 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_site_owner</element>
-            <position>16</position>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-02-28 12:24:47</sys_created_on>
-            <sys_id>58433c8b1b248290da698666624bcbb8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_exfo_site" sys_domain="global" view="Default view">5843788b1b248290da698666624bcb2f</sys_ui_section>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-02-28 12:24:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_site_longitude</element>
             <position>17</position>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2024-02-28 12:24:47</sys_created_on>
             <sys_id>5c433c8b1b248290da698666624bcbb8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_exfo_site" sys_domain="global" view="Default view">5843788b1b248290da698666624bcb2f</sys_ui_section>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-02-28 12:24:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_site_desc</element>
-            <position>18</position>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-02-28 12:24:47</sys_created_on>
-            <sys_id>50433c8b1b248290da698666624bcbb9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_exfo_site" sys_domain="global" view="Default view">5843788b1b248290da698666624bcb2f</sys_ui_section>
@@ -258,20 +216,6 @@
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2024-02-28 12:24:47</sys_created_on>
             <sys_id>58433c8b1b248290da698666624bcbb9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_exfo_site" sys_domain="global" view="Default view">5843788b1b248290da698666624bcb2f</sys_ui_section>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-02-28 12:24:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_site_parent_site_id</element>
-            <position>21</position>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-02-28 12:24:47</sys_created_on>
-            <sys_id>5c433c8b1b248290da698666624bcbb9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_exfo_site" sys_domain="global" view="Default view">5843788b1b248290da698666624bcb2f</sys_ui_section>
@@ -356,20 +300,6 @@
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2024-02-28 12:24:47</sys_created_on>
             <sys_id>54433c8b1b248290da698666624bcbbb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_exfo_site" sys_domain="global" view="Default view">5843788b1b248290da698666624bcb2f</sys_ui_section>
-            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-            <sys_updated_on>2024-02-28 12:24:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_site_domain</element>
-            <position>28</position>
-            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
-            <sys_created_on>2024-02-28 12:24:47</sys_created_on>
-            <sys_id>58433c8b1b248290da698666624bcbbb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_exfo2_cmdb_staging_exfo_site" sys_domain="global" view="Default view">5843788b1b248290da698666624bcb2f</sys_ui_section>

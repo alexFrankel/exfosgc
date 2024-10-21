@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="ITOM Discovery License" source="com.snc.itom.discovery.license">8fa624fc1bd1da103c9862c7b04bcba4</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-16 14:09:32</sys_created_on>
+        <sys_id>7c12b2551b1952103c9862c7b04bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-16 14:09:32</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
