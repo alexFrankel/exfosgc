@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>Cleans out junk we don't want included in the app</description>
+        <name>Pre-publish clean-up for EXFO</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[gs.info('Deleting from gsw_status_of_content');
+var gr_ci = new GlideRecord('sys_app');
+gr_ci.addEncodedQuery("scope=x_exfo2_cmdb");
+gr_ci.setWorkflow(false); // don't run business logic
+gr_ci.query();
+if(gr_ci.next()) {
+ var appId = gr_ci.getValue('sys_id');
+ var gr1 = new GlideRecord('gsw_status_of_content');
+ gr1.addEncodedQuery("sys_scope="+appId);
+ gr1.query();
+ gs.info("Records: " + gr1.getRowCount());
+ while (gr1.next()) {
+  //gs.info("row: " + gr1.getValue('sys_update_name') + " " + gr1.getValue('sys_scope'));
+  gr1.deleteRecord();
+ }
+}
+
+gs.info('Deleting from gsw_change_log');
+var gr_ci2 = new GlideRecord('gsw_change_log');
+gr_ci2.addEncodedQuery("sys_scope="+appId);
+gr_ci2.query();
+gs.info("Records to be Deleted: " + gr_ci2.getRowCount());
+
+while (gr_ci2.next()) {
+  gr_ci2.deleteRecord();
+}
+
+gs.info('Deleting file paths in data source');
+var gr1 = new GlideRecord('sys_data_source');
+gr1.addEncodedQuery("nameLIKESG-EXFO^file_pathLIKEzip");
+gr1.query();
+while (gr1.next()) {
+ //gs.info("row: " + gr1.getValue('name') + " " + gr1.getValue('file_path'));
+ gr1.setValue('file_path', '');
+ gr1.update();
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-21 10:49:54</sys_created_on>
+        <sys_id>22843ffa1b9dd6103c9862c7b04bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pre-publish clean-up for EXFO</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_script_fix_22843ffa1b9dd6103c9862c7b04bcb15</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:49:54</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
