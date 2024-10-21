@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>10812a68874c4110c4a3c99d0ebb3564</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_connection">
+    <sys_connection action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_scope display_value="">aa514eec877274103e867518cebb35ae</app_scope>
+        <application display_value="ALL">35aa573fd7802200bdbaee5b5e610375</application>
+        <capabilities/>
+        <connection_alias display_value="x_exfo2_cmdb.EXFO_SFTP">bb306a28874c4110c4a3c99d0ebb35b1</connection_alias>
+        <connection_retries>0</connection_retries>
+        <connection_timeout>0</connection_timeout>
+        <credential display_value="alex-mid-ssh-centos">e0c922a81b1cc610da698666624bcb60</credential>
+        <extended_attributes/>
+        <host>10.50.55.127</host>
+        <is_internal>false</is_internal>
+        <mid_cluster/>
+        <mid_selection>specific_mid_server</mid_selection>
+        <mid_server display_value="exfo_mid">5b4fd6a11b7846106e86e0cb234bcb0e</mid_server>
+        <name>EXFO-Connection</name>
+        <order>100</order>
+        <port/>
+        <protocol/>
+        <sys_class_name>sys_connection</sys_class_name>
+        <sys_created_by>aveenstra</sys_created_by>
+        <sys_created_on>2021-11-22 20:46:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>10812a68874c4110c4a3c99d0ebb3564</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-08-02 16:02:28</sys_updated_on>
+        <use_mid>true</use_mid>
+    </sys_connection>
+    <sys_variable_value action="delete_multiple" query="document_key=10812a68874c4110c4a3c99d0ebb3564"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-21 10:31:12</sys_created_on>
+        <sys_id>257077761b9dd6103c9862c7b04bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EXFO-Connection</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_metadata_link_257077761b9dd6103c9862c7b04bcbaa</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:31:12</sys_updated_on>
+        <tablename>sys_connection</tablename>
+    </sys_metadata_link>
+</record_update>
