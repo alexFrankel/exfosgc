@@ -52,6 +52,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2022-01-27 16:58:25</sys_created_on>
+        <sys_id>488af8911bbf0e143c9862c7b04bcb40</sys_id>
         <sys_name>x_exfo2_cmdb_staging_cable</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
         <sys_policy/>

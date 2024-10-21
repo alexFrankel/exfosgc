@@ -11,6 +11,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>alex.frankel@exfo.com</sys_created_by>
             <sys_created_on>2024-01-19 13:07:20</sys_created_on>
+            <sys_id>508af8911bbf0e143c9862c7b04bcbdc</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>u_e_h_type</sys_name>
             <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>

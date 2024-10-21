@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="DELETE">
+        <change_date>2022-03-04 18:46:03</change_date>
+        <changed_by display_value="">f7d09b91870e8910c4a3c99d0ebb359f</changed_by>
+        <content display_value="Configure your Connection Details">37d77a0487dcc910c4a3c99d0ebb35ac</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>jwigard</sys_created_by>
+        <sys_created_on>2022-03-04 18:46:03</sys_created_on>
+        <sys_id>be485fd98742c9103e867518cebb353a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2022-03-04 18:46:03</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>gsw_change_log_be485fd98742c9103e867518cebb353a</sys_update_name>
+        <sys_updated_by>jwigard</sys_updated_by>
+        <sys_updated_on>2022-03-04 18:46:03</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>gsw_change_log_be485fd98742c9103e867518cebb353a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2022-03-04 18:46:03</change_date>
+        <changed_by display_value="">f7d09b91870e8910c4a3c99d0ebb359f</changed_by>
+        <content display_value="Configure your Connection Details">37d77a0487dcc910c4a3c99d0ebb35ac</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>jwigard</sys_created_by>
+        <sys_created_on>2022-03-04 18:46:03</sys_created_on>
+        <sys_id>be485fd98742c9103e867518cebb353a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2022-03-04 18:46:03</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>gsw_change_log_be485fd98742c9103e867518cebb353a</sys_update_name>
+        <sys_updated_by>jwigard</sys_updated_by>
+        <sys_updated_on>2022-03-04 18:46:03</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>]]></payload>
+        <payload_hash>1182885535</payload_hash>
+        <record_name>2022-03-04 18:46:03</record_name>
+        <reverted_from/>
+        <source>c39ee4d91bb38650ea26c9d3604bcb70</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-08-02 15:02:37</sys_created_on>
+        <sys_id>196f64511bf38650ea26c9d3604bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191139d3c4a0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-08-02 15:02:37</sys_updated_on>
+        <type>Guided Setup Change Log</type>
+        <update_guid>d16f6451fff38650a492710cc7ff0ebf</update_guid>
+        <update_guid_history>d16f6451fff38650a492710cc7ff0ebf:0,908619a49e14c610464208d3284be17d:0,f4c11b06d446b510304478341031a7ff:651403399</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2022-03-04 10:46:03">c313f9c81b345e103c9862c7b04bcb2c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-09-17 15:48:50</sys_created_on>
+        <sys_db_object display_value="" name="gsw_change_log">gsw_change_log</sys_db_object>
+        <sys_id>160e6365fce848b28855b8352fdc4fe9</sys_id>
+        <sys_metadata>be485fd98742c9103e867518cebb353a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2022-03-04 18:46:03</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>gsw_change_log_be485fd98742c9103e867518cebb353a</sys_update_name>
+        <sys_update_version display_value="gsw_change_log_be485fd98742c9103e867518cebb353a">196f64511bf38650ea26c9d3604bcbbf</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-09-17 15:48:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
