@@ -25,8 +25,8 @@ If you find yourself unable to import your repository due to the presence of fil
    2.3 Re-import the application from source control
    Currently listed dependencies:
    * Integration Commons for CMDB
-   * System Import Sets
    * ITOM Discovery License
+   * Network Inventory Core
    * ServiceNow IntegrationHub Action Step - SFTP
    * ServiceNow IntegrationHub Professional Pack Installer
    * ITOM Licensing
