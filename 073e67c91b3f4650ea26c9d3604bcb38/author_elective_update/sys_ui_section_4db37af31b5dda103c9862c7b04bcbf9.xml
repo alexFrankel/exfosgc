@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="4db37af31b5dda103c9862c7b04bcbf9" sys_domain="global" table="cmdb_ci_netgear" version="3" view="sys_popup">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>f5fd84841be11e103c9862c7b04bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tni_entity.distinguished_name</element>
+            <position>1</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>79fd84841be11e103c9862c7b04bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>2</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>f9fd84841be11e103c9862c7b04bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <position>3</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>7dfd84841be11e103c9862c7b04bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manufacturer</element>
+            <position>4</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>fdfd84841be11e103c9862c7b04bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_number</element>
+            <position>5</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>71fd84841be11e103c9862c7b04bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_id</element>
+            <position>6</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>f1fd84841be11e103c9862c7b04bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>7</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>75fd84841be11e103c9862c7b04bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ip_address</element>
+            <position>8</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>f5fd84841be11e103c9862c7b04bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>79fd84841be11e103c9862c7b04bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tni_entity.network_site</element>
+            <position>10</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>f9fd84841be11e103c9862c7b04bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tni_entity.network_domain</element>
+            <position>11</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>7dfd84841be11e103c9862c7b04bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tni_entity.inventory_category</element>
+            <position>12</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>fdfd84841be11e103c9862c7b04bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tni_entity.ni_type</element>
+            <position>13</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>71fd84841be11e103c9862c7b04bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tni_entity.operation_notes</element>
+            <position>14</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>f1fd84841be11e103c9862c7b04bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>life_cycle_stage</element>
+            <position>15</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>75fd84841be11e103c9862c7b04bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>life_cycle_stage_status</element>
+            <position>16</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>f5fd84841be11e103c9862c7b04bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>17</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>79fd84841be11e103c9862c7b04bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>18</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>f9fd84841be11e103c9862c7b04bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>19</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>7dfd84841be11e103c9862c7b04bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.cmdb_ci_netgear.cmdb_key_value.configuration_item</element>
+            <position>20</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>fdfd84841be11e103c9862c7b04bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>21</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>71fd84841be11e103c9862c7b04bcb88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ui_ng_relation_formatter.xml</element>
+            <position>22</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+            <sys_id>f1fd84841be11e103c9862c7b04bcb88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="CI Relations">b62309137f32310009fedf92bdfa912b</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>cmdb_ci_netgear</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-10-24 08:39:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4db37af31b5dda103c9862c7b04bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_netgear</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_section_4db37af31b5dda103c9862c7b04bcbf9</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-10-24 08:39:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Sys_popup" name="sys_popup">c7402b100a0a0b8400cf971d83ee4384</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_ui_section_4db37af31b5dda103c9862c7b04bcbf9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="4db37af31b5dda103c9862c7b04bcbf9" sys_domain="global" table="cmdb_ci_netgear" version="3" view="sys_popup"><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>0</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>f5fd84841be11e103c9862c7b04bcb85</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>tni_entity.distinguished_name</element><position>1</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>79fd84841be11e103c9862c7b04bcb85</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>serial_number</element><position>2</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>f9fd84841be11e103c9862c7b04bcb85</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_class_name</element><position>3</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>7dfd84841be11e103c9862c7b04bcb85</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>manufacturer</element><position>4</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>fdfd84841be11e103c9862c7b04bcb85</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>model_number</element><position>5</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>71fd84841be11e103c9862c7b04bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>model_id</element><position>6</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>f1fd84841be11e103c9862c7b04bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>category</element><position>7</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>75fd84841be11e103c9862c7b04bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ip_address</element><position>8</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>f5fd84841be11e103c9862c7b04bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>9</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>79fd84841be11e103c9862c7b04bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>tni_entity.network_site</element><position>10</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>f9fd84841be11e103c9862c7b04bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>tni_entity.network_domain</element><position>11</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>7dfd84841be11e103c9862c7b04bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>tni_entity.inventory_category</element><position>12</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>fdfd84841be11e103c9862c7b04bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>tni_entity.ni_type</element><position>13</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>71fd84841be11e103c9862c7b04bcb87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>tni_entity.operation_notes</element><position>14</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>f1fd84841be11e103c9862c7b04bcb87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>life_cycle_stage</element><position>15</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>75fd84841be11e103c9862c7b04bcb87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>life_cycle_stage_status</element><position>16</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>f5fd84841be11e103c9862c7b04bcb87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>17</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>79fd84841be11e103c9862c7b04bcb87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>18</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>f9fd84841be11e103c9862c7b04bcb87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>19</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>7dfd84841be11e103c9862c7b04bcb87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>12M.cmdb_ci_netgear.cmdb_key_value.configuration_item</element><position>20</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>fdfd84841be11e103c9862c7b04bcb87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type>list</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>21</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>71fd84841be11e103c9862c7b04bcb88</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ui_ng_relation_formatter.xml</element><position>22</position><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 15:14:02</sys_created_on><sys_id>f1fd84841be11e103c9862c7b04bcb88</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="CI Relations">b62309137f32310009fedf92bdfa912b</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="cmdb_ci_netgear" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">4db37af31b5dda103c9862c7b04bcbf9</sys_ui_section><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 15:14:02</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>cmdb_ci_netgear</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-24 08:39:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4db37af31b5dda103c9862c7b04bcbf9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_ci_netgear</sys_name><sys_overrides/><sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope><sys_update_name>sys_ui_section_4db37af31b5dda103c9862c7b04bcbf9</sys_update_name><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-24 08:39:40</sys_updated_on><sys_user/><title>false</title><view display_value="Sys_popup" name="sys_popup">c7402b100a0a0b8400cf971d83ee4384</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-612656792</payload_hash>
+        <record_name>Network Gear</record_name>
+        <reverted_from/>
+        <source>ef3a84431b111a103c9862c7b04bcb52</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-24 15:14:02</sys_created_on>
+        <sys_id>f1fd84841be11e103c9862c7b04bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192bf1784520000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-24 15:14:02</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>39fd848492e11e107ba7910a4990f38b</update_guid>
+        <update_guid_history>39fd848492e11e107ba7910a4990f38b:-612656792,dead008403e11e10c53893a5590bd500:165478482,c38a808077e11e107f8bcdbf8fc6078d:651299856,89698400bfe11e10d4aec793188e0298:879889732,9b09cccc77a11e103eec2a29a579e33f:651299856,91a884cc4ca11e106e5693bfe4d5890b:-1138292596,76d7448ce8a11e10b1a35474e2fc5529:-2141949078,89b3baf3555dda108d9535555fd0c401:-1533247737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-25 14:50:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>03def8a90c8949008ccfe5e24ba20410</sys_id>
+        <sys_metadata>4db37af31b5dda103c9862c7b04bcbf9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci_netgear</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent display_value="CMDB CI Netgear">c5b48c0e1b1321106e86e0cb234bcb72</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_ui_section_4db37af31b5dda103c9862c7b04bcbf9</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_4db37af31b5dda103c9862c7b04bcbf9">f1fd84841be11e103c9862c7b04bcb8c</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-25 14:50:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

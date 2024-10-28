@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2fb424d41b29d650ea26c9d3604bcb86" extends="sys_import_set_row" label="CMDB Staging Cell" max_length="40" name="x_exfo2_cmdb_staging_cell" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_ALIAS1" label="CELL_ALIAS1" max_length="40" name="u_cell_alias1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_ALIAS2" label="CELL_ALIAS2" max_length="40" name="u_cell_alias2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_BAND" label="CELL_BAND" max_length="40" name="u_cell_band" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_CUSTOM_ATTRIBUTES" label="CELL_CUSTOM_ATTRIBUTES" max_length="40" name="u_cell_custom_attributes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_DESCRIPTION" label="CELL_DESCRIPTION" max_length="40" name="u_cell_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_ECI" label="CELL_ECI" max_length="40" name="u_cell_eci" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_HAS_NE_KEY" label="CELL_HAS_NE_KEY" max_length="40" name="u_cell_has_ne_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_HAS_SITE_KEY" label="CELL_HAS_SITE_KEY" max_length="40" name="u_cell_has_site_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_KEY" label="CELL_KEY" max_length="40" name="u_cell_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_MANUFACTURER" label="CELL_MANUFACTURER" max_length="40" name="u_cell_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_MODEL" label="CELL_MODEL" max_length="40" name="u_cell_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_NAME" label="CELL_NAME" max_length="40" name="u_cell_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_SERIAL_NUMBER" label="CELL_SERIAL_NUMBER" max_length="40" name="u_cell_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_STATUS" label="CELL_STATUS" max_length="40" name="u_cell_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_TNI_DOMAIN" label="CELL_TNI_DOMAIN" max_length="40" name="u_cell_tni_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_TOP_EXP_STATUS" label="CELL_TOP_EXP_STATUS" max_length="40" name="u_cell_top_exp_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CELL_TYPE" label="CELL_TYPE" max_length="40" name="u_cell_type" type="string"/>
+    </element>
+</database>
