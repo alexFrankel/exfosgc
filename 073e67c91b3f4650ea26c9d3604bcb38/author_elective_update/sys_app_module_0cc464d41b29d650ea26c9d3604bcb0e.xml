@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>CMDB Staging Cell</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_exfo2_cmdb_staging_cell</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-25 11:32:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0cc464d41b29d650ea26c9d3604bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMDB Staging Cell</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_app_module_0cc464d41b29d650ea26c9d3604bcb0e</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-25 11:32:04</sys_updated_on>
+        <timeline_page/>
+        <title>CMDB Staging Cell</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_app_module_0cc464d41b29d650ea26c9d3604bcb0e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>CMDB Staging Cell</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_exfo2_cmdb_staging_cell</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>alex.frankel@exfo.com</sys_created_by><sys_created_on>2024-10-25 11:32:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0cc464d41b29d650ea26c9d3604bcb0e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CMDB Staging Cell</sys_name><sys_overrides/><sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope><sys_update_name>sys_app_module_0cc464d41b29d650ea26c9d3604bcb0e</sys_update_name><sys_updated_by>alex.frankel@exfo.com</sys_updated_by><sys_updated_on>2024-10-25 11:32:04</sys_updated_on><timeline_page/><title>CMDB Staging Cell</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>365136892</payload_hash>
+        <record_name>CMDB Staging Cell</record_name>
+        <reverted_from/>
+        <source>ef3a84431b111a103c9862c7b04bcb52</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-25 11:32:04</sys_created_on>
+        <sys_id>04c464d41b29d650ea26c9d3604bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192c372a9080000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-25 11:32:04</sys_updated_on>
+        <type>Module</type>
+        <update_guid>08c464d46429d650d18e88a383ffb011</update_guid>
+        <update_guid_history>08c464d46429d650d18e88a383ffb011:365136892</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CMDB Staging Cell">1be483181bbd56103c9862c7b04bcb97</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-11-07 09:27:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>151a9f21f61c48fe9c82dc34e6e40944</sys_id>
+        <sys_metadata>0cc464d41b29d650ea26c9d3604bcb0e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMDB Staging Cell</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_app_module_0cc464d41b29d650ea26c9d3604bcb0e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_0cc464d41b29d650ea26c9d3604bcb0e">04c464d41b29d650ea26c9d3604bcb12</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-11-07 09:27:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

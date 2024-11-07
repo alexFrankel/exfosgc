@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_script_operation">
+    <sys_rte_eb_script_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Script Operation - u_cell_type</name>
+        <operation_group/>
+        <order>900</order>
+        <script><![CDATA[(function(batch, output) {
+	for (var i = 0; i < batch.length; i++) {
+		var input = batch[i].input; 
+     var trfGR = new GlideRecord('trf_value');
+     trfGR.addQuery('type', 'Type');
+     trfGR.addQuery('name', input);
+     trfGR.query();
+     if(trfGR.next()){
+        output[i] = trfGR.getUniqueValue();
+     }
+     else if (input.length>0) {
+        trfGR.initialize();
+        trfGR.type = 'Type';
+        trfGR.name = input;
+        trfGR.inventory_category = 'equipment';
+        output[i] = trfGR.insert();
+     }
+	}
+})(batch, output);]]></script>
+        <source_sys_rte_eb_field display_value="u_cell_type">48c195d01be9d650ea26c9d3604bcbea</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-25 15:07:06</sys_created_on>
+        <sys_id>4af5d1181be9d650ea26c9d3604bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Operation - u_cell_type</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-EXFO Cell">87b460d41b29d650ea26c9d3604bcb3b</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">ebb195d01be9d650ea26c9d3604bcb59</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_rte_eb_script_operation_4af5d1181be9d650ea26c9d3604bcb0f</sys_update_name>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-25 15:07:06</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_cell_type_lookup">02f5d1181be9d650ea26c9d3604bcb0d</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_script_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_rte_eb_script_operation_4af5d1181be9d650ea26c9d3604bcb0f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_script_operation"&gt;&lt;sys_rte_eb_script_operation action="INSERT_OR_UPDATE"&gt;&lt;conditional_fields/&gt;&lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;Script Operation - u_cell_type&lt;/name&gt;&lt;operation_group/&gt;&lt;order&gt;900&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function(batch, output) {
+	for (var i = 0; i &lt; batch.length; i++) {
+		var input = batch[i].input; 
+     var trfGR = new GlideRecord('trf_value');
+     trfGR.addQuery('type', 'Type');
+     trfGR.addQuery('name', input);
+     trfGR.query();
+     if(trfGR.next()){
+        output[i] = trfGR.getUniqueValue();
+     }
+     else if (input.length&gt;0) {
+        trfGR.initialize();
+        trfGR.type = 'Type';
+        trfGR.name = input;
+        trfGR.inventory_category = 'equipment';
+        output[i] = trfGR.insert();
+     }
+	}
+})(batch, output);]]&gt;&lt;/script&gt;&lt;source_sys_rte_eb_field display_value="u_cell_type"&gt;48c195d01be9d650ea26c9d3604bcbea&lt;/source_sys_rte_eb_field&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;sys_class_name&gt;sys_rte_eb_script_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex.frankel@exfo.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-25 15:07:06&lt;/sys_created_on&gt;&lt;sys_id&gt;4af5d1181be9d650ea26c9d3604bcb0f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Script Operation - u_cell_type&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb"&gt;073e67c91b3f4650ea26c9d3604bcb38&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG-EXFO Cell"&gt;87b460d41b29d650ea26c9d3604bcb3b&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;ebb195d01be9d650ea26c9d3604bcb59&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for EXFO"&gt;073e67c91b3f4650ea26c9d3604bcb38&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_script_operation_4af5d1181be9d650ea26c9d3604bcb0f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.frankel@exfo.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-25 15:07:06&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="u_cell_type_lookup"&gt;02f5d1181be9d650ea26c9d3604bcb0d&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Script Operation"&gt;941f88e273b333002b6265a751ab9e84&lt;/type&gt;&lt;use_unique_input_sets&gt;true&lt;/use_unique_input_sets&gt;&lt;/sys_rte_eb_script_operation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1919695143</payload_hash>
+        <record_name>Script Operation - u_cell_type</record_name>
+        <reverted_from/>
+        <source>ef3a84431b111a103c9862c7b04bcb52</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-10-25 15:07:06</sys_created_on>
+        <sys_id>8af5d1181be9d650ea26c9d3604bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192c43786450000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-10-25 15:07:06</sys_updated_on>
+        <type>RTE Entity Script Operation</type>
+        <update_guid>8ef5d118e6e9d6505981b0d13239f110</update_guid>
+        <update_guid_history>8ef5d118e6e9d6505981b0d13239f110:-1919695143</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-11-07 09:26:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_script_operation">sys_rte_eb_script_operation</sys_db_object>
+        <sys_id>35c35ac5ac2d44f5ba10fd734963c319</sys_id>
+        <sys_metadata>4af5d1181be9d650ea26c9d3604bcb0f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Operation - u_cell_type</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_script_operation_4af5d1181be9d650ea26c9d3604bcb0f</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_script_operation_4af5d1181be9d650ea26c9d3604bcb0f">8af5d1181be9d650ea26c9d3604bcb11</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-11-07 09:26:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
