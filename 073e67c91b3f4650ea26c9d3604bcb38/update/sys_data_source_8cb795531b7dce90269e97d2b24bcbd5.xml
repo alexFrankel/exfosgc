@@ -82,5 +82,4 @@
         <xpath_root_node/>
         <zipped>true</zipped>
     </sys_data_source>
-    <sys_variable_value action="delete_multiple" query="document_key=8cb795531b7dce90269e97d2b24bcbd5"/>
 </record_update>
