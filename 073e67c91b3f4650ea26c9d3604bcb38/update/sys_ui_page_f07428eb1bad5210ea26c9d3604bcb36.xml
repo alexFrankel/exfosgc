@@ -8,7 +8,8 @@
     var confirmMessage = 'Are you sure you want to be redirected to the EXFO Support Portal?';
     var userConfirmed = confirm(confirmMessage);
     if (userConfirmed) {
-        window.open("https://www.google.com");
+       var newWnd = window.open("https://www.exfo.com/en/support/self-service-portal/#/tickets");
+       newWnd.opener = null;
     }
 }]]></client_script>
         <description/>
@@ -44,13 +45,13 @@
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-11-04 13:59:20</sys_created_on>
         <sys_id>f07428eb1bad5210ea26c9d3604bcb36</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>EXFO Support</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
         <sys_update_name>sys_ui_page_f07428eb1bad5210ea26c9d3604bcb36</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-11-04 14:14:17</sys_updated_on>
+        <sys_updated_on>2024-11-07 11:48:32</sys_updated_on>
     </sys_ui_page>
 </record_update>
