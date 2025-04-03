@@ -27,6 +27,7 @@ If you find yourself unable to import your repository due to the presence of fil
    * Integration Commons for CMDB
    * ITOM Discovery License
    * Network Inventory Core
+   * ServiceNow IntegrationHub Action Step - SFTP
    * ServiceNow IntegrationHub Professional Pack Installer
    * ITOM Licensing
    * CMDB CI Class Models

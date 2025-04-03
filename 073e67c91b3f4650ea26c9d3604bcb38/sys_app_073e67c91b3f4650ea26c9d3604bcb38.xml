@@ -14,8 +14,9 @@
         <license_definition/>
         <license_model>none</license_model>
         <logo>6fc4f555875e4910c4a3c99d0ebb3571</logo>
-        <menu display_value="Service Graph Connector for EXFO">517ff1c3878ff8103e867518cebb3585</menu>
+        <menu/>
         <name>Service Graph Connector for EXFO</name>
+        <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -31,16 +32,16 @@
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-09-21 15:06:41</sys_created_on>
         <sys_id>073e67c91b3f4650ea26c9d3604bcb38</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-11-07 15:39:35</sys_updated_on>
+        <sys_updated_on>2025-04-03 13:45:25</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role display_value="x_exfo2_cmdb.user" name="x_exfo2_cmdb.user">5491422087b274103e867518cebb3549</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.1.6</version>
+        <version>1.1.7</version>
     </sys_app>
     <sys_translated_text action="delete_multiple" query="documentkey=073e67c91b3f4650ea26c9d3604bcb38"/>
     <sys_attachment action="INSERT_OR_UPDATE">
