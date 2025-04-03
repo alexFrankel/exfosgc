@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
     <sys_embedded_help_content action="INSERT_OR_UPDATE">
         <active>true</active>
+        <ai_generated>false</ai_generated>
         <category/>
         <content><![CDATA[<p>In this step, enter the full path of the folder where your EXFO files will be stored on your SFTP server. </p>
 <p><span class="ph uicontrol">Note: </span>you may need to begin your filepath with a leading &#39;/&#39;</p>

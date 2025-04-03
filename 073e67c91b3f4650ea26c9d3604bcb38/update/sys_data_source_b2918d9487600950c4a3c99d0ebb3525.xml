@@ -18,6 +18,7 @@
         <database_name/>
         <database_port/>
         <discard_arrays>true</discard_arrays>
+        <enable_parallel_loading>false</enable_parallel_loading>
         <expand_node_children>false</expand_node_children>
         <file_path/>
         <file_retrieval_method>Attachment</file_retrieval_method>
@@ -43,6 +44,11 @@
         <offset>0</offset>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
+        <parallel_loading_script><![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]></parallel_loading_script>
         <parsing_script/>
         <properties>charset=utf-8</properties>
         <query>All Rows from Table</query>

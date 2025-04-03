@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="cmdb_ci_interface_card" version="2" view="exfo">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Card - exfo" name="cmdb_ci_interface_card" related_list="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">1d5aa4871bf85250ea26c9d3604bcbcd</list_id>
+            <list_id display_value="Network Interface Card - exfo" name="cmdb_ci_interface_card" related_list="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">1d5aa4871bf85250ea26c9d3604bcbcd</list_id>
             <order_by/>
             <position>0</position>
             <related_list>cmdb_key_value.configuration_item</related_list>
@@ -16,7 +16,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Card - exfo" name="cmdb_ci_interface_card" related_list="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">1d5aa4871bf85250ea26c9d3604bcbcd</list_id>
+            <list_id display_value="Network Interface Card - exfo" name="cmdb_ci_interface_card" related_list="NULL" sys_domain="global" view="6565183e1b0c1ad0ea26c9d3604bcb1a">1d5aa4871bf85250ea26c9d3604bcbcd</list_id>
             <order_by/>
             <position>1</position>
             <related_list>tni_entity.ci</related_list>
@@ -29,7 +29,7 @@
             <sys_updated_on>2024-09-26 18:12:39</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Card - exfo</calculated_name>
+            <calculated_name>Network Interface Card - exfo</calculated_name>
             <filter/>
             <name>cmdb_ci_interface_card</name>
             <order_by/>
