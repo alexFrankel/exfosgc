@@ -18,7 +18,7 @@ EXFOLocationHelper.prototype = {
             query = override;
         }
         try {
-            var locationGR = new GlideRecord('cmn_location');
+            var locationGR = new GlideRecordSecure('cmn_location');
             locationGR.addEncodedQuery(query);
             locationGR.setLimit(1);
             locationGR.query();
@@ -52,13 +52,13 @@ EXFOLocationHelper.prototype = {
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-11-30 20:00:18</sys_created_on>
         <sys_id>ab91270787804910c4a3c99d0ebb35e0</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>EXFOLocationHelper</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
         <sys_update_name>sys_script_include_ab91270787804910c4a3c99d0ebb35e0</sys_update_name>
-        <sys_updated_by>aveenstra</sys_updated_by>
-        <sys_updated_on>2022-02-03 16:27:55</sys_updated_on>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2025-04-03 14:11:02</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -28,7 +28,7 @@ EXFOImportUtil.prototype = {
                 this._updateLastFolderProcessed(runType, import_folder);
                 return true;
             } else if (!attachment_id) {
-                var importProp = new GlideRecord('sys_properties');
+                var importProp = new GlideRecordSecure('sys_properties');
                 if (importProp.get('name', 'x_exfo2_cmdb.import_active')) {
                     importProp.value = false;
                     importProp.update();
@@ -86,7 +86,7 @@ EXFOImportUtil.prototype = {
 
     checkActiveExfoImportSet: function() {
         //Find out if there is an Export import set currently loading
-        var myGR = new GlideRecord('sys_import_set');
+        var myGR = new GlideRecordSecure('sys_import_set');
         myGR.addQuery('state', "Loading");
         myGR.addEncodedQuery('table_nameLIKEx_exfo2');
         myGR.query();
@@ -100,7 +100,7 @@ EXFOImportUtil.prototype = {
 
     checkActiveExfoFlow: function() {
         //Find out if there is an EXFO flow currently running
-        var myGR = new GlideRecord('sys_flow_context');
+        var myGR = new GlideRecordSecure('sys_flow_context');
         myGR.addEncodedQuery('stateLIKEIN_PROGRESS^ORstateLIKEWAITING^ORstateLIKEQUEUED^ORstateLIKECONTINUE_SYNC^ORstateLIKEPRESUMED_INTERRUPTED^ORstateLIKEPAUSED');
         myGR.addEncodedQuery('nameSTARTSWITHEXFO');
         myGR.query();
@@ -122,7 +122,7 @@ EXFOImportUtil.prototype = {
 
     matchFileToDataSource: function(fileName, targetOverride) {
         var fileImportType = fileName.split('_')[0];
-        var dataSourceGR = new GlideRecord('sys_data_source');
+        var dataSourceGR = new GlideRecordSecure('sys_data_source');
 
         if (fileImportType == 'SiteChild') {
             fileImportType = 'Site Child';
@@ -189,7 +189,7 @@ EXFOImportUtil.prototype = {
     },
 
     removeExistingAttachments: function() {
-        var dataSourceGR = new GlideRecord('sys_data_source');
+        var dataSourceGR = new GlideRecordSecure('sys_data_source');
         dataSourceGR.addEncodedQuery('sys_scope=073e67c91b3f4650ea26c9d3604bcb38');
         dataSourceGR.query();
         while (dataSourceGR.next()) {
@@ -205,7 +205,7 @@ EXFOImportUtil.prototype = {
 
     updateParentJob: function(importType) {
         var parentJobID;
-        var parentJobGR = new GlideRecord('scheduled_import_set');
+        var parentJobGR = new GlideRecordSecure('scheduled_import_set');
         if (importType == 'test' || importType == 'full') {
             if (parentJobGR.get('name', 'SG-EXFO Full Import')) {
                 parentJobID = parentJobGR.getUniqueValue();
@@ -216,7 +216,7 @@ EXFOImportUtil.prototype = {
             }
         }
 
-        var childJobGR = new GlideRecord('scheduled_import_set');
+        var childJobGR = new GlideRecordSecure('scheduled_import_set');
         childJobGR.addEncodedQuery('sys_scope=073e67c91b3f4650ea26c9d3604bcb38^run_type=parent');
         childJobGR.query();
         while (childJobGR.next()) {
@@ -234,7 +234,7 @@ EXFOImportUtil.prototype = {
     },
 
     objectSourceLookup: function(lookupKey) {
-        var objSourceGR = new GlideRecord('sys_object_source');
+        var objSourceGR = new GlideRecordSecure('sys_object_source');
         if (objSourceGR.get('id', lookupKey)) {
             return objSourceGR.target_sys_id;
         }
@@ -245,7 +245,7 @@ EXFOImportUtil.prototype = {
         var relatedSysID; //sys_id of related record we want to find
 
         //get sys_id of directly related record based on key
-        var objSourceGR = new GlideRecord('sys_object_source');
+        var objSourceGR = new GlideRecordSecure('sys_object_source');
         if (objSourceGR.get('id', relatedKey)) {
             relatedSysID = objSourceGR.target_sys_id;
         }
@@ -255,13 +255,13 @@ EXFOImportUtil.prototype = {
             var className = this.classDict[relatedClass];
 
             //query for relationship based on direct related record + class we want to relate
-            var relationsGR = new GlideRecord('cmdb_rel_ci');
+            var relationsGR = new GlideRecordSecure('cmdb_rel_ci');
             relationsGR.addEncodedQuery('parent.sys_class_name=' + className + '^child=' + relatedSysID);
             relationsGR.query();
             if (relationsGR.next()) {
                 //if relationship exists, get parent sys_id and get sys_object_source key
                 var targetID = relationsGR.parent;
-                var relatedObjSourceGR = new GlideRecord('sys_object_source');
+                var relatedObjSourceGR = new GlideRecordSecure('sys_object_source');
                 if (relatedObjSourceGR.get('target_sys_id', targetID)) {
                     returnKey = relatedObjSourceGR.id;
                 }
@@ -272,7 +272,7 @@ EXFOImportUtil.prototype = {
     },
 
     // setLinkHeaders: function(propValue) {
-    //     var headerProp = new GlideRecord('sys_properties');
+    //     var headerProp = new GlideRecordSecure('sys_properties');
     //     if (headerProp.get('name', 'x_exfo2_cmdb.physicalLinkHeaders')) {
     //         headerProp.value = propValue;
     //         headerProp.update();
@@ -280,7 +280,7 @@ EXFOImportUtil.prototype = {
     // },
 
     _updateLastFolderProcessed: function(runType, folder) {
-        var propGR = new GlideRecord('sys_properties');
+        var propGR = new GlideRecordSecure('sys_properties');
         if (runType == 'full') {
             if (propGR.get('name', 'x_exfo2_cmdb.lastFullFolderProcessed')) {
                 propGR.value = folder;
@@ -312,7 +312,7 @@ EXFOImportUtil.prototype = {
             //Loop through each CI in the payload
             //Look up corresponding tni_entity record - there should only be one
             for (var j = 0; j < items.length; j++) {
-                var tniGR = new GlideRecord('tni_entity');
+                var tniGR = new GlideRecordSecure('tni_entity');
                 var ciSysId = items[j].sysId;
                 tniGR.addQuery('ci', ciSysId);
                 tniGR.query();
@@ -321,7 +321,7 @@ EXFOImportUtil.prototype = {
                 //1. Update TNI CI Attributes field on CI - this is used in Network Inventory Workspace
                 var tniEntityId = tniGR.getValue('sys_id');
                 //gs.info('ALEX1 CI sys id = ' + ciSysId + ' and TNI sysId is ' + tniEntityId)
-                var ciGR = new GlideRecord('cmdb_ci');
+                var ciGR = new GlideRecordSecure('cmdb_ci');
                 ciGR.addQuery('sys_id', ciSysId);
                 ciGR.query();
                 if (ciGR.next()) {
@@ -340,7 +340,7 @@ EXFOImportUtil.prototype = {
 
                     //Process deletes
                     //Possible issue is that this will also delete manually created key-value entries
-                    var kvGR = new GlideRecord('cmdb_key_value');
+                    var kvGR = new GlideRecordSecure('cmdb_key_value');
                     var newKeys = [];
                     for (var k = 0; k < atts.length; k++) {
                         var pair = atts[k].split(':');
@@ -360,7 +360,7 @@ EXFOImportUtil.prototype = {
                         var pair = atts[k].split(':');
                         //Insert or update each custom attribute pair in cmdb_key_value
                         //gs.info("ALEX2: id " + pair[0] + " value " + pair[1]);
-                        var kvGR = new GlideRecord('cmdb_key_value');
+                        var kvGR = new GlideRecordSecure('cmdb_key_value');
                         kvGR.addQuery('configuration_item', ciSysId);
                         kvGR.addQuery('key', pair[0]);
                         kvGR.query();
@@ -396,13 +396,13 @@ EXFOImportUtil.prototype = {
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-10-18 16:56:28</sys_created_on>
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
-        <sys_mod_count>126</sys_mod_count>
+        <sys_mod_count>127</sys_mod_count>
         <sys_name>EXFOImportUtil</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-05-15 15:23:43</sys_updated_on>
+        <sys_updated_on>2025-04-03 14:14:41</sys_updated_on>
     </sys_script_include>
 </record_update>
