@@ -26,13 +26,15 @@
         <operation_group/>
         <order>600</order>
         <script><![CDATA[(function(batch, output) {
+   //We have to fetch the sys id of the cable so it can link the fiber to the cable.
+   //As of Xanadu, the ETL definition doesn't support this with drag and drop (surprisingly)
    for (var i = 0; i < batch.length; i++) {
       var input = batch[i].input; // Value of the input column.
-      var myGR = new GlideRecord('cmdb_ci_cable');
-      myGR.addQuery('serial_number', input);
+      var myGR = new GlideRecord('sys_object_source');
+      myGR.addQuery('id', input);
       myGR.query();
       if (myGR.next()) {
-         output[i]=myGR.getUniqueValue();
+         output[i]=myGR.getValue('target_sys_id');
       }
    }
 })(batch, output);]]></script>
@@ -42,7 +44,7 @@
         <sys_created_by>alex.frankel@exfo.com</sys_created_by>
         <sys_created_on>2024-02-14 16:06:35</sys_created_on>
         <sys_id>38cfdd621bd0c2506e86e0cb234bcbc5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Script Operation - u_fiber_has_cable_key</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
         <sys_policy/>
@@ -51,7 +53,7 @@
         <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
         <sys_update_name>sys_rte_eb_script_operation_38cfdd621bd0c2506e86e0cb234bcbc5</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2024-02-26 12:57:53</sys_updated_on>
+        <sys_updated_on>2025-04-09 14:50:41</sys_updated_on>
         <target_sys_rte_eb_field display_value="u_fiber_has_cable_sys_id">fccfdd621bd0c2506e86e0cb234bcbc2</target_sys_rte_eb_field>
         <target_sys_rte_eb_fields/>
         <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
