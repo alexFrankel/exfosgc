@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="703c71a51b1046507ba065b3b24bcb6f" sys_domain="global" table="cmdb_ci_enode_b" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-02-11 15:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc3c71a51b1046507ba065b3b24bcb7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_enode_b" name="cmdb_ci_enode_b" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">703c71a51b1046507ba065b3b24bcb6f</sys_ui_form>
+            <sys_ui_section display_value="">f83c71a51b1046507ba065b3b24bcb78</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-02-11 15:36:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-02-11 15:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>343c71a51b1046507ba065b3b24bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_enode_b" name="cmdb_ci_enode_b" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">703c71a51b1046507ba065b3b24bcb6f</sys_ui_form>
+            <sys_ui_section display_value="">783c71a51b1046507ba065b3b24bcb71</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-02-11 15:36:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>cmdb_ci_enode_b</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-02-11 15:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>703c71a51b1046507ba065b3b24bcb6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_enode_b</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_form_sections_703c71a51b1046507ba065b3b24bcb6f</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-02-11 15:36:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Compliance" name="certification">d62ead22df100100cd7da5f59bf26356</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_ui_form_sections_703c71a51b1046507ba065b3b24bcb6f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="703c71a51b1046507ba065b3b24bcb6f" sys_domain="global" table="cmdb_ci_enode_b" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-02-11 15:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc3c71a51b1046507ba065b3b24bcb7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_enode_b" name="cmdb_ci_enode_b" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">703c71a51b1046507ba065b3b24bcb6f</sys_ui_form>
+            <sys_ui_section display_value="">f83c71a51b1046507ba065b3b24bcb78</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-02-11 15:36:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-02-11 15:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>343c71a51b1046507ba065b3b24bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_enode_b" name="cmdb_ci_enode_b" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">703c71a51b1046507ba065b3b24bcb6f</sys_ui_form>
+            <sys_ui_section display_value="">783c71a51b1046507ba065b3b24bcb71</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-02-11 15:36:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>cmdb_ci_enode_b</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-02-11 15:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>703c71a51b1046507ba065b3b24bcb6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_enode_b</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_form_sections_703c71a51b1046507ba065b3b24bcb6f</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-02-11 15:36:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Compliance" name="certification">d62ead22df100100cd7da5f59bf26356</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>]]></payload>
+        <payload_hash>1892393937</payload_hash>
+        <record_name>EnodeB</record_name>
+        <reverted_from/>
+        <source>864abc111bbf0e143c9862c7b04bcbd4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-08-02 15:56:42</sys_created_on>
+        <sys_id>29cbb45d1bbf0e143c9862c7b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19113cebfa80000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-08-02 15:56:42</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>e1cbb45d92bf0e149315bf39021e602e</update_guid>
+        <update_guid_history>e1cbb45d92bf0e149315bf39021e602e:0,2d69b45d557f0e14efd8ee2a3707782e:-57197541,db407c1949f386500afda584dee79ff8:0,717d601954b38650820cbd79993ac94a:498341638,dbb0856c8bbec210a44ef9390e0b386f:0,6f1eb46c967ec2107677454338355362:-1556521903,bbcafa7bfb8e0e10ff8af925179d61cb:0,7e847e37744e0e102a63756bc231d76a:378570800,8a88e171549c8e10ac578b03f9cc40d7:171414980</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2025-04-22 14:23:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>aabd7d45a990440a81e0eecc967f2659</sys_id>
+        <sys_metadata>703c71a51b1046507ba065b3b24bcb6f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci_enode_b</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent display_value="CMDB CI Enode B">041aa19e1b5ef5506e86e0cb234bcbe8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_703c71a51b1046507ba065b3b24bcb6f</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_703c71a51b1046507ba065b3b24bcb6f">29cbb45d1bbf0e143c9862c7b04bcb2e</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2025-04-22 14:23:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

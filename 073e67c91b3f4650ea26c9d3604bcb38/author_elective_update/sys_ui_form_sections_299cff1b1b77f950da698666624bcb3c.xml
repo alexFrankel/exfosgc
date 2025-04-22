@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="299cff1b1b77f950da698666624bcb3c" sys_domain="global" table="cmdb_ci_multiplexer" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-23 14:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad9cff1b1b77f950da698666624bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_multiplexer" name="cmdb_ci_multiplexer" sys_domain="global" view="b0e6c8421b9321106e86e0cb234bcb62">299cff1b1b77f950da698666624bcb3c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_multiplexer" sys_domain="global" view="b0e6c8421b9321106e86e0cb234bcb62">ed9cff1b1b77f950da698666624bcb3e</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-23 14:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-23 14:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>699cff1b1b77f950da698666624bcb68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_multiplexer" name="cmdb_ci_multiplexer" sys_domain="global" view="b0e6c8421b9321106e86e0cb234bcb62">299cff1b1b77f950da698666624bcb3c</sys_ui_form>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_multiplexer" sys_domain="global" view="b0e6c8421b9321106e86e0cb234bcb62">659cff1b1b77f950da698666624bcb47</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-23 14:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>cmdb_ci_multiplexer</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-23 14:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>299cff1b1b77f950da698666624bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_multiplexer</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_form_sections_299cff1b1b77f950da698666624bcb3c</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-23 14:55:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">b0e6c8421b9321106e86e0cb234bcb62</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_ui_form_sections_299cff1b1b77f950da698666624bcb3c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="299cff1b1b77f950da698666624bcb3c" sys_domain="global" table="cmdb_ci_multiplexer" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-23 14:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad9cff1b1b77f950da698666624bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_multiplexer" name="cmdb_ci_multiplexer" sys_domain="global" view="b0e6c8421b9321106e86e0cb234bcb62">299cff1b1b77f950da698666624bcb3c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_multiplexer" sys_domain="global" view="b0e6c8421b9321106e86e0cb234bcb62">ed9cff1b1b77f950da698666624bcb3e</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-23 14:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-23 14:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>699cff1b1b77f950da698666624bcb68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_multiplexer" name="cmdb_ci_multiplexer" sys_domain="global" view="b0e6c8421b9321106e86e0cb234bcb62">299cff1b1b77f950da698666624bcb3c</sys_ui_form>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_multiplexer" sys_domain="global" view="b0e6c8421b9321106e86e0cb234bcb62">659cff1b1b77f950da698666624bcb47</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-23 14:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>cmdb_ci_multiplexer</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-01-23 14:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>299cff1b1b77f950da698666624bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_multiplexer</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_form_sections_299cff1b1b77f950da698666624bcb3c</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-01-23 14:55:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">b0e6c8421b9321106e86e0cb234bcb62</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>]]></payload>
+        <payload_hash>1867580694</payload_hash>
+        <record_name>Multiplexer</record_name>
+        <reverted_from/>
+        <source>864abc111bbf0e143c9862c7b04bcbd4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-08-02 15:56:41</sys_created_on>
+        <sys_id>15cbb45d1bbf0e143c9862c7b04bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19113cebe760000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-08-02 15:56:41</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>ddcbb45d86bf0e1464e092160e8c4d0e</update_guid>
+        <update_guid_history>ddcbb45d86bf0e1464e092160e8c4d0e:0,e1f8b459a37f0e14c0cd46999123f5c3:-1745782661,9f407c19fcf38650e64cfa50620e9be1:0,ad0d2c15efb3865028a09bb0c8d4bcc4:2023590217,8fb0856c89bec210c34d304fbacd4c2f:0,9fad3c686e7ec2104fa42173fdd59dc7:451999658,77cafa7b798e0e10670ad3b455bb4997:0,91f33a331c4e0e1015c5efdaebc00c83:-129502191,2784af7cc9d48a106682cbf5b2c8c26a:0,51a15bec12d40a10154db773136a2e06:-1254266368,54f619a8fe14c610e063abe2b76693eb:0,fce4912cd3d0c610ae24e4ca41c67fb7:-39248242,ad9cff1b9277f950af53e079067bfc69:135106090,e99cff1bb077f95064cee076020f2f3d:418098921</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2025-04-22 14:23:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>065d17cedac14f1882e519eeb5df3090</sys_id>
+        <sys_metadata>299cff1b1b77f950da698666624bcb3c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci_multiplexer</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent display_value="CMDB CI Multiplexer">a42525d61b5af5506e86e0cb234bcb91</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_299cff1b1b77f950da698666624bcb3c</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_299cff1b1b77f950da698666624bcb3c">15cbb45d1bbf0e143c9862c7b04bcb0f</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2025-04-22 14:23:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

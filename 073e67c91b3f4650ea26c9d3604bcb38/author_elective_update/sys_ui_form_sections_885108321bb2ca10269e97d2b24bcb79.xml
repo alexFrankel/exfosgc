@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="885108321bb2ca10269e97d2b24bcb79" sys_domain="global" table="cmdb_ci_optical_line_terminal" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-06-18 10:29:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c05108321bb2ca10269e97d2b24bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_optical_line_terminal" name="cmdb_ci_optical_line_terminal" sys_domain="global" view="169d5a872300001009d5110d96bf6537">885108321bb2ca10269e97d2b24bcb79</sys_ui_form>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="cmdb_ci_optical_line_terminal" sys_domain="global" view="169d5a872300001009d5110d96bf6537">805108321bb2ca10269e97d2b24bcb7c</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-06-18 10:29:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-06-18 10:29:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c45108321bb2ca10269e97d2b24bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_optical_line_terminal" name="cmdb_ci_optical_line_terminal" sys_domain="global" view="169d5a872300001009d5110d96bf6537">885108321bb2ca10269e97d2b24bcb79</sys_ui_form>
+            <sys_ui_section caption="More Attributes" display_value="More Attributes" name="cmdb_ci_optical_line_terminal" sys_domain="global" view="169d5a872300001009d5110d96bf6537">485108321bb2ca10269e97d2b24bcb82</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-06-18 10:29:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>cmdb_ci_optical_line_terminal</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-06-18 10:29:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>885108321bb2ca10269e97d2b24bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_optical_line_terminal</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_form_sections_885108321bb2ca10269e97d2b24bcb79</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-06-18 10:29:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="CMDB Agent Workspace" name="cmdb_workspace">169d5a872300001009d5110d96bf6537</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_ui_form_sections_885108321bb2ca10269e97d2b24bcb79</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="885108321bb2ca10269e97d2b24bcb79" sys_domain="global" table="cmdb_ci_optical_line_terminal" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-06-18 10:29:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c05108321bb2ca10269e97d2b24bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_optical_line_terminal" name="cmdb_ci_optical_line_terminal" sys_domain="global" view="169d5a872300001009d5110d96bf6537">885108321bb2ca10269e97d2b24bcb79</sys_ui_form>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="cmdb_ci_optical_line_terminal" sys_domain="global" view="169d5a872300001009d5110d96bf6537">805108321bb2ca10269e97d2b24bcb7c</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-06-18 10:29:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-06-18 10:29:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c45108321bb2ca10269e97d2b24bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_optical_line_terminal" name="cmdb_ci_optical_line_terminal" sys_domain="global" view="169d5a872300001009d5110d96bf6537">885108321bb2ca10269e97d2b24bcb79</sys_ui_form>
+            <sys_ui_section caption="More Attributes" display_value="More Attributes" name="cmdb_ci_optical_line_terminal" sys_domain="global" view="169d5a872300001009d5110d96bf6537">485108321bb2ca10269e97d2b24bcb82</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-06-18 10:29:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>cmdb_ci_optical_line_terminal</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-06-18 10:29:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>885108321bb2ca10269e97d2b24bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_optical_line_terminal</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_form_sections_885108321bb2ca10269e97d2b24bcb79</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-06-18 10:29:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="CMDB Agent Workspace" name="cmdb_workspace">169d5a872300001009d5110d96bf6537</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>]]></payload>
+        <payload_hash>-754199304</payload_hash>
+        <record_name>OLT</record_name>
+        <reverted_from/>
+        <source>864abc111bbf0e143c9862c7b04bcbd4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-08-02 15:56:42</sys_created_on>
+        <sys_id>a9cbb45d1bbf0e143c9862c7b04bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19113cebff00000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-08-02 15:56:42</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>adcbb45d55bf0e141b916ae8e870a232</update_guid>
+        <update_guid_history>adcbb45d55bf0e141b916ae8e870a232:0,6779349d397f0e146f744bd3a699a20a:-1583972276,97407c194cf38650e09c4db7e7b152fe:0,349dac19f2b3865079ede36633357607:1801999818,c8510832b3b2ca10e53e33a3234c0f9a:1697160246,8c5108325bb2ca108b816f7d8d0aea7a:-565273209</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2025-04-22 14:23:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>04bcf4af47094389adc62b9d3faa2cf1</sys_id>
+        <sys_metadata>885108321bb2ca10269e97d2b24bcb79</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci_optical_line_terminal</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent display_value="CMDB CI Optical Line Terminal">ed7bad521bdef5506e86e0cb234bcb29</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_885108321bb2ca10269e97d2b24bcb79</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_885108321bb2ca10269e97d2b24bcb79">a9cbb45d1bbf0e143c9862c7b04bcb3f</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2025-04-22 14:23:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

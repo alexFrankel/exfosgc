@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_exfo2_cmdb.sn_appauthor.repository_base_url</name>
+        <read_roles/>
+        <suffix>sn_appauthor.repository_base_url</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>jesus.castro@snc</sys_created_by>
+        <sys_created_on>2021-12-15 16:41:08</sys_created_on>
+        <sys_id>c706048c87a0c550c4a3c99d0ebb35be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_exfo2_cmdb.sn_appauthor.repository_base_url</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_properties_c706048c87a0c550c4a3c99d0ebb35be</sys_update_name>
+        <sys_updated_by>jesus.castro@snc</sys_updated_by>
+        <sys_updated_on>2021-12-15 16:41:08</sys_updated_on>
+        <type>string</type>
+        <value>https://sncsupportrepo.service-now.com/</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=c706048c87a0c550c4a3c99d0ebb35be"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_properties_c706048c87a0c550c4a3c99d0ebb35be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_exfo2_cmdb.sn_appauthor.repository_base_url</name>
+        <read_roles/>
+        <suffix>sn_appauthor.repository_base_url</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>jesus.castro@snc</sys_created_by>
+        <sys_created_on>2021-12-15 16:41:08</sys_created_on>
+        <sys_id>c706048c87a0c550c4a3c99d0ebb35be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_exfo2_cmdb.sn_appauthor.repository_base_url</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_update_name>sys_properties_c706048c87a0c550c4a3c99d0ebb35be</sys_update_name>
+        <sys_updated_by>jesus.castro@snc</sys_updated_by>
+        <sys_updated_on>2021-12-15 16:41:08</sys_updated_on>
+        <type>string</type>
+        <value>https://sncsupportrepo.service-now.com/</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=c706048c87a0c550c4a3c99d0ebb35be"/>
+</record_update>]]></payload>
+        <payload_hash>222116807</payload_hash>
+        <record_name>x_exfo2_cmdb.sn_appauthor.repository_base_url</record_name>
+        <reverted_from/>
+        <source>864abc111bbf0e143c9862c7b04bcbd4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-08-02 15:54:08</sys_created_on>
+        <sys_id>f72b34191bbf0e143c9862c7b04bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19113cc655f0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-08-02 15:54:08</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>b32b341954bf0e147e7388f5e1f21090</update_guid>
+        <update_guid_history>b32b341954bf0e147e7388f5e1f21090:0,fb9978dd9e7f0e140420e0d28a763d9d:-1856596548,2b8fe4912bf38650552d60eca425b8bf:0,42bd209923b38650200e1f4f4ac35101:-1830748578,481001289abec210d3d2fa02ef78b4c6:0,bb5e34ec557ec210dce49e921e052bcc:997500161,121a3237828e0e10e8e804ec601becb7:0,d4e4f6f7bf4e0e10bbf1db608555a068:50633776,2844afb81dd48a105d6e5176f07bedf7:0,41221324e9180a104047bf023d076240:-1712684915,05a65de45a14c610fd173c047fac1f7c:0,0f65d160c314c6101a23ccf74c2fa941:2096328847,311772790a6ab190ec0077aba5932bd3:0,0cf57ef13e6ab190dca3c94c5a928be4:-781044777,296c9c519b62f590f6c4b3c74dda9d1e:0,b3eaab05e22efd501f63c37d19930558:-87310798,74c31aafed9e7950c21fe8400a31ff7d:0,85c21e6b879e7950aa0ce1fd941167f1:-1871699041,42cfe3140d56bd1071594070f4a55d59:0,102d6b5c0316bd10136ba3538c75f3f8:-1044022328,e8f1db464446b510c42d8a64381ba39a:-344449041</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jesus.castro@snc</sys_created_by>
+        <sys_created_on>2025-04-22 14:16:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>2346bea95f9d42e6b0c72deebeecacc4</sys_id>
+        <sys_metadata>c706048c87a0c550c4a3c99d0ebb35be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_exfo2_cmdb.sn_appauthor.repository_base_url</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_properties_c706048c87a0c550c4a3c99d0ebb35be</sys_update_name>
+        <sys_update_version display_value="sys_properties_c706048c87a0c550c4a3c99d0ebb35be">f72b34191bbf0e143c9862c7b04bcb90</sys_update_version>
+        <sys_updated_by>jesus.castro@snc</sys_updated_by>
+        <sys_updated_on>2025-04-22 14:16:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

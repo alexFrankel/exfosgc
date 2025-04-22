@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="89dc455a1beb02503c9862c7b04bcbba" sys_domain="global" table="cmdb_ci_network_interface_device" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-07-24 09:29:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01dc855a1beb02503c9862c7b04bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_network_interface_device" name="cmdb_ci_network_interface_device" sys_domain="global" view="169d5a872300001009d5110d96bf6537">89dc455a1beb02503c9862c7b04bcbba</sys_ui_form>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="cmdb_ci_network_interface_device" sys_domain="global" view="169d5a872300001009d5110d96bf6537">81dc455a1beb02503c9862c7b04bcbbf</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-07-24 09:29:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-07-24 09:29:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5dc855a1beb02503c9862c7b04bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_network_interface_device" name="cmdb_ci_network_interface_device" sys_domain="global" view="169d5a872300001009d5110d96bf6537">89dc455a1beb02503c9862c7b04bcbba</sys_ui_form>
+            <sys_ui_section caption="More Attributes" display_value="More Attributes" name="cmdb_ci_network_interface_device" sys_domain="global" view="169d5a872300001009d5110d96bf6537">49dc855a1beb02503c9862c7b04bcb10</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-07-24 09:29:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>cmdb_ci_network_interface_device</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-07-24 09:29:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89dc455a1beb02503c9862c7b04bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_network_interface_device</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_form_sections_89dc455a1beb02503c9862c7b04bcbba</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-07-24 09:29:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="CMDB Agent Workspace" name="cmdb_workspace">169d5a872300001009d5110d96bf6537</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</application>
+        <file_path/>
+        <instance_id>d8108846db93a190ebdd2a5913961934</instance_id>
+        <instance_name>ven06184</instance_name>
+        <name>sys_ui_form_sections_89dc455a1beb02503c9862c7b04bcbba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="89dc455a1beb02503c9862c7b04bcbba" sys_domain="global" table="cmdb_ci_network_interface_device" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-07-24 09:29:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01dc855a1beb02503c9862c7b04bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_network_interface_device" name="cmdb_ci_network_interface_device" sys_domain="global" view="169d5a872300001009d5110d96bf6537">89dc455a1beb02503c9862c7b04bcbba</sys_ui_form>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="cmdb_ci_network_interface_device" sys_domain="global" view="169d5a872300001009d5110d96bf6537">81dc455a1beb02503c9862c7b04bcbbf</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-07-24 09:29:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-07-24 09:29:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5dc855a1beb02503c9862c7b04bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_network_interface_device" name="cmdb_ci_network_interface_device" sys_domain="global" view="169d5a872300001009d5110d96bf6537">89dc455a1beb02503c9862c7b04bcbba</sys_ui_form>
+            <sys_ui_section caption="More Attributes" display_value="More Attributes" name="cmdb_ci_network_interface_device" sys_domain="global" view="169d5a872300001009d5110d96bf6537">49dc855a1beb02503c9862c7b04bcb10</sys_ui_section>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-07-24 09:29:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>cmdb_ci_network_interface_device</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+            <sys_created_on>2024-07-24 09:29:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89dc455a1beb02503c9862c7b04bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_network_interface_device</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+            <sys_update_name>sys_ui_form_sections_89dc455a1beb02503c9862c7b04bcbba</sys_update_name>
+            <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+            <sys_updated_on>2024-07-24 09:29:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="CMDB Agent Workspace" name="cmdb_workspace">169d5a872300001009d5110d96bf6537</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>]]></payload>
+        <payload_hash>-1622107337</payload_hash>
+        <record_name>Network Interface Device</record_name>
+        <reverted_from/>
+        <source>864abc111bbf0e143c9862c7b04bcbd4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2024-08-02 15:56:42</sys_created_on>
+        <sys_id>65cbb45d1bbf0e143c9862c7b04bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19113cec03f0000001</sys_recorded_at>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2024-08-02 15:56:42</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>21cbb45da1bf0e1492f5e12462998c44</update_guid>
+        <update_guid_history>21cbb45da1bf0e1492f5e12462998c44:0,4089749d057f0e146b23780cc0383c0f:1900754282,1b40bc19a1f38650e78b1d2a89811a10:0,599dac19e2b38650da806c32e663f8d2:2121712708,49dc855a2ceb02508c642a27c21f6720:536585225,45dc455a14eb0250912906ac07883bbd:-16087049</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2025-04-22 14:23:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>a4090e483416451d9ed8c3f688d908c1</sys_id>
+        <sys_metadata>89dc455a1beb02503c9862c7b04bcbba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci_network_interface_device</sys_name>
+        <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
+        <sys_parent display_value="CMDB CI Network Interface Device">d556e15a1b9af5506e86e0cb234bcb4b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
+        <sys_scope_delete display_value="">0504a19556f44c978fda900b7b13da11</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_89dc455a1beb02503c9862c7b04bcbba</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_89dc455a1beb02503c9862c7b04bcbba">65cbb45d1bbf0e143c9862c7b04bcb44</sys_update_version>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2025-04-22 14:23:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
