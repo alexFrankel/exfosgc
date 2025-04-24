@@ -76,4 +76,15 @@ if ((!activeImportSet) && (!activeFlow)) {
         <upgrade_safe>false</upgrade_safe>
         <use_child_connection>false</use_child_connection>
     </scheduled_import_set>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>73391191875370503e867518cebb35bf</id>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2025-04-15 13:54:34</sys_created_on>
+        <sys_id>e8d67a271bf8e2101ca15357624bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2025-04-15 13:54:34</sys_updated_on>
+        <table>scheduled_import_set</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
