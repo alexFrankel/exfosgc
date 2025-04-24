@@ -2,13 +2,16 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_exfo2_cmdb.EXFOImportUtil</api_name>
+        <api_name>x_exfo2_cmdb.EXFOImportUtilSNC</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
-        <description/>
-        <name>EXFOImportUtil</name>
-        <script><![CDATA[var EXFOImportUtil = Class.create();
-EXFOImportUtil.prototype = {
+        <description>WARNING: Customers should NOT modify this script&#13;
+Customers using the "Service Graph Connector for EXFO" app who want to customise this script include should use EXFOImportUtil</description>
+        <mobile_callable>false</mobile_callable>
+        <name>EXFOImportUtilSNC</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var EXFOImportUtilSNC = Class.create();
+EXFOImportUtilSNC.prototype = {
     initialize: function() {},
 
     runFlow: function(runType) {
@@ -390,19 +393,30 @@ EXFOImportUtil.prototype = {
 
         }
     },
-    type: 'EXFOImportUtil'
+    type: 'EXFOImportUtilSNC'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>aveenstra</sys_created_by>
         <sys_created_on>2021-10-18 16:56:28</sys_created_on>
         <sys_id>effc1515875370503e867518cebb3579</sys_id>
-        <sys_mod_count>127</sys_mod_count>
-        <sys_name>EXFOImportUtil</sys_name>
+        <sys_mod_count>128</sys_mod_count>
+        <sys_name>EXFOImportUtilSNC</sys_name>
         <sys_package display_value="Service Graph Connector for EXFO" source="x_exfo2_cmdb">073e67c91b3f4650ea26c9d3604bcb38</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for EXFO">073e67c91b3f4650ea26c9d3604bcb38</sys_scope>
         <sys_update_name>sys_script_include_effc1515875370503e867518cebb3579</sys_update_name>
         <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
-        <sys_updated_on>2025-04-03 14:14:41</sys_updated_on>
+        <sys_updated_on>2025-04-24 13:33:12</sys_updated_on>
     </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>effc1515875370503e867518cebb3579</id>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2025-04-24 13:33:11</sys_created_on>
+        <sys_id>8738492a1b052250d742cbb8624bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2025-04-24 13:33:11</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
