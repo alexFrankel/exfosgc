@@ -43,4 +43,15 @@ SGEXFOStatusMapOverride.prototype = {
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2021-11-30 18:29:22</sys_updated_on>
     </sys_extension_point>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>16e423b087888110c4a3c99d0ebb3529</id>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2025-05-01 11:31:40</sys_created_on>
+        <sys_id>cf8f6cbc1b552a50d742cbb8624bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2025-05-01 11:31:40</sys_updated_on>
+        <table>sys_extension_point</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

@@ -31,4 +31,15 @@ SGEXFOLocationMapOverride.prototype = {
         <sys_updated_by>aveenstra</sys_updated_by>
         <sys_updated_on>2022-03-15 00:00:27</sys_updated_on>
     </sys_extension_point>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6b2f4b0b87404910c4a3c99d0ebb3598</id>
+        <sys_created_by>alex.frankel@exfo.com</sys_created_by>
+        <sys_created_on>2025-05-01 14:59:16</sys_created_on>
+        <sys_id>d81f1db81b192a50d742cbb8624bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.frankel@exfo.com</sys_updated_by>
+        <sys_updated_on>2025-05-01 14:59:16</sys_updated_on>
+        <table>sys_extension_point</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

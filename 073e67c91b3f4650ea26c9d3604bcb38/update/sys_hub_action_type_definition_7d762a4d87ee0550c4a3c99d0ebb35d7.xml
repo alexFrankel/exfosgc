@@ -3718,6 +3718,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>7d762a4d87ee0550c4a3c99d0ebb35d7</sys_id>
         <latest_snapshot>977672c587e20110c4a3c99d0ebb353f</latest_snapshot>
-        <compiler_build>glide-washingtondc-12-20-2023__patch9b-01-15-2025_02-04-2025_0837.zip</compiler_build>
+        <compiler_build>glide-xanadu-07-02-2024__patch8-03-26-2025_04-03-2025_0833.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>
